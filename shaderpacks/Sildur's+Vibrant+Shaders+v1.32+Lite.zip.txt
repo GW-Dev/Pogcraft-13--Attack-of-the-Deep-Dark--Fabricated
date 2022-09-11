@@ -1,0 +1,5 @@
+#Sat Feb 19 16:33:51 CST 2022
+Godrays_Density=0.575
+TAA_quality=1
+TAA=true
+Lens_Flares=true

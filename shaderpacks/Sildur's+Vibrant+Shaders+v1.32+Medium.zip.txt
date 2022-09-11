@@ -1,0 +1,9 @@
+#Sat Feb 19 12:12:14 CST 2022
+metallicRefl=true
+Godrays_Density=0.575
+TAA_quality=1
+morningFog=true
+Lens_Flares=true
+polishedRefl=true
+Adaptive_sharpening=true
+RainReflections=true

@@ -1,0 +1,17 @@
+#Sun Mar 06 17:03:59 CST 2022
+raytracedShadows=true
+Brightness=0.7
+Waving_Entities=false
+Contrast=1.7
+waves_amplitude=1.55
+bloom_strength=1.0
+morningFog=true
+Lens_Flares=true
+polishedRefl=true
+Moonlight=0.006
+Adaptive_sharpening=true
+Waving_Lanterns=false
+Waving_Leaves=false
+nMap=2
+Godrays=true
+Waving_Vines=false

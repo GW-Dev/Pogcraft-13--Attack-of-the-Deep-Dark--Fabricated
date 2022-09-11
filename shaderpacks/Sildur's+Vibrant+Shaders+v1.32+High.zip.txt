@@ -1,0 +1,12 @@
+#Sun Feb 20 16:00:50 CST 2022
+animationSpeed=0.5
+minlight=0.011
+raytracedShadows=true
+morningFog=true
+Lens_Flares=true
+polishedRefl=true
+Adaptive_sharpening=true
+Waving_Lanterns=false
+Waving_Entities=false
+Waving_Vines=false
+waves_amplitude=0.55
