@@ -4,24 +4,18 @@
   "bookData": {
     "modern_industrialization:book": {
       "viewedEntries": [
-        "modern_industrialization:midgame/stainless_steel",
-        "modern_industrialization:electric_age/oil_processing",
-        "modern_industrialization:midgame/fluid_transfer",
-        "modern_industrialization:midgame/diesel",
-        "modern_industrialization:midgame/high_pressure",
-        "modern_industrialization:introduction/introduction",
-        "modern_industrialization:electric_age/electric_quarry",
-        "modern_industrialization:electric_age/jetpack",
-        "modern_industrialization:electric_age/advanced_machines"
+        "modern_industrialization:lategame/fusion_reactor",
+        "modern_industrialization:midgame/nuclear_reactor",
+        "modern_industrialization:lategame/quantum_tier",
+        "modern_industrialization:lategame/gravichestplate",
+        "modern_industrialization:lategame/replicator",
+        "modern_industrialization:introduction/introduction"
       ],
       "bookmarks": [],
       "completedManualQuests": []
     },
     "alchemistry:alchemistry_book": {
-      "viewedEntries": [
-        "alchemistry:combiner/combiner",
-        "alchemistry:dissolver/dissolver"
-      ],
+      "viewedEntries": [],
       "bookmarks": [],
       "completedManualQuests": []
     }
