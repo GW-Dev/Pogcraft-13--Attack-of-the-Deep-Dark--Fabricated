@@ -1,0 +1,15 @@
+{
+  "demandOnServer": false,
+  "showServerSafety": true,
+  "hideRedChatIndicators": true,
+  "hideYellowChatIndicators": true,
+  "hideGrayChatIndicators": true,
+  "hideWarningToast": true,
+  "alwaysHideReportButton": false,
+  "disableTelemetry": true,
+  "showReloadButton": true,
+  "whitelistAllServers": false,
+  "verifiedIconEnabled": true,
+  "verifiedIconOffsetX": 0,
+  "verifiedIconOffsetY": 0
+}
