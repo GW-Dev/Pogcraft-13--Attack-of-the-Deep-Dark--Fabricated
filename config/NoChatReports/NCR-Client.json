@@ -10,6 +10,8 @@
   "showReloadButton": true,
   "whitelistAllServers": false,
   "verifiedIconEnabled": true,
+  "showNCRButton": true,
+  "enableMod": true,
   "verifiedIconOffsetX": 0,
   "verifiedIconOffsetY": 0
 }

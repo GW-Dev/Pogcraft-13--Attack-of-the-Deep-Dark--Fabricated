@@ -17,6 +17,7 @@
 #71EB10 modern_industrialization:bauxite_ore
 #7F50F6 minecraft:bell
 #173B65 minecraft:big_dripleaf
+#6BD369 minecraft:big_dripleaf_stem
 #FC3DD5 minecraft:birch_fence
 #3DE8FE minecraft:birch_leaves
 #3BA928 minecraft:birch_log
@@ -48,6 +49,8 @@
 #7331AC minecraft:cobblestone_slab
 #3D8BFC minecraft:cobblestone_stairs
 #74DB3C minecraft:cobblestone_wall
+#421280 ecologics:coconut_leaves
+#011FD4 ecologics:coconut_log
 #E2D601 minecraft:composter
 #50FDDA minecraft:copper_block
 #6E76AF minecraft:copper_ore
@@ -55,6 +58,7 @@
 #306005 minecraft:cracked_stone_bricks
 #E9A8F5 minecraft:crying_obsidian
 #3C3897 minecraft:cut_sandstone
+#2F26E8 minecraft:cut_sandstone_slab
 #EE5787 spectrum:cyan_leaves
 #C3F30C bewitchment:cypress_leaves
 #7A65C7 ae2:damaged_budding_quartz
@@ -102,7 +106,9 @@
 #F67E21 minecraft:hay_block
 #9D2636 minecraft:horn_coral_block
 #52D27E minecraft:ice
+#EAE85A minecraft:infested_stone_bricks
 #D7EADE minecraft:iron_ore
+#7E0D49 minecraft:jack_o_lantern
 #7905E3 minecraft:jungle_door
 #C1E251 minecraft:jungle_leaves
 #6B68B5 minecraft:jungle_log
@@ -137,6 +143,7 @@
 #892FE0 moyai:moyai
 #52E3AF minecraft:mud
 #D2622C minecraft:muddy_mangrove_roots
+#3E6643 minecraft:mushroom_stem
 #454322 minecraft:netherrack
 #88C322 modern_industrialization:nickel_ore
 #308B47 minecraft:oak_door
@@ -187,6 +194,7 @@
 #86FC77 minecraft:sand
 #7E2654 minecraft:sandstone
 #705189 minecraft:sea_lantern
+#829C5B ecologics:seashell
 #A79A76 spectrum:shimmerstone_ore
 #242A2E bewitchment:silver_ore
 #468B47 ae2:sky_stone_block
@@ -223,6 +231,7 @@
 #4CDA4F modern_industrialization:uranium_ore
 #88779D minecraft:vine
 #3DB9C4 supplementaries:wall_lantern
+#83EB0A ecologics:walnut_leaves
 #CE8FAE minecraft:white_terracotta
 #1B60CF minecraft:white_tulip
 #DBA41E minecraft:white_wall_banner
