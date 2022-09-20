@@ -15,7 +15,7 @@ reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -38,7 +38,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","Fabric Mods","Moonlight Generated Pack","Supplementaries Generated Pack","charmonium/journeyman","continuity/default","continuity/glass_pane_culling_fix","file/MC+Connected+CTM+v1.2.2-1.18 (1).zip"]
+resourcePacks:["vanilla","Fabric Mods","Moonlight Generated Pack","Supplementaries Generated Pack","charmonium/journeyman","continuity/default","continuity/glass_pane_culling_fix"]
 incompatibleResourcePacks:["file/MC+Connected+CTM+v1.2.2-1.18 (1).zip"]
 lastServer:
 lang:en_us
@@ -49,7 +49,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -115,10 +115,11 @@ key_key.hotbar.9:key.keyboard.9
 key_key.ftbchunks.map:key.keyboard.m
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
 key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
+key_key.ftbultimine:key.keyboard.grave.accent
 key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_key.ae2.portable_item_cell:key.keyboard.unknown
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown
-key_key.ftbultimine:key.keyboard.grave.accent
+key_key.ftbquests.quests:key.keyboard.unknown
 key_key.bewitchment.transformation_ability:key.keyboard.r
 key_key.charm.open_atlas:key.keyboard.r
 key_key.charm.open_crafting_table:key.keyboard.v

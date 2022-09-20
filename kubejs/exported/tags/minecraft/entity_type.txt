@@ -1,0 +1,508 @@
+To refresh this file, delete it and run /reload command again! Last updated: Sep 18, 2022, 7:27:18 PM
+
+#supplementaries:cage_baby_catchable
+- minecraft:cow (from Supplementaries)
+- minecraft:sheep (from Supplementaries)
+- minecraft:pig (from Supplementaries)
+- minecraft:goat (from Supplementaries)
+- alexsmobs:crocodile? (from Supplementaries)
+- alexsmobs:endergrade? (from Supplementaries)
+- alexsmobs:gazelle? (from Supplementaries)
+- alexsmobs:gorilla? (from Supplementaries)
+- alexsmobs:komodo_dragon? (from Supplementaries)
+- alexsmobs:raccoon? (from Supplementaries)
+- alexsmobs:seal? (from Supplementaries)
+- alexsmobs:warped_toad? (from Supplementaries)
+- eanimod:enhanced_sheep? (from Supplementaries)
+- eanimod:enhanced_cow? (from Supplementaries)
+- eanimod:enhanced_llama? (from Supplementaries)
+- eanimod:enhanced_pig? (from Supplementaries)
+- eanimod:enhanced_mooshroom? (from Supplementaries)
+- alexsmobs:bald_eagle? (from Supplementaries)
+- alexsmobs:gelada_monkey? (from Supplementaries)
+
+#the_bumblezone:allowed_resourceful_bees_entities
+
+#ad_astra:entities/lives_without_oxygen
+- ad_astra:lunarian (from Ad Astra!)
+- ad_astra:corrupted_lunarian (from Ad Astra!)
+- ad_astra:star_crawler (from Ad Astra!)
+- ad_astra:martian_raptor (from Ad Astra!)
+- ad_astra:pygro (from Ad Astra!)
+- ad_astra:zombified_pygro (from Ad Astra!)
+- ad_astra:pygro_brute (from Ad Astra!)
+- ad_astra:mogler (from Ad Astra!)
+- ad_astra:zombified_mogler (from Ad Astra!)
+- ad_astra:sulfur_creeper (from Ad Astra!)
+- ad_astra:lunarian_wandering_trader (from Ad Astra!)
+- minecraft:ender_dragon (from Ad Astra!)
+- minecraft:wither (from Ad Astra!)
+- minecraft:skeleton (from Ad Astra!)
+- minecraft:stray (from Ad Astra!)
+- minecraft:armor_stand (from Ad Astra!)
+- minecraft:iron_golem (from Ad Astra!)
+- minecraft:snow_golem (from Ad Astra!)
+- minecraft:magma_cube (from Ad Astra!)
+- minecraft:allay (from Ad Astra!)
+- minecraft:warden (from Ad Astra!)
+
+#spirit:collect_blacklisted
+- minecraft:giant (from Spirit)
+
+#the_bumblezone:blacklisted_stingless_bee_helmet_passengers
+
+#the_bumblezone:pollen_puff_can_pollinate
+- minecraft:bee (from The Bumblezone - Fabric)
+
+#requiem:inventory/inventory_carriers
+- #goblintraders:goblin_traders (from Goblin Traders)
+
+#requiem:golems
+- bewitchment:demon (from Bewitchment)
+
+#minecraft:powder_snow_walkable_mobs
+- minecraft:rabbit (from Default)
+- minecraft:endermite (from Default)
+- minecraft:silverfish (from Default)
+- minecraft:fox (from Default)
+- ecologics:penguin (from Ecologics)
+- ecologics:squirrel (from Ecologics)
+- friendsandfoes:iceologer (from Friends&Foes)
+
+#industrialforegoing:mob_imprisonment_tool_blacklist
+- artifacts:mimic (from Artifacts)
+
+#ecologics:penguin_hunt_targets
+- minecraft:tropical_fish (from Ecologics)
+- minecraft:salmon (from Ecologics)
+- minecraft:cod (from Ecologics)
+
+#farmersdelight:dog_food_users
+- minecraft:wolf (from Farmer's Delight)
+
+#requiem:inventory/supercrafters
+- #goblintraders:goblin_traders (from Goblin Traders)
+
+#spirit:soul_cage_blacklisted
+- minecraft:wither (from Spirit)
+- minecraft:ender_dragon (from Spirit)
+
+#minecraft:impact_projectiles
+- #minecraft:arrows (from Default)
+- minecraft:snowball (from Default)
+- minecraft:fireball (from Default)
+- minecraft:small_fireball (from Default)
+- minecraft:egg (from Default)
+- minecraft:trident (from Default)
+- minecraft:dragon_fireball (from Default)
+- minecraft:wither_skull (from Default)
+- ad_astra:ice_spit_entity (from Ad Astra!)
+- supplementaries:rope_arrow (from Supplementaries)
+- supplementaries:brick_projectile (from Supplementaries)
+- the_bumblezone:pollen_puff (from The Bumblezone - Fabric)
+
+#minecraft:beehive_inhabitors
+- minecraft:bee (from Default)
+
+#bwplus:unholy
+- bewitchment:vampire (from Bewitchment Plus)
+- bewitchment:werewolf (from Bewitchment Plus)
+
+#c:boats
+- minecraft:boat (from Fabric Convention Tags)
+- minecraft:chest_boat (from Fabric Convention Tags)
+
+#minecraft:skeletons
+- minecraft:skeleton (from Default)
+- minecraft:stray (from Default)
+- minecraft:wither_skeleton (from Default)
+
+#minecraft:arrows
+- minecraft:arrow (from Default)
+- minecraft:spectral_arrow (from Default)
+- bewitchment:silver_arrow (from Bewitchment)
+- supplementaries:rope_arrow (from Supplementaries)
+
+#bewitchment:taglock_blacklist
+- #c:bosses (from Bewitchment)
+
+#c:minecarts
+- minecraft:minecart (from Fabric Convention Tags)
+- minecraft:tnt_minecart (from Fabric Convention Tags)
+- minecraft:chest_minecart (from Fabric Convention Tags)
+- minecraft:furnace_minecart (from Fabric Convention Tags)
+- minecraft:command_block_minecart (from Fabric Convention Tags)
+- minecraft:hopper_minecart (from Fabric Convention Tags)
+- minecraft:spawner_minecart (from Fabric Convention Tags)
+
+#minecraft:axolotl_always_hostiles
+- minecraft:drowned (from Default)
+- minecraft:guardian (from Default)
+- minecraft:elder_guardian (from Default)
+
+#minecraft:freeze_immune_entity_types
+- minecraft:stray (from Default)
+- minecraft:polar_bear (from Default)
+- minecraft:snow_golem (from Default)
+- minecraft:wither (from Default)
+- ecologics:penguin (from Ecologics)
+
+#ad_astra:entities/fire_immune
+- ad_astra:pygro (from Ad Astra!)
+- ad_astra:zombified_pygro (from Ad Astra!)
+- ad_astra:pygro_brute (from Ad Astra!)
+- ad_astra:mogler (from Ad Astra!)
+- ad_astra:zombified_mogler (from Ad Astra!)
+- ad_astra:sulfur_creeper (from Ad Astra!)
+- ad_astra:lunarian_wandering_trader (from Ad Astra!)
+
+#bwplus:spectral_familiars
+- bwplus:niffler (from Bewitchment Plus)
+- bwplus:unicorn (from Bewitchment Plus)
+- bwplus:phoenix (from Bewitchment Plus)
+
+#c:pollen
+- the_bumblezone:pollen_puff (from The Bumblezone - Fabric)
+
+#minecraft:frog_food
+- minecraft:slime (from Default)
+- minecraft:magma_cube (from Default)
+
+#requiem:possession_blacklist
+- bewitchment:leonard (from Bewitchment)
+- bewitchment:baphomet (from Bewitchment)
+- bewitchment:lilith (from Bewitchment)
+- bewitchment:herne (from Bewitchment)
+
+#c:bosses
+- minecraft:ender_dragon (from Bewitchment)
+- minecraft:wither (from Bewitchment)
+- bewitchment:leonard (from Bewitchment)
+- bewitchment:baphomet (from Bewitchment)
+- bewitchment:lilith (from Bewitchment)
+- bewitchment:herne (from Bewitchment)
+- minecraft:ender_dragon (from Fabric Convention Tags)
+- minecraft:wither (from Fabric Convention Tags)
+
+#the_bumblezone:blacklisted_bee_cannon_bees
+
+#farmersdelight:horse_feed_users
+- minecraft:horse (from Farmer's Delight)
+- minecraft:skeleton_horse (from Farmer's Delight)
+- minecraft:zombie_horse (from Farmer's Delight)
+- minecraft:donkey (from Farmer's Delight)
+- minecraft:mule (from Farmer's Delight)
+- minecraft:llama (from Farmer's Delight)
+
+#goblintraders:goblin_traders
+- goblintraders:goblin_trader (from Goblin Traders)
+- goblintraders:vein_goblin_trader (from Goblin Traders)
+- endgoblintraders:end_goblin_trader? (from Goblin Traders)
+
+#minecraft:raiders
+- minecraft:evoker (from Default)
+- minecraft:pillager (from Default)
+- minecraft:ravager (from Default)
+- minecraft:vindicator (from Default)
+- minecraft:illusioner (from Default)
+- minecraft:witch (from Default)
+
+#minecraft:axolotl_hunt_targets
+- minecraft:tropical_fish (from Default)
+- minecraft:pufferfish (from Default)
+- minecraft:salmon (from Default)
+- minecraft:cod (from Default)
+- minecraft:squid (from Default)
+- minecraft:glow_squid (from Default)
+- minecraft:tadpole (from Default)
+
+#requiem:inventory/armor_banned
+- #goblintraders:goblin_traders (from Goblin Traders)
+
+#requiem:humans
+- bewitchment:vampire (from Bewitchment)
+- bewitchment:werewolf (from Bewitchment)
+
+#supplementaries:eats_fodder
+- minecraft:pig? (from Supplementaries)
+- minecraft:cow? (from Supplementaries)
+- minecraft:sheep? (from Supplementaries)
+- minecraft:chicken? (from Supplementaries)
+- minecraft:goat? (from Supplementaries)
+- minecraft:mooshroom? (from Supplementaries)
+- autumnity:snail? (from Supplementaries)
+- alexsmobs:raccoon? (from Supplementaries)
+- alexsmobs:elephant? (from Supplementaries)
+
+#supplementaries:tickable_when_captured
+- minecraft:endermite? (from Supplementaries)
+- feywild:spring_pixie? (from Supplementaries)
+- feywild:autumn_pixie? (from Supplementaries)
+- feywild:summer_pixie? (from Supplementaries)
+- feywild:winter_pixie? (from Supplementaries)
+- alexsmobs:mimicube? (from Supplementaries)
+- iceandfire:pixie? (from Supplementaries)
+- druidcraft:lunar_moth? (from Supplementaries)
+- druidcraft:dreadfish? (from Supplementaries)
+
+#supplementaries:flute_pet
+- minecraft:horse? (from Supplementaries)
+- minecraft:zombie_horse? (from Supplementaries)
+- minecraft:skeleton_horse? (from Supplementaries)
+- minecraft:llama? (from Supplementaries)
+- minecraft:mule? (from Supplementaries)
+- minecraft:donkey? (from Supplementaries)
+- minecraft:fox? (from Supplementaries)
+
+#supplementaries:rotatable
+- dummmmmmy:target_dummy? (from Supplementaries)
+- minecraft:armor_stand (from Supplementaries)
+
+#requiem:inventory/item_users
+- #goblintraders:goblin_traders (from Goblin Traders)
+
+#supplementaries:jar_catchable
+- minecraft:slime? (from Supplementaries)
+- minecraft:bee? (from Supplementaries)
+- minecraft:magma_cube? (from Supplementaries)
+- ecologics:firefly? (from Supplementaries)
+- feywild:spring_pixie? (from Supplementaries)
+- feywild:autumn_pixie? (from Supplementaries)
+- feywild:summer_pixie? (from Supplementaries)
+- feywild:winter_pixie? (from Supplementaries)
+- bettermushroom:mushrooms_spores? (from Supplementaries)
+- untamedwilds:tarantula? (from Supplementaries)
+- wyrmroost:coin_dragon? (from Supplementaries)
+- fantasy:unicorn? (from Supplementaries)
+- alexsmobs:enderiophage? (from Supplementaries)
+- iceandfire:pixie? (from Supplementaries)
+- alexsmobs:fly? (from Supplementaries)
+- alexsmobs:hummingbird? (from Supplementaries)
+- alexsmobs:cockroach? (from Supplementaries)
+- terraincognita:butterfly? (from Supplementaries)
+- buzzierbees:honey_slime? (from Supplementaries)
+- mysticalworld:frog? (from Supplementaries)
+- mysticalworld:beetle? (from Supplementaries)
+- mysticalworld:silkworm? (from Supplementaries)
+- druidcraft:lunar_moth? (from Supplementaries)
+- druidcraft:dreadfish? (from Supplementaries)
+- betterendforge:end_slime? (from Supplementaries)
+- betterendforge:dragonfly? (from Supplementaries)
+- betterendforge:silk_moth? (from Supplementaries)
+- savageandravage:creepie? (from Supplementaries)
+- betteranimalsplus:butterfly? (from Supplementaries)
+- whisperwoods:moth? (from Supplementaries)
+- fins:river_pebble_snail? (from Supplementaries)
+- tconstruct:sky_slime? (from Supplementaries)
+- twilightforest:maze_slime? (from Supplementaries)
+- biomemakeover:dragonfly? (from Supplementaries)
+
+#bewitchment:encounter_fortune
+- minecraft:husk (from Bewitchment)
+- minecraft:stray (from Bewitchment)
+- minecraft:witch (from Bewitchment)
+- minecraft:vindicator (from Bewitchment)
+- minecraft:blaze (from Bewitchment)
+- bewitchment:hellhound (from Bewitchment)
+
+#supplementaries:jar_baby_catchable
+- minecraft:rabbit (from Supplementaries)
+
+#minecraft:freeze_hurts_extra_types
+- minecraft:strider (from Default)
+- minecraft:blaze (from Default)
+- minecraft:magma_cube (from Default)
+
+#bewitchment:insanity_blacklist
+- minecraft:creeper (from Bewitchment)
+- minecraft:witch (from Bewitchment)
+- minecraft:ravager (from Bewitchment)
+
+#friendsandfoes:mauler_prey
+- minecraft:chicken (from Friends&Foes)
+- minecraft:rabbit (from Friends&Foes)
+- minecraft:frog (from Friends&Foes)
+- minecraft:slime (from Friends&Foes)
+- minecraft:zombie (from Friends&Foes)
+
+#bewitchment:has_blood
+- minecraft:player (from Bewitchment)
+- minecraft:villager (from Bewitchment)
+- minecraft:wandering_trader (from Bewitchment)
+- minecraft:witch (from Bewitchment)
+- minecraft:pillager (from Bewitchment)
+- minecraft:vindicator (from Bewitchment)
+- minecraft:evoker (from Bewitchment)
+- minecraft:illusioner (from Bewitchment)
+- minecraft:piglin (from Bewitchment)
+- minecraft:piglin_brute (from Bewitchment)
+- bewitchment:vampire (from Bewitchment)
+- bwplus:cambion (from Bewitchment Plus)
+
+#supplementaries:cage_catchable
+- minecraft:slime? (from Supplementaries)
+- minecraft:bee? (from Supplementaries)
+- minecraft:frog? (from Supplementaries)
+- minecraft:allay? (from Supplementaries)
+- minecraft:magma_cube? (from Supplementaries)
+- minecraft:endermite? (from Supplementaries)
+- minecraft:parrot? (from Supplementaries)
+- minecraft:rabbit? (from Supplementaries)
+- minecraft:cat? (from Supplementaries)
+- minecraft:chicken? (from Supplementaries)
+- minecraft:bat? (from Supplementaries)
+- minecraft:fox? (from Supplementaries)
+- minecraft:ocelot? (from Supplementaries)
+- ecologics:lizard? (from Supplementaries)
+- feywild:spring_pixie? (from Supplementaries)
+- feywild:autumn_pixie? (from Supplementaries)
+- feywild:summer_pixie? (from Supplementaries)
+- feywild:winter_pixie? (from Supplementaries)
+- eanimod:enhanced_chicken? (from Supplementaries)
+- eanimod:enhanced_rabbit? (from Supplementaries)
+- quark:foxhound? (from Supplementaries)
+- bettermushroom:shroomie? (from Supplementaries)
+- bettermushroom:shroomie_eater? (from Supplementaries)
+- bettermushroom:mushrooms_spores? (from Supplementaries)
+- untamedwilds:softshell_turtle? (from Supplementaries)
+- untamedwilds:tortoise? (from Supplementaries)
+- untamedwilds:tarantula? (from Supplementaries)
+- wyrmroost:lesser_desertwyrm? (from Supplementaries)
+- wyrmroost:roost_stalker? (from Supplementaries)
+- wyrmroost:coin_dragon? (from Supplementaries)
+- infernalexp:voline? (from Supplementaries)
+- infernalexp:shroomloin? (from Supplementaries)
+- kobolds:kobold_zombie? (from Supplementaries)
+- kobolds:kobold_child? (from Supplementaries)
+- fins:mudhorse? (from Supplementaries)
+- alexsmobs:raccoon? (from Supplementaries)
+- alexsmobs:mungus? (from Supplementaries)
+- alexsmobs:tasmanian_devil? (from Supplementaries)
+- alexsmobs:enderiophage? (from Supplementaries)
+- alexsmobs:platypus? (from Supplementaries)
+- alexsmobs:crow? (from Supplementaries)
+- alexsmobs:mimicube? (from Supplementaries)
+- iceandfire:pixie? (from Supplementaries)
+- alexsmobs:fly? (from Supplementaries)
+- alexsmobs:hummingbird? (from Supplementaries)
+- alexsmobs:cockroach? (from Supplementaries)
+- terraincognita:butterfly? (from Supplementaries)
+- buzzierbees:honey_slime? (from Supplementaries)
+- mysticalworld:frog? (from Supplementaries)
+- mysticalworld:beetle? (from Supplementaries)
+- mysticalworld:silkworm? (from Supplementaries)
+- druidcraft:lunar_moth? (from Supplementaries)
+- druidcraft:dreadfish? (from Supplementaries)
+- swampexpansion:slabfish? (from Supplementaries)
+- endergetic:puff_bug? (from Supplementaries)
+- betterendforge:end_slime? (from Supplementaries)
+- betterendforge:dragonfly? (from Supplementaries)
+- betterendforge:silk_moth? (from Supplementaries)
+- savageandravage:creepie? (from Supplementaries)
+- betteranimalsplus:butterfly? (from Supplementaries)
+- whisperwoods:moth? (from Supplementaries)
+- fins:river_pebble_snail? (from Supplementaries)
+- tconstruct:sky_slime? (from Supplementaries)
+- twilightforest:maze_slime? (from Supplementaries)
+- alexsmobs:roadrunner? (from Supplementaries)
+- alexsmobs:rattlesnake? (from Supplementaries)
+- alexsmobs:lobster? (from Supplementaries)
+- alexsmobs:capuchin_monkey? (from Supplementaries)
+- mysticalworld:silver_fox? (from Supplementaries)
+- mysticalworld:sprout? (from Supplementaries)
+- mysticalworld:endermini? (from Supplementaries)
+- mysticalworld:lava_cat? (from Supplementaries)
+- mysticalworld:owl? (from Supplementaries)
+- mysticalworld:hell_sprout? (from Supplementaries)
+- quark:crab? (from Supplementaries)
+- quark:foxhound? (from Supplementaries)
+- quark:stoneling? (from Supplementaries)
+- quark:frog? (from Supplementaries)
+- rats:rat? (from Supplementaries)
+- rats:piper? (from Supplementaries)
+- rats:plague_doctor? (from Supplementaries)
+- rats:black_death? (from Supplementaries)
+- rats:plague_cloud? (from Supplementaries)
+- rats:plague_beast? (from Supplementaries)
+- rats:rat_king? (from Supplementaries)
+- rats:demon_rat? (from Supplementaries)
+- rats:ratlantean_spirit? (from Supplementaries)
+- rats:ratlantean_automation? (from Supplementaries)
+- rats:feral_ratlantean? (from Supplementaries)
+- rats:neo_ratlantean? (from Supplementaries)
+- rats:pirat? (from Supplementaries)
+- rats:ghost_pirat? (from Supplementaries)
+- rats:dutchrat? (from Supplementaries)
+- rats:ratfish? (from Supplementaries)
+- rats:ratlantean_ratbot? (from Supplementaries)
+- rats:rat_baron? (from Supplementaries)
+- goblintraders:goblin_trader? (from Supplementaries)
+- goblintraders:vein_goblin_trader? (from Supplementaries)
+- autumnity:snail? (from Supplementaries)
+- betteranimalsplus:lammergeier? (from Supplementaries)
+- betteranimalsplus:songbird? (from Supplementaries)
+- betteranimalsplus:pheasant? (from Supplementaries)
+- betteranimalsplus:squirrel? (from Supplementaries)
+- betteranimalsplus:badger? (from Supplementaries)
+- betteranimalsplus:turkey? (from Supplementaries)
+- exoticbirds:roadrunner? (from Supplementaries)
+- exoticbirds:hummingbird? (from Supplementaries)
+- exoticbirds:woodpecker? (from Supplementaries)
+- exoticbirds:kingfisher? (from Supplementaries)
+- exoticbirds:toucan? (from Supplementaries)
+- exoticbirds:macaw? (from Supplementaries)
+- exoticbirds:magpie? (from Supplementaries)
+- exoticbirds:kiwi? (from Supplementaries)
+- exoticbirds:owl? (from Supplementaries)
+- exoticbirds:gouldianfinch? (from Supplementaries)
+- exoticbirds:gull? (from Supplementaries)
+- exoticbirds:pigeon? (from Supplementaries)
+- exoticbirds:penguin? (from Supplementaries)
+- exoticbirds:duck? (from Supplementaries)
+- exoticbirds:booby? (from Supplementaries)
+- exoticbirds:cardinal? (from Supplementaries)
+- exoticbirds:bluejay? (from Supplementaries)
+- exoticbirds:robin? (from Supplementaries)
+- exoticbirds:kookaburra? (from Supplementaries)
+- exoticbirds:budgerigar? (from Supplementaries)
+- exoticbirds:cockatoo? (from Supplementaries)
+- swampexpansion:slabfish? (from Supplementaries)
+- betteranimalsplus:horseshoecrab? (from Supplementaries)
+- betteranimalsplus:crab? (from Supplementaries)
+- whisperwoods:wisp? (from Supplementaries)
+- undergarden:muncher? (from Supplementaries)
+- undergarden:scintling? (from Supplementaries)
+- undergarden:rotling? (from Supplementaries)
+- undergarden:sploogie? (from Supplementaries)
+- dungeonsmod:crow? (from Supplementaries)
+- dungeonsmod:anthermite? (from Supplementaries)
+- pandoras_creatures:crab? (from Supplementaries)
+- twilightforest:raven? (from Supplementaries)
+- twilightforest:bunny? (from Supplementaries)
+- twilightforest:penguin? (from Supplementaries)
+- twilightforest:tiny_bird? (from Supplementaries)
+- twilightforest:squirrel? (from Supplementaries)
+- twilightforest:kobold? (from Supplementaries)
+- twilightforest:death_tome? (from Supplementaries)
+- environmental:duck? (from Supplementaries)
+- environmental:cardinal? (from Supplementaries)
+- environmental:fennec_fox? (from Supplementaries)
+- environmental:slabfish? (from Supplementaries)
+- environmental:penguin? (from Supplementaries)
+- fins:flatback_leaf_snail? (from Supplementaries)
+- fins:penglil? (from Supplementaries)
+- fins:river_pebble_snail? (from Supplementaries)
+- fins:siderol_whiskered_snail? (from Supplementaries)
+- fins:red_bull_crab? (from Supplementaries)
+- fins:white_bull_crab? (from Supplementaries)
+- habitat:pooka? (from Supplementaries)
+- habitat:passerine? (from Supplementaries)
+- biomemakeover:dragonfly? (from Supplementaries)
+- alexsmobs:seagull? (from Supplementaries)
+- alexsmobs:toucan? (from Supplementaries)
+- alexsmobs:jerboa? (from Supplementaries)
+- alexsmobs:jerboa? (from Supplementaries)
+- alexsmobs:potoo? (from Supplementaries)
+- alexsmobs:flutter? (from Supplementaries)
+- alexsmobs:rain_frog? (from Supplementaries)
+- alexsmobs:sugar_glider? (from Supplementaries)

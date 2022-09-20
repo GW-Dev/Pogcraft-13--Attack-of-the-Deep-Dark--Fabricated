@@ -74,6 +74,8 @@
     "sugar_cube": true,
     "crystal_display": true,
     "lapis_bricks": true,
+    "relayer": true,
+    "candle_holder": true,
     "silver_trapdoor": true,
     "silver_door": true,
     "lead_trapdoor": true,
@@ -94,6 +96,5 @@
     "rope_arrow": true,
     "bomb": true,
     "pancake": true
-  },
-  "entities": {}
+  }
 }

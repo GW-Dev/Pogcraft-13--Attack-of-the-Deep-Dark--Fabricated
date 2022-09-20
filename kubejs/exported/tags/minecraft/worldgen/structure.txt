@@ -1,0 +1,141 @@
+To refresh this file, delete it and run /reload command again! Last updated: Sep 18, 2022, 7:27:18 PM
+
+#the_bumblezone:no_dungeons
+- the_bumblezone:cell_maze (from The Bumblezone - Fabric)
+
+#the_bumblezone:wrath_causing
+- the_bumblezone:cell_maze (from The Bumblezone - Fabric)
+
+#minecraft:cats_spawn_in
+- minecraft:swamp_hut (from Default)
+
+#the_bumblezone:honey_compass_locating
+- the_bumblezone:cell_maze (from The Bumblezone - Fabric)
+
+#yigd:graveyard_structures
+- graveyard:small_graveyard? (from You're in Grave Danger)
+- graveyard:medium_graveyard? (from You're in Grave Danger)
+- graveyard:large_graveyard? (from You're in Grave Danger)
+- graveyard:small_desert_graveyard? (from You're in Grave Danger)
+
+#charm:desert_pyramid
+- minecraft:desert_pyramid (from Charm)
+
+#minecraft:shipwreck
+- minecraft:shipwreck (from Default)
+- minecraft:shipwreck_beached (from Default)
+
+#charm:endermite_powder_located
+- minecraft:end_city (from Charm)
+
+#the_bumblezone:honey_compass_throne_locating
+- the_bumblezone:throne_pillar (from The Bumblezone - Fabric)
+
+#minecraft:on_ocean_explorer_maps
+- minecraft:monument (from Default)
+
+#supplementaries:way_sign_destinations
+- #minecraft:village (from Supplementaries)
+- pokecube_legends:village? (from Supplementaries)
+- pokecube_legends:village/ocean? (from Supplementaries)
+- valhelsia_structures:castle? (from Supplementaries)
+- valhelsia_structures:castle_ruin? (from Supplementaries)
+- valhelsia_structures:small_castle? (from Supplementaries)
+- valhelsia_structures:tower_ruin? (from Supplementaries)
+- stoneholm:underground_village? (from Supplementaries)
+- blue_skies:gatekeeper_house? (from Supplementaries)
+- feywild:library? (from Supplementaries)
+- feywild:blacksmith? (from Supplementaries)
+
+#charm:ancient_city
+- minecraft:ancient_city (from Charm)
+
+#minecraft:on_treasure_maps
+- minecraft:buried_treasure (from Default)
+
+#minecraft:ruined_portal
+- minecraft:ruined_portal_desert (from Default)
+- minecraft:ruined_portal_jungle (from Default)
+- minecraft:ruined_portal_mountain (from Default)
+- minecraft:ruined_portal_nether (from Default)
+- minecraft:ruined_portal_ocean (from Default)
+- minecraft:ruined_portal (from Default)
+- minecraft:ruined_portal_swamp (from Default)
+
+#the_bumblezone:bee_queen_mining_fatigue
+- the_bumblezone:throne_pillar (from The Bumblezone - Fabric)
+
+#charm:stronghold
+- minecraft:stronghold (from Charm)
+
+#minecraft:village
+- minecraft:village_plains (from Default)
+- minecraft:village_desert (from Default)
+- minecraft:village_savanna (from Default)
+- minecraft:village_snowy (from Default)
+- minecraft:village_taiga (from Default)
+
+#charm:pillager_outpost
+- minecraft:pillager_outpost (from Charm)
+
+#supplementaries:adventure_map_destinations
+- #minecraft:village (from Supplementaries)
+- #minecraft:shipwreck (from Supplementaries)
+- #minecraft:mineshaft (from Supplementaries)
+- #minecraft:ocean_ruin (from Supplementaries)
+- #minecraft:ruined_portal (from Supplementaries)
+- minecraft:swamp_hut (from Supplementaries)
+- minecraft:bastion_remnant (from Supplementaries)
+- minecraft:jungle_pyramid (from Supplementaries)
+- minecraft:desert_pyramid (from Supplementaries)
+- minecraft:pillager_outpost (from Supplementaries)
+- minecraft:igloo (from Supplementaries)
+- minecraft:end_city (from Supplementaries)
+
+#charm:buried_treasure
+- minecraft:buried_treasure (from Charm)
+
+#minecraft:ocean_ruin
+- minecraft:ocean_ruin_cold (from Default)
+- minecraft:ocean_ruin_warm (from Default)
+
+#charm:fortress
+- minecraft:fortress (from Charm)
+
+#charm:swamp_hut
+- minecraft:swamp_hut (from Charm)
+
+#minecraft:mineshaft
+- minecraft:mineshaft (from Default)
+- minecraft:mineshaft_mesa (from Default)
+
+#minecraft:on_woodland_explorer_maps
+- minecraft:mansion (from Default)
+
+#charm:jungle_temple
+- minecraft:jungle_pyramid (from Charm)
+
+#minecraft:cats_spawn_as_black
+- minecraft:swamp_hut (from Default)
+
+#charm:bastion_remnant
+- minecraft:bastion_remnant (from Charm)
+
+#charm:mansion
+- minecraft:mansion (from Charm)
+
+#charm:end_city
+- minecraft:end_city (from Charm)
+
+#charm:monument
+- minecraft:monument (from Charm)
+
+#charm:igloo
+- minecraft:igloo (from Charm)
+
+#minecraft:eye_of_ender_located
+- minecraft:stronghold (from Default)
+
+#minecraft:dolphin_located
+- #minecraft:ocean_ruin (from Default)
+- #minecraft:shipwreck (from Default)

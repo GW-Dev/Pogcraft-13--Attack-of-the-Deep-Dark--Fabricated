@@ -1,0 +1,1305 @@
+To refresh this file, delete it and run /reload command again! Last updated: Sep 18, 2022, 7:27:18 PM
+
+#c:climate_wet
+- #c:aquatic? (from Fabric Convention Tags)
+- #c:swamp? (from Fabric Convention Tags)
+- minecraft:lush_caves (from Fabric Convention Tags)
+- #c:jungle? (from Fabric Convention Tags)
+
+#minecraft:has_structure/nether_fortress
+- #minecraft:is_nether (from Default)
+
+#friendsandfoes:has_less_mooblooms
+- minecraft:meadow (from Friends&Foes)
+
+#supplementaries:has_cave_urns
+- betterend:amber_land (from Supplementaries Generated Pack)
+- minecraft:frozen_ocean (from Supplementaries Generated Pack)
+- betterend:empty_aurora_cave (from Supplementaries Generated Pack)
+- spectrum:deeper_down_biome (from Supplementaries Generated Pack)
+- minecraft:swamp (from Supplementaries Generated Pack)
+- minecraft:basalt_deltas (from Supplementaries Generated Pack)
+- betterend:umbrella_jungle (from Supplementaries Generated Pack)
+- betterend:dragon_graveyards (from Supplementaries Generated Pack)
+- minecraft:dark_forest (from Supplementaries Generated Pack)
+- minecraft:frozen_river (from Supplementaries Generated Pack)
+- edenring:mycotic_forest (from Supplementaries Generated Pack)
+- betterend:ice_starfield (from Supplementaries Generated Pack)
+- minecraft:windswept_forest (from Supplementaries Generated Pack)
+- minecraft:deep_ocean (from Supplementaries Generated Pack)
+- betterend:megalake_grove (from Supplementaries Generated Pack)
+- edenring:golden_forest (from Supplementaries Generated Pack)
+- minecraft:stony_peaks (from Supplementaries Generated Pack)
+- minecraft:stony_shore (from Supplementaries Generated Pack)
+- minecraft:nether_wastes (from Supplementaries Generated Pack)
+- betternether:nether_swampland (from Supplementaries Generated Pack)
+- minecraft:deep_lukewarm_ocean (from Supplementaries Generated Pack)
+- betternether:nether_swampland_terraces (from Supplementaries Generated Pack)
+- betterend:glowing_grasslands (from Supplementaries Generated Pack)
+- minecraft:snowy_taiga (from Supplementaries Generated Pack)
+- betternether:poor_nether_grasslands (from Supplementaries Generated Pack)
+- minecraft:river (from Supplementaries Generated Pack)
+- minecraft:the_void (from Supplementaries Generated Pack)
+- minecraft:old_growth_pine_taiga (from Supplementaries Generated Pack)
+- minecraft:deep_cold_ocean (from Supplementaries Generated Pack)
+- betterend:dry_shrubland (from Supplementaries Generated Pack)
+- betterend:megalake (from Supplementaries Generated Pack)
+- edenring:air_ocean (from Supplementaries Generated Pack)
+- betterend:blossoming_spires (from Supplementaries Generated Pack)
+- betterend:empty_end_cave (from Supplementaries Generated Pack)
+- betterend:foggy_mushroomland (from Supplementaries Generated Pack)
+- betternether:soul_plain (from Supplementaries Generated Pack)
+- minecraft:end_highlands (from Supplementaries Generated Pack)
+- betterend:jade_cave (from Supplementaries Generated Pack)
+- edenring:empty_cave (from Supplementaries Generated Pack)
+- minecraft:eroded_badlands (from Supplementaries Generated Pack)
+- betternether:crimson_pinewood (from Supplementaries Generated Pack)
+- betterend:umbra_valley (from Supplementaries Generated Pack)
+- betternether:flooded_deltas (from Supplementaries Generated Pack)
+- minecraft:plains (from Supplementaries Generated Pack)
+- betternether:wart_forest (from Supplementaries Generated Pack)
+- minecraft:snowy_beach (from Supplementaries Generated Pack)
+- betterend:neon_oasis (from Supplementaries Generated Pack)
+- betternether:upside_down_forest (from Supplementaries Generated Pack)
+- betternether:upside_down_forest_cleared (from Supplementaries Generated Pack)
+- edenring:pulse_forest (from Supplementaries Generated Pack)
+- betterend:shadow_forest (from Supplementaries Generated Pack)
+- betternether:nether_jungle (from Supplementaries Generated Pack)
+- minecraft:sparse_jungle (from Supplementaries Generated Pack)
+- betternether:nether_mushroom_forest (from Supplementaries Generated Pack)
+- minecraft:jungle (from Supplementaries Generated Pack)
+- minecraft:snowy_slopes (from Supplementaries Generated Pack)
+- minecraft:ocean (from Supplementaries Generated Pack)
+- minecraft:cold_ocean (from Supplementaries Generated Pack)
+- minecraft:warped_forest (from Supplementaries Generated Pack)
+- betterend:chorus_forest (from Supplementaries Generated Pack)
+- betternether:gravel_desert (from Supplementaries Generated Pack)
+- minecraft:badlands (from Supplementaries Generated Pack)
+- betternether:wart_forest_edge (from Supplementaries Generated Pack)
+- minecraft:windswept_hills (from Supplementaries Generated Pack)
+- edenring:brainstorm (from Supplementaries Generated Pack)
+- terrablender:deferred_placeholder (from Supplementaries Generated Pack)
+- minecraft:windswept_savanna (from Supplementaries Generated Pack)
+- minecraft:savanna_plateau (from Supplementaries Generated Pack)
+- minecraft:taiga (from Supplementaries Generated Pack)
+- minecraft:savanna (from Supplementaries Generated Pack)
+- edenring:sky_colony (from Supplementaries Generated Pack)
+- minecraft:ice_spikes (from Supplementaries Generated Pack)
+- minecraft:frozen_peaks (from Supplementaries Generated Pack)
+- minecraft:crimson_forest (from Supplementaries Generated Pack)
+- betterend:lantern_woods (from Supplementaries Generated Pack)
+- edenring:eroded_cave (from Supplementaries Generated Pack)
+- minecraft:old_growth_spruce_taiga (from Supplementaries Generated Pack)
+- minecraft:deep_dark (from Supplementaries Generated Pack)
+- minecraft:lukewarm_ocean (from Supplementaries Generated Pack)
+- betterend:empty_smaragdant_cave (from Supplementaries Generated Pack)
+- minecraft:warm_ocean (from Supplementaries Generated Pack)
+- minecraft:mushroom_fields (from Supplementaries Generated Pack)
+- minecraft:forest (from Supplementaries Generated Pack)
+- betterend:sulphur_springs (from Supplementaries Generated Pack)
+- minecraft:end_midlands (from Supplementaries Generated Pack)
+- edenring:wind_valley (from Supplementaries Generated Pack)
+- minecraft:sunflower_plains (from Supplementaries Generated Pack)
+- betterend:dust_wastelands (from Supplementaries Generated Pack)
+- betterend:lush_smaragdant_cave (from Supplementaries Generated Pack)
+- edenring:stone_garden (from Supplementaries Generated Pack)
+- minecraft:flower_forest (from Supplementaries Generated Pack)
+- minecraft:old_growth_birch_forest (from Supplementaries Generated Pack)
+- minecraft:desert (from Supplementaries Generated Pack)
+- minecraft:beach (from Supplementaries Generated Pack)
+- minecraft:grove (from Supplementaries Generated Pack)
+- betternether:bone_reef (from Supplementaries Generated Pack)
+- minecraft:deep_frozen_ocean (from Supplementaries Generated Pack)
+- betternether:magma_land (from Supplementaries Generated Pack)
+- minecraft:windswept_gravelly_hills (from Supplementaries Generated Pack)
+- betterend:painted_mountains (from Supplementaries Generated Pack)
+- betterend:crystal_mountains (from Supplementaries Generated Pack)
+- minecraft:snowy_plains (from Supplementaries Generated Pack)
+- betternether:sulfuric_bone_reef (from Supplementaries Generated Pack)
+- betternether:old_warped_woods (from Supplementaries Generated Pack)
+- minecraft:jagged_peaks (from Supplementaries Generated Pack)
+- betternether:old_swampland (from Supplementaries Generated Pack)
+- betterend:lush_aurora_cave (from Supplementaries Generated Pack)
+- minecraft:bamboo_jungle (from Supplementaries Generated Pack)
+- minecraft:end_barrens (from Supplementaries Generated Pack)
+- betternether:nether_grasslands (from Supplementaries Generated Pack)
+- minecraft:small_end_islands (from Supplementaries Generated Pack)
+- minecraft:meadow (from Supplementaries Generated Pack)
+- minecraft:the_end (from Supplementaries Generated Pack)
+- ae2:spatial_storage (from Supplementaries Generated Pack)
+- edenring:old_mycotic_forest (from Supplementaries Generated Pack)
+- betternether:crimson_glowing_woods (from Supplementaries Generated Pack)
+- betternether:old_fungiwoods (from Supplementaries Generated Pack)
+- edenring:lakeside_desert (from Supplementaries Generated Pack)
+- minecraft:mangrove_swamp (from Supplementaries Generated Pack)
+- minecraft:birch_forest (from Supplementaries Generated Pack)
+- betternether:nether_mushroom_forest_edge (from Supplementaries Generated Pack)
+- minecraft:soul_sand_valley (from Supplementaries Generated Pack)
+- minecraft:wooded_badlands (from Supplementaries Generated Pack)
+- betterend:amber_land (from Supplementaries Generated Pack)
+- minecraft:frozen_ocean (from Supplementaries Generated Pack)
+- betterend:empty_aurora_cave (from Supplementaries Generated Pack)
+- spectrum:deeper_down_biome (from Supplementaries Generated Pack)
+- minecraft:swamp (from Supplementaries Generated Pack)
+- minecraft:basalt_deltas (from Supplementaries Generated Pack)
+- betterend:umbrella_jungle (from Supplementaries Generated Pack)
+- betterend:dragon_graveyards (from Supplementaries Generated Pack)
+- minecraft:dark_forest (from Supplementaries Generated Pack)
+- minecraft:frozen_river (from Supplementaries Generated Pack)
+- edenring:mycotic_forest (from Supplementaries Generated Pack)
+- betterend:ice_starfield (from Supplementaries Generated Pack)
+- minecraft:windswept_forest (from Supplementaries Generated Pack)
+- minecraft:deep_ocean (from Supplementaries Generated Pack)
+- betterend:megalake_grove (from Supplementaries Generated Pack)
+- edenring:golden_forest (from Supplementaries Generated Pack)
+- minecraft:stony_peaks (from Supplementaries Generated Pack)
+- minecraft:stony_shore (from Supplementaries Generated Pack)
+- minecraft:nether_wastes (from Supplementaries Generated Pack)
+- betternether:nether_swampland (from Supplementaries Generated Pack)
+- minecraft:deep_lukewarm_ocean (from Supplementaries Generated Pack)
+- betternether:nether_swampland_terraces (from Supplementaries Generated Pack)
+- betterend:glowing_grasslands (from Supplementaries Generated Pack)
+- minecraft:snowy_taiga (from Supplementaries Generated Pack)
+- betternether:poor_nether_grasslands (from Supplementaries Generated Pack)
+- minecraft:river (from Supplementaries Generated Pack)
+- minecraft:the_void (from Supplementaries Generated Pack)
+- minecraft:old_growth_pine_taiga (from Supplementaries Generated Pack)
+- minecraft:deep_cold_ocean (from Supplementaries Generated Pack)
+- betterend:dry_shrubland (from Supplementaries Generated Pack)
+- betterend:megalake (from Supplementaries Generated Pack)
+- edenring:air_ocean (from Supplementaries Generated Pack)
+- betterend:blossoming_spires (from Supplementaries Generated Pack)
+- betterend:empty_end_cave (from Supplementaries Generated Pack)
+- betterend:foggy_mushroomland (from Supplementaries Generated Pack)
+- betternether:soul_plain (from Supplementaries Generated Pack)
+- minecraft:end_highlands (from Supplementaries Generated Pack)
+- betterend:jade_cave (from Supplementaries Generated Pack)
+- edenring:empty_cave (from Supplementaries Generated Pack)
+- minecraft:eroded_badlands (from Supplementaries Generated Pack)
+- betternether:crimson_pinewood (from Supplementaries Generated Pack)
+- betterend:umbra_valley (from Supplementaries Generated Pack)
+- betternether:flooded_deltas (from Supplementaries Generated Pack)
+- minecraft:plains (from Supplementaries Generated Pack)
+- betternether:wart_forest (from Supplementaries Generated Pack)
+- minecraft:snowy_beach (from Supplementaries Generated Pack)
+- betterend:neon_oasis (from Supplementaries Generated Pack)
+- betternether:upside_down_forest (from Supplementaries Generated Pack)
+- betternether:upside_down_forest_cleared (from Supplementaries Generated Pack)
+- edenring:pulse_forest (from Supplementaries Generated Pack)
+- betterend:shadow_forest (from Supplementaries Generated Pack)
+- betternether:nether_jungle (from Supplementaries Generated Pack)
+- minecraft:sparse_jungle (from Supplementaries Generated Pack)
+- betternether:nether_mushroom_forest (from Supplementaries Generated Pack)
+- minecraft:jungle (from Supplementaries Generated Pack)
+- minecraft:snowy_slopes (from Supplementaries Generated Pack)
+- minecraft:ocean (from Supplementaries Generated Pack)
+- minecraft:cold_ocean (from Supplementaries Generated Pack)
+- minecraft:warped_forest (from Supplementaries Generated Pack)
+- betterend:chorus_forest (from Supplementaries Generated Pack)
+- betternether:gravel_desert (from Supplementaries Generated Pack)
+- minecraft:badlands (from Supplementaries Generated Pack)
+- betternether:wart_forest_edge (from Supplementaries Generated Pack)
+- minecraft:windswept_hills (from Supplementaries Generated Pack)
+- edenring:brainstorm (from Supplementaries Generated Pack)
+- terrablender:deferred_placeholder (from Supplementaries Generated Pack)
+- minecraft:windswept_savanna (from Supplementaries Generated Pack)
+- minecraft:savanna_plateau (from Supplementaries Generated Pack)
+- minecraft:taiga (from Supplementaries Generated Pack)
+- minecraft:savanna (from Supplementaries Generated Pack)
+- edenring:sky_colony (from Supplementaries Generated Pack)
+- minecraft:ice_spikes (from Supplementaries Generated Pack)
+- minecraft:frozen_peaks (from Supplementaries Generated Pack)
+- minecraft:crimson_forest (from Supplementaries Generated Pack)
+- betterend:lantern_woods (from Supplementaries Generated Pack)
+- edenring:eroded_cave (from Supplementaries Generated Pack)
+- minecraft:old_growth_spruce_taiga (from Supplementaries Generated Pack)
+- minecraft:deep_dark (from Supplementaries Generated Pack)
+- minecraft:lukewarm_ocean (from Supplementaries Generated Pack)
+- betterend:empty_smaragdant_cave (from Supplementaries Generated Pack)
+- minecraft:warm_ocean (from Supplementaries Generated Pack)
+- minecraft:mushroom_fields (from Supplementaries Generated Pack)
+- minecraft:forest (from Supplementaries Generated Pack)
+- betterend:sulphur_springs (from Supplementaries Generated Pack)
+- minecraft:end_midlands (from Supplementaries Generated Pack)
+- edenring:wind_valley (from Supplementaries Generated Pack)
+- minecraft:sunflower_plains (from Supplementaries Generated Pack)
+- betterend:dust_wastelands (from Supplementaries Generated Pack)
+- betterend:lush_smaragdant_cave (from Supplementaries Generated Pack)
+- edenring:stone_garden (from Supplementaries Generated Pack)
+- minecraft:flower_forest (from Supplementaries Generated Pack)
+- minecraft:old_growth_birch_forest (from Supplementaries Generated Pack)
+- minecraft:desert (from Supplementaries Generated Pack)
+- minecraft:beach (from Supplementaries Generated Pack)
+- minecraft:grove (from Supplementaries Generated Pack)
+- betternether:bone_reef (from Supplementaries Generated Pack)
+- minecraft:deep_frozen_ocean (from Supplementaries Generated Pack)
+- betternether:magma_land (from Supplementaries Generated Pack)
+- minecraft:windswept_gravelly_hills (from Supplementaries Generated Pack)
+- betterend:painted_mountains (from Supplementaries Generated Pack)
+- betterend:crystal_mountains (from Supplementaries Generated Pack)
+- minecraft:snowy_plains (from Supplementaries Generated Pack)
+- betternether:sulfuric_bone_reef (from Supplementaries Generated Pack)
+- betternether:old_warped_woods (from Supplementaries Generated Pack)
+- minecraft:jagged_peaks (from Supplementaries Generated Pack)
+- betternether:old_swampland (from Supplementaries Generated Pack)
+- betterend:lush_aurora_cave (from Supplementaries Generated Pack)
+- minecraft:bamboo_jungle (from Supplementaries Generated Pack)
+- minecraft:end_barrens (from Supplementaries Generated Pack)
+- betternether:nether_grasslands (from Supplementaries Generated Pack)
+- minecraft:small_end_islands (from Supplementaries Generated Pack)
+- minecraft:meadow (from Supplementaries Generated Pack)
+- minecraft:the_end (from Supplementaries Generated Pack)
+- ae2:spatial_storage (from Supplementaries Generated Pack)
+- edenring:old_mycotic_forest (from Supplementaries Generated Pack)
+- betternether:crimson_glowing_woods (from Supplementaries Generated Pack)
+- betternether:old_fungiwoods (from Supplementaries Generated Pack)
+- edenring:lakeside_desert (from Supplementaries Generated Pack)
+- minecraft:mangrove_swamp (from Supplementaries Generated Pack)
+- minecraft:birch_forest (from Supplementaries Generated Pack)
+- betternether:nether_mushroom_forest_edge (from Supplementaries Generated Pack)
+- minecraft:soul_sand_valley (from Supplementaries Generated Pack)
+- minecraft:wooded_badlands (from Supplementaries Generated Pack)
+
+#minecraft:water_on_map_outlines
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_river (from Default)
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+
+#minecraft:is_river
+- minecraft:river (from Default)
+- minecraft:frozen_river (from Default)
+
+#c:nether_forests
+- minecraft:warped_forest (from Fabric Convention Tags)
+- minecraft:crimson_forest (from Fabric Convention Tags)
+
+#minecraft:has_structure/mineshaft
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_river (from Default)
+- #minecraft:is_beach (from Default)
+- #minecraft:is_mountain (from Default)
+- #minecraft:is_hill (from Default)
+- #minecraft:is_taiga (from Default)
+- #minecraft:is_jungle (from Default)
+- #minecraft:is_forest (from Default)
+- minecraft:stony_shore (from Default)
+- minecraft:mushroom_fields (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:windswept_savanna (from Default)
+- minecraft:desert (from Default)
+- minecraft:savanna (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:plains (from Default)
+- minecraft:sunflower_plains (from Default)
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:dripstone_caves (from Default)
+- minecraft:lush_caves (from Default)
+
+#untitledduckmod:goose_spawn
+- #minecraft:is_river? (from Untitled Duck Mod)
+- #c:river? (from Untitled Duck Mod)
+
+#minecraft:has_structure/jungle_temple
+- minecraft:bamboo_jungle (from Default)
+- minecraft:jungle (from Default)
+
+#c:mushroom
+- minecraft:mushroom_fields (from Fabric Convention Tags)
+
+#c:in_nether
+- #minecraft:is_nether? (from Fabric Convention Tags)
+- minecraft:crimson_forest (from Fabric Convention Tags)
+- minecraft:warped_forest (from Fabric Convention Tags)
+- minecraft:nether_wastes (from Fabric Convention Tags)
+- minecraft:soul_sand_valley (from Fabric Convention Tags)
+- minecraft:basalt_deltas (from Fabric Convention Tags)
+
+#c:tree_coniferous
+- minecraft:grove (from Fabric Convention Tags)
+- #c:taiga? (from Fabric Convention Tags)
+
+#c:mountain
+- #minecraft:is_mountain? (from Fabric Convention Tags)
+
+#c:savanna
+- #minecraft:is_savanna? (from Fabric Convention Tags)
+- minecraft:savanna_plateau (from Fabric Convention Tags)
+- minecraft:windswept_savanna (from Fabric Convention Tags)
+- minecraft:savanna (from Fabric Convention Tags)
+
+#minecraft:is_jungle
+- minecraft:bamboo_jungle (from Default)
+- minecraft:jungle (from Default)
+- minecraft:sparse_jungle (from Default)
+
+#minecraft:is_ocean
+- #minecraft:is_deep_ocean (from Default)
+- minecraft:frozen_ocean (from Default)
+- minecraft:ocean (from Default)
+- minecraft:cold_ocean (from Default)
+- minecraft:lukewarm_ocean (from Default)
+- minecraft:warm_ocean (from Default)
+
+#ad_astra:has_structure/pygro_village_biomes
+- ad_astra:venus_wastelands (from Ad Astra!)
+
+#the_bumblezone:regular
+- the_bumblezone:hive_pillar (from The Bumblezone - Fabric)
+- the_bumblezone:hive_wall (from The Bumblezone - Fabric)
+
+#ad_astra:has_structure/moon_dungeon_biomes
+- ad_astra:lunar_wastelands (from Ad Astra!)
+
+#ae2:has_meteorites
+- #c:in_overworld? (from Applied Energistics 2)
+
+#ad_astra:has_structure/pygro_tower_biomes
+- ad_astra:venus_wastelands (from Ad Astra!)
+
+#c:caves
+- minecraft:deep_dark (from Fabric Convention Tags)
+- minecraft:dripstone_caves (from Fabric Convention Tags)
+- minecraft:lush_caves (from Fabric Convention Tags)
+
+#c:floral
+- minecraft:sunflower_plains (from Fabric Convention Tags)
+- minecraft:flower_forest (from Fabric Convention Tags)
+
+#minecraft:has_structure/buried_treasure
+- #minecraft:is_beach (from Default)
+
+#minecraft:has_structure/ocean_ruin_cold
+- minecraft:frozen_ocean (from Default)
+- minecraft:cold_ocean (from Default)
+- minecraft:ocean (from Default)
+- minecraft:deep_frozen_ocean (from Default)
+- minecraft:deep_cold_ocean (from Default)
+- minecraft:deep_ocean (from Default)
+
+#friendsandfoes:has_structure/illusioner_training_grounds
+- minecraft:taiga (from Friends&Foes)
+- minecraft:old_growth_pine_taiga (from Friends&Foes)
+- minecraft:old_growth_spruce_taiga (from Friends&Foes)
+
+#untitledduckmod:duck_spawn
+- #minecraft:is_river? (from Untitled Duck Mod)
+- #c:river? (from Untitled Duck Mod)
+
+#minecraft:produces_corals_from_bonemeal
+- minecraft:warm_ocean (from Default)
+
+#c:badlands
+- #c:mesa? (from Fabric Convention Tags)
+- #minecraft:is_badlands? (from Fabric Convention Tags)
+
+#minecraft:has_structure/stronghold
+- #minecraft:is_overworld (from Default)
+
+#minecraft:has_structure/mineshaft_mesa
+- #minecraft:is_badlands (from Default)
+
+#minecraft:has_structure/ancient_city
+- minecraft:deep_dark (from Default)
+
+#c:underground
+- #c:caves? (from Fabric Convention Tags)
+
+#minecraft:has_structure/shipwreck
+- #minecraft:is_ocean (from Default)
+
+#c:snowy_plains
+- minecraft:snowy_plains (from Fabric Convention Tags)
+
+#minecraft:is_savanna
+- minecraft:savanna (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:windswept_savanna (from Default)
+
+#c:vegetation_dense
+- #c:jungle? (from Fabric Convention Tags)
+- minecraft:sunflower_plains (from Fabric Convention Tags)
+
+#c:jungle
+- #minecraft:is_jungle? (from Fabric Convention Tags)
+
+#minecraft:has_structure/igloo
+- minecraft:snowy_taiga (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:snowy_slopes (from Default)
+
+#c:wasteland
+
+#minecraft:has_structure/shipwreck_beached
+- #minecraft:is_beach (from Default)
+
+#minecraft:is_hill
+- minecraft:windswept_hills (from Default)
+- minecraft:windswept_forest (from Default)
+- minecraft:windswept_gravelly_hills (from Default)
+
+#c:forest
+- #minecraft:is_forest? (from Fabric Convention Tags)
+
+#the_bumblezone:the_bumblezone
+- #the_bumblezone:regular (from The Bumblezone - Fabric)
+- #the_bumblezone:pollinated (from The Bumblezone - Fabric)
+- #the_bumblezone:sugar_water (from The Bumblezone - Fabric)
+
+#c:end_islands
+
+#friendsandfoes:has_structure/iceologer_cabin
+- minecraft:snowy_taiga (from Friends&Foes)
+- minecraft:snowy_plains (from Friends&Foes)
+- minecraft:grove (from Friends&Foes)
+
+#c:dead
+
+#minecraft:allows_surface_slime_spawns
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+
+#c:deep_ocean
+- minecraft:deep_frozen_ocean (from Fabric Convention Tags)
+- minecraft:deep_lukewarm_ocean (from Fabric Convention Tags)
+- minecraft:deep_cold_ocean (from Fabric Convention Tags)
+- minecraft:deep_ocean (from Fabric Convention Tags)
+
+#c:swamp
+- minecraft:mangrove_swamp (from Fabric Convention Tags)
+- minecraft:swamp (from Fabric Convention Tags)
+
+#the_bumblezone:sugar_water
+- the_bumblezone:sugar_water_floor (from The Bumblezone - Fabric)
+
+#minecraft:required_ocean_monument_surrounding
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_river (from Default)
+
+#c:in_overworld
+- #minecraft:is_overworld? (from Fabric Convention Tags)
+- minecraft:river (from Fabric Convention Tags)
+- minecraft:frozen_river (from Fabric Convention Tags)
+- minecraft:cold_ocean (from Fabric Convention Tags)
+- minecraft:deep_cold_ocean (from Fabric Convention Tags)
+- minecraft:deep_frozen_ocean (from Fabric Convention Tags)
+- minecraft:deep_ocean (from Fabric Convention Tags)
+- minecraft:deep_lukewarm_ocean (from Fabric Convention Tags)
+- minecraft:warm_ocean (from Fabric Convention Tags)
+- minecraft:lukewarm_ocean (from Fabric Convention Tags)
+- minecraft:frozen_ocean (from Fabric Convention Tags)
+- minecraft:ocean (from Fabric Convention Tags)
+- minecraft:beach (from Fabric Convention Tags)
+- minecraft:plains (from Fabric Convention Tags)
+- minecraft:sunflower_plains (from Fabric Convention Tags)
+- minecraft:snowy_plains (from Fabric Convention Tags)
+- minecraft:ice_spikes (from Fabric Convention Tags)
+- minecraft:desert (from Fabric Convention Tags)
+- minecraft:forest (from Fabric Convention Tags)
+- minecraft:flower_forest (from Fabric Convention Tags)
+- minecraft:birch_forest (from Fabric Convention Tags)
+- minecraft:dark_forest (from Fabric Convention Tags)
+- minecraft:old_growth_birch_forest (from Fabric Convention Tags)
+- minecraft:old_growth_pine_taiga (from Fabric Convention Tags)
+- minecraft:old_growth_spruce_taiga (from Fabric Convention Tags)
+- minecraft:taiga (from Fabric Convention Tags)
+- minecraft:snowy_taiga (from Fabric Convention Tags)
+- minecraft:savanna (from Fabric Convention Tags)
+- minecraft:savanna_plateau (from Fabric Convention Tags)
+- minecraft:windswept_hills (from Fabric Convention Tags)
+- minecraft:windswept_gravelly_hills (from Fabric Convention Tags)
+- minecraft:windswept_forest (from Fabric Convention Tags)
+- minecraft:windswept_savanna (from Fabric Convention Tags)
+- minecraft:jungle (from Fabric Convention Tags)
+- minecraft:sparse_jungle (from Fabric Convention Tags)
+- minecraft:bamboo_jungle (from Fabric Convention Tags)
+- minecraft:badlands (from Fabric Convention Tags)
+- minecraft:eroded_badlands (from Fabric Convention Tags)
+- minecraft:wooded_badlands (from Fabric Convention Tags)
+- minecraft:meadow (from Fabric Convention Tags)
+- minecraft:grove (from Fabric Convention Tags)
+- minecraft:snowy_slopes (from Fabric Convention Tags)
+- minecraft:frozen_peaks (from Fabric Convention Tags)
+- minecraft:jagged_peaks (from Fabric Convention Tags)
+- minecraft:stony_peaks (from Fabric Convention Tags)
+- minecraft:mushroom_fields (from Fabric Convention Tags)
+- minecraft:dripstone_caves (from Fabric Convention Tags)
+- minecraft:lush_caves (from Fabric Convention Tags)
+- minecraft:snowy_beach (from Fabric Convention Tags)
+- minecraft:swamp (from Fabric Convention Tags)
+- minecraft:stony_shore (from Fabric Convention Tags)
+- minecraft:deep_dark (from Fabric Convention Tags)
+- minecraft:mangrove_swamp (from Fabric Convention Tags)
+
+#c:tree_jungle
+- #c:jungle? (from Fabric Convention Tags)
+
+#minecraft:has_structure/ocean_monument
+- #minecraft:is_deep_ocean (from Default)
+
+#minecraft:has_structure/ruined_portal_jungle
+- #minecraft:is_jungle (from Default)
+
+#c:climate_cold
+- minecraft:grove (from Fabric Convention Tags)
+- minecraft:jagged_peaks (from Fabric Convention Tags)
+- minecraft:taiga (from Fabric Convention Tags)
+- minecraft:snowy_taiga (from Fabric Convention Tags)
+- minecraft:old_growth_spruce_taiga (from Fabric Convention Tags)
+- minecraft:old_growth_pine_taiga (from Fabric Convention Tags)
+- #c:icy? (from Fabric Convention Tags)
+
+#minecraft:plays_underwater_music
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_river (from Default)
+
+#the_bumblezone:has_structure/honey_cave_room
+- #the_bumblezone:pillars (from The Bumblezone - Fabric)
+
+#minecraft:has_structure/desert_pyramid
+- minecraft:desert (from Default)
+
+#the_bumblezone:pollinated
+- the_bumblezone:pollinated_pillar (from The Bumblezone - Fabric)
+- the_bumblezone:pollinated_fields (from The Bumblezone - Fabric)
+
+#friendsandfoes:has_desert_mauler
+- minecraft:desert (from Friends&Foes)
+
+#minecraft:has_structure/ruined_portal_ocean
+- #minecraft:is_ocean (from Default)
+
+#c:in_the_end
+- #minecraft:is_end? (from Fabric Convention Tags)
+- minecraft:end_barrens (from Fabric Convention Tags)
+- minecraft:end_midlands (from Fabric Convention Tags)
+- minecraft:end_highlands (from Fabric Convention Tags)
+- minecraft:the_end (from Fabric Convention Tags)
+- minecraft:small_end_islands (from Fabric Convention Tags)
+
+#friendsandfoes:has_more_mooblooms
+- minecraft:flower_forest (from Friends&Foes)
+
+#friendsandfoes:has_badlands_mauler
+- #minecraft:is_badlands (from Friends&Foes)
+
+#c:river
+- #minecraft:is_river? (from Fabric Convention Tags)
+
+#minecraft:is_deep_ocean
+- minecraft:deep_frozen_ocean (from Default)
+- minecraft:deep_cold_ocean (from Default)
+- minecraft:deep_ocean (from Default)
+- minecraft:deep_lukewarm_ocean (from Default)
+
+#minecraft:is_nether
+- minecraft:nether_wastes (from Default)
+- minecraft:soul_sand_valley (from Default)
+- minecraft:crimson_forest (from Default)
+- minecraft:warped_forest (from Default)
+- minecraft:basalt_deltas (from Default)
+
+#c:climate_hot
+- #c:jungle? (from Fabric Convention Tags)
+- #c:savanna? (from Fabric Convention Tags)
+- #c:desert? (from Fabric Convention Tags)
+- #c:badlands? (from Fabric Convention Tags)
+- minecraft:stony_peaks (from Fabric Convention Tags)
+- #c:mushroom? (from Fabric Convention Tags)
+- #c:in_nether? (from Fabric Convention Tags)
+
+#c:desert
+- minecraft:desert (from Fabric Convention Tags)
+
+#the_bumblezone:has_structure/cell_maze
+- #the_bumblezone:regular (from The Bumblezone - Fabric)
+- #the_bumblezone:pollinated (from The Bumblezone - Fabric)
+
+#minecraft:has_structure/woodland_mansion
+- minecraft:dark_forest (from Default)
+
+#c:mountain_peak
+- minecraft:frozen_peaks (from Fabric Convention Tags)
+- minecraft:jagged_peaks (from Fabric Convention Tags)
+- minecraft:stony_peaks (from Fabric Convention Tags)
+
+#the_bumblezone:pillars
+- the_bumblezone:hive_pillar (from The Bumblezone - Fabric)
+- the_bumblezone:pollinated_pillar (from The Bumblezone - Fabric)
+
+#minecraft:has_structure/ocean_ruin_warm
+- minecraft:lukewarm_ocean (from Default)
+- minecraft:warm_ocean (from Default)
+- minecraft:deep_lukewarm_ocean (from Default)
+
+#c:shallow_ocean
+- minecraft:ocean (from Fabric Convention Tags)
+- minecraft:lukewarm_ocean (from Fabric Convention Tags)
+- minecraft:frozen_ocean (from Fabric Convention Tags)
+- minecraft:cold_ocean (from Fabric Convention Tags)
+- minecraft:warm_ocean (from Fabric Convention Tags)
+
+#c:flower_forests
+- minecraft:flower_forest (from Fabric Convention Tags)
+
+#c:tree_deciduous
+- minecraft:forest (from Fabric Convention Tags)
+- minecraft:windswept_forest (from Fabric Convention Tags)
+- minecraft:flower_forest (from Fabric Convention Tags)
+- minecraft:birch_forest (from Fabric Convention Tags)
+- minecraft:dark_forest (from Fabric Convention Tags)
+- minecraft:old_growth_birch_forest (from Fabric Convention Tags)
+
+#minecraft:more_frequent_drowned_spawns
+- #minecraft:is_river (from Default)
+
+#minecraft:has_structure/village_desert
+- minecraft:desert (from Default)
+
+#c:tree_savanna
+- #c:savanna? (from Fabric Convention Tags)
+
+#minecraft:is_forest
+- minecraft:forest (from Default)
+- minecraft:flower_forest (from Default)
+- minecraft:birch_forest (from Default)
+- minecraft:old_growth_birch_forest (from Default)
+- minecraft:dark_forest (from Default)
+- minecraft:grove (from Default)
+
+#ad_astra:has_structure/lunarian_village_biomes
+- ad_astra:lunar_wastelands (from Ad Astra!)
+
+#minecraft:is_overworld
+- minecraft:mushroom_fields (from Default)
+- minecraft:deep_frozen_ocean (from Default)
+- minecraft:frozen_ocean (from Default)
+- minecraft:deep_cold_ocean (from Default)
+- minecraft:cold_ocean (from Default)
+- minecraft:deep_ocean (from Default)
+- minecraft:ocean (from Default)
+- minecraft:deep_lukewarm_ocean (from Default)
+- minecraft:lukewarm_ocean (from Default)
+- minecraft:warm_ocean (from Default)
+- minecraft:stony_shore (from Default)
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+- minecraft:snowy_slopes (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:snowy_beach (from Default)
+- minecraft:windswept_gravelly_hills (from Default)
+- minecraft:grove (from Default)
+- minecraft:windswept_hills (from Default)
+- minecraft:snowy_taiga (from Default)
+- minecraft:windswept_forest (from Default)
+- minecraft:taiga (from Default)
+- minecraft:plains (from Default)
+- minecraft:meadow (from Default)
+- minecraft:beach (from Default)
+- minecraft:forest (from Default)
+- minecraft:old_growth_spruce_taiga (from Default)
+- minecraft:flower_forest (from Default)
+- minecraft:birch_forest (from Default)
+- minecraft:dark_forest (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:savanna (from Default)
+- minecraft:jungle (from Default)
+- minecraft:badlands (from Default)
+- minecraft:desert (from Default)
+- minecraft:wooded_badlands (from Default)
+- minecraft:jagged_peaks (from Default)
+- minecraft:stony_peaks (from Default)
+- minecraft:frozen_river (from Default)
+- minecraft:river (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:old_growth_pine_taiga (from Default)
+- minecraft:sunflower_plains (from Default)
+- minecraft:old_growth_birch_forest (from Default)
+- minecraft:sparse_jungle (from Default)
+- minecraft:bamboo_jungle (from Default)
+- minecraft:eroded_badlands (from Default)
+- minecraft:windswept_savanna (from Default)
+- minecraft:frozen_peaks (from Default)
+- minecraft:dripstone_caves (from Default)
+- minecraft:lush_caves (from Default)
+- minecraft:deep_dark (from Default)
+
+#c:icy
+- minecraft:frozen_peaks (from Fabric Convention Tags)
+- minecraft:ice_spikes (from Fabric Convention Tags)
+
+#supplementaries:has_way_signs
+- betterend:amber_land (from Supplementaries Generated Pack)
+- minecraft:frozen_ocean (from Supplementaries Generated Pack)
+- betterend:empty_aurora_cave (from Supplementaries Generated Pack)
+- spectrum:deeper_down_biome (from Supplementaries Generated Pack)
+- minecraft:swamp (from Supplementaries Generated Pack)
+- minecraft:basalt_deltas (from Supplementaries Generated Pack)
+- betterend:umbrella_jungle (from Supplementaries Generated Pack)
+- betterend:dragon_graveyards (from Supplementaries Generated Pack)
+- minecraft:dark_forest (from Supplementaries Generated Pack)
+- minecraft:frozen_river (from Supplementaries Generated Pack)
+- edenring:mycotic_forest (from Supplementaries Generated Pack)
+- betterend:ice_starfield (from Supplementaries Generated Pack)
+- minecraft:windswept_forest (from Supplementaries Generated Pack)
+- minecraft:deep_ocean (from Supplementaries Generated Pack)
+- betterend:megalake_grove (from Supplementaries Generated Pack)
+- edenring:golden_forest (from Supplementaries Generated Pack)
+- minecraft:stony_peaks (from Supplementaries Generated Pack)
+- minecraft:stony_shore (from Supplementaries Generated Pack)
+- minecraft:nether_wastes (from Supplementaries Generated Pack)
+- betternether:nether_swampland (from Supplementaries Generated Pack)
+- minecraft:deep_lukewarm_ocean (from Supplementaries Generated Pack)
+- betternether:nether_swampland_terraces (from Supplementaries Generated Pack)
+- betterend:glowing_grasslands (from Supplementaries Generated Pack)
+- minecraft:snowy_taiga (from Supplementaries Generated Pack)
+- betternether:poor_nether_grasslands (from Supplementaries Generated Pack)
+- minecraft:river (from Supplementaries Generated Pack)
+- minecraft:the_void (from Supplementaries Generated Pack)
+- minecraft:old_growth_pine_taiga (from Supplementaries Generated Pack)
+- minecraft:deep_cold_ocean (from Supplementaries Generated Pack)
+- betterend:dry_shrubland (from Supplementaries Generated Pack)
+- betterend:megalake (from Supplementaries Generated Pack)
+- edenring:air_ocean (from Supplementaries Generated Pack)
+- betterend:blossoming_spires (from Supplementaries Generated Pack)
+- betterend:empty_end_cave (from Supplementaries Generated Pack)
+- betterend:foggy_mushroomland (from Supplementaries Generated Pack)
+- betternether:soul_plain (from Supplementaries Generated Pack)
+- minecraft:end_highlands (from Supplementaries Generated Pack)
+- betterend:jade_cave (from Supplementaries Generated Pack)
+- edenring:empty_cave (from Supplementaries Generated Pack)
+- minecraft:eroded_badlands (from Supplementaries Generated Pack)
+- betternether:crimson_pinewood (from Supplementaries Generated Pack)
+- betterend:umbra_valley (from Supplementaries Generated Pack)
+- betternether:flooded_deltas (from Supplementaries Generated Pack)
+- minecraft:plains (from Supplementaries Generated Pack)
+- betternether:wart_forest (from Supplementaries Generated Pack)
+- minecraft:snowy_beach (from Supplementaries Generated Pack)
+- betterend:neon_oasis (from Supplementaries Generated Pack)
+- betternether:upside_down_forest (from Supplementaries Generated Pack)
+- betternether:upside_down_forest_cleared (from Supplementaries Generated Pack)
+- edenring:pulse_forest (from Supplementaries Generated Pack)
+- betterend:shadow_forest (from Supplementaries Generated Pack)
+- betternether:nether_jungle (from Supplementaries Generated Pack)
+- minecraft:sparse_jungle (from Supplementaries Generated Pack)
+- betternether:nether_mushroom_forest (from Supplementaries Generated Pack)
+- minecraft:jungle (from Supplementaries Generated Pack)
+- minecraft:snowy_slopes (from Supplementaries Generated Pack)
+- minecraft:ocean (from Supplementaries Generated Pack)
+- minecraft:cold_ocean (from Supplementaries Generated Pack)
+- minecraft:warped_forest (from Supplementaries Generated Pack)
+- betterend:chorus_forest (from Supplementaries Generated Pack)
+- betternether:gravel_desert (from Supplementaries Generated Pack)
+- minecraft:badlands (from Supplementaries Generated Pack)
+- betternether:wart_forest_edge (from Supplementaries Generated Pack)
+- minecraft:windswept_hills (from Supplementaries Generated Pack)
+- edenring:brainstorm (from Supplementaries Generated Pack)
+- terrablender:deferred_placeholder (from Supplementaries Generated Pack)
+- minecraft:windswept_savanna (from Supplementaries Generated Pack)
+- minecraft:savanna_plateau (from Supplementaries Generated Pack)
+- minecraft:taiga (from Supplementaries Generated Pack)
+- minecraft:savanna (from Supplementaries Generated Pack)
+- edenring:sky_colony (from Supplementaries Generated Pack)
+- minecraft:dripstone_caves (from Supplementaries Generated Pack)
+- minecraft:ice_spikes (from Supplementaries Generated Pack)
+- minecraft:frozen_peaks (from Supplementaries Generated Pack)
+- minecraft:crimson_forest (from Supplementaries Generated Pack)
+- minecraft:lush_caves (from Supplementaries Generated Pack)
+- betterend:lantern_woods (from Supplementaries Generated Pack)
+- edenring:eroded_cave (from Supplementaries Generated Pack)
+- minecraft:old_growth_spruce_taiga (from Supplementaries Generated Pack)
+- minecraft:deep_dark (from Supplementaries Generated Pack)
+- minecraft:lukewarm_ocean (from Supplementaries Generated Pack)
+- betterend:empty_smaragdant_cave (from Supplementaries Generated Pack)
+- minecraft:warm_ocean (from Supplementaries Generated Pack)
+- minecraft:forest (from Supplementaries Generated Pack)
+- betterend:sulphur_springs (from Supplementaries Generated Pack)
+- minecraft:end_midlands (from Supplementaries Generated Pack)
+- edenring:wind_valley (from Supplementaries Generated Pack)
+- minecraft:sunflower_plains (from Supplementaries Generated Pack)
+- betterend:dust_wastelands (from Supplementaries Generated Pack)
+- betterend:lush_smaragdant_cave (from Supplementaries Generated Pack)
+- edenring:stone_garden (from Supplementaries Generated Pack)
+- minecraft:flower_forest (from Supplementaries Generated Pack)
+- minecraft:old_growth_birch_forest (from Supplementaries Generated Pack)
+- minecraft:desert (from Supplementaries Generated Pack)
+- minecraft:beach (from Supplementaries Generated Pack)
+- minecraft:grove (from Supplementaries Generated Pack)
+- betternether:bone_reef (from Supplementaries Generated Pack)
+- minecraft:deep_frozen_ocean (from Supplementaries Generated Pack)
+- betternether:magma_land (from Supplementaries Generated Pack)
+- minecraft:windswept_gravelly_hills (from Supplementaries Generated Pack)
+- betterend:painted_mountains (from Supplementaries Generated Pack)
+- betterend:crystal_mountains (from Supplementaries Generated Pack)
+- minecraft:snowy_plains (from Supplementaries Generated Pack)
+- betternether:sulfuric_bone_reef (from Supplementaries Generated Pack)
+- betternether:old_warped_woods (from Supplementaries Generated Pack)
+- minecraft:jagged_peaks (from Supplementaries Generated Pack)
+- betternether:old_swampland (from Supplementaries Generated Pack)
+- betterend:lush_aurora_cave (from Supplementaries Generated Pack)
+- minecraft:bamboo_jungle (from Supplementaries Generated Pack)
+- minecraft:end_barrens (from Supplementaries Generated Pack)
+- betternether:nether_grasslands (from Supplementaries Generated Pack)
+- minecraft:small_end_islands (from Supplementaries Generated Pack)
+- minecraft:meadow (from Supplementaries Generated Pack)
+- minecraft:the_end (from Supplementaries Generated Pack)
+- ae2:spatial_storage (from Supplementaries Generated Pack)
+- edenring:old_mycotic_forest (from Supplementaries Generated Pack)
+- betternether:crimson_glowing_woods (from Supplementaries Generated Pack)
+- betternether:old_fungiwoods (from Supplementaries Generated Pack)
+- edenring:lakeside_desert (from Supplementaries Generated Pack)
+- minecraft:mangrove_swamp (from Supplementaries Generated Pack)
+- minecraft:birch_forest (from Supplementaries Generated Pack)
+- betternether:nether_mushroom_forest_edge (from Supplementaries Generated Pack)
+- minecraft:soul_sand_valley (from Supplementaries Generated Pack)
+- minecraft:wooded_badlands (from Supplementaries Generated Pack)
+- betterend:amber_land (from Supplementaries Generated Pack)
+- minecraft:frozen_ocean (from Supplementaries Generated Pack)
+- betterend:empty_aurora_cave (from Supplementaries Generated Pack)
+- spectrum:deeper_down_biome (from Supplementaries Generated Pack)
+- minecraft:swamp (from Supplementaries Generated Pack)
+- minecraft:basalt_deltas (from Supplementaries Generated Pack)
+- betterend:umbrella_jungle (from Supplementaries Generated Pack)
+- betterend:dragon_graveyards (from Supplementaries Generated Pack)
+- minecraft:dark_forest (from Supplementaries Generated Pack)
+- minecraft:frozen_river (from Supplementaries Generated Pack)
+- edenring:mycotic_forest (from Supplementaries Generated Pack)
+- betterend:ice_starfield (from Supplementaries Generated Pack)
+- minecraft:windswept_forest (from Supplementaries Generated Pack)
+- minecraft:deep_ocean (from Supplementaries Generated Pack)
+- betterend:megalake_grove (from Supplementaries Generated Pack)
+- edenring:golden_forest (from Supplementaries Generated Pack)
+- minecraft:stony_peaks (from Supplementaries Generated Pack)
+- minecraft:stony_shore (from Supplementaries Generated Pack)
+- minecraft:nether_wastes (from Supplementaries Generated Pack)
+- betternether:nether_swampland (from Supplementaries Generated Pack)
+- minecraft:deep_lukewarm_ocean (from Supplementaries Generated Pack)
+- betternether:nether_swampland_terraces (from Supplementaries Generated Pack)
+- betterend:glowing_grasslands (from Supplementaries Generated Pack)
+- minecraft:snowy_taiga (from Supplementaries Generated Pack)
+- betternether:poor_nether_grasslands (from Supplementaries Generated Pack)
+- minecraft:river (from Supplementaries Generated Pack)
+- minecraft:the_void (from Supplementaries Generated Pack)
+- minecraft:old_growth_pine_taiga (from Supplementaries Generated Pack)
+- minecraft:deep_cold_ocean (from Supplementaries Generated Pack)
+- betterend:dry_shrubland (from Supplementaries Generated Pack)
+- betterend:megalake (from Supplementaries Generated Pack)
+- edenring:air_ocean (from Supplementaries Generated Pack)
+- betterend:blossoming_spires (from Supplementaries Generated Pack)
+- betterend:empty_end_cave (from Supplementaries Generated Pack)
+- betterend:foggy_mushroomland (from Supplementaries Generated Pack)
+- betternether:soul_plain (from Supplementaries Generated Pack)
+- minecraft:end_highlands (from Supplementaries Generated Pack)
+- betterend:jade_cave (from Supplementaries Generated Pack)
+- edenring:empty_cave (from Supplementaries Generated Pack)
+- minecraft:eroded_badlands (from Supplementaries Generated Pack)
+- betternether:crimson_pinewood (from Supplementaries Generated Pack)
+- betterend:umbra_valley (from Supplementaries Generated Pack)
+- betternether:flooded_deltas (from Supplementaries Generated Pack)
+- minecraft:plains (from Supplementaries Generated Pack)
+- betternether:wart_forest (from Supplementaries Generated Pack)
+- minecraft:snowy_beach (from Supplementaries Generated Pack)
+- betterend:neon_oasis (from Supplementaries Generated Pack)
+- betternether:upside_down_forest (from Supplementaries Generated Pack)
+- betternether:upside_down_forest_cleared (from Supplementaries Generated Pack)
+- edenring:pulse_forest (from Supplementaries Generated Pack)
+- betterend:shadow_forest (from Supplementaries Generated Pack)
+- betternether:nether_jungle (from Supplementaries Generated Pack)
+- minecraft:sparse_jungle (from Supplementaries Generated Pack)
+- betternether:nether_mushroom_forest (from Supplementaries Generated Pack)
+- minecraft:jungle (from Supplementaries Generated Pack)
+- minecraft:snowy_slopes (from Supplementaries Generated Pack)
+- minecraft:ocean (from Supplementaries Generated Pack)
+- minecraft:cold_ocean (from Supplementaries Generated Pack)
+- minecraft:warped_forest (from Supplementaries Generated Pack)
+- betterend:chorus_forest (from Supplementaries Generated Pack)
+- betternether:gravel_desert (from Supplementaries Generated Pack)
+- minecraft:badlands (from Supplementaries Generated Pack)
+- betternether:wart_forest_edge (from Supplementaries Generated Pack)
+- minecraft:windswept_hills (from Supplementaries Generated Pack)
+- edenring:brainstorm (from Supplementaries Generated Pack)
+- terrablender:deferred_placeholder (from Supplementaries Generated Pack)
+- minecraft:windswept_savanna (from Supplementaries Generated Pack)
+- minecraft:savanna_plateau (from Supplementaries Generated Pack)
+- minecraft:taiga (from Supplementaries Generated Pack)
+- minecraft:savanna (from Supplementaries Generated Pack)
+- edenring:sky_colony (from Supplementaries Generated Pack)
+- minecraft:dripstone_caves (from Supplementaries Generated Pack)
+- minecraft:ice_spikes (from Supplementaries Generated Pack)
+- minecraft:frozen_peaks (from Supplementaries Generated Pack)
+- minecraft:crimson_forest (from Supplementaries Generated Pack)
+- minecraft:lush_caves (from Supplementaries Generated Pack)
+- betterend:lantern_woods (from Supplementaries Generated Pack)
+- edenring:eroded_cave (from Supplementaries Generated Pack)
+- minecraft:old_growth_spruce_taiga (from Supplementaries Generated Pack)
+- minecraft:deep_dark (from Supplementaries Generated Pack)
+- minecraft:lukewarm_ocean (from Supplementaries Generated Pack)
+- betterend:empty_smaragdant_cave (from Supplementaries Generated Pack)
+- minecraft:warm_ocean (from Supplementaries Generated Pack)
+- minecraft:forest (from Supplementaries Generated Pack)
+- betterend:sulphur_springs (from Supplementaries Generated Pack)
+- minecraft:end_midlands (from Supplementaries Generated Pack)
+- edenring:wind_valley (from Supplementaries Generated Pack)
+- minecraft:sunflower_plains (from Supplementaries Generated Pack)
+- betterend:dust_wastelands (from Supplementaries Generated Pack)
+- betterend:lush_smaragdant_cave (from Supplementaries Generated Pack)
+- edenring:stone_garden (from Supplementaries Generated Pack)
+- minecraft:flower_forest (from Supplementaries Generated Pack)
+- minecraft:old_growth_birch_forest (from Supplementaries Generated Pack)
+- minecraft:desert (from Supplementaries Generated Pack)
+- minecraft:beach (from Supplementaries Generated Pack)
+- minecraft:grove (from Supplementaries Generated Pack)
+- betternether:bone_reef (from Supplementaries Generated Pack)
+- minecraft:deep_frozen_ocean (from Supplementaries Generated Pack)
+- betternether:magma_land (from Supplementaries Generated Pack)
+- minecraft:windswept_gravelly_hills (from Supplementaries Generated Pack)
+- betterend:painted_mountains (from Supplementaries Generated Pack)
+- betterend:crystal_mountains (from Supplementaries Generated Pack)
+- minecraft:snowy_plains (from Supplementaries Generated Pack)
+- betternether:sulfuric_bone_reef (from Supplementaries Generated Pack)
+- betternether:old_warped_woods (from Supplementaries Generated Pack)
+- minecraft:jagged_peaks (from Supplementaries Generated Pack)
+- betternether:old_swampland (from Supplementaries Generated Pack)
+- betterend:lush_aurora_cave (from Supplementaries Generated Pack)
+- minecraft:bamboo_jungle (from Supplementaries Generated Pack)
+- minecraft:end_barrens (from Supplementaries Generated Pack)
+- betternether:nether_grasslands (from Supplementaries Generated Pack)
+- minecraft:small_end_islands (from Supplementaries Generated Pack)
+- minecraft:meadow (from Supplementaries Generated Pack)
+- minecraft:the_end (from Supplementaries Generated Pack)
+- ae2:spatial_storage (from Supplementaries Generated Pack)
+- edenring:old_mycotic_forest (from Supplementaries Generated Pack)
+- betternether:crimson_glowing_woods (from Supplementaries Generated Pack)
+- betternether:old_fungiwoods (from Supplementaries Generated Pack)
+- edenring:lakeside_desert (from Supplementaries Generated Pack)
+- minecraft:mangrove_swamp (from Supplementaries Generated Pack)
+- minecraft:birch_forest (from Supplementaries Generated Pack)
+- betternether:nether_mushroom_forest_edge (from Supplementaries Generated Pack)
+- minecraft:soul_sand_valley (from Supplementaries Generated Pack)
+- minecraft:wooded_badlands (from Supplementaries Generated Pack)
+
+#minecraft:has_structure/village_savanna
+- minecraft:savanna (from Default)
+
+#c:stony_shores
+- minecraft:stony_shore (from Fabric Convention Tags)
+
+#minecraft:without_patrol_spawns
+- minecraft:mushroom_fields (from Default)
+
+#c:mountain_slope
+- minecraft:snowy_slopes (from Fabric Convention Tags)
+
+#minecraft:has_structure/village_taiga
+- minecraft:taiga (from Default)
+
+#minecraft:allows_tropical_fish_spawns_at_any_height
+- minecraft:lush_caves (from Default)
+
+#spectrum:has_structure/underground_structures
+- #minecraft:is_overworld (from Spectrum)
+
+#c:void
+- minecraft:the_void (from Fabric Convention Tags)
+
+#minecraft:polar_bears_spawn_on_alternate_blocks
+- minecraft:frozen_ocean (from Default)
+- minecraft:deep_frozen_ocean (from Default)
+
+#minecraft:has_closer_water_fog
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+
+#minecraft:has_structure/village_plains
+- minecraft:plains (from Default)
+- minecraft:meadow (from Default)
+
+#friendsandfoes:has_savanna_mauler
+- #minecraft:is_savanna (from Friends&Foes)
+- #forge:is_savanna? (from Friends&Foes)
+- #c:savanna? (from Friends&Foes)
+
+#supplementaries:has_wild_flax
+
+#ad_astra:has_structure/mars_temple_biomes
+- ad_astra:martian_wastelands (from Ad Astra!)
+- ad_astra:martian_canyon_creek (from Ad Astra!)
+
+#c:ocean
+- #c:deep_ocean? (from Fabric Convention Tags)
+- #c:shallow_ocean? (from Fabric Convention Tags)
+- #minecraft:is_ocean? (from Fabric Convention Tags)
+
+#minecraft:without_wandering_trader_spawns
+- minecraft:the_void (from Default)
+
+#minecraft:has_structure/ruined_portal_desert
+- minecraft:desert (from Default)
+
+#friendsandfoes:has_structure/illusioner_shack
+- minecraft:taiga (from Friends&Foes)
+- minecraft:old_growth_pine_taiga (from Friends&Foes)
+- minecraft:old_growth_spruce_taiga (from Friends&Foes)
+
+#minecraft:has_structure/ruined_portal_swamp
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+
+#the_bumblezone:has_structure/throne_pillar
+- #the_bumblezone:sugar_water (from The Bumblezone - Fabric)
+
+#ad_astra:has_structure/venus_bullet_biomes
+- ad_astra:venus_wastelands (from Ad Astra!)
+
+#minecraft:has_structure/swamp_hut
+- minecraft:swamp (from Default)
+
+#minecraft:spawns_cold_variant_frogs
+- minecraft:snowy_plains (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:frozen_peaks (from Default)
+- minecraft:jagged_peaks (from Default)
+- minecraft:snowy_slopes (from Default)
+- minecraft:frozen_ocean (from Default)
+- minecraft:deep_frozen_ocean (from Default)
+- minecraft:grove (from Default)
+- minecraft:deep_dark (from Default)
+- minecraft:frozen_river (from Default)
+- minecraft:snowy_taiga (from Default)
+- minecraft:snowy_beach (from Default)
+- #minecraft:is_end (from Default)
+
+#friendsandfoes:has_glare
+- minecraft:lush_caves (from Friends&Foes)
+
+#minecraft:has_structure/ruined_portal_nether
+- #minecraft:is_nether (from Default)
+
+#minecraft:only_allows_snow_and_gold_rabbits
+- minecraft:desert (from Default)
+
+#minecraft:is_end
+- minecraft:the_end (from Default)
+- minecraft:end_highlands (from Default)
+- minecraft:end_midlands (from Default)
+- minecraft:small_end_islands (from Default)
+- minecraft:end_barrens (from Default)
+
+#c:climate_dry
+- #c:in_nether? (from Fabric Convention Tags)
+- #c:badlands? (from Fabric Convention Tags)
+- #c:desert? (from Fabric Convention Tags)
+- #c:savanna? (from Fabric Convention Tags)
+
+#minecraft:stronghold_biased_to
+- minecraft:plains (from Default)
+- minecraft:sunflower_plains (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:desert (from Default)
+- minecraft:forest (from Default)
+- minecraft:flower_forest (from Default)
+- minecraft:birch_forest (from Default)
+- minecraft:dark_forest (from Default)
+- minecraft:old_growth_birch_forest (from Default)
+- minecraft:old_growth_pine_taiga (from Default)
+- minecraft:old_growth_spruce_taiga (from Default)
+- minecraft:taiga (from Default)
+- minecraft:snowy_taiga (from Default)
+- minecraft:savanna (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:windswept_hills (from Default)
+- minecraft:windswept_gravelly_hills (from Default)
+- minecraft:windswept_forest (from Default)
+- minecraft:windswept_savanna (from Default)
+- minecraft:jungle (from Default)
+- minecraft:sparse_jungle (from Default)
+- minecraft:bamboo_jungle (from Default)
+- minecraft:badlands (from Default)
+- minecraft:eroded_badlands (from Default)
+- minecraft:wooded_badlands (from Default)
+- minecraft:meadow (from Default)
+- minecraft:grove (from Default)
+- minecraft:snowy_slopes (from Default)
+- minecraft:frozen_peaks (from Default)
+- minecraft:jagged_peaks (from Default)
+- minecraft:stony_peaks (from Default)
+- minecraft:mushroom_fields (from Default)
+- minecraft:dripstone_caves (from Default)
+- minecraft:lush_caves (from Default)
+
+#ad_astra:has_structure/meteor_biomes
+- #minecraft:is_jungle (from Ad Astra!)
+- #minecraft:is_forest (from Ad Astra!)
+- #minecraft:is_taiga (from Ad Astra!)
+- minecraft:desert (from Ad Astra!)
+- minecraft:plains (from Ad Astra!)
+- minecraft:snowy_plains (from Ad Astra!)
+- minecraft:sunflower_plains (from Ad Astra!)
+- minecraft:savanna (from Ad Astra!)
+- minecraft:savanna_plateau (from Ad Astra!)
+- minecraft:windswept_savanna (from Ad Astra!)
+
+#minecraft:without_zombie_sieges
+- minecraft:mushroom_fields (from Default)
+
+#minecraft:is_beach
+- minecraft:beach (from Default)
+- minecraft:snowy_beach (from Default)
+
+#minecraft:has_structure/ruined_portal_standard
+- #minecraft:is_beach (from Default)
+- #minecraft:is_river (from Default)
+- #minecraft:is_taiga (from Default)
+- #minecraft:is_forest (from Default)
+- minecraft:mushroom_fields (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:dripstone_caves (from Default)
+- minecraft:lush_caves (from Default)
+- minecraft:savanna (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:plains (from Default)
+- minecraft:sunflower_plains (from Default)
+
+#minecraft:has_structure/pillager_outpost
+- minecraft:desert (from Default)
+- minecraft:plains (from Default)
+- minecraft:savanna (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:taiga (from Default)
+- #minecraft:is_mountain (from Default)
+- minecraft:grove (from Default)
+
+#c:mesa
+- minecraft:wooded_badlands (from Fabric Convention Tags)
+- minecraft:eroded_badlands (from Fabric Convention Tags)
+- minecraft:badlands (from Fabric Convention Tags)
+
+#minecraft:is_taiga
+- minecraft:taiga (from Default)
+- minecraft:snowy_taiga (from Default)
+- minecraft:old_growth_pine_taiga (from Default)
+- minecraft:old_growth_spruce_taiga (from Default)
+
+#minecraft:spawns_warm_variant_frogs
+- minecraft:desert (from Default)
+- minecraft:warm_ocean (from Default)
+- #minecraft:is_jungle (from Default)
+- #minecraft:is_savanna (from Default)
+- #minecraft:is_nether (from Default)
+- #minecraft:is_badlands (from Default)
+- minecraft:mangrove_swamp (from Default)
+
+#minecraft:mineshaft_blocking
+- minecraft:deep_dark (from Default)
+
+#the_bumblezone:has_structure/pollinated_stream
+- #the_bumblezone:pollinated (from The Bumblezone - Fabric)
+
+#minecraft:is_mountain
+- minecraft:meadow (from Default)
+- minecraft:frozen_peaks (from Default)
+- minecraft:jagged_peaks (from Default)
+- minecraft:stony_peaks (from Default)
+- minecraft:snowy_slopes (from Default)
+
+#c:plains
+- minecraft:sunflower_plains (from Fabric Convention Tags)
+- minecraft:plains (from Fabric Convention Tags)
+
+#minecraft:has_structure/village_snowy
+- minecraft:snowy_plains (from Default)
+
+#c:snowy
+- minecraft:snowy_beach (from Fabric Convention Tags)
+- minecraft:snowy_plains (from Fabric Convention Tags)
+- minecraft:snowy_slopes (from Fabric Convention Tags)
+- minecraft:snowy_taiga (from Fabric Convention Tags)
+
+#friendsandfoes:has_illusioner
+- minecraft:taiga (from Friends&Foes)
+- minecraft:old_growth_pine_taiga (from Friends&Foes)
+- minecraft:old_growth_spruce_taiga (from Friends&Foes)
+
+#minecraft:is_badlands
+- minecraft:badlands (from Default)
+- minecraft:eroded_badlands (from Default)
+- minecraft:wooded_badlands (from Default)
+
+#c:climate_temperate
+- minecraft:forest (from Fabric Convention Tags)
+- minecraft:sunflower_plains (from Fabric Convention Tags)
+- minecraft:swamp (from Fabric Convention Tags)
+- minecraft:stony_shore (from Fabric Convention Tags)
+- minecraft:dark_forest (from Fabric Convention Tags)
+- minecraft:windswept_forest (from Fabric Convention Tags)
+- minecraft:birch_forest (from Fabric Convention Tags)
+- minecraft:old_growth_birch_forest (from Fabric Convention Tags)
+- minecraft:meadow (from Fabric Convention Tags)
+- minecraft:plains (from Fabric Convention Tags)
+
+#c:aquatic
+- #c:ocean? (from Fabric Convention Tags)
+- #c:river? (from Fabric Convention Tags)
+
+#c:taiga
+- #minecraft:is_taiga? (from Fabric Convention Tags)
+
+#c:aquatic_icy
+- minecraft:frozen_river (from Fabric Convention Tags)
+- minecraft:deep_frozen_ocean (from Fabric Convention Tags)
+- minecraft:frozen_ocean (from Fabric Convention Tags)
+
+#bwplus:has_structure/structure_yew_tree_house_biomes
+- #minecraft:is_mountain (from Bewitchment Plus)
+
+#minecraft:has_structure/nether_fossil
+- minecraft:soul_sand_valley (from Default)
+
+#c:vegetation_sparse
+- #c:savanna? (from Fabric Convention Tags)
+- #c:desert? (from Fabric Convention Tags)
+- #c:dead? (from Fabric Convention Tags)
+- minecraft:lush_caves (from Fabric Convention Tags)
+- #c:wasteland? (from Fabric Convention Tags)
+
+#minecraft:has_structure/end_city
+- minecraft:end_highlands (from Default)
+- minecraft:end_midlands (from Default)
+
+#friendsandfoes:has_iceologer
+- minecraft:snowy_taiga (from Friends&Foes)
+- minecraft:snowy_plains (from Friends&Foes)
+- minecraft:grove (from Friends&Foes)
+
+#ad_astra:has_structure/oil_well_biomes
+- #minecraft:is_ocean (from Ad Astra!)
+- #minecraft:is_deep_ocean (from Ad Astra!)
+- minecraft:swamp (from Ad Astra!)
+
+#c:beach
+- #minecraft:is_beach? (from Fabric Convention Tags)
+- minecraft:stony_shore (from Fabric Convention Tags)
+
+#c:extreme_hills
+- minecraft:windswept_gravelly_hills (from Fabric Convention Tags)
+- minecraft:windswept_hills (from Fabric Convention Tags)
+
+#minecraft:reduce_water_ambient_spawns
+- #minecraft:is_river (from Default)
+
+#minecraft:has_structure/bastion_remnant
+- minecraft:crimson_forest (from Default)
+- minecraft:nether_wastes (from Default)
+- minecraft:soul_sand_valley (from Default)
+- minecraft:warped_forest (from Default)
+
+#minecraft:has_structure/ruined_portal_mountain
+- #minecraft:is_badlands (from Default)
+- #minecraft:is_hill (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:windswept_savanna (from Default)
+- minecraft:stony_shore (from Default)
+- #minecraft:is_mountain (from Default)

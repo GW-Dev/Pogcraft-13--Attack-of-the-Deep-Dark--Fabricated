@@ -239,3 +239,4 @@
 #EAD916 spectrum:yellow_leaves
 #CC6A83 minecraft:yellow_terracotta
 #97FF93 minecraft:yellow_wool
+#6B2AE1 bwplus:yew_leaves

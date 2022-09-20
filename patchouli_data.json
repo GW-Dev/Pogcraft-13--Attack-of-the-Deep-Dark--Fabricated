@@ -18,6 +18,16 @@
       "viewedEntries": [],
       "bookmarks": [],
       "completedManualQuests": []
+    },
+    "ad_astra:astrodux": {
+      "viewedEntries": [
+        "ad_astra:the_first_launch/basic_materials",
+        "ad_astra:the_first_launch/your_first_rocket",
+        "ad_astra:the_first_launch/fuel",
+        "ad_astra:the_first_launch/oxygen"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
     }
   }
 }
