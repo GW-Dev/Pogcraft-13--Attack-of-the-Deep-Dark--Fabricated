@@ -19,6 +19,7 @@ REIEvents.hide('item', e => {
 		'ad_astra:ostrum_fluid_pipe',
 		'ad_astra:nasa_workbench',
 		'ae2:silicon',
+		'ae2:vibration_chamber',
 		'chemlib:platinum_dust',
 		'chemlib:platinum_nugget',
 		'chemlib:platinum_ingot',

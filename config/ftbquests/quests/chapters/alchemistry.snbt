@@ -1,0 +1,157 @@
+{
+	id: "4BF269EBE370CE78"
+	group: "0815C5D80307ECDF"
+	order_index: 2
+	filename: "alchemistry"
+	title: "Alchemistry"
+	icon: "chemlib:periodic_table"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: -3.0d
+			dependencies: ["16EC7A910C0CB599"]
+			id: "413F40CD60C5797A"
+			tasks: [{
+				id: "1D86DBD068CA55E7"
+				type: "item"
+				item: "alchemistry:dissolver"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			dependencies: ["16EC7A910C0CB599"]
+			id: "6F79F8C348676EB4"
+			tasks: [{
+				id: "14BBB8D21D2A5158"
+				type: "item"
+				item: "alchemistry:combiner"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["16EC7A910C0CB599"]
+			id: "5336BB9848B657AA"
+			tasks: [{
+				id: "2F44058336136478"
+				type: "item"
+				item: "alchemistry:liquifier"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["16EC7A910C0CB599"]
+			id: "1BC8323A5E352759"
+			tasks: [{
+				id: "77858A775B3C92A9"
+				type: "item"
+				item: "alchemistry:atomizer"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["16EC7A910C0CB599"]
+			id: "1CBC47C0F929589A"
+			tasks: [{
+				id: "33C0DBFE890644A3"
+				type: "item"
+				item: "alchemistry:compactor"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["40943AA552BA35C2"]
+			id: "21AB89347E7F3E9E"
+			tasks: [
+				{
+					id: "61E13961B64655F4"
+					type: "item"
+					item: "alchemistry:fusion_core"
+				}
+				{
+					id: "3F03546612933382"
+					type: "item"
+					item: "alchemistry:reactor_glass"
+				}
+				{
+					id: "6D1B69D7CB63858D"
+					type: "item"
+					item: "alchemistry:reactor_casing"
+				}
+				{
+					id: "5290E50BA7B788CF"
+					type: "item"
+					item: "alchemistry:fusion_core"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: [
+				"01BBE636EBB71416"
+				"16EC7A910C0CB599"
+			]
+			hide: true
+			id: "40943AA552BA35C2"
+			tasks: [
+				{
+					id: "40006CEE3EE87E0D"
+					type: "item"
+					item: "alchemistry:fission_core"
+				}
+				{
+					id: "016FAD41FCDD6F03"
+					type: "item"
+					item: "alchemistry:reactor_glass"
+				}
+				{
+					id: "5089373AA44D4E33"
+					type: "item"
+					item: "alchemistry:reactor_casing"
+				}
+				{
+					id: "67085A62E60224AB"
+					type: "item"
+					item: "alchemistry:fission_chamber_controller"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["6B522DC6845DB558"]
+			id: "16EC7A910C0CB599"
+			tasks: [{
+				id: "2A2234E85AA0324F"
+				type: "item"
+				item: "modern_industrialization:advanced_upgrade"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: [
+				"1BC8323A5E352759"
+				"5336BB9848B657AA"
+				"1CBC47C0F929589A"
+				"6F79F8C348676EB4"
+				"413F40CD60C5797A"
+			]
+			hide: false
+			hide_text_until_complete: true
+			id: "1A471699B7918F17"
+			tasks: [{
+				id: "431C34D6A9FE47D5"
+				type: "item"
+				item: "alchemicaldrugs:methamphetamine"
+			}]
+		}
+	]
+}

@@ -88,6 +88,17 @@
         "value": 10000000
       }
     },
+    "porting_lib:step_height_addition": {
+      "enabled": false,
+      "min": {
+        "default": -512,
+        "value": -512
+      },
+      "max": {
+        "default": 512,
+        "value": 10000000
+      }
+    },
     "minecraft:generic.luck": {
       "enabled": true,
       "min": {
@@ -121,6 +132,17 @@
         "value": 10000000
       }
     },
+    "porting_lib:swim_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
     "arcanus:burnout_regen": {
       "enabled": false,
       "min": {
@@ -140,6 +162,17 @@
       },
       "max": {
         "default": 1024,
+        "value": 10000000
+      }
+    },
+    "porting_lib:entity_gravity": {
+      "enabled": false,
+      "min": {
+        "default": -8,
+        "value": -8
+      },
+      "max": {
+        "default": 8,
         "value": 10000000
       }
     },

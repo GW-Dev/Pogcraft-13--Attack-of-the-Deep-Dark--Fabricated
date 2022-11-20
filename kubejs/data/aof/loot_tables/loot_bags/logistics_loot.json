@@ -1,0 +1,119 @@
+  {
+      "type": "minecraft:chest",
+      "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "ae2:logic_processor",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "ae2:calculation_processor",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "ae2:engineering_processor",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "ae2:certus_quartz_crystal",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "ae2:ender_dust",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 4
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "ae2:fluix_glass_cable",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "ae2:fluix_smart_cable",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 8
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "ae2:formation_core",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 2
+                }
+              ]
+            },            {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "ae2:annihilation_core",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "dankstorage:dank_1",
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }

@@ -2,11 +2,67 @@
 
 console.info('Hello, World! (You will see this line every time server resources reload)')
 
+ServerEvents.tags('item', event => {
+	// Get the #forge:cobblestone tag collection and add Diamond Ore to it
+	// event.get('forge:cobblestone').add('minecraft:diamond_ore')
+	event.add('fabric:tools/axes', 'additionaladditions:rose_gold_axe')
+	event.add('fabric:tools/axes', 'additionaladditions:gilded_netherite_axe')
+	event.add('fabric:tools/axes', 'modern_industrialization:diesel_chainsaw')
+	event.add('fabric:tools/axes', 'spectrum:multitool')
+	event.add('fabric:tools/axes', 'spectrum:bedrock_axe')
+	event.add('fabric:tools/axes', 'ae2:certus_quartz_axe')
+	event.add('fabric:tools/axes', 'ae2:nether_quartz_axe')
+	event.add('c:cooked_eggs', 'additionaladditions:fried_egg')
+	event.add('c:iron_rods', 'modern_industrialization:iron_rod')
+	event.add('c:raw_silver_ores', 'bewitchment:raw_silver')
+	event.remove('c:steel_ingots', 'ad_astra:steel_ingot')
+	event.remove('c:steel_nuggets', 'ad_astra:steel_nugget')
+	event.remove('c:steel_blocks', 'ad_astra:steel_block')
+	event.remove('c:steel_plates', 'ad_astra:steel_plate')
+	event.remove('c:iron_plates', 'ad_astra:iron_plate')
+	event.remove('c:iron_rods', 'ad_astra:iron_rod')
+
+	event.remove('c:platinum_dusts', 'chemlib:platinum_dust')
+	event.remove('c:platinum_nuggets', 'chemlib:platinum_nugget')
+	event.remove('c:platinum_ingots', 'chemlib:platinum_ingot')
+	event.remove('c:platinum_plates', 'chemlib:platinum_plate')
+
+	event.remove('c:tungsten_dusts', 'chemlib:tungsten_dust')
+	event.remove('c:tungsten_nuggets', 'chemlib:tungsten_nugget')
+	event.remove('c:tungsten_ingots', 'chemlib:tungsten_ingot')
+	event.remove('c:tungsten_plates', 'chemlib:tungsten_plate')
+
+	event.remove('c:aluminum_dusts', 'chemlib:aluminum_dust')
+	event.remove('c:aluminum_nuggets', 'chemlib:aluminum_nugget')
+	event.remove('c:aluminum_ingots', 'chemlib:aluminum_ingot')
+	event.remove('c:aluminum_plates', 'chemlib:aluminum_plate')
+
+	event.remove('c:chromium_dusts', 'chemlib:chromium_dust')
+	event.remove('c:chromium_nuggets', 'chemlib:chromium_nugget')
+	event.remove('c:chromium_ingots', 'chemlib:chromium_ingot')
+	event.remove('c:chromium_plates', 'chemlib:chromium_plate')
+
+	event.remove('c:manganese_dusts', 'chemlib:manganese_dust')
+	event.remove('c:manganese_nuggets', 'chemlib:manganese_nugget')
+	event.remove('c:manganese_ingots', 'chemlib:manganese_ingot')
+	event.remove('c:manganese_plates', 'chemlib:manganese_plate')
+
+	event.remove('c:titanium_dusts', 'chemlib:titanium_dust')
+	event.remove('c:titanium_nuggets', 'chemlib:titanium_nugget')
+	event.remove('c:titanium_ingots', 'chemlib:titanium_ingot')
+	event.remove('c:titanium_plates', 'chemlib:titanium_plate')
+	
+	// Get the #forge:cobblestone tag collection and remove Mossy Cobblestone from it
+	// event.get('forge:cobblestone').remove('minecraft:mossy_cobblestone')
+})
+
 ServerEvents.recipes(event => {
 	// Change recipes here
 	event.replaceInput({mod: 'farmersdelight'}, 'farmersdelight:fried_egg', '#c:cooked_eggs')
+	event.replaceInput({mod: 'ad_astra'}, 'ad_astra:steel_ingot', '#c:steel_ingots')
 	event.replaceOutput({mod: 'farmersdelight'}, 'farmersdelight:tree_bark', '2x farmersdelight:tree_bark')
 	event.replaceInput({id: 'ad_astra:recipes/wheel'}, 'minecraft:black_dye', 'modern_industrialization:rubber_sheet')
+	event.replaceInput({id: 'ad_astra:recipes/solar_panel'}, '#c:steel_plates', 'modern_industrialization:silicon_wafer')
 	event.replaceInput({id: 'alchemistry:dissolver'}, 'minecraft:redstone', 'modern_industrialization:advanced_upgrade')
 	event.replaceInput({id: 'alchemistry:combiner'}, 'minecraft:redstone', 'modern_industrialization:advanced_upgrade')
 	event.replaceInput({id: 'alchemistry:liquifier'}, 'minecraft:redstone', 'modern_industrialization:advanced_upgrade')
@@ -36,6 +92,7 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'alchemistry:compactor/chromium_dust'})
 	event.remove({id: 'alchemistry:compactor/manganese_dust'})
 	event.remove({output: 'ad_astra:compressor'})
+	event.remove({output: 'ae2:vibration_chamber'})
 	event.remove({output: 'ad_astra:nasa_workbench'})
 	event.remove({output: 'ad_astra:coal_generator'})
 	event.remove({output: 'ad_astra:desh_ingot'})
@@ -537,58 +594,4 @@ ServerEvents.recipes(event => {
 		]
 	  }).id('p8:20')
 
-})
-
-ServerEvents.tags('item', event => {
-	// Get the #forge:cobblestone tag collection and add Diamond Ore to it
-	// event.get('forge:cobblestone').add('minecraft:diamond_ore')
-	event.add('fabric:tools/axes', 'additionaladditions:rose_gold_axe')
-	event.add('fabric:tools/axes', 'additionaladditions:gilded_netherite_axe')
-	event.add('fabric:tools/axes', 'modern_industrialization:diesel_chainsaw')
-	event.add('fabric:tools/axes', 'spectrum:multitool')
-	event.add('fabric:tools/axes', 'spectrum:bedrock_axe')
-	event.add('fabric:tools/axes', 'ae2:certus_quartz_axe')
-	event.add('fabric:tools/axes', 'ae2:nether_quartz_axe')
-	event.add('c:cooked_eggs', 'additionaladditions:fried_egg')
-	event.add('c:iron_rods', 'modern_industrialization:iron_rod')
-	event.add('c:raw_silver_ores', 'bewitchment:raw_silver')
-	event.remove('c:steel_ingots', 'ad_astra:steel_ingot')
-	event.remove('c:steel_nuggets', 'ad_astra:steel_nugget')
-	event.remove('c:steel_blocks', 'ad_astra:steel_block')
-	event.remove('c:steel_plates', 'ad_astra:steel_plate')
-	event.remove('c:iron_plates', 'ad_astra:iron_plate')
-	event.remove('c:iron_rods', 'ad_astra:iron_rod')
-
-	event.remove('c:platinum_dusts', 'chemlib:platinum_dust')
-	event.remove('c:platinum_nuggets', 'chemlib:platinum_nugget')
-	event.remove('c:platinum_ingots', 'chemlib:platinum_ingot')
-	event.remove('c:platinum_plates', 'chemlib:platinum_plate')
-
-	event.remove('c:tungsten_dusts', 'chemlib:tungsten_dust')
-	event.remove('c:tungsten_nuggets', 'chemlib:tungsten_nugget')
-	event.remove('c:tungsten_ingots', 'chemlib:tungsten_ingot')
-	event.remove('c:tungsten_plates', 'chemlib:tungsten_plate')
-
-	event.remove('c:aluminum_dusts', 'chemlib:aluminum_dust')
-	event.remove('c:aluminum_nuggets', 'chemlib:aluminum_nugget')
-	event.remove('c:aluminum_ingots', 'chemlib:aluminum_ingot')
-	event.remove('c:aluminum_plates', 'chemlib:aluminum_plate')
-
-	event.remove('c:chromium_dusts', 'chemlib:chromium_dust')
-	event.remove('c:chromium_nuggets', 'chemlib:chromium_nugget')
-	event.remove('c:chromium_ingots', 'chemlib:chromium_ingot')
-	event.remove('c:chromium_plates', 'chemlib:chromium_plate')
-
-	event.remove('c:manganese_dusts', 'chemlib:manganese_dust')
-	event.remove('c:manganese_nuggets', 'chemlib:manganese_nugget')
-	event.remove('c:manganese_ingots', 'chemlib:manganese_ingot')
-	event.remove('c:manganese_plates', 'chemlib:manganese_plate')
-
-	event.remove('c:titanium_dusts', 'chemlib:titanium_dust')
-	event.remove('c:titanium_nuggets', 'chemlib:titanium_nugget')
-	event.remove('c:titanium_ingots', 'chemlib:titanium_ingot')
-	event.remove('c:titanium_plates', 'chemlib:titanium_plate')
-	
-	// Get the #forge:cobblestone tag collection and remove Mossy Cobblestone from it
-	// event.get('forge:cobblestone').remove('minecraft:mossy_cobblestone')
 })

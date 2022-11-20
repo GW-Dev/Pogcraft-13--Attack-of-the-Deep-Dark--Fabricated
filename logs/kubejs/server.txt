@@ -1,0 +1,6 @@
+[14:36:41] [INFO ] Loaded script server_scripts:replicator_blacklist.js in 0.001 s
+[14:36:41] [INFO ] server_scripts:script.js:3: Hello, World! (You will see this line every time server resources reload)
+[14:36:41] [INFO ] Loaded script server_scripts:script.js in 0.004 s
+[14:36:41] [INFO ] Loaded 2/2 KubeJS server scripts in 0.008 s
+[14:36:41] [INFO ] Scripts loaded
+[14:36:41] [INFO ] Scanning recipes...

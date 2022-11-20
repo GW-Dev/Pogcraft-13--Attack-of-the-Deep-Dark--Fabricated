@@ -1,5 +1,7 @@
 {
 	version: 13
+	title: "&lPoggercraft 2"
+	icon: "minecraft:mangrove_propagule"
 	default_reward_team: false
 	default_consume_items: false
 	default_autoclaim_rewards: "disabled"

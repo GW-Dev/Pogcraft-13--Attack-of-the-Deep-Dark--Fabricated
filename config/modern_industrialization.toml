@@ -8,6 +8,6 @@ newVersionMessage = true
 enableHatchPlacementOverlay = true
 colorWaterLava = true
 enableDebugCommands = false
-enableBidirectionalEnergyCompat = false
+enableBidirectionalEnergyCompat = true
 enableAe2Integration = true
 generateOres = true
