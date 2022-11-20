@@ -1,0 +1,14 @@
+name = "ExpandAbility"
+filename = "expandability-7.0.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "5fcc0908342df80eba0e68d2defbe26bb93fb303"
+
+[update]
+[update.curseforge]
+file-id = 3984028
+project-id = 465066

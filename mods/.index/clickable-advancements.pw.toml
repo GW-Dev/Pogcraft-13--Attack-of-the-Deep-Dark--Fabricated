@@ -1,0 +1,14 @@
+name = "Clickable advancements[Forge/Fabric]"
+filename = "clickadv-fabric-2.9.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "b47ae0750d1d61589c0365abe4b392f3a45311d6"
+
+[update]
+[update.curseforge]
+file-id = 3946029
+project-id = 511733

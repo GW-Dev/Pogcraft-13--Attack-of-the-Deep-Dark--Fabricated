@@ -1,0 +1,14 @@
+name = "Paintings ++"
+filename = "Paintings-fabric-1.19.2-10.2.1.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "6b28f46989c8bbc6aefd4cf6eb87a986d7279325"
+
+[update]
+[update.curseforge]
+file-id = 3974944
+project-id = 252042

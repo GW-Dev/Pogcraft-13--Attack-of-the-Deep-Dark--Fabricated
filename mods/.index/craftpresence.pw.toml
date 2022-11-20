@@ -1,0 +1,14 @@
+name = "CraftPresence"
+filename = "CraftPresence-1.19.2-Release-1.9.3-universal.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "87bbef99065f2378122986e260886b922232adc9"
+
+[update]
+[update.curseforge]
+file-id = 4025117
+project-id = 297038

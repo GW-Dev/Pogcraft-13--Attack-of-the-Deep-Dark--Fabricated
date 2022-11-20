@@ -1,0 +1,14 @@
+name = "Inmis"
+filename = "inmis-2.7.0-1.19.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "f6c815958e7a1c495089dd9f45265a3fedb0b392"
+
+[update]
+[update.curseforge]
+file-id = 3853651
+project-id = 369254

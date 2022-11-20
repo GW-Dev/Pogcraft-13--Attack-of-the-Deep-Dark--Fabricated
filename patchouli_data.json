@@ -9,7 +9,57 @@
         "modern_industrialization:lategame/quantum_tier",
         "modern_industrialization:lategame/gravichestplate",
         "modern_industrialization:lategame/replicator",
-        "modern_industrialization:introduction/introduction"
+        "modern_industrialization:introduction/introduction",
+        "modern_industrialization:electric_age/electric_quarry",
+        "modern_industrialization:electric_age/advanced_machines",
+        "modern_industrialization:electric_age/oil_processing",
+        "modern_industrialization:midgame/high_pressure",
+        "modern_industrialization:midgame/diesel",
+        "modern_industrialization:midgame/implosion_compressor",
+        "modern_industrialization:midgame/stainless_steel",
+        "modern_industrialization:midgame/upgrades",
+        "modern_industrialization:midgame/fluid_transfer",
+        "modern_industrialization:steam_age/making_bronze",
+        "modern_industrialization:steam_age/bronze_boiler",
+        "modern_industrialization:steam_age/pipes",
+        "modern_industrialization:steam_age/steel"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "miskatonicmysteries:necronomicon": {
+      "viewedEntries": [
+        "miskatonicmysteries:world/managing",
+        "miskatonicmysteries:world/intro",
+        "miskatonicmysteries:world/affiliation",
+        "miskatonicmysteries:world/ascension",
+        "miskatonicmysteries:world/necronomicon",
+        "miskatonicmysteries:world/occult_artifacts",
+        "miskatonicmysteries:world/occult_knowledge",
+        "miskatonicmysteries:world/occult_decor",
+        "miskatonicmysteries:world/octagrams",
+        "miskatonicmysteries:world/shrines",
+        "miskatonicmysteries:goo/emissaries",
+        "miskatonicmysteries:goo/hastur",
+        "miskatonicmysteries:bestiary/serfs",
+        "miskatonicmysteries:rites/clearing_simulacra",
+        "miskatonicmysteries:rites/rite_intro"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "miskatonicmysteries:science_journal": {
+      "viewedEntries": [
+        "miskatonicmysteries:chemistry_set",
+        "miskatonicmysteries:blotters",
+        "miskatonicmysteries:laudanum",
+        "miskatonicmysteries:mania",
+        "miskatonicmysteries:power_cell",
+        "miskatonicmysteries:inkblots",
+        "miskatonicmysteries:tranquilizers",
+        "miskatonicmysteries:resonator",
+        "miskatonicmysteries:re_agent",
+        "miskatonicmysteries:resonate_ooze"
       ],
       "bookmarks": [],
       "completedManualQuests": []
@@ -24,7 +74,10 @@
         "ad_astra:the_first_launch/basic_materials",
         "ad_astra:the_first_launch/your_first_rocket",
         "ad_astra:the_first_launch/fuel",
-        "ad_astra:the_first_launch/oxygen"
+        "ad_astra:the_first_launch/oxygen",
+        "ad_astra:the_hot_planets/proxima_centauri",
+        "ad_astra:the_hot_planets/jet_suit",
+        "ad_astra:the_moon/space_station"
       ],
       "bookmarks": [],
       "completedManualQuests": []

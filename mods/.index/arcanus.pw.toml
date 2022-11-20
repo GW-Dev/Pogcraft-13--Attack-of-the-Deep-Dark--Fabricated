@@ -1,0 +1,14 @@
+name = "Arcanus"
+filename = "arcanus-1.30.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "68202b2a803304d7c7afc7d79aef7d807c172313"
+
+[update]
+[update.curseforge]
+file-id = 3877921
+project-id = 517833

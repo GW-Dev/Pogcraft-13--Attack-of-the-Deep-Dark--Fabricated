@@ -1,0 +1,14 @@
+name = "Recursive Resources"
+filename = "recursive-resources-2.2.1+1.19.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "5f4b20c2921935d32e2219cf9d4148647d93dc3d"
+
+[update]
+[update.curseforge]
+file-id = 4002887
+project-id = 674907

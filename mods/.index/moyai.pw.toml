@@ -1,0 +1,14 @@
+name = "Moyai"
+filename = "moyai-1.19.2-2.0.0-fabric.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "a68ceabde28a573615ada2e28abfa2132e6c2500"
+
+[update]
+[update.curseforge]
+file-id = 3948250
+project-id = 577252

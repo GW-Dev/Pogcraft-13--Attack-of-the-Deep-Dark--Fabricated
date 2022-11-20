@@ -1,0 +1,14 @@
+name = "Bad Wither No Cookie - Reloaded"
+filename = "bwncr-fabric-1.19.2-3.14.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "e28db932fe89e26dffcde053f531236fd2e2cb73"
+
+[update]
+[update.curseforge]
+file-id = 3974240
+project-id = 261251

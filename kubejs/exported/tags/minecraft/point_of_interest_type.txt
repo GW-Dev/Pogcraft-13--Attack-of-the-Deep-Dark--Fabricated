@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Sep 18, 2022, 7:27:18 PM
+To refresh this file, delete it and run /reload command again! Last updated: Nov 10, 2022, 6:19:53 AM
 
 #minecraft:bee_home
 - minecraft:beehive (from Default)
@@ -39,6 +39,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - friendsandfoes:mangrove_beehive (from Friends&Foes)
 - friendsandfoes:spruce_beehive (from Friends&Foes)
 - friendsandfoes:warped_beehive (from Friends&Foes)
+- modern_industrialization:industrialist (from Modern Industrialization)
 
 #minecraft:village
 - #minecraft:acquirable_job_site (from Default)

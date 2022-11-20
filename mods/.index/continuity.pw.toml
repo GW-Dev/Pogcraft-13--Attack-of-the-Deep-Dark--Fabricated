@@ -1,0 +1,14 @@
+name = "Continuity"
+filename = "continuity-2.0.1+1.19.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "d82700772659f65560202f1cbd0e744007b21a75"
+
+[update]
+[update.curseforge]
+file-id = 3927270
+project-id = 531351

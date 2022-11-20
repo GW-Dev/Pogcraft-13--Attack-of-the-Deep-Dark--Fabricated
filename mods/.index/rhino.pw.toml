@@ -1,0 +1,14 @@
+name = "Rhino"
+filename = "rhino-fabric-1902.2.1-build.242.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "d7e66ad54bb478ea1007ea3b908ac25ae7739de5"
+
+[update]
+[update.curseforge]
+file-id = 4023099
+project-id = 416294

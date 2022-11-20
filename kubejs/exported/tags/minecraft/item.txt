@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Sep 18, 2022, 7:27:18 PM
+To refresh this file, delete it and run /reload command again! Last updated: Nov 10, 2022, 6:19:53 AM
 
 #ecologics:penguin_tempt_items
 - minecraft:tropical_fish (from Ecologics)
@@ -93,7 +93,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:brown_dyes
 - minecraft:brown_dye (from Comforts)
 - minecraft:brown_dye (from Fabric Convention Tags)
-- minecraft:brown_dye (from Wired Redstone)
 
 #bewitchment:chalks
 - bewitchment:chalk (from Bewitchment)
@@ -316,7 +315,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:redstone (from Applied Energistics 2)
 - minecraft:redstone (from Fabric Convention Tags)
 - minecraft:redstone (from Incubus Core)
-- minecraft:redstone (from Wired Redstone)
 
 #c:manganese_plates
 - chemlib:manganese_plate (from ChemLib)
@@ -332,6 +330,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - bewitchment:witchberry (from Bewitchment)
 - bewitchment:witchberry_pie (from Bewitchment)
 - bewitchment:witchberry_cookie (from Bewitchment)
+
+#miskatonicmysteries:chalks
+- miskatonicmysteries:hastur_chalk (from Miskatonic Mysteries)
+- miskatonicmysteries:shub_chalk (from Miskatonic Mysteries)
+- miskatonicmysteries:cthulhu_chalk (from Miskatonic Mysteries)
 
 #c:raw_antimony_blocks
 - modern_industrialization:raw_antimony_block (from Modern Industrialization)
@@ -363,9 +366,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #bookshelf:axes
 - #c:axes (from Bookshelf)
-
-#c:workbench
-- minecraft:crafting_table (from Wired Redstone)
 
 #the_bumblezone:wrath_activating_items_when_picked_up
 
@@ -406,6 +406,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - the_bumblezone:sugar_infused_cobblestone (from The Bumblezone - Fabric)
 - the_bumblezone:honey_crystal_shards (from The Bumblezone - Fabric)
 
+#miskatonicmysteries:elderian_walls
+- miskatonicmysteries:elderian_stone_wall (from Miskatonic Mysteries)
+- miskatonicmysteries:elderian_stone_smooth_wall (from Miskatonic Mysteries)
+- miskatonicmysteries:elderian_bricks_wall (from Miskatonic Mysteries)
+- miskatonicmysteries:elderian_bricks_mossy_wall (from Miskatonic Mysteries)
+- miskatonicmysteries:elderian_bricks_cracked_wall (from Miskatonic Mysteries)
+
 #c:armor
 - #c:helmets (from Bookshelf)
 - #c:chestplates (from Bookshelf)
@@ -419,7 +426,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:gray_dyes
 - minecraft:gray_dye (from Comforts)
 - minecraft:gray_dye (from Fabric Convention Tags)
-- minecraft:gray_dye (from Wired Redstone)
 
 #c:uranium_238_blocks
 - modern_industrialization:uranium_238_block (from Modern Industrialization)
@@ -435,6 +441,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #minecraft:redstone_ores
 - minecraft:redstone_ore (from Default)
 - minecraft:deepslate_redstone_ore (from Default)
+
+#miskatonicmysteries:red_meat
+- minecraft:beef (from Miskatonic Mysteries)
+- minecraft:mutton (from Miskatonic Mysteries)
+- minecraft:rotten_flesh (from Miskatonic Mysteries)
 
 #c:uranium_238_tiny_dusts
 - modern_industrialization:uranium_238_tiny_dust (from Modern Industrialization)
@@ -458,7 +469,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #c:manganese_ingots
 - chemlib:manganese_ingot (from ChemLib)
-- modern_industrialization:manganese_ingot (from Modern Industrialization)
 
 #bewitchment:dragons_blood_logs
 - bewitchment:dragons_blood_log (from Bewitchment)
@@ -569,7 +579,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:blue_dyes
 - minecraft:blue_dye (from Comforts)
 - minecraft:blue_dye (from Fabric Convention Tags)
-- minecraft:blue_dye (from Wired Redstone)
 
 #c:mob_buckets
 - minecraft:pufferfish_bucket (from Bookshelf)
@@ -692,7 +701,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - bewitchment:cypress_trapdoor (from Bewitchment)
 - bewitchment:elder_trapdoor (from Bewitchment)
 - bewitchment:dragons_blood_trapdoor (from Bewitchment)
-- bwplus:yew_trapdoor (from Bewitchment Plus)
 - charm:azalea_trapdoor (from Charm)
 - charm:ebony_trapdoor (from Charm)
 - ecologics:coconut_trapdoor (from Ecologics)
@@ -799,6 +807,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:cooked_salmon (from Farmer's Delight)
 - farmersdelight:cooked_salmon_slice (from Farmer's Delight)
 
+#miskatonicmysteries:elderian_slabs
+- miskatonicmysteries:elderian_stone_slab (from Miskatonic Mysteries)
+- miskatonicmysteries:elderian_stone_smooth_slab (from Miskatonic Mysteries)
+- miskatonicmysteries:elderian_bricks_slab (from Miskatonic Mysteries)
+- miskatonicmysteries:elderian_bricks_mossy_slab (from Miskatonic Mysteries)
+- miskatonicmysteries:elderian_bricks_cracked_slab (from Miskatonic Mysteries)
+
 #c:cupronickel_plates
 - modern_industrialization:cupronickel_plate (from Modern Industrialization)
 
@@ -818,6 +833,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:spectral_arrow (from Default)
 - bewitchment:silver_arrow (from Bewitchment)
 - supplementaries:rope_arrow (from Supplementaries)
+
+#miskatonicmysteries:rite_tools
+- miskatonicmysteries:incantation_yog (from Miskatonic Mysteries)
 
 #c:aluminum_blocks
 - modern_industrialization:aluminum_block (from Modern Industrialization)
@@ -869,7 +887,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - bewitchment:cypress_door (from Bewitchment)
 - bewitchment:elder_door (from Bewitchment)
 - bewitchment:dragons_blood_door (from Bewitchment)
-- bwplus:yew_door (from Bewitchment Plus)
 - charm:azalea_door (from Charm)
 - charm:ebony_door (from Charm)
 - ecologics:coconut_door (from Ecologics)
@@ -883,6 +900,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #c:wooden_barrels
 - minecraft:barrel (from Expanded Storage)
+- minecraft:barrel (from Modern Industrialization)
 
 #c:iridium_nuggets
 - chemlib:iridium_nugget (from ChemLib)
@@ -1097,24 +1115,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:cupronickel_ingots
 - modern_industrialization:cupronickel_ingot (from Modern Industrialization)
 
-#wiredredstone:insulated_wires
-- wiredredstone:white_insulated_wire (from Wired Redstone)
-- wiredredstone:orange_insulated_wire (from Wired Redstone)
-- wiredredstone:magenta_insulated_wire (from Wired Redstone)
-- wiredredstone:light_blue_insulated_wire (from Wired Redstone)
-- wiredredstone:yellow_insulated_wire (from Wired Redstone)
-- wiredredstone:lime_insulated_wire (from Wired Redstone)
-- wiredredstone:pink_insulated_wire (from Wired Redstone)
-- wiredredstone:gray_insulated_wire (from Wired Redstone)
-- wiredredstone:light_gray_insulated_wire (from Wired Redstone)
-- wiredredstone:cyan_insulated_wire (from Wired Redstone)
-- wiredredstone:purple_insulated_wire (from Wired Redstone)
-- wiredredstone:blue_insulated_wire (from Wired Redstone)
-- wiredredstone:brown_insulated_wire (from Wired Redstone)
-- wiredredstone:green_insulated_wire (from Wired Redstone)
-- wiredredstone:red_insulated_wire (from Wired Redstone)
-- wiredredstone:black_insulated_wire (from Wired Redstone)
-
 #bookshelf:shovels
 - #c:shovels (from Bookshelf)
 
@@ -1270,6 +1270,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:beetroot (from Farmer's Delight)
 
 #trinkets:head/face
+- ae2:wireless_crafting_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_encoding_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_access_terminal (from AE2WTLib)
+- ae2wtlib:wireless_universal_terminal (from AE2WTLib)
+- miskatonicmysteries:elegant_mask (from Miskatonic Mysteries)
+- miskatonicmysteries:feral_mask (from Miskatonic Mysteries)
+- miskatonicmysteries:wild_mask (from Miskatonic Mysteries)
 - spectrum:glow_vision_goggles (from Spectrum)
 
 #c:raw_copper_ores
@@ -1282,7 +1289,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:orange_dyes
 - minecraft:orange_dye (from Comforts)
 - minecraft:orange_dye (from Fabric Convention Tags)
-- minecraft:orange_dye (from Wired Redstone)
 
 #c:shears
 - minecraft:shears (from Bookshelf)
@@ -1425,23 +1431,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - bewitchment:hedgewitch_carpet (from Bewitchment)
 - bewitchment:alchemist_carpet (from Bewitchment)
 - bewitchment:besmirched_carpet (from Bewitchment)
-- bwplus:white_witch_wool_carpet (from Bewitchment Plus)
-- bwplus:black_witch_wool_carpet (from Bewitchment Plus)
-- bwplus:brown_witch_wool_carpet (from Bewitchment Plus)
-- bwplus:gray_witch_wool_carpet (from Bewitchment Plus)
-- bwplus:light_gray_witch_wool_carpet (from Bewitchment Plus)
-- bwplus:red_witch_wool_carpet (from Bewitchment Plus)
-- bwplus:orange_witch_wool_carpet (from Bewitchment Plus)
-- bwplus:yellow_witch_wool_carpet (from Bewitchment Plus)
-- bwplus:lime_witch_wool_carpet (from Bewitchment Plus)
-- bwplus:green_witch_wool_carpet (from Bewitchment Plus)
-- bwplus:cyan_witch_wool_carpet (from Bewitchment Plus)
-- bwplus:blue_witch_wool_carpet (from Bewitchment Plus)
-- bwplus:light_blue_witch_wool_carpet (from Bewitchment Plus)
-- bwplus:purple_witch_wool_carpet (from Bewitchment Plus)
-- bwplus:magenta_witch_wool_carpet (from Bewitchment Plus)
-- bwplus:pink_witch_wool_carpet (from Bewitchment Plus)
-- bwplus:rgb_witch_wool_carpet (from Bewitchment Plus)
 - farmersdelight:full_tatami_mat (from Farmer's Delight)
 - farmersdelight:half_tatami_mat (from Farmer's Delight)
 
@@ -1687,6 +1676,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:gold_block (from CC: Restitched)
 - minecraft:gold_block (from Modern Industrialization)
 
+#miskatonicmysteries:warding_mark_dye
+- minecraft:glow_ink_sac (from Miskatonic Mysteries)
+
 #c:salt_blocks
 - bewitchment:salt_block (from Bewitchment)
 - modern_industrialization:salt_block (from Modern Industrialization)
@@ -1749,6 +1741,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - #bewitchment:weak_pentacles (from Bewitchment)
 - #bewitchment:average_pentacles (from Bewitchment)
 - #bewitchment:strong_pentacles (from Bewitchment)
+
+#miskatonicmysteries:altar_books
+- #minecraft:lectern_books (from Miskatonic Mysteries)
+- minecraft:enchanted_book (from Miskatonic Mysteries)
+- minecraft:book (from Miskatonic Mysteries)
+- miskatonicmysteries:science_journal (from Miskatonic Mysteries)
+- miskatonicmysteries:necronomicon (from Miskatonic Mysteries)
 
 #adorn:tables
 - adorn:oak_table (from Adorn)
@@ -1873,7 +1872,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:yellow_dyes
 - minecraft:yellow_dye (from Comforts)
 - minecraft:yellow_dye (from Fabric Convention Tags)
-- minecraft:yellow_dye (from Wired Redstone)
 
 #c:vegetables/potato
 - minecraft:potato (from Farmer's Delight)
@@ -1911,7 +1909,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - bewitchment:cypress_pressure_plate (from Bewitchment)
 - bewitchment:elder_pressure_plate (from Bewitchment)
 - bewitchment:dragons_blood_pressure_plate (from Bewitchment)
-- bwplus:yew_pressure_plate (from Bewitchment Plus)
 - charm:azalea_pressure_plate (from Charm)
 - charm:ebony_pressure_plate (from Charm)
 - ecologics:coconut_pressure_plate (from Ecologics)
@@ -1920,6 +1917,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - #spectrum:colored_pressure_plates (from Spectrum)
 
 #trinkets:legs/belt
+- ae2:wireless_crafting_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_encoding_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_access_terminal (from AE2WTLib)
+- ae2wtlib:wireless_universal_terminal (from AE2WTLib)
 - arcanus:belt_of_the_rabbit? (from Arcanus)
 - arcanus:belt_of_rejuvenation? (from Arcanus)
 - artifacts:antidote_vessel (from Artifacts)
@@ -1973,6 +1974,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #spectrum:onyx_chiseled_base_blocks
 - spectrum:onyx_chiseled_basalt (from Spectrum)
 - spectrum:onyx_chiseled_calcite (from Spectrum)
+
+#dankstorage:blacklisted_usage
+- minecraft:powder_snow_bucket (from Dank Storage)
 
 #adorn:table_lamps
 - adorn:white_table_lamp (from Adorn)
@@ -2164,10 +2168,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:magenta_dyes
 - minecraft:magenta_dye (from Comforts)
 - minecraft:magenta_dye (from Fabric Convention Tags)
-- minecraft:magenta_dye (from Wired Redstone)
 
 #c:honeycombs
 - minecraft:honeycomb (from The Bumblezone - Fabric)
+
+#miskatonicmysteries:hastur_statues
+- miskatonicmysteries:hastur_statue_gold (from Miskatonic Mysteries)
+- miskatonicmysteries:hastur_statue_stone (from Miskatonic Mysteries)
+- miskatonicmysteries:hastur_statue_mossy (from Miskatonic Mysteries)
+- miskatonicmysteries:hastur_statue_terracotta (from Miskatonic Mysteries)
+- miskatonicmysteries:hastur_statue_elderian (from Miskatonic Mysteries)
 
 #c:raw_nickel_blocks
 - modern_industrialization:raw_nickel_block (from Modern Industrialization)
@@ -2197,7 +2207,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #c:redstone_blocks
 - minecraft:redstone_block (from Modern Industrialization)
-- minecraft:redstone_block (from Wired Redstone)
 
 #balm:ores
 - #c:ores? (from Balm)
@@ -2214,7 +2223,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:black_dyes
 - minecraft:black_dye (from Comforts)
 - minecraft:black_dye (from Fabric Convention Tags)
-- minecraft:black_dye (from Wired Redstone)
 
 #c:raw_chicken
 - minecraft:chicken (from Farmer's Delight)
@@ -2276,13 +2284,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:lime_dyes
 - minecraft:lime_dye (from Comforts)
 - minecraft:lime_dye (from Fabric Convention Tags)
-- minecraft:lime_dye (from Wired Redstone)
 
 #forge:fiber/flax
 - supplementaries:flax (from Supplementaries)
-
-#c:manganese_blocks
-- modern_industrialization:manganese_block (from Modern Industrialization)
 
 #supplementaries:pancake_syrup
 - autumnity:syrup_bottle? (from Supplementaries)
@@ -2363,6 +2367,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - #minecraft:lapis_ores (from Modern Industrialization)
 
 #trinkets:offhand/glove
+- ae2:wireless_crafting_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_encoding_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_access_terminal (from AE2WTLib)
+- ae2wtlib:wireless_universal_terminal (from AE2WTLib)
 - #trinkets:hand/glove (from Arcanus)
 - artifacts:digging_claws (from Artifacts)
 - artifacts:feral_claws (from Artifacts)
@@ -2379,7 +2387,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:stripped_dark_oak_wood (from Default)
 
 #supplementaries:ropes
-- supplementaries:rope? (from Supplementaries)
+- #forge:ropes? (from Supplementaries)
 - quark:rope? (from Supplementaries)
 - xercamod:rope? (from Supplementaries)
 - druidcraft:rope? (from Supplementaries)
@@ -2387,6 +2395,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - inspirations:rope? (from Supplementaries)
 - farmersdelight:rope? (from Supplementaries)
 - buildersdelight:chain_2? (from Supplementaries)
+- additionaladditions:rope? (from Supplementaries)
 - darkerdepths:rope? (from Supplementaries)
 
 #c:silver_ingots
@@ -2434,6 +2443,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - supplementaries:present_gray? (from Supplementaries)
 - supplementaries:present_light_gray? (from Supplementaries)
 - supplementaries:present_brown? (from Supplementaries)
+
+#dankstorage:dank_storages
+- dankstorage:dank_1 (from Dank Storage)
+- dankstorage:dank_2 (from Dank Storage)
+- dankstorage:dank_3 (from Dank Storage)
+- dankstorage:dank_4 (from Dank Storage)
+- dankstorage:dank_5 (from Dank Storage)
+- dankstorage:dank_6 (from Dank Storage)
+- dankstorage:dank_7 (from Dank Storage)
 
 #forge:concrete_powders
 - minecraft:white_concrete_powder (from Supplementaries)
@@ -2540,7 +2558,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - adorn:architects_palette/myonite_post? (from Adorn)
 - adorn:architects_palette/myonite_brick_post? (from Adorn)
 - adorn:architects_palette/mushy_myonite_brick_post? (from Adorn)
-- adorn:biomesoplenty/mud_brick_post? (from Adorn)
 - adorn:biomesoplenty/black_sandstone_post? (from Adorn)
 - adorn:biomesoplenty/cut_black_sandstone_post? (from Adorn)
 - adorn:biomesoplenty/smooth_black_sandstone_post? (from Adorn)
@@ -2600,7 +2617,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - bewitchment:cypress_sapling (from Bewitchment)
 - bewitchment:elder_sapling (from Bewitchment)
 - bewitchment:dragons_blood_sapling (from Bewitchment)
-- bwplus:yew_sapling (from Bewitchment Plus)
 - charm:ebony_sapling (from Charm)
 - ecologics:coconut_seedling (from Ecologics)
 - ecologics:walnut_sapling (from Ecologics)
@@ -2614,7 +2630,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:end_rod (from Bewitchment)
 - bewitchment:netherite_candelabra (from Bewitchment)
 - bewitchment:scepter (from Bewitchment)
-- bwplus:netherite_goblet (from Bewitchment Plus)
 
 #c:superconductor_nuggets
 - modern_industrialization:superconductor_nugget (from Modern Industrialization)
@@ -2684,7 +2699,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - bewitchment:cypress_fence (from Bewitchment)
 - bewitchment:elder_fence (from Bewitchment)
 - bewitchment:dragons_blood_fence (from Bewitchment)
-- bwplus:yew_fence (from Bewitchment Plus)
 - charm:azalea_fence (from Charm)
 - charm:ebony_fence (from Charm)
 - ecologics:coconut_fence (from Ecologics)
@@ -2772,6 +2786,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - modern_industrialization:coal_tiny_dust (from Modern Industrialization)
 
 #trinkets:offhand/ring
+- ae2:wireless_crafting_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_encoding_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_access_terminal (from AE2WTLib)
+- ae2wtlib:wireless_universal_terminal (from AE2WTLib)
 - #trinkets:hand/ring (from Arcanus)
 - kibe:angel_ring (from Kibe)
 - kibe:magma_ring (from Kibe)
@@ -2791,6 +2809,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - modern_industrialization:neodymium_block (from Modern Industrialization)
 
 #trinkets:hand/ring
+- ae2:wireless_crafting_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_encoding_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_access_terminal (from AE2WTLib)
+- ae2wtlib:wireless_universal_terminal (from AE2WTLib)
 - arcanus:ring_of_shielding? (from Arcanus)
 - arcanus:ring_of_the_enderman? (from Arcanus)
 - arcanus:ring_of_the_monk? (from Arcanus)
@@ -2857,6 +2879,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #c:raw_copper_blocks
 - minecraft:raw_copper_block (from Fabric Convention Tags)
+
+#miskatonicmysteries:elderian_stairs
+- miskatonicmysteries:elderian_stone_stairs (from Miskatonic Mysteries)
+- miskatonicmysteries:elderian_stone_smooth_stairs (from Miskatonic Mysteries)
+- miskatonicmysteries:elderian_bricks_stairs (from Miskatonic Mysteries)
+- miskatonicmysteries:elderian_bricks_mossy_stairs (from Miskatonic Mysteries)
+- miskatonicmysteries:elderian_bricks_cracked_stairs (from Miskatonic Mysteries)
 
 #c:steel_ingots
 - ad_astra:steel_ingot (from Ad Astra!)
@@ -3332,7 +3361,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - supplementaries:bewitchment/hanging_sign_cypress (from Supplementaries Generated Pack)
 - supplementaries:bewitchment/hanging_sign_elder (from Supplementaries Generated Pack)
 - supplementaries:bewitchment/hanging_sign_dragons_blood (from Supplementaries Generated Pack)
-- supplementaries:bwplus/hanging_sign_yew (from Supplementaries Generated Pack)
 - supplementaries:charm/hanging_sign_azalea (from Supplementaries Generated Pack)
 - supplementaries:charm/hanging_sign_ebony (from Supplementaries Generated Pack)
 - supplementaries:edenring/hanging_sign_auritis (from Supplementaries Generated Pack)
@@ -3452,6 +3480,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - pamhc2crops:roastedalmonditem? (from Supplementaries)
 - pamhc2crops:roastedpinenutitem? (from Supplementaries)
 - pamhc2crops:garlicitem? (from Supplementaries)
+- cookielicious:strawberry_cookie? (from Supplementaries)
+- cookielicious:vanilla_cookie? (from Supplementaries)
+- cookielicious:strawberry_cookie? (from Supplementaries)
+- cookielicious:chocolate_cookie? (from Supplementaries)
+- cookielicious:banana_cookie? (from Supplementaries)
+- cookielicious:mint_cookie? (from Supplementaries)
+- cookielicious:adzuki_cookie? (from Supplementaries)
+- buddycardsexp:buddycookie? (from Supplementaries)
+- honeyexpansion:honey_cookie_sausage? (from Supplementaries)
+- abnormals_delight:mulberry_cookie? (from Supplementaries)
 
 #ecologics:azalea_logs
 - ecologics:azalea_log (from Ecologics)
@@ -3591,7 +3629,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #c:manganese_nuggets
 - chemlib:manganese_nugget (from ChemLib)
-- modern_industrialization:manganese_nugget (from Modern Industrialization)
 
 #farmersdelight:straw_harvesters
 - #c:tools/knives (from Farmer's Delight)
@@ -3654,6 +3691,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #forge:seeds
 - supplementaries:flax_seeds (from Supplementaries)
+
+#c:mossifiers
+- minecraft:vine (from Miskatonic Mysteries)
+- minecraft:moss_block (from Miskatonic Mysteries)
 
 #c:tungsten_blocks
 - modern_industrialization:tungsten_block (from Modern Industrialization)
@@ -3901,9 +3942,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:mozanite_blocks
 - modern_industrialization:mozanite_block (from Modern Industrialization)
 
-#c:furnaces
-- minecraft:furnace (from Wired Redstone)
-
 #sereneseasons:spring_crops
 - supplementaries:flax (from Supplementaries)
 - supplementaries:flax_seeds (from Supplementaries)
@@ -4060,7 +4098,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:cyan_dyes
 - minecraft:cyan_dye (from Comforts)
 - minecraft:cyan_dye (from Fabric Convention Tags)
-- minecraft:cyan_dye (from Wired Redstone)
 
 #comforts:sleeping_bags
 - comforts:sleeping_bag_black (from Comforts)
@@ -4082,6 +4119,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #c:he_uranium_dusts
 - modern_industrialization:he_uranium_dust (from Modern Industrialization)
+
+#miskatonicmysteries:mundane_idols
+- miskatonicmysteries:cthulhu_statue_stone (from Miskatonic Mysteries)
+- miskatonicmysteries:cthulhu_statue_mossy (from Miskatonic Mysteries)
+- miskatonicmysteries:cthulhu_statue_prismarine (from Miskatonic Mysteries)
+- miskatonicmysteries:cthulhu_statue_elderian (from Miskatonic Mysteries)
+- miskatonicmysteries:hastur_statue_stone (from Miskatonic Mysteries)
+- miskatonicmysteries:hastur_statue_mossy (from Miskatonic Mysteries)
+- miskatonicmysteries:hastur_statue_terracotta (from Miskatonic Mysteries)
+- miskatonicmysteries:hastur_statue_elderian (from Miskatonic Mysteries)
+- miskatonicmysteries:shub_statue_stone (from Miskatonic Mysteries)
+- miskatonicmysteries:shub_statue_mossy (from Miskatonic Mysteries)
+- miskatonicmysteries:shub_statue_deepslate (from Miskatonic Mysteries)
+- miskatonicmysteries:shub_statue_elderian (from Miskatonic Mysteries)
+- miskatonicmysteries:yog_statue_stone (from Miskatonic Mysteries)
+- miskatonicmysteries:yog_statue_mossy (from Miskatonic Mysteries)
+- miskatonicmysteries:yog_statue_blackstone (from Miskatonic Mysteries)
+- miskatonicmysteries:yog_statue_end_stone (from Miskatonic Mysteries)
+- miskatonicmysteries:yog_statue_elderian (from Miskatonic Mysteries)
 
 #c:calorite_ingots
 - ad_astra:calorite_ingot (from Ad Astra!)
@@ -4174,6 +4230,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - adorn:ecologics/flowering_azalea_kitchen_sink? (from Adorn)
 - adorn:ecologics/coconut_kitchen_sink? (from Adorn)
 - adorn:ecologics/walnut_kitchen_sink? (from Adorn)
+
+#reaper:rune
+- reaper:rune_reficiat (from Reaper)
+- reaper:rune_obitus (from Reaper)
+- reaper:rune_humano (from Reaper)
+- reaper:rune_dilato (from Reaper)
+- reaper:rune_velocitas (from Reaper)
+- reaper:rune_spiritus (from Reaper)
 
 #spectrum:pigments_non_w
 - spectrum:black_pigment (from Spectrum)
@@ -4473,6 +4537,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:red_concrete_powder (from The Bumblezone - Fabric)
 - minecraft:black_concrete_powder (from The Bumblezone - Fabric)
 
+#miskatonicmysteries:yellow_dye
+- minecraft:yellow_dye (from Miskatonic Mysteries)
+
 #c:raw_beef
 - minecraft:beef (from Farmer's Delight)
 - farmersdelight:minced_beef (from Farmer's Delight)
@@ -4488,12 +4555,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #c:silver_tiny_dusts
 - modern_industrialization:silver_tiny_dust (from Modern Industrialization)
-
-#bwplus:goblet_liquids
-- bewitchment:bottle_of_blood (from Bewitchment Plus)
-- bwplus:unicorn_blood (from Bewitchment Plus)
-- minecraft:potion (from Bewitchment Plus)
-- minecraft:honey_bottle (from Bewitchment Plus)
 
 #c:tin_ores
 - modern_industrialization:tin_ore (from Modern Industrialization)
@@ -5104,7 +5165,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:green_dyes
 - minecraft:green_dye (from Comforts)
 - minecraft:green_dye (from Fabric Convention Tags)
-- minecraft:green_dye (from Wired Redstone)
 
 #c:uranium_235_ingots
 - modern_industrialization:uranium_235_ingot (from Modern Industrialization)
@@ -5116,6 +5176,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:copper_dusts
 - chemlib:copper_dust (from ChemLib)
 - modern_industrialization:copper_dust (from Modern Industrialization)
+
+#environmentz:warm_armor
+- betternether:nether_ruby_helmet (from Better Nether)
+- betternether:nether_ruby_chestplate (from Better Nether)
+- betternether:nether_ruby_leggings (from Better Nether)
+- betternether:nether_ruby_boots (from Better Nether)
+- betternether:cincinnasite_helmet (from Better Nether)
+- betternether:cincinnasite_helmet_chestplate (from Better Nether)
+- betternether:cincinnasite_helmet_leggings (from Better Nether)
+- betternether:cincinnasite_helmet_boots (from Better Nether)
 
 #minecraft:beds
 - minecraft:red_bed (from Default)
@@ -5222,6 +5292,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - supplementaries:candle_holder_black (from Supplementaries)
 - supplementaries:candle_holder_orange (from Supplementaries)
 - supplementaries:candle_holder_gray (from Supplementaries)
+- supplementaries:candle_holder_soul (from Supplementaries)
 
 #spectrum:spawners
 - spectrum:spawner (from Spectrum)
@@ -5246,7 +5317,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - bewitchment:cypress_sign (from Bewitchment)
 - bewitchment:elder_sign (from Bewitchment)
 - bewitchment:dragons_blood_sign (from Bewitchment)
-- bwplus:yew_sign (from Bewitchment Plus)
 - charm:azalea_sign (from Charm)
 - charm:ebony_sign (from Charm)
 - ecologics:coconut_sign (from Ecologics)
@@ -5400,7 +5470,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - adorn:architects_palette/myonite_step? (from Adorn)
 - adorn:architects_palette/myonite_brick_step? (from Adorn)
 - adorn:architects_palette/mushy_myonite_brick_step? (from Adorn)
-- adorn:biomesoplenty/mud_brick_step? (from Adorn)
 - adorn:biomesoplenty/black_sandstone_step? (from Adorn)
 - adorn:biomesoplenty/cut_black_sandstone_step? (from Adorn)
 - adorn:biomesoplenty/smooth_black_sandstone_step? (from Adorn)
@@ -5591,6 +5660,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - spectrum:spectral_shard (from Spectrum)
 
 #trinkets:chest/cape
+- ae2:wireless_crafting_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_encoding_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_access_terminal (from AE2WTLib)
+- ae2wtlib:wireless_universal_terminal (from AE2WTLib)
 - betterend:elytra_crystalite (from Better End)
 - betterend:elytra_armored (from Better End)
 - minecraft:elytra (from Elytra Slot)
@@ -5664,7 +5737,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:pink_dyes
 - minecraft:pink_dye (from Comforts)
 - minecraft:pink_dye (from Fabric Convention Tags)
-- minecraft:pink_dye (from Wired Redstone)
 
 #c:iron_nuggets
 - minecraft:iron_nugget (from Adorn)
@@ -5839,16 +5911,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:white_dye (from Adorn)
 - minecraft:white_dye (from Expanded Storage)
 - minecraft:white_dye (from Fabric Convention Tags)
-- minecraft:white_dye (from Wired Redstone)
 
 #c:silicon_ingots
 - modern_industrialization:silicon_ingot (from Modern Industrialization)
+
+#miskatonicmysteries:idols
+- miskatonicmysteries:cthulhu_statue_gold (from Miskatonic Mysteries)
+- miskatonicmysteries:shub_statue_gold (from Miskatonic Mysteries)
+- miskatonicmysteries:hastur_statue_gold (from Miskatonic Mysteries)
+- miskatonicmysteries:yog_statue_gold (from Miskatonic Mysteries)
+- #miskatonicmysteries:mundane_idols (from Miskatonic Mysteries)
 
 #c:invar_nuggets
 - modern_industrialization:invar_nugget (from Modern Industrialization)
 
 #c:clocks
 - minecraft:clock (from Bookshelf)
+
+#friendsandfoes:glare_tempt_items
+- minecraft:glow_berries (from Friends&Foes)
 
 #c:beryllium_ingots
 - modern_industrialization:beryllium_ingot (from Modern Industrialization)
@@ -6131,6 +6212,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - modern_industrialization:emerald_tiny_dust (from Modern Industrialization)
 
 #trinkets:chest/necklace
+- ae2:wireless_crafting_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_encoding_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_access_terminal (from AE2WTLib)
+- ae2wtlib:wireless_universal_terminal (from AE2WTLib)
 - arcanus:amulet_of_soothing? (from Arcanus)
 - arcanus:amulet_of_purging? (from Arcanus)
 - arcanus:amulet_of_the_master? (from Arcanus)
@@ -6216,8 +6301,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #bewitchment:average_wands
 - bewitchment:golden_candelabra (from Bewitchment)
 - bewitchment:silver_candelabra (from Bewitchment)
-- bwplus:gold_goblet (from Bewitchment Plus)
-- bwplus:silver_goblet (from Bewitchment Plus)
 
 #adorn:kitchen_blocks
 - #adorn:kitchen_counters (from Adorn)
@@ -6238,7 +6321,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - bewitchment:cypress_stairs (from Bewitchment)
 - bewitchment:elder_stairs (from Bewitchment)
 - bewitchment:dragons_blood_stairs (from Bewitchment)
-- bwplus:yew_stairs (from Bewitchment Plus)
 - charm:azalea_stairs (from Charm)
 - charm:ebony_stairs (from Charm)
 - ecologics:coconut_stairs (from Ecologics)
@@ -6276,7 +6358,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - bewitchment:cypress_button (from Bewitchment)
 - bewitchment:elder_button (from Bewitchment)
 - bewitchment:dragons_blood_button (from Bewitchment)
-- bwplus:yew_button (from Bewitchment Plus)
 - charm:azalea_button (from Charm)
 - charm:ebony_button (from Charm)
 - ecologics:coconut_button (from Ecologics)
@@ -6384,6 +6465,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - spectrum:topaz_glass (from Spectrum)
 - spectrum:moonstone_glass (from Spectrum)
 - spectrum:onyx_glass (from Spectrum)
+
+#miskatonicmysteries:gross_food
+- minecraft:chicken (from Miskatonic Mysteries)
+- minecraft:spider_eye (from Miskatonic Mysteries)
+- minecraft:rotten_flesh (from Miskatonic Mysteries)
 
 #c:red_sandstones
 - minecraft:red_sandstone (from Fabric Waystones)
@@ -6540,8 +6626,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #c:silver_blocks
 - bewitchment:silver_block (from Bewitchment)
-- bewitchment:silver_block (from Bewitchment Plus)
-- bwplus:cut_silver_block (from Bewitchment Plus)
 - modern_industrialization:silver_block (from Modern Industrialization)
 
 #bookshelf:bows
@@ -6572,7 +6656,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:ender_pearls
 - minecraft:ender_pearl (from Applied Energistics 2)
 - minecraft:ender_pearl (from CC: Restitched)
-- minecraft:ender_pearl (from Wired Redstone)
+
+#forge:ropes
+- supplementaries:rope? (from Supplementaries)
 
 #c:annealed_copper_tiny_dusts
 - modern_industrialization:annealed_copper_tiny_dust (from Modern Industrialization)
@@ -7059,23 +7145,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - bewitchment:hedgewitch_wool (from Bewitchment)
 - bewitchment:alchemist_wool (from Bewitchment)
 - bewitchment:besmirched_wool (from Bewitchment)
-- bwplus:white_witch_wool (from Bewitchment Plus)
-- bwplus:black_witch_wool (from Bewitchment Plus)
-- bwplus:gray_witch_wool (from Bewitchment Plus)
-- bwplus:light_gray_witch_wool (from Bewitchment Plus)
-- bwplus:brown_witch_wool (from Bewitchment Plus)
-- bwplus:red_witch_wool (from Bewitchment Plus)
-- bwplus:orange_witch_wool (from Bewitchment Plus)
-- bwplus:yellow_witch_wool (from Bewitchment Plus)
-- bwplus:lime_witch_wool (from Bewitchment Plus)
-- bwplus:green_witch_wool (from Bewitchment Plus)
-- bwplus:cyan_witch_wool (from Bewitchment Plus)
-- bwplus:blue_witch_wool (from Bewitchment Plus)
-- bwplus:light_blue_witch_wool (from Bewitchment Plus)
-- bwplus:purple_witch_wool (from Bewitchment Plus)
-- bwplus:magenta_witch_wool (from Bewitchment Plus)
-- bwplus:pink_witch_wool (from Bewitchment Plus)
-- bwplus:rgb_witch_wool (from Bewitchment Plus)
 
 #spirit:soul_steel_offhand
 - spirit:soul_steel_bow (from Spirit)
@@ -7103,6 +7172,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - #c:helmets (from Bookshelf)
 
 #trinkets:hand/glove
+- ae2:wireless_crafting_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_encoding_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_access_terminal (from AE2WTLib)
+- ae2wtlib:wireless_universal_terminal (from AE2WTLib)
 - arcanus:gloves_of_disengagement? (from Arcanus)
 - arcanus:gloves_of_the_hippocratic_oath? (from Arcanus)
 - artifacts:digging_claws (from Artifacts)
@@ -7112,6 +7185,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - artifacts:power_glove (from Artifacts)
 - artifacts:vampiric_glove (from Artifacts)
 - artifacts:golden_hook (from Artifacts)
+- doomangelring:angelring (from Doom Angel Ring)
 - spectrum:gloves_of_dawns_grasp (from Spectrum)
 
 #supplementaries:sign_posts
@@ -7124,67 +7198,66 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - supplementaries:sign_post_crimson (from Supplementaries)
 - supplementaries:sign_post_birch (from Supplementaries)
 - supplementaries:sign_post_dark_oak (from Supplementaries)
-- supplementaries:sign_post_birch (from Supplementaries Generated Pack)
-- supplementaries:spectrum/sign_post_blue (from Supplementaries Generated Pack)
-- supplementaries:spectrum/sign_post_light_blue (from Supplementaries Generated Pack)
-- supplementaries:sign_post_oak (from Supplementaries Generated Pack)
-- supplementaries:spectrum/sign_post_pink (from Supplementaries Generated Pack)
-- supplementaries:betterend/sign_post_umbrella_tree (from Supplementaries Generated Pack)
-- supplementaries:bewitchment/sign_post_dragons_blood (from Supplementaries Generated Pack)
-- supplementaries:betternether/sign_post_nether_sakura (from Supplementaries Generated Pack)
-- supplementaries:ad_astra/sign_post_strophar (from Supplementaries Generated Pack)
-- supplementaries:betternether/sign_post_nether_reed (from Supplementaries Generated Pack)
-- supplementaries:betternether/sign_post_wart (from Supplementaries Generated Pack)
-- supplementaries:bewitchment/sign_post_juniper (from Supplementaries Generated Pack)
-- supplementaries:edenring/sign_post_auritis (from Supplementaries Generated Pack)
 - supplementaries:edenring/sign_post_pulse_tree (from Supplementaries Generated Pack)
-- supplementaries:betternether/sign_post_anchor_tree (from Supplementaries Generated Pack)
-- supplementaries:sign_post_crimson (from Supplementaries Generated Pack)
-- supplementaries:betternether/sign_post_stalagnate (from Supplementaries Generated Pack)
-- supplementaries:betterend/sign_post_lucernia (from Supplementaries Generated Pack)
-- supplementaries:spectrum/sign_post_white (from Supplementaries Generated Pack)
 - supplementaries:sign_post_warped (from Supplementaries Generated Pack)
-- supplementaries:sign_post_dark_oak (from Supplementaries Generated Pack)
-- supplementaries:betterend/sign_post_tenanea (from Supplementaries Generated Pack)
-- supplementaries:spectrum/sign_post_lime (from Supplementaries Generated Pack)
-- supplementaries:betterend/sign_post_jellyshroom (from Supplementaries Generated Pack)
-- supplementaries:bwplus/sign_post_yew (from Supplementaries Generated Pack)
-- supplementaries:betterend/sign_post_lacugrove (from Supplementaries Generated Pack)
-- supplementaries:spectrum/sign_post_light_gray (from Supplementaries Generated Pack)
-- supplementaries:betterend/sign_post_mossy_glowshroom (from Supplementaries Generated Pack)
-- supplementaries:sign_post_mangrove (from Supplementaries Generated Pack)
-- supplementaries:charm/sign_post_azalea (from Supplementaries Generated Pack)
-- supplementaries:spectrum/sign_post_magenta (from Supplementaries Generated Pack)
-- supplementaries:ad_astra/sign_post_aeronos (from Supplementaries Generated Pack)
-- supplementaries:sign_post_spruce (from Supplementaries Generated Pack)
-- supplementaries:bewitchment/sign_post_elder (from Supplementaries Generated Pack)
-- supplementaries:spectrum/sign_post_gray (from Supplementaries Generated Pack)
-- supplementaries:edenring/sign_post_balloon_mushroom (from Supplementaries Generated Pack)
-- supplementaries:ecologics/sign_post_azalea (from Supplementaries Generated Pack)
-- supplementaries:sign_post_acacia (from Supplementaries Generated Pack)
-- supplementaries:ecologics/sign_post_walnut (from Supplementaries Generated Pack)
-- supplementaries:betternether/sign_post_mushroom_fir (from Supplementaries Generated Pack)
 - supplementaries:betternether/sign_post_nether_mushroom (from Supplementaries Generated Pack)
-- supplementaries:betterend/sign_post_end_lotus (from Supplementaries Generated Pack)
-- supplementaries:betterend/sign_post_helix_tree (from Supplementaries Generated Pack)
-- supplementaries:sign_post_jungle (from Supplementaries Generated Pack)
-- supplementaries:ecologics/sign_post_flowering_azalea (from Supplementaries Generated Pack)
-- supplementaries:ad_astra/sign_post_glacian (from Supplementaries Generated Pack)
-- supplementaries:spectrum/sign_post_red (from Supplementaries Generated Pack)
-- supplementaries:spectrum/sign_post_purple (from Supplementaries Generated Pack)
-- supplementaries:spectrum/sign_post_black (from Supplementaries Generated Pack)
-- supplementaries:spectrum/sign_post_cyan (from Supplementaries Generated Pack)
-- supplementaries:ecologics/sign_post_coconut (from Supplementaries Generated Pack)
-- supplementaries:bewitchment/sign_post_cypress (from Supplementaries Generated Pack)
 - supplementaries:betterend/sign_post_pythadendron (from Supplementaries Generated Pack)
-- supplementaries:spectrum/sign_post_yellow (from Supplementaries Generated Pack)
-- supplementaries:spectrum/sign_post_green (from Supplementaries Generated Pack)
-- supplementaries:spectrum/sign_post_brown (from Supplementaries Generated Pack)
 - supplementaries:charm/sign_post_ebony (from Supplementaries Generated Pack)
-- supplementaries:betternether/sign_post_rubeus (from Supplementaries Generated Pack)
-- supplementaries:betterend/sign_post_dragon_tree (from Supplementaries Generated Pack)
-- supplementaries:spectrum/sign_post_orange (from Supplementaries Generated Pack)
+- supplementaries:spectrum/sign_post_light_gray (from Supplementaries Generated Pack)
+- supplementaries:betterend/sign_post_end_lotus (from Supplementaries Generated Pack)
+- supplementaries:spectrum/sign_post_cyan (from Supplementaries Generated Pack)
+- supplementaries:spectrum/sign_post_red (from Supplementaries Generated Pack)
+- supplementaries:betternether/sign_post_wart (from Supplementaries Generated Pack)
+- supplementaries:spectrum/sign_post_lime (from Supplementaries Generated Pack)
+- supplementaries:sign_post_acacia (from Supplementaries Generated Pack)
+- supplementaries:ad_astra/sign_post_strophar (from Supplementaries Generated Pack)
+- supplementaries:betterend/sign_post_tenanea (from Supplementaries Generated Pack)
+- supplementaries:spectrum/sign_post_yellow (from Supplementaries Generated Pack)
+- supplementaries:bewitchment/sign_post_dragons_blood (from Supplementaries Generated Pack)
+- supplementaries:bewitchment/sign_post_juniper (from Supplementaries Generated Pack)
 - supplementaries:betternether/sign_post_willow (from Supplementaries Generated Pack)
+- supplementaries:sign_post_mangrove (from Supplementaries Generated Pack)
+- supplementaries:spectrum/sign_post_green (from Supplementaries Generated Pack)
+- supplementaries:edenring/sign_post_auritis (from Supplementaries Generated Pack)
+- supplementaries:ad_astra/sign_post_aeronos (from Supplementaries Generated Pack)
+- supplementaries:ecologics/sign_post_coconut (from Supplementaries Generated Pack)
+- supplementaries:spectrum/sign_post_black (from Supplementaries Generated Pack)
+- supplementaries:betternether/sign_post_anchor_tree (from Supplementaries Generated Pack)
+- supplementaries:sign_post_birch (from Supplementaries Generated Pack)
+- supplementaries:betterend/sign_post_lucernia (from Supplementaries Generated Pack)
+- supplementaries:sign_post_jungle (from Supplementaries Generated Pack)
+- supplementaries:spectrum/sign_post_magenta (from Supplementaries Generated Pack)
+- supplementaries:sign_post_spruce (from Supplementaries Generated Pack)
+- supplementaries:sign_post_dark_oak (from Supplementaries Generated Pack)
+- supplementaries:ad_astra/sign_post_glacian (from Supplementaries Generated Pack)
+- supplementaries:ecologics/sign_post_walnut (from Supplementaries Generated Pack)
+- supplementaries:betternether/sign_post_rubeus (from Supplementaries Generated Pack)
+- supplementaries:betterend/sign_post_umbrella_tree (from Supplementaries Generated Pack)
+- supplementaries:edenring/sign_post_balloon_mushroom (from Supplementaries Generated Pack)
+- supplementaries:bewitchment/sign_post_elder (from Supplementaries Generated Pack)
+- supplementaries:ecologics/sign_post_flowering_azalea (from Supplementaries Generated Pack)
+- supplementaries:betternether/sign_post_nether_sakura (from Supplementaries Generated Pack)
+- supplementaries:ecologics/sign_post_azalea (from Supplementaries Generated Pack)
+- supplementaries:sign_post_oak (from Supplementaries Generated Pack)
+- supplementaries:betterend/sign_post_helix_tree (from Supplementaries Generated Pack)
+- supplementaries:betterend/sign_post_mossy_glowshroom (from Supplementaries Generated Pack)
+- supplementaries:spectrum/sign_post_orange (from Supplementaries Generated Pack)
+- supplementaries:betternether/sign_post_mushroom_fir (from Supplementaries Generated Pack)
+- supplementaries:sign_post_crimson (from Supplementaries Generated Pack)
+- supplementaries:spectrum/sign_post_light_blue (from Supplementaries Generated Pack)
+- supplementaries:spectrum/sign_post_blue (from Supplementaries Generated Pack)
+- supplementaries:spectrum/sign_post_white (from Supplementaries Generated Pack)
+- supplementaries:betterend/sign_post_lacugrove (from Supplementaries Generated Pack)
+- supplementaries:spectrum/sign_post_brown (from Supplementaries Generated Pack)
+- supplementaries:bewitchment/sign_post_cypress (from Supplementaries Generated Pack)
+- supplementaries:spectrum/sign_post_gray (from Supplementaries Generated Pack)
+- supplementaries:charm/sign_post_azalea (from Supplementaries Generated Pack)
+- supplementaries:betternether/sign_post_stalagnate (from Supplementaries Generated Pack)
+- supplementaries:betterend/sign_post_jellyshroom (from Supplementaries Generated Pack)
+- supplementaries:spectrum/sign_post_pink (from Supplementaries Generated Pack)
+- supplementaries:betterend/sign_post_dragon_tree (from Supplementaries Generated Pack)
+- supplementaries:spectrum/sign_post_purple (from Supplementaries Generated Pack)
+- supplementaries:betternether/sign_post_nether_reed (from Supplementaries Generated Pack)
 
 #c:stainless_steel_blocks
 - modern_industrialization:stainless_steel_block (from Modern Industrialization)
@@ -7233,24 +7306,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #c:lapis_lazulis
 - minecraft:lapis_lazuli (from Incubus Core)
-
-#wiredredstone:colored_bundled_cables
-- wiredredstone:white_bundled_cable (from Wired Redstone)
-- wiredredstone:orange_bundled_cable (from Wired Redstone)
-- wiredredstone:magenta_bundled_cable (from Wired Redstone)
-- wiredredstone:light_blue_bundled_cable (from Wired Redstone)
-- wiredredstone:yellow_bundled_cable (from Wired Redstone)
-- wiredredstone:lime_bundled_cable (from Wired Redstone)
-- wiredredstone:pink_bundled_cable (from Wired Redstone)
-- wiredredstone:gray_bundled_cable (from Wired Redstone)
-- wiredredstone:light_gray_bundled_cable (from Wired Redstone)
-- wiredredstone:cyan_bundled_cable (from Wired Redstone)
-- wiredredstone:purple_bundled_cable (from Wired Redstone)
-- wiredredstone:blue_bundled_cable (from Wired Redstone)
-- wiredredstone:brown_bundled_cable (from Wired Redstone)
-- wiredredstone:green_bundled_cable (from Wired Redstone)
-- wiredredstone:red_bundled_cable (from Wired Redstone)
-- wiredredstone:black_bundled_cable (from Wired Redstone)
 
 #bookshelf:chestplates
 - #c:chestplates (from Bookshelf)
@@ -7442,6 +7497,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - modern_industrialization:raw_antimony (from Modern Industrialization)
 
 #trinkets:feet/shoes
+- ae2:wireless_crafting_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_encoding_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_access_terminal (from AE2WTLib)
+- ae2wtlib:wireless_universal_terminal (from AE2WTLib)
 - artifacts:bunny_hoppers (from Artifacts)
 - artifacts:flippers (from Artifacts)
 - artifacts:kitty_slippers (from Artifacts)
@@ -7610,9 +7669,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:uranium_238_dusts
 - modern_industrialization:uranium_238_dust (from Modern Industrialization)
 
-#bwplus:goblets
-- bwplus:silver_goblet (from Bewitchment Plus)
-
 #the_bumblezone:turn_slime_to_honey_slime
 - minecraft:honey_block (from The Bumblezone - Fabric)
 - the_bumblezone:royal_jelly_block (from The Bumblezone - Fabric)
@@ -7726,12 +7782,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:zombie_villager_spawn_egg (from Spectrum)
 - minecraft:zombified_piglin_spawn_egg (from Spectrum)
 
-#bwplus:yew_logs
-- bwplus:yew_log (from Bewitchment Plus)
-- bwplus:yew_wood (from Bewitchment Plus)
-- bwplus:stripped_yew_log (from Bewitchment Plus)
-- bwplus:stripped_yew_wood (from Bewitchment Plus)
-
 #spectrum:mob_heads/zombie_heads
 - minecraft:zombie_head (from Spectrum)
 - spectrum:husk_head (from Spectrum)
@@ -7742,7 +7792,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:light_blue_dyes
 - minecraft:light_blue_dye (from Comforts)
 - minecraft:light_blue_dye (from Fabric Convention Tags)
-- minecraft:light_blue_dye (from Wired Redstone)
 
 #c:lapis_tiny_dusts
 - modern_industrialization:lapis_tiny_dust (from Modern Industrialization)
@@ -7794,7 +7843,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:iron_ingot (from Expanded Storage)
 - minecraft:iron_ingot (from Fabric Convention Tags)
 - minecraft:iron_ingot (from Incubus Core)
-- minecraft:iron_ingot (from Wired Redstone)
 
 #c:battery_alloy_tiny_dusts
 - modern_industrialization:battery_alloy_tiny_dust (from Modern Industrialization)
@@ -7806,6 +7854,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:refined_blackstones
 - #c:blackstone_bricks (from Fabric Waystones)
 - #c:polished_blackstones (from Fabric Waystones)
+
+#minecraft:dead_coral_blocks
+- minecraft:dead_tube_coral_block (from Miskatonic Mysteries)
+- minecraft:dead_brain_coral_block (from Miskatonic Mysteries)
+- minecraft:dead_bubble_coral_block (from Miskatonic Mysteries)
+- minecraft:dead_fire_coral_block (from Miskatonic Mysteries)
+- minecraft:dead_horn_coral_block (from Miskatonic Mysteries)
 
 #yigd:soulbound_item
 
@@ -7870,9 +7925,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:polished_deepslate (from Balm)
 - minecraft:infested_deepslate (from Balm)
 - minecraft:tuff (from Balm)
-
-#c:obsidian_rods
-- wiredredstone:obsidian_stick (from Wired Redstone)
 
 #bookshelf:fishing_rods
 - #c:fishing_rods (from Bookshelf)
@@ -7959,7 +8011,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - bewitchment:cypress_leaves (from Bewitchment)
 - bewitchment:elder_leaves (from Bewitchment)
 - bewitchment:dragons_blood_leaves (from Bewitchment)
-- bwplus:yew_leaves (from Bewitchment Plus)
 - ecologics:coconut_leaves (from Ecologics)
 - ecologics:walnut_leaves (from Ecologics)
 - #spectrum:colored_leaves (from Spectrum)
@@ -7974,7 +8025,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:string
 - minecraft:string (from Bookshelf)
 - minecraft:string (from Comforts)
-- minecraft:string (from Wired Redstone)
 
 #spectrum:colored_saplings
 - spectrum:black_sapling (from Spectrum)
@@ -8076,6 +8126,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - kibe:gold_spikes (from Kibe)
 - kibe:golden_lasso (from Kibe)
 - kibe:golden_kibe (from Kibe)
+- #miskatonicmysteries:oceanic_gold_blocks (from Miskatonic Mysteries)
+- miskatonicmysteries:oceanic_gold (from Miskatonic Mysteries)
 - spectrum:axolotl_gold_head (from Spectrum)
 - spectrum:gilded_book (from Spectrum)
 - supplementaries:hourglass (from Supplementaries)
@@ -8092,6 +8144,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #bookshelf:compasses
 - #c:compasses (from Bookshelf)
+
+#dankstorage:blacklisted_storage
 
 #c:buckets/royal_jelly
 - the_bumblezone:royal_jelly_bucket (from The Bumblezone - Fabric)
@@ -8139,6 +8193,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:platinum_blocks
 - modern_industrialization:platinum_block (from Modern Industrialization)
 
+#miskatonicmysteries:elderian_blocks
+- miskatonicmysteries:elderian_stone (from Miskatonic Mysteries)
+- miskatonicmysteries:elderian_stone_smooth (from Miskatonic Mysteries)
+- miskatonicmysteries:elderian_bricks (from Miskatonic Mysteries)
+- miskatonicmysteries:elderian_bricks_mossy (from Miskatonic Mysteries)
+- miskatonicmysteries:elderian_bricks_cracked (from Miskatonic Mysteries)
+
 #c:invar_dusts
 - modern_industrialization:invar_dust (from Modern Industrialization)
 
@@ -8147,6 +8208,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #c:antimony_dusts
 - modern_industrialization:antimony_dust (from Modern Industrialization)
+
+#miskatonicmysteries:cultist_armor
+- miskatonicmysteries:yellow_hood (from Miskatonic Mysteries)
+- miskatonicmysteries:yellow_robe (from Miskatonic Mysteries)
+- miskatonicmysteries:yellow_skirt (from Miskatonic Mysteries)
+- miskatonicmysteries:dark_hood (from Miskatonic Mysteries)
+- miskatonicmysteries:dark_robe (from Miskatonic Mysteries)
+- miskatonicmysteries:dark_skirt (from Miskatonic Mysteries)
 
 #minecraft:logs_that_burn
 - #minecraft:dark_oak_logs (from Default)
@@ -8160,7 +8229,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - #bewitchment:cypress_logs (from Bewitchment)
 - #bewitchment:elder_logs (from Bewitchment)
 - #bewitchment:dragons_blood_logs (from Bewitchment)
-- #bwplus:yew_logs (from Bewitchment Plus)
 - #charm:azalea_logs (from Charm)
 - #charm:ebony_logs (from Charm)
 - #ecologics:coconut_logs (from Ecologics)
@@ -8256,7 +8324,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - bewitchment:cypress_slab (from Bewitchment)
 - bewitchment:elder_slab (from Bewitchment)
 - bewitchment:dragons_blood_slab (from Bewitchment)
-- bwplus:yew_slab (from Bewitchment Plus)
 - charm:azalea_slab (from Charm)
 - charm:ebony_slab (from Charm)
 - ecologics:coconut_slab (from Ecologics)
@@ -8299,6 +8366,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:mozanite_tiny_dusts
 - modern_industrialization:mozanite_tiny_dust (from Modern Industrialization)
 
+#trinkets:chest/back
+- ae2:wireless_crafting_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_encoding_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_access_terminal (from AE2WTLib)
+- ae2wtlib:wireless_universal_terminal (from AE2WTLib)
+
 #c:fence_gates
 - minecraft:acacia_fence_gate (from Bookshelf)
 - minecraft:birch_fence_gate (from Bookshelf)
@@ -8327,13 +8400,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - chemlib:silver_dust (from ChemLib)
 - modern_industrialization:silver_dust (from Modern Industrialization)
 
+#miskatonicmysteries:oceanic_gold_blocks
+- miskatonicmysteries:oceanic_gold_block (from Miskatonic Mysteries)
+- miskatonicmysteries:oceanic_gold_block_warded (from Miskatonic Mysteries)
+- miskatonicmysteries:oceanic_gold_tiles (from Miskatonic Mysteries)
+- miskatonicmysteries:oceanic_gold_pillar (from Miskatonic Mysteries)
+- miskatonicmysteries:oceanic_gold_pillar_ornate (from Miskatonic Mysteries)
+- miskatonicmysteries:oceanic_gold_pillar_split (from Miskatonic Mysteries)
+
 #c:kanthal_plates
 - modern_industrialization:kanthal_plate (from Modern Industrialization)
 
 #c:purple_dyes
 - minecraft:purple_dye (from Comforts)
 - minecraft:purple_dye (from Fabric Convention Tags)
-- minecraft:purple_dye (from Wired Redstone)
 
 #c:raw_iridium_ores
 - modern_industrialization:raw_iridium (from Modern Industrialization)
@@ -8411,7 +8491,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:light_gray_dyes
 - minecraft:light_gray_dye (from Comforts)
 - minecraft:light_gray_dye (from Fabric Convention Tags)
-- minecraft:light_gray_dye (from Wired Redstone)
 
 #c:emerald_blocks
 - minecraft:emerald_block (from Modern Industrialization)
@@ -8534,6 +8613,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:raw_gold (from Fabric Convention Tags)
 - minecraft:raw_gold (from Incubus Core)
 
+#miskatonicmysteries:guns
+- miskatonicmysteries:revolver (from Miskatonic Mysteries)
+- miskatonicmysteries:rifle (from Miskatonic Mysteries)
+
 #bewitchment:juniper_logs
 - bewitchment:juniper_log (from Bewitchment)
 - bewitchment:juniper_wood (from Bewitchment)
@@ -8610,13 +8693,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #c:cooked_eggs
 - farmersdelight:fried_egg (from Farmer's Delight)
 
-#bwplus:niffler
-- bewitchment:silver_ingot (from Bewitchment Plus)
-- bewitchment:silver_nugget (from Bewitchment Plus)
-- bewitchment:raw_silver (from Bewitchment Plus)
-- minecraft:gold_ingot (from Bewitchment Plus)
-- minecraft:gold_nugget (from Bewitchment Plus)
-- minecraft:raw_gold (from Bewitchment Plus)
+#miskatonicmysteries:hastur_cultist_offerings
+- #miskatonicmysteries:hastur_statues (from Miskatonic Mysteries)
 
 #spectrum:no_cinderhearth_doubling
 - c:dusts? (from Spectrum)
@@ -8641,6 +8719,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:wet_sponge (from Spectrum)
 
 #trinkets:head/hat
+- ae2:wireless_crafting_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_encoding_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_access_terminal (from AE2WTLib)
+- ae2wtlib:wireless_universal_terminal (from AE2WTLib)
 - artifacts:night_vision_goggles (from Artifacts)
 - artifacts:novelty_drinking_hat (from Artifacts)
 - artifacts:plastic_drinking_hat (from Artifacts)
@@ -8693,6 +8775,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:trapped_chest (from Balm)
 
 #trinkets:feet/aglet
+- ae2:wireless_crafting_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_encoding_terminal (from AE2WTLib)
+- ae2wtlib:wireless_pattern_access_terminal (from AE2WTLib)
+- ae2wtlib:wireless_universal_terminal (from AE2WTLib)
 - bewitchment:specter_bangle (from Bewitchment)
 - bewitchment:druid_band (from Bewitchment)
 
@@ -8727,7 +8813,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:red_dye (from Comforts)
 - minecraft:red_dye (from Expanded Storage)
 - minecraft:red_dye (from Fabric Convention Tags)
-- minecraft:red_dye (from Wired Redstone)
 
 #adorn:stone_platforms
 - adorn:andesite_platform (from Adorn)
@@ -8792,7 +8877,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - adorn:architects_palette/myonite_platform? (from Adorn)
 - adorn:architects_palette/myonite_brick_platform? (from Adorn)
 - adorn:architects_palette/mushy_myonite_brick_platform? (from Adorn)
-- adorn:biomesoplenty/mud_brick_platform? (from Adorn)
 - adorn:biomesoplenty/black_sandstone_platform? (from Adorn)
 - adorn:biomesoplenty/cut_black_sandstone_platform? (from Adorn)
 - adorn:biomesoplenty/smooth_black_sandstone_platform? (from Adorn)
@@ -8832,6 +8916,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:bow (from Fabric Convention Tags)
 - spectrum:bedrock_bow (from Spectrum)
 
+#friendsandfoes:glare_food_items
+- minecraft:glow_berries (from Friends&Foes)
+
 #c:herbs
 - minecraft:allium (from Incubus Core)
 - minecraft:cornflower (from Incubus Core)
@@ -8854,7 +8941,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - bewitchment:cypress_planks (from Bewitchment)
 - bewitchment:elder_planks (from Bewitchment)
 - bewitchment:dragons_blood_planks (from Bewitchment)
-- bwplus:yew_planks (from Bewitchment Plus)
 - charm:azalea_planks (from Charm)
 - charm:ebony_planks (from Charm)
 - ecologics:coconut_planks (from Ecologics)
@@ -9018,9 +9104,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #c:he_mox_nuggets
 - modern_industrialization:he_mox_nugget (from Modern Industrialization)
-
-#c:red_alloy_ingots
-- wiredredstone:redstone_alloy_ingot (from Wired Redstone)
 
 #c:iron_rods
 - ad_astra:iron_rod (from Ad Astra!)

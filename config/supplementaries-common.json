@@ -1,6 +1,10 @@
 {
   "blocks": {
+    "urn": {
+      "critter_spawn_chance": 0.009999999776482582
+    },
     "bamboo_spikes": {
+      "player_loot": false,
       "alternative_mode": true
     },
     "sugar_cube": {
@@ -122,11 +126,7 @@
     "cave_urns": {
       "enabled": true,
       "attempts_per_patch": 4,
-      "spawn_attempts": 7,
-      "biome_blacklist": [
-        "minecraft:lush_caves",
-        "minecraft:dripstone_caves"
-      ]
+      "spawn_attempts": 7
     },
     "misc": {
       "red_merchant_spawn_multiplier": 1.0

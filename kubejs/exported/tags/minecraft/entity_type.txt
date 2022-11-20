@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Sep 18, 2022, 7:27:18 PM
+To refresh this file, delete it and run /reload command again! Last updated: Nov 10, 2022, 6:19:53 AM
 
 #supplementaries:cage_baby_catchable
 - minecraft:cow (from Supplementaries)
@@ -46,6 +46,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:allay (from Ad Astra!)
 - minecraft:warden (from Ad Astra!)
 
+#spirit:rarity/epic
+- minecraft:elder_guardian (from Spirit)
+- minecraft:warden (from Spirit)
+- minecraft:allay (from Spirit)
+- minecraft:illusioner (from Spirit)
+- minecraft:skeleton_horse (from Spirit)
+- minecraft:trader_llama (from Spirit)
+- minecraft:vex (from Spirit)
+- minecraft:wandering_trader (from Spirit)
+- minecraft:witch (from Spirit)
+- minecraft:zombie_horse (from Spirit)
+
+#miskatonicmysteries:burned_veil_mobs
+- minecraft:blaze (from Miskatonic Mysteries)
+- minecraft:zombified_piglin (from Miskatonic Mysteries)
+- minecraft:skeleton (from Miskatonic Mysteries)
+- minecraft:wither_skeleton (from Miskatonic Mysteries)
+
 #spirit:collect_blacklisted
 - minecraft:giant (from Spirit)
 
@@ -56,9 +74,27 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #requiem:inventory/inventory_carriers
 - #goblintraders:goblin_traders (from Goblin Traders)
+- ratsmischief:rat (from Rat's Mischief)
 
 #requiem:golems
 - bewitchment:demon (from Bewitchment)
+
+#spirit:rarity/rare
+- minecraft:axolotl (from Spirit)
+- minecraft:dolphin (from Spirit)
+- minecraft:mule (from Spirit)
+- minecraft:endermite (from Spirit)
+- minecraft:evoker (from Spirit)
+- minecraft:iron_golem (from Spirit)
+- minecraft:panda (from Spirit)
+- minecraft:parrot (from Spirit)
+- minecraft:rabbit (from Spirit)
+- minecraft:ravager (from Spirit)
+- minecraft:shulker (from Spirit)
+- minecraft:snow_golem (from Spirit)
+- minecraft:zombified_piglin (from Spirit)
+
+#eldritch_mobs:blacklist
 
 #minecraft:powder_snow_walkable_mobs
 - minecraft:rabbit (from Default)
@@ -83,6 +119,58 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #requiem:inventory/supercrafters
 - #goblintraders:goblin_traders (from Goblin Traders)
 
+#eldritch_mobs:allowed
+- minecraft:zombie (from EldritchMobs)
+- minecraft:skeleton (from EldritchMobs)
+- minecraft:creeper (from EldritchMobs)
+- minecraft:blaze (from EldritchMobs)
+- minecraft:drowned (from EldritchMobs)
+- minecraft:elder_guardian (from EldritchMobs)
+- minecraft:endermite (from EldritchMobs)
+- minecraft:evoker (from EldritchMobs)
+- minecraft:ghast (from EldritchMobs)
+- minecraft:guardian (from EldritchMobs)
+- minecraft:husk (from EldritchMobs)
+- minecraft:illusioner (from EldritchMobs)
+- minecraft:magma_cube (from EldritchMobs)
+- minecraft:ravager (from EldritchMobs)
+- minecraft:shulker (from EldritchMobs)
+- minecraft:silverfish (from EldritchMobs)
+- minecraft:slime (from EldritchMobs)
+- minecraft:stray (from EldritchMobs)
+- minecraft:vex (from EldritchMobs)
+- minecraft:vindicator (from EldritchMobs)
+- minecraft:witch (from EldritchMobs)
+- minecraft:wither_skeleton (from EldritchMobs)
+- minecraft:zombie_villager (from EldritchMobs)
+- minecraft:hoglin (from EldritchMobs)
+- minecraft:zoglin (from EldritchMobs)
+- minecraft:wolf (from EldritchMobs)
+- minecraft:fox (from EldritchMobs)
+- minecraft:iron_golem (from EldritchMobs)
+- minecraft:snow_golem (from EldritchMobs)
+- minecraft:enderman (from EldritchMobs)
+- minecraft:spider (from EldritchMobs)
+- minecraft:cave_spider (from EldritchMobs)
+- minecraft:piglin (from EldritchMobs)
+- minecraft:zombified_piglin (from EldritchMobs)
+- minecraft:polar_bear (from EldritchMobs)
+- minecraft:llama (from EldritchMobs)
+- minecraft:bee (from EldritchMobs)
+- minecraft:panda (from EldritchMobs)
+- minecraft:ender_dragon (from EldritchMobs)
+- minecraft:wither (from EldritchMobs)
+- minecraft:piglin_brute (from EldritchMobs)
+- minecraft:pillager (from EldritchMobs)
+- minecraft:phantom (from EldritchMobs)
+- minecraft:zombie_villager (from EldritchMobs)
+- minecraft:axolotl (from EldritchMobs)
+- minecraft:warden (from EldritchMobs)
+
+#spirit:rarity/legendary
+- minecraft:ender_dragon (from Spirit)
+- minecraft:wither (from Spirit)
+
 #spirit:soul_cage_blacklisted
 - minecraft:wither (from Spirit)
 - minecraft:ender_dragon (from Spirit)
@@ -104,9 +192,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #minecraft:beehive_inhabitors
 - minecraft:bee (from Default)
 
-#bwplus:unholy
-- bewitchment:vampire (from Bewitchment Plus)
-- bewitchment:werewolf (from Bewitchment Plus)
+#miskatonicmysteries:broken_veil_mobs
+- minecraft:phantom (from Miskatonic Mysteries)
+- minecraft:enderman (from Miskatonic Mysteries)
+- miskatonicmysteries:energy_tentacle (from Miskatonic Mysteries)
 
 #c:boats
 - minecraft:boat (from Fabric Convention Tags)
@@ -117,6 +206,47 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:stray (from Default)
 - minecraft:wither_skeleton (from Default)
 
+#supplementaries:urn_spawn
+- minecraft:silverfish (from Supplementaries)
+- minecraft:slime (from Supplementaries)
+- minecraft:bat (from Supplementaries)
+- alexsmobs:fly? (from Supplementaries)
+- mowziesmobs:grottol? (from Supplementaries)
+
+#spirit:rarity/uncommon
+- minecraft:bee (from Spirit)
+- minecraft:blaze (from Spirit)
+- minecraft:cat (from Spirit)
+- minecraft:cave_spider (from Spirit)
+- minecraft:donkey (from Spirit)
+- minecraft:drowned (from Spirit)
+- minecraft:enderman (from Spirit)
+- minecraft:fox (from Spirit)
+- minecraft:ghast (from Spirit)
+- minecraft:goat (from Spirit)
+- minecraft:guardian (from Spirit)
+- minecraft:hoglin (from Spirit)
+- minecraft:husk (from Spirit)
+- minecraft:llama (from Spirit)
+- minecraft:mooshroom (from Spirit)
+- minecraft:ocelot (from Spirit)
+- minecraft:phantom (from Spirit)
+- minecraft:piglin_brute (from Spirit)
+- minecraft:pillager (from Spirit)
+- minecraft:polar_bear (from Spirit)
+- minecraft:pufferfish (from Spirit)
+- minecraft:silverfish (from Spirit)
+- minecraft:stray (from Spirit)
+- minecraft:strider (from Spirit)
+- minecraft:tadpole (from Spirit)
+- minecraft:tropical_fish (from Spirit)
+- minecraft:turtle (from Spirit)
+- minecraft:vindicator (from Spirit)
+- minecraft:wither_skeleton (from Spirit)
+- minecraft:wolf (from Spirit)
+- minecraft:zoglin (from Spirit)
+- minecraft:zombie_villager (from Spirit)
+
 #minecraft:arrows
 - minecraft:arrow (from Default)
 - minecraft:spectral_arrow (from Default)
@@ -126,6 +256,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #bewitchment:taglock_blacklist
 - #c:bosses (from Bewitchment)
 
+#miskatonicmysteries:rift_entities
+- miskatonicmysteries:harrow (from Miskatonic Mysteries)
+- minecraft:vex (from Miskatonic Mysteries)
+
 #c:minecarts
 - minecraft:minecart (from Fabric Convention Tags)
 - minecraft:tnt_minecart (from Fabric Convention Tags)
@@ -134,6 +268,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:command_block_minecart (from Fabric Convention Tags)
 - minecraft:hopper_minecart (from Fabric Convention Tags)
 - minecraft:spawner_minecart (from Fabric Convention Tags)
+
+#eldritch_mobs:eldritch_allowed
+- ratsmischief:rat (from Rat's Mischief)
 
 #minecraft:axolotl_always_hostiles
 - minecraft:drowned (from Default)
@@ -156,13 +293,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - ad_astra:sulfur_creeper (from Ad Astra!)
 - ad_astra:lunarian_wandering_trader (from Ad Astra!)
 
-#bwplus:spectral_familiars
-- bwplus:niffler (from Bewitchment Plus)
-- bwplus:unicorn (from Bewitchment Plus)
-- bwplus:phoenix (from Bewitchment Plus)
-
 #c:pollen
 - the_bumblezone:pollen_puff (from The Bumblezone - Fabric)
+
+#miskatonicmysteries:valid_sacrifices
+- minecraft:cow (from Miskatonic Mysteries)
+- minecraft:sheep (from Miskatonic Mysteries)
+- minecraft:goat (from Miskatonic Mysteries)
+- minecraft:pig (from Miskatonic Mysteries)
+- minecraft:mooshroom (from Miskatonic Mysteries)
+- minecraft:villager (from Miskatonic Mysteries)
+- minecraft:player (from Miskatonic Mysteries)
+- minecraft:horse (from Miskatonic Mysteries)
+- miskatonicmysteries:hastur_cultist (from Miskatonic Mysteries)
+- miskatonicmysteries:protagonist (from Miskatonic Mysteries)
+- miskatonicmysteries:byakhee (from Miskatonic Mysteries)
+
+#requiem:behavior/regular_eaters
+- ratsmischief:rat (from Rat's Mischief)
 
 #minecraft:frog_food
 - minecraft:slime (from Default)
@@ -193,6 +341,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:donkey (from Farmer's Delight)
 - minecraft:mule (from Farmer's Delight)
 - minecraft:llama (from Farmer's Delight)
+
+#requiem:inventory/armor_users
+- ratsmischief:rat (from Rat's Mischief)
 
 #goblintraders:goblin_traders
 - goblintraders:goblin_trader (from Goblin Traders)
@@ -254,18 +405,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:donkey? (from Supplementaries)
 - minecraft:fox? (from Supplementaries)
 
+#eldritch_mobs:always_eldritch
+
 #supplementaries:rotatable
 - dummmmmmy:target_dummy? (from Supplementaries)
 - minecraft:armor_stand (from Supplementaries)
 
+#eldritch_mobs:always_ultra
+
 #requiem:inventory/item_users
 - #goblintraders:goblin_traders (from Goblin Traders)
+- ratsmischief:rat (from Rat's Mischief)
 
 #supplementaries:jar_catchable
 - minecraft:slime? (from Supplementaries)
 - minecraft:bee? (from Supplementaries)
 - minecraft:magma_cube? (from Supplementaries)
-- ecologics:firefly? (from Supplementaries)
 - feywild:spring_pixie? (from Supplementaries)
 - feywild:autumn_pixie? (from Supplementaries)
 - feywild:summer_pixie? (from Supplementaries)
@@ -296,6 +451,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - tconstruct:sky_slime? (from Supplementaries)
 - twilightforest:maze_slime? (from Supplementaries)
 - biomemakeover:dragonfly? (from Supplementaries)
+- naturalist:firefly? (from Supplementaries)
+- cnb:sporeling? (from Supplementaries)
+- crittersandcompanions:dragonfly? (from Supplementaries)
+- crittersandcompanions:leaf_insect? (from Supplementaries)
+- alexsmobs:cockroach? (from Supplementaries)
+- alexsmobs:leafcutter_ant? (from Supplementaries)
+- biomemakeover:rootling? (from Supplementaries)
+- naturalist:butterfly? (from Supplementaries)
+- mushlings:mushling? (from Supplementaries)
+- quark:crab? (from Supplementaries)
+- quark:frog? (from Supplementaries)
+- sprout:bounce_bug? (from Supplementaries)
+- unusualend:ender_firefly? (from Supplementaries)
+- naturalist:caterpillar? (from Supplementaries)
+
+#ftbquests:no_loot_crates
 
 #bewitchment:encounter_fortune
 - minecraft:husk (from Bewitchment)
@@ -312,6 +483,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:strider (from Default)
 - minecraft:blaze (from Default)
 - minecraft:magma_cube (from Default)
+
+#eldritch_mobs:always_elite
 
 #bewitchment:insanity_blacklist
 - minecraft:creeper (from Bewitchment)
@@ -337,7 +510,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:piglin (from Bewitchment)
 - minecraft:piglin_brute (from Bewitchment)
 - bewitchment:vampire (from Bewitchment)
-- bwplus:cambion (from Bewitchment Plus)
 
 #supplementaries:cage_catchable
 - minecraft:slime? (from Supplementaries)
@@ -506,3 +678,31 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - alexsmobs:flutter? (from Supplementaries)
 - alexsmobs:rain_frog? (from Supplementaries)
 - alexsmobs:sugar_glider? (from Supplementaries)
+- naturalist:bluejay? (from Supplementaries)
+- naturalist:canary? (from Supplementaries)
+- naturalist:cardinal? (from Supplementaries)
+- naturalist:robin? (from Supplementaries)
+- naturalist:vulture? (from Supplementaries)
+- alexsmobs:crow? (from Supplementaries)
+- alexsmobs:toucan? (from Supplementaries)
+- alexsmobs:seagull? (from Supplementaries)
+- alexsmobs:bald_eagle? (from Supplementaries)
+- biomemakeover:owl? (from Supplementaries)
+- ecologics:penguin? (from Supplementaries)
+- winteroverhaul:robin? (from Supplementaries)
+- untitledduckmod:duck? (from Supplementaries)
+- duckling:duck? (from Supplementaries)
+- goblintraders:goblin_trader? (from Supplementaries)
+- goblintraders:vein_goblin_trader? (from Supplementaries)
+- sprout:elephant? (from Supplementaries)
+- alexsmobs:jerboa? (from Supplementaries)
+- hedgehog:hedgehog? (from Supplementaries)
+- cnb:lizard? (from Supplementaries)
+- cutehermitcrabs:hermit_crab? (from Supplementaries)
+- ecologics:coconut_crab? (from Supplementaries)
+- biomemakeover:scuttler? (from Supplementaries)
+- ars_nouveau:starbuncle? (from Supplementaries)
+- ars_nouveau:whirlisprig? (from Supplementaries)
+
+#vitalize:revitalizer_blacklist
+- minecraft:giant (from Vitalize)

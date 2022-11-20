@@ -15,12 +15,18 @@
         "nether_ruby_soul": {
           "vein_count [default: 16]": 16,
           "vein_size [default: 12]": 12,
-          "air_discard_chance [default: 0.0]": 0.0
+          "air_discard_chance [default: 0.0]": 0.0,
+          "vein_count [default: 5]": 5,
+          "vein_size [default: 5]": 5,
+          "air_discard_chance [default: 0.1]": 0.1
         },
         "nether_ruby_large": {
           "vein_count [default: 16]": 16,
           "vein_size [default: 12]": 12,
-          "air_discard_chance [default: 0.0]": 0.0
+          "air_discard_chance [default: 0.0]": 0.0,
+          "vein_count [default: 5]": 5,
+          "vein_size [default: 5]": 5,
+          "air_discard_chance [default: 0.1]": 0.1
         },
         "nether_ruby_rare": {
           "vein_count [default: 2]": 2,
@@ -30,7 +36,8 @@
         "nether_lapis": {
           "vein_count [default: 18]": 18,
           "vein_size [default: 4]": 4,
-          "air_discard_chance [default: 0.0]": 0.0
+          "air_discard_chance [default: 0.0]": 0.0,
+          "vein_count [default: 14]": 14
         },
         "nether_redstone": {
           "vein_count [default: 1]": 1,

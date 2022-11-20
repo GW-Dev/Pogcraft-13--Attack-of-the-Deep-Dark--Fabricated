@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Sep 18, 2022, 7:27:18 PM
+To refresh this file, delete it and run /reload command again! Last updated: Nov 10, 2022, 6:19:53 AM
 
 #minecraft:placeable
 - minecraft:kebab (from Default)
@@ -57,3 +57,4 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - darkpaintings:last_dreams_at_candyland (from DarkPaintings)
 - darkpaintings:the_most_sweet_candy (from DarkPaintings)
 - darkpaintings:sir_ramfrez_yarn_paradise (from DarkPaintings)
+- supplementaries:bombs (from Supplementaries)

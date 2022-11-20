@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Sep 18, 2022, 7:27:18 PM
+To refresh this file, delete it and run /reload command again! Last updated: Nov 10, 2022, 6:19:53 AM
 
 #the_bumblezone:no_dungeons
 - the_bumblezone:cell_maze (from The Bumblezone - Fabric)
@@ -6,8 +6,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #the_bumblezone:wrath_causing
 - the_bumblezone:cell_maze (from The Bumblezone - Fabric)
 
+#betterdeserttemples:applies_mining_fatigue
+- betterdeserttemples:desert_temple (from YUNG's Better Desert Temples)
+
 #minecraft:cats_spawn_in
 - minecraft:swamp_hut (from Default)
+- betterwitchhuts:witch_hut (from YUNG's Better Witch Huts)
+- betterwitchhuts:witch_circle (from YUNG's Better Witch Huts)
 
 #the_bumblezone:honey_compass_locating
 - the_bumblezone:cell_maze (from The Bumblezone - Fabric)
@@ -18,8 +23,30 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - graveyard:large_graveyard? (from You're in Grave Danger)
 - graveyard:small_desert_graveyard? (from You're in Grave Danger)
 
+#betterdungeons:better_dungeons
+- betterdungeons:small_dungeon (from YUNG's Better Dungeons)
+- betterdungeons:spider_dungeon (from YUNG's Better Dungeons)
+- betterdungeons:skeleton_dungeon (from YUNG's Better Dungeons)
+- betterdungeons:zombie_dungeon (from YUNG's Better Dungeons)
+- betterdungeons:small_nether_dungeon (from YUNG's Better Dungeons)
+
 #charm:desert_pyramid
 - minecraft:desert_pyramid (from Charm)
+
+#bettermineshafts:better_mineshafts
+- bettermineshafts:mineshaft_acacia (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_desert (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_dripstone (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_ice (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_jungle (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_lush (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_mesa (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_mushroom (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_oak (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_overgrown (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_red_desert (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_spruce (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_spruce_snowy (from YUNG's Better Mineshafts)
 
 #minecraft:shipwreck
 - minecraft:shipwreck (from Default)
@@ -31,11 +58,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #the_bumblezone:honey_compass_throne_locating
 - the_bumblezone:throne_pillar (from The Bumblezone - Fabric)
 
+#betteroceanmonuments:better_ocean_monuments
+- betteroceanmonuments:ocean_monument (from YUNG's Better Ocean Monuments)
+
 #minecraft:on_ocean_explorer_maps
 - minecraft:monument (from Default)
+- betteroceanmonuments:ocean_monument (from YUNG's Better Ocean Monuments)
 
 #supplementaries:way_sign_destinations
 - #minecraft:village (from Supplementaries)
+- hauntedharvest:abandoned_farm? (from Supplementaries)
+- harvestseason:abandoned_farm? (from Supplementaries)
 - pokecube_legends:village? (from Supplementaries)
 - pokecube_legends:village/ocean? (from Supplementaries)
 - valhelsia_structures:castle? (from Supplementaries)
@@ -46,12 +79,27 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - blue_skies:gatekeeper_house? (from Supplementaries)
 - feywild:library? (from Supplementaries)
 - feywild:blacksmith? (from Supplementaries)
+- idas:bazaar? (from Supplementaries)
+- idas:castle? (from Supplementaries)
+- idas:farmhouse? (from Supplementaries)
+- idas:bearclaw_inn? (from Supplementaries)
+- idas:treetop_tavern? (from Supplementaries)
+- idas:wizardtower? (from Supplementaries)
+- idas:farmhouse? (from Supplementaries)
+- idas:fishermans_lodge? (from Supplementaries)
+- idas:beekeepers_house? (from Supplementaries)
+
+#betterstrongholds:better_strongholds
+- betterstrongholds:stronghold (from YUNG's Better Strongholds)
 
 #charm:ancient_city
 - minecraft:ancient_city (from Charm)
 
 #minecraft:on_treasure_maps
 - minecraft:buried_treasure (from Default)
+
+#morevillagers:on_mineshaft_explorer_maps
+- #bettermineshafts:better_mineshafts (from YUNG's Better Mineshafts)
 
 #minecraft:ruined_portal
 - minecraft:ruined_portal_desert (from Default)
@@ -61,6 +109,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:ruined_portal_ocean (from Default)
 - minecraft:ruined_portal (from Default)
 - minecraft:ruined_portal_swamp (from Default)
+
+#morevillagers:on_swamp_hut_explorer_maps
+- betterwitchhuts:witch_hut (from YUNG's Better Witch Huts)
 
 #the_bumblezone:bee_queen_mining_fatigue
 - the_bumblezone:throne_pillar (from The Bumblezone - Fabric)
@@ -102,12 +153,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 #charm:fortress
 - minecraft:fortress (from Charm)
 
+#betterdeserttemples:better_desert_temples
+- betterdeserttemples:desert_temple (from YUNG's Better Desert Temples)
+
 #charm:swamp_hut
 - minecraft:swamp_hut (from Charm)
 
 #minecraft:mineshaft
 - minecraft:mineshaft (from Default)
 - minecraft:mineshaft_mesa (from Default)
+- bettermineshafts:mineshaft_acacia (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_desert (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_ice (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_jungle (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_lush (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_mesa (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_mushroom (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_oak (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_red_desert (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_spruce (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_spruce_snowy (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_overgrown (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_dripstone (from YUNG's Better Mineshafts)
 
 #minecraft:on_woodland_explorer_maps
 - minecraft:mansion (from Default)
@@ -117,6 +184,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #minecraft:cats_spawn_as_black
 - minecraft:swamp_hut (from Default)
+- betterwitchhuts:witch_hut (from YUNG's Better Witch Huts)
+- betterwitchhuts:witch_circle (from YUNG's Better Witch Huts)
 
 #charm:bastion_remnant
 - minecraft:bastion_remnant (from Charm)
@@ -135,6 +204,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #minecraft:eye_of_ender_located
 - minecraft:stronghold (from Default)
+- betterstrongholds:stronghold (from YUNG's Better Strongholds)
 
 #minecraft:dolphin_located
 - #minecraft:ocean_ruin (from Default)

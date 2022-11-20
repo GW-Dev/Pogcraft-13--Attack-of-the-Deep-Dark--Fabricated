@@ -1,0 +1,14 @@
+name = "Better Statistics Screen"
+filename = "betterstats-1.4.3.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "5f153bf07665886c822a36ddd824d0f6007e6100"
+
+[update]
+[update.curseforge]
+file-id = 4008826
+project-id = 667464

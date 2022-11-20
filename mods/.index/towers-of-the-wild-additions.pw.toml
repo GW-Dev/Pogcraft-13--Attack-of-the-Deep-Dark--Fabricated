@@ -1,0 +1,14 @@
+name = "Towers of the Wild: Additions"
+filename = "totw_additions-1.2.3-1.19.x-fabric.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "c09dd466a5867748e84e88374c8615fab8e985cc"
+
+[update]
+[update.curseforge]
+file-id = 3857252
+project-id = 560091

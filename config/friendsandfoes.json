@@ -5,6 +5,7 @@
   "generateCopperGolemInAncientCity": true,
   "enableGlare": true,
   "enableGlareSpawn": true,
+  "enableGlareGriefing": true,
   "glareSpawnWeight": 4,
   "glareSpawnMinGroupSize": 1,
   "glareSpawnMaxGroupSize": 1,

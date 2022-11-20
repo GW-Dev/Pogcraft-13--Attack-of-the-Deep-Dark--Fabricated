@@ -1,0 +1,6 @@
+To refresh this file, delete it and run /reload command again! Last updated: Nov 10, 2022, 6:19:53 AM
+
+#miskatonicmysteries:rift_spells
+- miskatonicmysteries:damage (from Miskatonic Mysteries)
+- miskatonicmysteries:knockback (from Miskatonic Mysteries)
+- miskatonicmysteries:mania (from Miskatonic Mysteries)

@@ -1,0 +1,14 @@
+name = "Transparent"
+filename = "transparent-5.1.0+1.19-fabric.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "d05a64692bc025c77f6cec77ad251cd03e757491"
+
+[update]
+[update.curseforge]
+file-id = 3834255
+project-id = 377582

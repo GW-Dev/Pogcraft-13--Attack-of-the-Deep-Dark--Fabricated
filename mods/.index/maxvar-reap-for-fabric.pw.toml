@@ -1,0 +1,14 @@
+name = "MaxVar reap "
+filename = "mcf-reap-1.7.1-1.19.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "71a905057dedb6ce0523a56ed7553c46c85d78d2"
+
+[update]
+[update.curseforge]
+file-id = 3930640
+project-id = 368705

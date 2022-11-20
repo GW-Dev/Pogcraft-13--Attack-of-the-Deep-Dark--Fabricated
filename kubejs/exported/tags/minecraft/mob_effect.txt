@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Sep 18, 2022, 7:27:18 PM
+To refresh this file, delete it and run /reload command again! Last updated: Nov 10, 2022, 6:19:53 AM
 
 #artifacts:antidote_vessel_cancellable
 - minecraft:blindness (from Artifacts)
@@ -12,3 +12,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:wither (from Artifacts)
 
 #spectrum:uncurable
+
+#miskatonicmysteries:rift_effects
+- minecraft:levitation (from Miskatonic Mysteries)
+- minecraft:wither (from Miskatonic Mysteries)
+- minecraft:poison (from Miskatonic Mysteries)
+- miskatonicmysteries:mania (from Miskatonic Mysteries)
