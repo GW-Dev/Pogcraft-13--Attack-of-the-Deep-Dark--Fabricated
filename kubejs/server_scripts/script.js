@@ -59,6 +59,7 @@ ServerEvents.tags('item', event => {
 ServerEvents.recipes(event => {
 	// Change recipes here
 	event.replaceInput({mod: 'farmersdelight'}, 'farmersdelight:fried_egg', '#c:cooked_eggs')
+	event.replaceInput({mod: 'additionaladditions'}, 'additionaladditions:gold_ring', 'modern_industrialization:gold_ring')
 	event.replaceInput({mod: 'ad_astra'}, 'ad_astra:steel_ingot', '#c:steel_ingots')
 	event.replaceOutput({mod: 'farmersdelight'}, 'farmersdelight:tree_bark', '2x farmersdelight:tree_bark')
 	event.replaceInput({id: 'ad_astra:recipes/wheel'}, 'minecraft:black_dye', 'modern_industrialization:rubber_sheet')
@@ -119,6 +120,7 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'kibe:brown_sleeping_bag'})
 	event.remove({output: 'kibe:red_sleeping_bag'})
 	event.remove({output: 'kibe:black_sleeping_bag'})
+	event.remove({output: 'kibe:angel_ring'})
 
 	event.remove({output: 'farmersdelight:fried_egg'})
 	event.remove({output: 'chisel:chisel'}),
@@ -148,6 +150,18 @@ ServerEvents.recipes(event => {
 	  ], {
 		S: 'minecraft:stick',
 		I: '#c:iron_ingots'
+	})
+
+	event.shaped('kibe:angel_ring', [
+		'IGI',
+		'DRD',
+		'ISI'
+	  ], {
+		S: 'modern_industrialization:quantum_chestplate',
+		I: 'modern_industrialization:uu_matter_bucket',
+		G: 'modern_industrialization:gravichestplate',
+		D: 'bewitchment:demon_heart',
+		R: 'kibe:diamond_ring'
 	})
 	
 	

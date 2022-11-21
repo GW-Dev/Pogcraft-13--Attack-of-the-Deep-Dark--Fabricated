@@ -4,6 +4,7 @@ console.info('Hello, World! (You will see this line every time client resources 
 
 REIEvents.hide('item', e => {
 	e.hide([
+		'additional_additions:gold_ring',
 		'ad_astra:coal_generator',
 		'ad_astra:compressor',
 		'ad_astra:hammer',
