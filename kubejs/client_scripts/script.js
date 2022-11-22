@@ -101,9 +101,18 @@ REIEvents.hide('item', e => {
 		'supplementaries:ecologics/hanging_sign_azalea',
 		'supplementaries:ecologics/sign_post_flowering_azalea',
 		'supplementaries:ecologics/sign_post_azalea',
+		'twilightforest:uncrafting_table'
 	
 	])
+
 })
+
+	REIEvents.removeCategories(e => {
+		console.log(e.getCategoryIds())
+		e.yeet('twilightforest:uncrafting')
+		e.yeet('ad_astra:nasa_workbench')
+
+	})
 	REIEvents.groupEntries(e => {
 		e.groupItemsByTag("supplementaries:rei_groups/hanging_signs", "Hanging Signs", "supplementaries:hanging_signs");
 		e.groupItemsByTag("supplementaries:rei_groups/sign_posts", "Sign Posts", "supplementaries:sign_posts");

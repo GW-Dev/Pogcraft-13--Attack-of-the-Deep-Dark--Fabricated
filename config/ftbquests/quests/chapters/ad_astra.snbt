@@ -381,7 +381,6 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["4F0886FF37E1101A"]
-			optional: true
 			id: "58132755E921E778"
 			tasks: [{
 				id: "44A56AA0B6264AE9"
@@ -417,7 +416,6 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["4F0886FF37E1101A"]
-			optional: true
 			id: "6582513D8887DF04"
 			tasks: [{
 				id: "485EA3679EAAA035"
@@ -451,7 +449,6 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["4F0886FF37E1101A"]
-			optional: true
 			id: "4288B73FA65D8229"
 			tasks: [{
 				id: "278C6932C7FA6742"
@@ -485,7 +482,6 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["4F0886FF37E1101A"]
-			optional: true
 			id: "2CDAB93BD674197F"
 			tasks: [{
 				id: "7B576F4EBEB08269"
@@ -578,8 +574,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 11763949
-						Name: "Ad Astra! Legendary Lootbag"
 						Loot: "aof:loot_bags/ad_astra/legendary"
+						Name: "Ad Astra! Legendary Lootbag"
 					}
 				}
 			}]
@@ -591,7 +587,6 @@
 			description: ["A simple block that can detect whether or not the area has oxygen. Useful for making sure your air lock is working."]
 			hide_dependency_lines: true
 			dependencies: ["760572711CF727BB"]
-			optional: true
 			id: "2223D0AFDF5C10FB"
 			tasks: [{
 				id: "79C7AC3F6ABEE10E"
@@ -823,8 +818,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 11763949
-						Name: "Ad Astra! Legendary Lootbag"
 						Loot: "aof:loot_bags/ad_astra/legendary"
+						Name: "Ad Astra! Legendary Lootbag"
 					}
 				}
 			}]
@@ -852,8 +847,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 11763949
-						Name: "Ad Astra! Legendary Lootbag"
 						Loot: "aof:loot_bags/ad_astra/legendary"
+						Name: "Ad Astra! Legendary Lootbag"
 					}
 				}
 			}]
@@ -955,8 +950,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 11763949
-						Name: "Ad Astra! Legendary Lootbag"
 						Loot: "aof:loot_bags/ad_astra/legendary"
+						Name: "Ad Astra! Legendary Lootbag"
 					}
 				}
 			}]

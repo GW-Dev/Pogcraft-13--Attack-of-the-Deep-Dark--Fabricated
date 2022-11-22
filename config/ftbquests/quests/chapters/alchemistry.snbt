@@ -127,6 +127,7 @@
 			x: -2.0d
 			y: 0.0d
 			dependencies: ["6B522DC6845DB558"]
+			hide: true
 			id: "16EC7A910C0CB599"
 			tasks: [{
 				id: "2A2234E85AA0324F"

@@ -53,7 +53,6 @@
 				"Put buckets in said &bTank Unit &rand have them output into either a buffer or directly into &bME&r, craft these into &bWater Bottles &rfrom &6Croptopia."
 			]
 			dependencies: ["512CAEB25CD9B4E2"]
-			hide: true
 			id: "18035D9544EC01DA"
 			tasks: [
 				{
@@ -148,7 +147,6 @@
 			subtitle: "Slay 'em All"
 			description: [""]
 			dependencies: ["512CAEB25CD9B4E2"]
-			hide: true
 			id: "1F0EE1298663FE88"
 			tasks: [
 				{
@@ -244,7 +242,6 @@
 			y: 3.0d
 			subtitle: "Creative flight at your disposal."
 			dependencies: ["512CAEB25CD9B4E2"]
-			hide: true
 			id: "4394FBA9FF34416C"
 			tasks: [
 				{
@@ -298,7 +295,6 @@
 				"With 100 mB of UU Matter, the replicator can duplicate (almost) any item in the game!"
 			]
 			dependencies: ["512CAEB25CD9B4E2"]
-			hide: true
 			id: "0A87F01B58718A44"
 			tasks: [
 				{
@@ -402,7 +398,6 @@
 				"4BF269EBE370CE78"
 				"512CAEB25CD9B4E2"
 			]
-			hide: true
 			id: "13CA9C170D0623D8"
 			tasks: [{
 				id: "0BB4598A99E9B596"
