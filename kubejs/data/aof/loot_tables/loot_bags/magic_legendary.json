@@ -102,6 +102,17 @@
               "function": "set_count"
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "miskatonicmysteries:oceanic_gold",
+          "functions": [
+            {
+              "count": 12,
+              "function": "set_count"
+            }
+          ]
         }
       ]
     }

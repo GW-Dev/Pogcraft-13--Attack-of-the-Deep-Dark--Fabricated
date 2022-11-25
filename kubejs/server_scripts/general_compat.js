@@ -72,63 +72,33 @@ ServerEvents.recipes(event => {
 	event.smelting('minecraft:copper_block', 'minecraft:cut_copper')
 
 
-	//Spectrum MI integation
+	event.custom({
+		"type": "modern_industrialization:blast_furnace",
+		"item_outputs": {
+		"item":"supplementaries:ash_brick",
+		"amount": 1
+		},
+		"duration": 25,
+		"eu": 4,
+		"item_inputs": {
+			"item" : "modern_industrialization:wood_pulp",
+			"amount": 1
+		}
+	}).id('p8:21')
 
 	event.custom({
-		"type": "modern_industrialization:unpacker",
+		"type": "modern_industrialization:packer",
 		"item_outputs": {
-		"item": "minecraft:amethyst_shard",
-		"amount": 4
+		"item":"supplementaries:ash_bricks",
+		"amount": 1
 		},
 		"duration": 10,
-		"eu": 2,
+		"eu": 4,
 		"item_inputs": {
-		 "item" : "minecraft:amethyst_block",
-		 "amount": 1
+			"item" : ("supplementaries:ash_brick"),
+			"amount": 4
 		}
-	}).id('p8:2')
-
-	event.custom({
-		"type": "modern_industrialization:unpacker",
-		"item_outputs": {
-		"item": "minecraft:quartz",
-		"amount": 4
-		},
-		"duration": 10,
-		"eu": 2,
-		"item_inputs": {
-		 "item" : "minecraft:quartz_block",
-		 "amount": 1
-		}
-	}).id('p8:3')
-
-	event.custom({
-		"type": "modern_industrialization:unpacker",
-		"item_outputs": {
-		"item":"spectrum:citrine_shard",
-		"amount": 4
-		},
-		"duration": 10,
-		"eu": 2,
-		"item_inputs": {
-		 "item" : ("spectrum:citrine_block"),
-		 "amount": 1
-		}
-	}).id('p8:4')
-
-	event.custom({
-		"type": "modern_industrialization:unpacker",
-		"item_outputs": {
-		"item":"spectrum:topaz_shard",
-		"amount": 4
-		},
-		"duration": 10,
-		"eu": 2,
-		"item_inputs": {
-		 "item" : ("spectrum:topaz_block"),
-		 "amount": 1
-		}
-	}).id('p8:5')
+	}).id('p8:22')
 
 
 })

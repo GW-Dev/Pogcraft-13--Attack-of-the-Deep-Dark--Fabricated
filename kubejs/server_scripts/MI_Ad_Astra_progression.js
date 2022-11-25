@@ -433,7 +433,37 @@ ServerEvents.recipes(event => {
 		  {
 			"item": 'bewitchment:ectoplasm',
 			"amount": 1,
-			"probability": 0.2
+			"probability": 0.1
+		  },
+		  {
+			"item": 'miskatonicmysteries:incantation_yog',
+			"amount": 1,
+			"probability": 0.001
+		  },
+		  {
+			"item": 'miskatonicmysteries:resonate_ooze',
+			"amount": 1,
+			"probability": 0.05
+		  },
+		  {
+			"item": 'miskatonicmysteries:absinthe',
+			"amount": 1,
+			"probability": 0.05
+		  },
+		  {
+			"item": 'miskatonicmysteries:oceanic_gold',
+			"amount": 9,
+			"probability": 0.25
+		  },
+		  {
+			"item": 'miskatonicmysteries:the_orb',
+			"amount": 1,
+			"probability": 0.005
+		  },
+		  {
+			"item": 'miskatonicmysteries:infested_wheat',
+			"amount": 5,
+			"probability": 0.01
 		  }
 		]
 	}).id('p8:20')

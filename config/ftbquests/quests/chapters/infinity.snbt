@@ -43,15 +43,7 @@
 			x: 4.0d
 			y: 3.0d
 			subtitle: "So when people ask me, ‘What do you think of Michelin?’ I don’t cook for guides. I cook for customers."
-			description: [
-				"&6To submit items&r, left click the &bfood type&r of choice and &6hand in&r."
-				""
-				"Recommended to make &bWater Bottles &rfrom &6Croptopia &rfor the recipes requiring it."
-				""
-				"&bWater Bottles &rcan be automated with a simple &bDrain &rfrom &6Tech Reborn &rand a &bTank Unit &rbelow it."
-				""
-				"Put buckets in said &bTank Unit &rand have them output into either a buffer or directly into &bME&r, craft these into &bWater Bottles &rfrom &6Croptopia."
-			]
+			description: ["&6To submit items&r, left click the &bfood type&r of choice and &6hand in&r."]
 			dependencies: ["512CAEB25CD9B4E2"]
 			id: "18035D9544EC01DA"
 			tasks: [
@@ -194,31 +186,83 @@
 				{
 					id: "460612AE9FBB519C"
 					type: "kill"
+					icon: "minecraft:blue_ice"
 					entity: "friendsandfoes:iceologer"
 					value: 1L
 				}
 				{
 					id: "454C6996B5FDD288"
 					type: "kill"
+					icon: "bwplus:statue_lilith_gold"
 					entity: "bewitchment:lilith"
 					value: 1L
 				}
 				{
 					id: "559907AEBACF71C5"
 					type: "kill"
+					icon: "bwplus:statue_baphomet_gold"
 					entity: "bewitchment:baphomet"
 					value: 1L
 				}
 				{
 					id: "7EA08F72A2435E81"
 					type: "kill"
+					icon: "bwplus:statue_herne_gold"
 					entity: "bewitchment:herne"
 					value: 1L
 				}
 				{
 					id: "5FA015D33BE21DD5"
 					type: "kill"
+					icon: "bwplus:statue_leonard_gold"
 					entity: "bewitchment:leonard"
+					value: 1L
+				}
+				{
+					id: "4D2683B9A7739429"
+					type: "kill"
+					icon: {
+						id: "bwplus:vampire_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "bwplus:cambion"
+					value: 1L
+				}
+				{
+					id: "6A269DAD009B3116"
+					type: "kill"
+					icon: "bwplus:unicorn_blood"
+					entity: "bwplus:unicorn"
+					value: 1L
+				}
+				{
+					id: "1057714D72725C7C"
+					type: "kill"
+					icon: {
+						id: "bwplus:leshon_skull"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "bwplus:leshon"
+					value: 1L
+				}
+				{
+					id: "36EF30AE6FC4B03B"
+					type: "kill"
+					icon: "miskatonicmysteries:hastur_statue_gold"
+					entity: "miskatonicmysteries:feaster"
+					value: 1L
+				}
+				{
+					id: "178E98FACFA5C431"
+					type: "kill"
+					icon: "miskatonicmysteries:cirrhosus_flesh"
+					entity: "miskatonicmysteries:byakhee"
 					value: 1L
 				}
 			]
@@ -240,7 +284,7 @@
 			title: "&eRing of Angels, Hearts of Demons"
 			x: -0.5d
 			y: 3.0d
-			subtitle: "Creative flight at your disposal."
+			subtitle: "Creative flight at your disposal, and madness begot"
 			dependencies: ["512CAEB25CD9B4E2"]
 			id: "4394FBA9FF34416C"
 			tasks: [
@@ -258,6 +302,12 @@
 					type: "item"
 					item: "bewitchment:demon_heart"
 					count: 2500L
+				}
+				{
+					id: "7966DEFD261A9CE9"
+					type: "advancement"
+					advancement: "miskatonicmysteries:main/twisted_world"
+					criterion: ""
 				}
 			]
 			rewards: [{
@@ -393,6 +443,7 @@
 		{
 			x: 1.0d
 			y: 3.0d
+			subtitle: "Heisenbark"
 			description: ["We did it, Jesse!"]
 			dependencies: [
 				"4BF269EBE370CE78"
@@ -404,6 +455,35 @@
 				type: "item"
 				item: "alchemicaldrugs:methamphetamine"
 			}]
+			rewards: [
+				{
+					id: "44C88BF2BB4676F0"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "LEGENDARY"
+							Color: 16425539
+							Name: "Modern Industrialization Legendary Lootbag"
+							Loot: "aof:loot_bags/mi/legendary"
+						}
+					}
+				}
+				{
+					id: "1FC4652C9B370602"
+					type: "item"
+					item: {
+						id: "trofers:medium_pillar"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:methamphetamine"
+							}
+						}
+					}
+				}
+			]
 		}
 	]
 }

@@ -1,0 +1,690 @@
+{
+	id: "384A1D025B7DB3ED"
+	group: "1039AC171AB01709"
+	order_index: 3
+	filename: "miskatonic_mysteries"
+	title: "Miskatonic Mysteries"
+	icon: "miskatonicmysteries:cirrhosus_flesh"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -5.0d
+		y: 7.5d
+		width: 10.0d
+		height: 10.0d
+		rotation: 0.0d
+		image: "miskatonicmysteries:textures/misc/sigil/hastur/center.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -16.0d
+			y: 7.0d
+			subtitle: "Welcome to Miskatonic University..."
+			description: ["In Miskatonic Mysteries, you will be serving beings from beyond or fighting their influence."]
+			dependencies: ["734F1553E293E98D"]
+			hide: true
+			id: "69DEEE5C01C748FA"
+			tasks: [{
+				id: "266ADA9787710466"
+				type: "checkmark"
+				title: "The Madness Beyond"
+			}]
+			rewards: [
+				{
+					id: "599F169664C9D865"
+					type: "item"
+					item: "miskatonicmysteries:necronomicon"
+				}
+				{
+					id: "46F498AB8299BE2E"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 16747259
+							Name: "Magic Common Lootbag"
+							Loot: "aof:loot_bags/magic/common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 5.0d
+			subtitle: "Energy of the Sunken Place"
+			dependencies: ["69DEEE5C01C748FA"]
+			id: "67EB82C2DEB7B61C"
+			tasks: [{
+				id: "2583422E6A9E2C89"
+				type: "item"
+				title: "Altar"
+				item: "miskatonicmysteries:stone_altar"
+			}]
+			rewards: [{
+				id: "6639C1DB917D3662"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 16747259
+						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -15.0d
+			y: 9.0d
+			subtitle: "Find a Psychonaut and trade with them"
+			description: ["They will equip you for your investigations into the unnatural..."]
+			dependencies: ["69DEEE5C01C748FA"]
+			id: "48954DACDEEE4528"
+			tasks: [
+				{
+					id: "5E7D827771BE435D"
+					type: "item"
+					item: "miskatonicmysteries:science_journal"
+				}
+				{
+					id: "4E884000787C1E88"
+					type: "item"
+					item: "miskatonicmysteries:chemistry_set"
+				}
+			]
+			rewards: [{
+				id: "4C44D511DA2A97CA"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: 10.5d
+			subtitle: "Like a true noir detective"
+			dependencies: ["48954DACDEEE4528"]
+			id: "038334A144154A2A"
+			tasks: [{
+				id: "59A06DF10E4B74E6"
+				type: "item"
+				item: {
+					id: "miskatonicmysteries:revolver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3A2A2CED70D05078"
+					type: "item"
+					item: "miskatonicmysteries:bullet"
+					count: 64
+				}
+				{
+					id: "027AED29485BF7A9"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 16747259
+							Name: "Magic Common Lootbag"
+							Loot: "aof:loot_bags/magic/common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: 11.0d
+			subtitle: "Really a stop-gap generator"
+			dependencies: ["29C006A8EFE8A1D6"]
+			id: "4AA5CC8E3CF9AF53"
+			tasks: [{
+				id: "165BF8E4B276213D"
+				type: "item"
+				item: "miskatonicmysteries:power_cell"
+			}]
+			rewards: [
+				{
+					id: "1052D29F506C1E7C"
+					type: "item"
+					item: "modern_industrialization:copper_cable"
+					count: 16
+				}
+				{
+					id: "760F71F457B54FC9"
+					type: "item"
+					item: "modern_industrialization:wrench"
+				}
+				{
+					id: "36C1B9093867CB11"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 16425539
+							Name: "Modern Industrialization Common Lootbag"
+							Loot: "aof:loot_bags/mi/common"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 11.0d
+			subtitle: "The Colour from Outer Space (Purple)"
+			dependencies: ["4AA5CC8E3CF9AF53"]
+			id: "6B63EBDA2C5A69F8"
+			tasks: [
+				{
+					id: "1CA81238FD00D646"
+					type: "item"
+					item: "miskatonicmysteries:resonator"
+				}
+				{
+					id: "05B81EE5F64290FA"
+					type: "item"
+					item: "miskatonicmysteries:resonate_ooze"
+				}
+			]
+			rewards: [{
+				id: "73656F8413231821"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: -13.0d
+			y: 9.5d
+			subtitle: "You should probably find another power source"
+			dependencies: ["48954DACDEEE4528"]
+			id: "29C006A8EFE8A1D6"
+			tasks: [{
+				id: "2E5711EF87EFD614"
+				type: "item"
+				item: "miskatonicmysteries:chemical_fuel"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "3075D2A55C2AFDA8"
+					type: "item"
+					item: "miskatonicmysteries:oceanic_gold"
+					count: 16
+				}
+				{
+					id: "30FFD316EE1E510F"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 24
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 3.5d
+			subtitle: "Join the Play of the King in Yellow!"
+			description: ["Craft a sculpture of the King by creating the Scluptor's Rite, and trade the sculpture to th Yellow Serf to join Hastur's entourage."]
+			dependencies: [
+				"67EB82C2DEB7B61C"
+				"458C9B074E464715"
+			]
+			id: "1FAF4F644672FFE1"
+			tasks: [
+				{
+					id: "2191BF222CD7445F"
+					type: "advancement"
+					advancement: "miskatonicmysteries:hastur/hare_krishna"
+					criterion: ""
+				}
+				{
+					id: "5722E0201C2B56CD"
+					type: "item"
+					item: "miskatonicmysteries:hastur_statue_gold"
+				}
+				{
+					id: "2681807AF2D7CC8F"
+					type: "item"
+					item: "miskatonicmysteries:iridescent_pearl"
+					count: 2L
+				}
+				{
+					id: "6938E791A9F8D278"
+					type: "item"
+					item: "minecraft:clay"
+				}
+				{
+					id: "3E3153D3B578BD01"
+					type: "item"
+					item: "miskatonicmysteries:oceanic_gold"
+				}
+				{
+					id: "79082DF8BE01B8CF"
+					type: "item"
+					item: "minecraft:yellow_dye"
+				}
+				{
+					id: "237D696B111EA17A"
+					type: "item"
+					item: "minecraft:stone"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "6B77E0B823A8587C"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 3.0d
+			dependencies: ["1FAF4F644672FFE1"]
+			id: "6A3148A18CB1A340"
+			tasks: [
+				{
+					id: "226B1F782052644B"
+					type: "advancement"
+					advancement: "miskatonicmysteries:hastur/hare_rama"
+					criterion: ""
+				}
+				{
+					id: "1AD1129D26992FE6"
+					type: "item"
+					item: {
+						id: "miskatonicmysteries:ornate_dagger"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "46F9106A4930D3CF"
+					type: "item"
+					item: "miskatonicmysteries:oceanic_gold_block"
+				}
+				{
+					id: "1EDB1715C3F23314"
+					type: "item"
+					item: "miskatonicmysteries:incantation_yog"
+				}
+				{
+					id: "7A589588474CCEA6"
+					type: "item"
+					item: "miskatonicmysteries:hastur_statue_gold"
+				}
+				{
+					id: "2AA05E9A23048D45"
+					type: "item"
+					item: "miskatonicmysteries:yellow_sign_banner_pattern"
+				}
+				{
+					id: "0714AB2DE722E12D"
+					type: "item"
+					item: {
+						id: "minecraft:golden_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7723DD6D16B3A74C"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "111030D3760C245F"
+					type: "item"
+					item: "minecraft:ancient_debris"
+				}
+			]
+			rewards: [
+				{
+					id: "72294475A525449D"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "EPIC"
+							Color: 16747259
+							Name: "Magic Epic Lootbag"
+							Loot: "aof:loot_bags/magic/epic"
+						}
+					}
+				}
+				{
+					id: "769958FFC07FEC36"
+					type: "item"
+					item: "miskatonicmysteries:oceanic_gold_block"
+					count: 10
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 7.0d
+			subtitle: "Another yellow chalk for rituals"
+			dependencies: ["48954DACDEEE4528"]
+			id: "458C9B074E464715"
+			tasks: [{
+				id: "7918C9988A8E693C"
+				type: "item"
+				item: {
+					id: "miskatonicmysteries:hastur_chalk"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "46A37C0EAC982E86"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 16747259
+						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.5d
+			subtitle: "Ring the bell and celebate!"
+			dependencies: ["6A3148A18CB1A340"]
+			id: "7D8B9646520CAFF8"
+			tasks: [
+				{
+					id: "5A2D7C1A7AE6355A"
+					type: "advancement"
+					advancement: "minecraft:adventure/hero_of_the_village"
+					criterion: ""
+				}
+				{
+					id: "4DEB1D46A4DBCDF1"
+					type: "item"
+					item: "minecraft:bell"
+				}
+				{
+					id: "1C34863720B2BBE5"
+					type: "advancement"
+					advancement: "miskatonicmysteries:hastur/peace_and_love"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "7E071FD7601E8232"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			subtitle: "Ab Carcosa Ad Terram"
+			dependencies: ["7D8B9646520CAFF8"]
+			id: "30795E16F1826E87"
+			tasks: [
+				{
+					id: "283F5004859A958B"
+					type: "advancement"
+					advancement: "miskatonicmysteries:hastur/jai_guru"
+					criterion: ""
+				}
+				{
+					id: "5A7900F7327C6C89"
+					type: "advancement"
+					advancement: "miskatonicmysteries:main/twisted_world"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "3B19EDE3D1A362C8"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16747259
+						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 8.5d
+			subtitle: "Sorry Wilbur - Dad"
+			dependencies: ["48954DACDEEE4528"]
+			id: "7F0FE0574BD130CF"
+			tasks: [{
+				id: "2C0B4B6AB8EA8091"
+				type: "item"
+				item: {
+					id: "miskatonicmysteries:yog_chalk"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4DB112A61B56596B"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 16747259
+						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
+					}
+				}
+			}]
+		}
+		{
+			title: "Fast Travel, Maddeningly"
+			x: -8.5d
+			y: 7.5d
+			subtitle: "Through the Gate with a Key"
+			dependencies: ["7F0FE0574BD130CF"]
+			id: "29FEE32E7D6D178F"
+			tasks: [
+				{
+					id: "3A066667570E00B4"
+					type: "item"
+					item: "miskatonicmysteries:incantation_yog"
+				}
+				{
+					id: "5D11274290B20429"
+					type: "item"
+					item: "minecraft:ender_eye"
+				}
+				{
+					id: "2B221094A439B631"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "443E9195592C381B"
+					type: "item"
+					item: "miskatonicmysteries:oceanic_gold"
+				}
+			]
+			rewards: [{
+				id: "6288AEC1816D46A3"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16747259
+						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
+					}
+				}
+			}]
+		}
+		{
+			title: "Madness Cure-All 1"
+			x: -12.5d
+			y: 12.5d
+			subtitle: "This might subdue your oncoming madness"
+			dependencies: ["038334A144154A2A"]
+			id: "1B1C6548B65BD61E"
+			tasks: [
+				{
+					id: "6CBF6272CFA07382"
+					type: "item"
+					item: "miskatonicmysteries:blotter"
+				}
+				{
+					id: "33BA5CD33DADA3F2"
+					type: "item"
+					item: "miskatonicmysteries:potent_blotter"
+				}
+			]
+			rewards: [{
+				id: "503AE85E1EDDB039"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 16747259
+						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
+					}
+				}
+			}]
+		}
+		{
+			title: "Madness Cure-All 2"
+			x: -9.5d
+			y: 12.5d
+			subtitle: "This is a bit stronger, should work?"
+			dependencies: ["1B1C6548B65BD61E"]
+			id: "0CA183739D2EDFF1"
+			tasks: [
+				{
+					id: "57B66A3787281D4F"
+					type: "item"
+					item: "miskatonicmysteries:laudanum"
+				}
+				{
+					id: "0E42856347C5740B"
+					type: "item"
+					item: "miskatonicmysteries:tranquilizer"
+				}
+			]
+			rewards: [{
+				id: "1236CD53391E8FC5"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			title: "This One Might Actually Cut It!"
+			x: -7.5d
+			y: 12.5d
+			subtitle: "When in doubt, magic."
+			dependencies: ["0CA183739D2EDFF1"]
+			id: "2D83067C6746B7A7"
+			tasks: [{
+				id: "06A4679167DF7A9C"
+				type: "item"
+				item: "miskatonicmysteries:warded_paper"
+			}]
+			rewards: [{
+				id: "7141A3115430842C"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
+			}]
+		}
+	]
+}

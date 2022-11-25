@@ -26,13 +26,13 @@
 			hide: true
 			id: "112810B97BA58A9C"
 			tasks: [{
-				id: "3897B33AFFD9F54F"
+				id: "01E406BD5E45A3FE"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "14B8454F3F9118CA"
 				type: "item"
-				item: {
-					id: "ad_astra:astrodux"
-					Count: 1b
-					tag: { }
-				}
+				item: "ad_astra:astrodux"
 			}]
 		}
 		{
@@ -75,8 +75,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/rare"
 						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
 					}
 				}
 			}]
@@ -111,8 +111,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/common"
 						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
 					}
 				}
 			}]
@@ -155,8 +155,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/common"
 						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
 					}
 				}
 			}]
@@ -239,8 +239,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/common"
 						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
 					}
 				}
 			}]
@@ -285,8 +285,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/common"
 						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
 					}
 				}
 			}]
@@ -329,8 +329,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/epic"
 						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
 					}
 				}
 			}]
@@ -364,8 +364,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/rare"
 						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
 					}
 				}
 			}]
@@ -396,8 +396,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/rare"
 						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
 					}
 				}
 			}]
@@ -432,8 +432,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/rare"
 						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
 					}
 				}
 			}]
@@ -464,8 +464,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/rare"
 						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
 					}
 				}
 			}]
@@ -501,8 +501,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/rare"
 						Name: "Ad Astra! Rare Lootbag"
+						Loot: "aof:loot_bags/ad_astra/rare"
 					}
 				}
 			}]
@@ -529,8 +529,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/epic"
 						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
 					}
 				}
 			}]
@@ -574,8 +574,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/legendary"
 						Name: "Ad Astra! Legendary Lootbag"
+						Loot: "aof:loot_bags/ad_astra/legendary"
 					}
 				}
 			}]
@@ -602,8 +602,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/epic"
 						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
 					}
 				}
 			}]
@@ -683,8 +683,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/epic"
 						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
 					}
 				}
 			}]
@@ -715,8 +715,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/epic"
 						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
 					}
 				}
 			}]
@@ -747,8 +747,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/epic"
 						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
 					}
 				}
 			}]
@@ -781,8 +781,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/epic"
 						Name: "Ad Astra! Epic Lootbag"
+						Loot: "aof:loot_bags/ad_astra/epic"
 					}
 				}
 			}]
@@ -818,8 +818,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/legendary"
 						Name: "Ad Astra! Legendary Lootbag"
+						Loot: "aof:loot_bags/ad_astra/legendary"
 					}
 				}
 			}]
@@ -847,8 +847,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/legendary"
 						Name: "Ad Astra! Legendary Lootbag"
+						Loot: "aof:loot_bags/ad_astra/legendary"
 					}
 				}
 			}]
@@ -876,8 +876,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/common"
 						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
 					}
 				}
 			}]
@@ -950,8 +950,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/legendary"
 						Name: "Ad Astra! Legendary Lootbag"
+						Loot: "aof:loot_bags/ad_astra/legendary"
 					}
 				}
 			}]
@@ -959,6 +959,7 @@
 		{
 			x: 12.0d
 			y: 1.5d
+			subtitle: "The madness beyond..."
 			description: ["Automate materials from hell and beyond human understanding!"]
 			dependencies: ["6E8BF9F8A67D1B66"]
 			id: "655149299C61020A"
@@ -977,6 +978,143 @@
 					id: "5069E93AEA5A5262"
 					type: "item"
 					item: "bewitchment:demon_horn"
+				}
+				{
+					id: "00391F6AA03D15C1"
+					type: "item"
+					item: "bewitchment:ectoplasm"
+				}
+				{
+					id: "4257BC78A6B5FD6C"
+					type: "item"
+					item: "miskatonicmysteries:resonate_ooze"
+				}
+				{
+					id: "082EE6000F1D68DE"
+					type: "item"
+					item: "miskatonicmysteries:absinthe"
+				}
+				{
+					id: "55F6C47A5AC5E22E"
+					type: "item"
+					item: "miskatonicmysteries:oceanic_gold"
+					count: 18L
+				}
+				{
+					id: "5521973EDAD64695"
+					type: "item"
+					item: "miskatonicmysteries:infested_wheat"
+					count: 5L
+				}
+				{
+					id: "2B4E6A13B5C4E881"
+					type: "item"
+					item: "miskatonicmysteries:the_orb"
+				}
+				{
+					id: "7830A494CE95CCB5"
+					type: "item"
+					item: "miskatonicmysteries:incantation_yog"
+				}
+			]
+			rewards: [
+				{
+					id: "49D7B211634BF8C4"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 16747259
+							Name: "Logistics & Storage Lootbag"
+							Loot: "aof:loot_bags/misc/logistics"
+						}
+					}
+				}
+				{
+					id: "0B68C04471649750"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 5889627
+							Name: "Agriculturist Lootbag"
+							Loot: "aof:loot_bags/misc/agriculturist"
+						}
+					}
+				}
+				{
+					id: "4EDC226CE34C12C3"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 6750133
+							Name: "Utilities Lootbag"
+							Loot: "aof:loot_bags/misc/utilities"
+						}
+					}
+				}
+				{
+					id: "24C11C724F0290C1"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "LEGENDARY"
+							Color: 16103753
+							Name: "Artifact Lootbag"
+							Loot: "aof:loot_bags/misc/artifacts"
+						}
+					}
+				}
+				{
+					id: "5B3783D38A821DE4"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "LEGENDARY"
+							Color: 16747259
+							Name: "Magic Legendary Lootbag"
+							Loot: "aof:loot_bags/magic/legendary"
+						}
+					}
+				}
+				{
+					id: "50D7BFAF25E5E7F4"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "LEGENDARY"
+							Color: 11763949
+							Name: "Ad Astra! Legendary Lootbag"
+							Loot: "aof:loot_bags/ad_astra/legendary"
+						}
+					}
+				}
+				{
+					id: "1A8C7B87152A3AB9"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "LEGENDARY"
+							Color: 16425539
+							Name: "Modern Industrialization Legendary Lootbag"
+							Loot: "aof:loot_bags/mi/legendary"
+						}
+					}
 				}
 			]
 		}

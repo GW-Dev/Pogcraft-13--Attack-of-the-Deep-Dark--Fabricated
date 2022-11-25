@@ -59,28 +59,34 @@
 			]
 			id: "51E68C17C005CD95"
 			tasks: [{
-				id: "30B4F2FED61C13F4"
-				type: "item"
-				item: "bewitchment:book_of_shadows"
+				id: "57211FA29F91D9C7"
+				type: "checkmark"
 			}]
-			rewards: [{
-				id: "148678122C840FA1"
-				type: "item"
-				item: {
-					id: "lootbags:loot_bag"
-					Count: 1b
-					tag: {
-						Type: "COMMON"
-						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
-						Name: "Magic Common Lootbag"
+			rewards: [
+				{
+					id: "148678122C840FA1"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 16747259
+							Name: "Magic Common Lootbag"
+							Loot: "aof:loot_bags/magic/common"
+						}
 					}
 				}
-			}]
+				{
+					id: "78201CE761A3D0A3"
+					type: "item"
+					item: "bewitchment:book_of_shadows"
+				}
+			]
 		}
 		{
-			x: 0.0d
-			y: 2.5d
+			x: -2.0d
+			y: 3.0d
 			subtitle: "This magical cauldron is extremely versatile in use and is namely used for Oil Crafting, Brewing and and Teleportation."
 			description: [
 				"Items can be tossed into the Witch Cauldron once it boils."
@@ -108,14 +114,14 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
 					}
 				}
 			}]
 		}
 		{
-			x: -1.0d
+			x: -3.5d
 			y: 1.0d
 			dependencies: ["40F6401B8512E29E"]
 			id: "1235E760E612015E"
@@ -133,15 +139,15 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
 					}
 				}
 			}]
 		}
 		{
-			x: -1.5d
-			y: 2.5d
+			x: -2.0d
+			y: 5.5d
 			dependencies: ["40F6401B8512E29E"]
 			id: "49754BFA0107FC46"
 			tasks: [{
@@ -158,15 +164,15 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
 					}
 				}
 			}]
 		}
 		{
-			x: 1.0d
-			y: 4.0d
+			x: -0.5d
+			y: 5.0d
 			dependencies: ["40F6401B8512E29E"]
 			id: "3762AEBC5D56DEEC"
 			tasks: [{
@@ -189,16 +195,16 @@
 						tag: {
 							Type: "COMMON"
 							Color: 16747259
-							Loot: "aof:loot_bags/magic/common"
 							Name: "Magic Common Lootbag"
+							Loot: "aof:loot_bags/magic/common"
 						}
 					}
 				}
 			]
 		}
 		{
-			x: 1.0d
-			y: 1.0d
+			x: 0.5d
+			y: 2.0d
 			dependencies: ["40F6401B8512E29E"]
 			id: "79E88D5D66EF740D"
 			tasks: [{
@@ -215,15 +221,15 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
 					}
 				}
 			}]
 		}
 		{
-			x: -1.0d
-			y: 4.0d
+			x: -3.5d
+			y: 5.0d
 			dependencies: ["40F6401B8512E29E"]
 			id: "70D904888ACAEA21"
 			tasks: [{
@@ -240,15 +246,15 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
 					}
 				}
 			}]
 		}
 		{
-			x: 1.5d
-			y: 2.5d
+			x: 0.5d
+			y: 4.0d
 			dependencies: ["40F6401B8512E29E"]
 			id: "1DC1A628467897A9"
 			tasks: [{
@@ -265,8 +271,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
 					}
 				}
 			}]
@@ -302,8 +308,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 16747259
-							Loot: "aof:loot_bags/magic/common"
 							Name: "Magic Common Lootbag"
+							Loot: "aof:loot_bags/magic/common"
 						}
 					}
 				}
@@ -334,8 +340,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
 					}
 				}
 			}]
@@ -365,8 +371,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
 					}
 				}
 			}]
@@ -396,8 +402,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
 					}
 				}
 			}]
@@ -427,8 +433,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
 					}
 				}
 			}]
@@ -458,8 +464,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
 					}
 				}
 			}]
@@ -489,8 +495,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
 					}
 				}
 			}]
@@ -520,8 +526,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
 					}
 				}
 			}]
@@ -551,8 +557,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
 					}
 				}
 			}]
@@ -582,8 +588,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
 					}
 				}
 			}]
@@ -622,8 +628,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 16747259
-							Loot: "aof:loot_bags/magic/common"
 							Name: "Magic Common Lootbag"
+							Loot: "aof:loot_bags/magic/common"
 						}
 					}
 				}
@@ -640,8 +646,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 16747259
-							Loot: "aof:loot_bags/magic/rare"
 							Name: "Magic Rare Lootbag"
+							Loot: "aof:loot_bags/magic/rare"
 						}
 					}
 				}
@@ -667,8 +673,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
 					}
 				}
 			}]
@@ -694,8 +700,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
 					}
 				}
 			}]
@@ -727,8 +733,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
 					}
 				}
 			}]
@@ -772,8 +778,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
 					}
 				}
 			}]
@@ -805,8 +811,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
 					}
 				}
 			}]
@@ -839,8 +845,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/common"
 						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
 					}
 				}
 			}]
@@ -867,8 +873,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
 					}
 				}
 			}]
@@ -924,8 +930,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 16747259
-							Loot: "aof:loot_bags/magic/rare"
 							Name: "Magic Rare Lootbag"
+							Loot: "aof:loot_bags/magic/rare"
 						}
 					}
 				}
@@ -958,14 +964,14 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
 					}
 				}
 			}]
 		}
 		{
-			x: 9.0d
+			x: 8.5d
 			y: -4.0d
 			subtitle: "Baphomet's tool of choice."
 			description: [
@@ -997,14 +1003,14 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
 					}
 				}
 			}]
 		}
 		{
-			x: 9.5d
+			x: 7.5d
 			y: -2.0d
 			dependencies: ["140AEE3F450BD3A2"]
 			id: "1DB150821C15E02B"
@@ -1022,14 +1028,14 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
 					}
 				}
 			}]
 		}
 		{
-			x: 8.0d
+			x: 7.5d
 			y: -4.0d
 			subtitle: "Acquired by defeating the Vampire Queen in battle, these shoes have a protection comparable to Netherite Boots."
 			description: [
@@ -1059,20 +1065,20 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
 					}
 				}
 			}]
 		}
 		{
-			x: 10.0d
+			x: 9.5d
 			y: -4.0d
 			subtitle: "This powerful relic is obtained by defeating Leonard."
 			description: [
 				"It can be combined with a Splash Potion, which can then be thrown four times using the Scepter at the cost of ME."
 				""
-				"The Scepter can be repaired using Netherie Ingots."
+				"The Scepter can be repaired using Netherite Ingots."
 			]
 			dependencies: ["1DB150821C15E02B"]
 			id: "3980AEE68AB1A5A3"
@@ -1096,14 +1102,14 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
 					}
 				}
 			}]
 		}
 		{
-			x: 11.0d
+			x: 10.5d
 			y: -4.0d
 			subtitle: "This spear is the hunting weapon of Herne."
 			description: [
@@ -1133,8 +1139,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
 					}
 				}
 			}]
@@ -1161,8 +1167,140 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
 						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["40F6401B8512E29E"]
+			id: "47C0ABBFF9A71840"
+			tasks: [{
+				id: "6412CFF2FBD0A314"
+				type: "item"
+				item: "bwplus:mutandis"
+			}]
+			rewards: [{
+				id: "05EEA7B606BE88F6"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "COMMON"
+						Color: 16747259
+						Name: "Magic Common Lootbag"
+						Loot: "aof:loot_bags/magic/common"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["40F6401B8512E29E"]
+			id: "6385280790AF15A9"
+			tasks: [{
+				id: "573B2C6BB929F6EC"
+				type: "item"
+				item: "bwplus:mutandis_brew"
+			}]
+			rewards: [{
+				id: "43BFAC31125BD7C7"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			dependencies: ["40F6401B8512E29E"]
+			id: "28BFD2440A4015FC"
+			tasks: [{
+				id: "3A46EC36A52D3AAE"
+				type: "item"
+				item: "bwplus:moonlight_infusion"
+			}]
+			rewards: [{
+				id: "6CA649E89623EEAC"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.0d
+			dependencies: ["40F6401B8512E29E"]
+			id: "755CD9E5F4F0C770"
+			tasks: [{
+				id: "1C3DE28D332E88E6"
+				type: "item"
+				item: "bwplus:ender_vial"
+			}]
+			rewards: [{
+				id: "0C1417F8803EF2FF"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.0d
+			subtitle: "Acquired by killing a Cambion."
+			dependencies: ["1DB150821C15E02B"]
+			id: "261183B2CBF9FB26"
+			tasks: [{
+				id: "142D4D4827207638"
+				type: "item"
+				item: {
+					id: "bwplus:vampire_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "75026489940D7CF5"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
 					}
 				}
 			}]
