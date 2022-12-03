@@ -90,8 +90,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -125,8 +125,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -165,8 +165,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -181,8 +181,14 @@
 				"&6To make a portal &rto the &bTwilight Forest&r, &6make a 2x2 shallow pool &r(4 squares) of &bWater &rin a grassy area, and surround it entirely with natural stuff (&bflowers, mushrooms, saplings, leaves, grass, &ranything considered a \"plant\" or \"leaves\")."
 				""
 				"&bTwilight Forest &ris a dimension exploration mod focused on adventure that will &6take you on a journey &rto meet strange &bcreatures&r, &bexploring dungeons&r, &band much more&r."
+				""
+				"The Incantation of the Gate-and-Key will open the portal."
 			]
-			dependencies: ["6EC4700B21DB617B"]
+			dependencies: [
+				"4977C5F5DD9F9A59"
+				"6EC4700B21DB617B"
+			]
+			hide: true
 			id: "36D37A1AFFC1B369"
 			tasks: [{
 				id: "64630338E7F2207F"
@@ -199,8 +205,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]
@@ -249,8 +255,8 @@
 						tag: {
 							Type: "RARE"
 							Color: 11763949
-							Name: "Ad Astra! Rare Lootbag"
 							Loot: "aof:loot_bags/ad_astra/rare"
+							Name: "Ad Astra! Rare Lootbag"
 						}
 					}
 				}
@@ -303,8 +309,8 @@
 						tag: {
 							Type: "UNCOMMON"
 							Color: 5889627
-							Name: "Agriculturist Lootbag"
 							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
 						}
 					}
 				}
@@ -337,8 +343,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -366,8 +372,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
-						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
 					}
 				}
 			}]

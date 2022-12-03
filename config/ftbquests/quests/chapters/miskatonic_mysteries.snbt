@@ -1,7 +1,7 @@
 {
 	id: "384A1D025B7DB3ED"
 	group: "1039AC171AB01709"
-	order_index: 3
+	order_index: 4
 	filename: "miskatonic_mysteries"
 	title: "Miskatonic Mysteries"
 	icon: "miskatonicmysteries:cirrhosus_flesh"
@@ -48,8 +48,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 16747259
-							Name: "Magic Common Lootbag"
 							Loot: "aof:loot_bags/magic/common"
+							Name: "Magic Common Lootbag"
 						}
 					}
 				}
@@ -59,6 +59,7 @@
 			x: -13.5d
 			y: 5.0d
 			subtitle: "Energy of the Sunken Place"
+			description: ["Consuming items with otherworldly properties may unlock parts of your mind long hidden..."]
 			dependencies: ["69DEEE5C01C748FA"]
 			id: "67EB82C2DEB7B61C"
 			tasks: [{
@@ -76,8 +77,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -110,8 +111,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -149,8 +150,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 16747259
-							Name: "Magic Common Lootbag"
 							Loot: "aof:loot_bags/magic/common"
+							Name: "Magic Common Lootbag"
 						}
 					}
 				}
@@ -188,8 +189,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 16425539
-							Name: "Modern Industrialization Common Lootbag"
 							Loot: "aof:loot_bags/mi/common"
+							Name: "Modern Industrialization Common Lootbag"
 						}
 					}
 				}
@@ -222,8 +223,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -275,7 +276,7 @@
 				{
 					id: "5722E0201C2B56CD"
 					type: "item"
-					item: "miskatonicmysteries:hastur_statue_gold"
+					item: "miskatonicmysteries:hastur_statue_terracotta"
 				}
 				{
 					id: "2681807AF2D7CC8F"
@@ -314,8 +315,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -395,8 +396,8 @@
 						tag: {
 							Type: "EPIC"
 							Color: 16747259
-							Name: "Magic Epic Lootbag"
 							Loot: "aof:loot_bags/magic/epic"
+							Name: "Magic Epic Lootbag"
 						}
 					}
 				}
@@ -409,7 +410,7 @@
 			]
 		}
 		{
-			x: -11.0d
+			x: -12.0d
 			y: 7.0d
 			subtitle: "Another yellow chalk for rituals"
 			dependencies: ["48954DACDEEE4528"]
@@ -434,8 +435,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -474,8 +475,8 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
-						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
 					}
 				}
 			}]
@@ -509,14 +510,14 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Name: "Magic Legendary Lootbag"
 						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
 					}
 				}
 			}]
 		}
 		{
-			x: -11.0d
+			x: -12.0d
 			y: 8.5d
 			subtitle: "Sorry Wilbur - Dad"
 			dependencies: ["48954DACDEEE4528"]
@@ -541,8 +542,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -552,14 +553,9 @@
 			x: -8.5d
 			y: 7.5d
 			subtitle: "Through the Gate with a Key"
-			dependencies: ["7F0FE0574BD130CF"]
+			dependencies: ["4977C5F5DD9F9A59"]
 			id: "29FEE32E7D6D178F"
 			tasks: [
-				{
-					id: "3A066667570E00B4"
-					type: "item"
-					item: "miskatonicmysteries:incantation_yog"
-				}
 				{
 					id: "5D11274290B20429"
 					type: "item"
@@ -585,8 +581,8 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16747259
-						Name: "Magic Legendary Lootbag"
 						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
 					}
 				}
 			}]
@@ -619,8 +615,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16747259
-						Name: "Magic Common Lootbag"
 						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
 					}
 				}
 			}]
@@ -653,8 +649,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16747259
-						Name: "Magic Rare Lootbag"
 						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
 					}
 				}
 			}]
@@ -680,8 +676,91 @@
 					tag: {
 						Type: "EPIC"
 						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 8.0d
+			subtitle: "The Gate AND the Key"
+			description: [
+				"This incantation will open portals to other realms, and allow the bending of space-time within one."
+				""
+				"This incantation can be found in stronghold libraries, and other forgotten places"
+			]
+			dependencies: ["7F0FE0574BD130CF"]
+			id: "4977C5F5DD9F9A59"
+			tasks: [{
+				id: "7CA3A7E6398D43E4"
+				type: "item"
+				item: "miskatonicmysteries:incantation_yog"
+			}]
+			rewards: [{
+				id: "3F35E84BED15EBCF"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
 						Name: "Magic Epic Lootbag"
 						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: 3.0d
+			subtitle: "Squid-like"
+			dependencies: ["67EB82C2DEB7B61C"]
+			id: "27CCA94017DC7A82"
+			tasks: [{
+				id: "3A55D616A5C98084"
+				type: "item"
+				item: "miskatonicmysteries:cirrhosus_flesh"
+			}]
+			rewards: [{
+				id: "0F5D2AA561BC26CC"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Name: "Magic Rare Lootbag"
+						Loot: "aof:loot_bags/magic/rare"
+					}
+				}
+			}]
+		}
+		{
+			x: -15.0d
+			y: 3.5d
+			subtitle: "Projectile vomiting"
+			dependencies: ["67EB82C2DEB7B61C"]
+			id: "2AEEC89F6840D800"
+			tasks: [{
+				id: "40F3C1FF2188FC31"
+				type: "item"
+				item: "miskatonicmysteries:the_orb"
+			}]
+			rewards: [{
+				id: "7A1829B4CC00CC1B"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16747259
+						Name: "Magic Legendary Lootbag"
+						Loot: "aof:loot_bags/magic/legendary"
 					}
 				}
 			}]

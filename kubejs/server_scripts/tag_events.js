@@ -8,6 +8,8 @@ ServerEvents.tags('item', event => {
 	event.add('minecraft:coals', 'modern_industrialization:lignite_coal')
 	event.add('c:workbench', 'minecraft:crafting_table')
 	event.add('c:cooked_eggs', 'additionaladditions:fried_egg')
+	event.remove('twilightforest:portal/activator', '#c:gems/diamond')
+	event.add('twilightforest:portal/activator', 'miskatonicmysteries:incantation_yog')
 
 	//Farmer's Delight axe tag work
 	event.add('fabric:tools/axes', 'additionaladditions:rose_gold_axe')

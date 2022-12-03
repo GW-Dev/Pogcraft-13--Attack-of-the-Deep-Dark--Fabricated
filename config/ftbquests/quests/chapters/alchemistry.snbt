@@ -28,8 +28,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/common"
 						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
 					}
 				}
 			}]
@@ -54,8 +54,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/common"
 						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
 					}
 				}
 			}]
@@ -80,8 +80,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16425539
-						Loot: "aof:loot_bags/mi/common"
 						Name: "Modern Industrialization Common Lootbag"
+						Loot: "aof:loot_bags/mi/common"
 					}
 				}
 			}]
@@ -106,8 +106,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 16425539
-						Loot: "aof:loot_bags/mi/common"
 						Name: "Modern Industrialization Common Lootbag"
+						Loot: "aof:loot_bags/mi/common"
 					}
 				}
 			}]
@@ -132,8 +132,8 @@
 					tag: {
 						Type: "COMMON"
 						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/common"
 						Name: "Ad Astra! Common Lootbag"
+						Loot: "aof:loot_bags/ad_astra/common"
 					}
 				}
 			}]
@@ -176,8 +176,8 @@
 						tag: {
 							Type: "LEGENDARY"
 							Color: 16425539
-							Loot: "aof:loot_bags/mi/legendary"
 							Name: "Modern Industrialization Legendary Lootbag"
+							Loot: "aof:loot_bags/mi/legendary"
 						}
 					}
 				}
@@ -190,8 +190,8 @@
 						tag: {
 							Type: "LEGENDARY"
 							Color: 11763949
-							Loot: "aof:loot_bags/ad_astra/legendary"
 							Name: "Ad Astra! Legendary Lootbag"
+							Loot: "aof:loot_bags/ad_astra/legendary"
 						}
 					}
 				}
@@ -238,8 +238,8 @@
 					tag: {
 						Type: "RARE"
 						Color: 16425539
-						Loot: "aof:loot_bags/mi/rare"
 						Name: "Modern Industrialization Rare Lootbag"
+						Loot: "aof:loot_bags/mi/rare"
 					}
 				}
 			}]
@@ -266,8 +266,8 @@
 						tag: {
 							Type: "COMMON"
 							Color: 16425539
-							Loot: "aof:loot_bags/mi/common"
 							Name: "Modern Industrialization Common Lootbag"
+							Loot: "aof:loot_bags/mi/common"
 						}
 					}
 				}
@@ -318,8 +318,8 @@
 						tag: {
 							Type: "LEGENDARY"
 							Color: 11763949
-							Loot: "aof:loot_bags/ad_astra/legendary"
 							Name: "Ad Astra! Legendary Lootbag"
+							Loot: "aof:loot_bags/ad_astra/legendary"
 						}
 					}
 				}
@@ -332,8 +332,8 @@
 						tag: {
 							Type: "LEGENDARY"
 							Color: 16425539
-							Loot: "aof:loot_bags/mi/legendary"
 							Name: "Modern Industrialization Legendary Lootbag"
+							Loot: "aof:loot_bags/mi/legendary"
 						}
 					}
 				}

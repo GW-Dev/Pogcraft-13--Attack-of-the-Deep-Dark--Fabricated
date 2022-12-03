@@ -1,0 +1,877 @@
+{
+	id: "5D25557A809CB5D3"
+	group: ""
+	order_index: 2
+	filename: "agriculture"
+	title: "Agriculture"
+	icon: "farmersdelight:cooking_pot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: 15.0d
+			subtitle: "Your market of choice for seeds and crops."
+			id: "529FA5C3502DBF4D"
+			tasks: [{
+				id: "62B614931DDB6161"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+			rewards: [{
+				id: "52CF4CD08EC8C560"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 14.5d
+			subtitle: "Collects eggs laid by chickens."
+			id: "16FED75C44853ECA"
+			tasks: [{
+				id: "5F2ADAA3F72E4D09"
+				type: "item"
+				item: "farmingforblockheads:chicken_nest"
+			}]
+			rewards: [{
+				id: "295620B80AC388A3"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 15.0d
+			subtitle: "Auto-feeds nearby animals."
+			id: "2607DEA382FF044E"
+			tasks: [{
+				id: "755F341295669BDC"
+				type: "item"
+				item: "farmingforblockheads:feeding_trough"
+			}]
+			rewards: [{
+				id: "514FA3C6117CB9DA"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 17.0d
+			subtitle: "Increases crop output."
+			id: "14D42EDBFFCED86E"
+			tasks: [{
+				id: "1604ECD381B21CFB"
+				type: "item"
+				item: "farmingforblockheads:green_fertilizer"
+			}]
+			rewards: [{
+				id: "454E0EC5DABA4A07"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 17.0d
+			subtitle: "Speeds up growth."
+			id: "4AE1EA3349567401"
+			tasks: [{
+				id: "443CD4678AE9D27A"
+				type: "item"
+				item: "farmingforblockheads:red_fertilizer"
+			}]
+			rewards: [{
+				id: "24A94BADF83F0BF8"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 17.5d
+			subtitle: "Prevents trampling."
+			id: "6AA43062AC98B59B"
+			tasks: [{
+				id: "0C1F44E719A323DC"
+				type: "item"
+				item: "farmingforblockheads:yellow_fertilizer"
+			}]
+			rewards: [{
+				id: "4E9309E193C299ED"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 13.0d
+			id: "1E2F74C7110CFEB3"
+			tasks: [{
+				id: "5A1D040B9E5B9377"
+				type: "item"
+				item: "farmersdelight:stove"
+			}]
+			rewards: [{
+				id: "42AFA3EF9BCC28A4"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 14.5d
+			dependencies: ["1E2F74C7110CFEB3"]
+			id: "35E469F2C71CB316"
+			tasks: [{
+				id: "5B3FB7270A0C2AFF"
+				type: "item"
+				item: "farmersdelight:cooking_pot"
+			}]
+			rewards: [{
+				id: "644723AB63059CCC"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 16.0d
+			dependencies: ["57CA25719B4FEDA0"]
+			id: "7E180722062BC9F4"
+			tasks: [{
+				id: "3B26EAF63D893853"
+				type: "item"
+				item: "farmersdelight:basket"
+			}]
+			rewards: [{
+				id: "0705588B1D8418B8"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 15.5d
+			dependencies: ["269F584D763A19F2"]
+			id: "40D208636397F225"
+			tasks: [{
+				id: "23E5FACD3C83B36A"
+				type: "item"
+				item: {
+					id: "farmersdelight:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "33FE8285D644321A"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 17.0d
+			dependencies: ["40D208636397F225"]
+			id: "2CCA3CB465F9E9B6"
+			tasks: [{
+				id: "2555B919EFB696A0"
+				type: "item"
+				item: {
+					id: "farmersdelight:iron_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3EBA9D91E7016944"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 18.5d
+			dependencies: ["2CCA3CB465F9E9B6"]
+			id: "2C6473A59AFE9AD0"
+			tasks: [{
+				id: "75928169D7F17647"
+				type: "item"
+				item: {
+					id: "farmersdelight:golden_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "11D233C3610496C2"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 19.5d
+			dependencies: ["2C6473A59AFE9AD0"]
+			id: "4C27C795EAC8096E"
+			tasks: [{
+				id: "2D9FC0C9E78FBBE4"
+				type: "item"
+				item: {
+					id: "farmersdelight:diamond_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "04C7E01BB0487FC8"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 19.0d
+			dependencies: ["4C27C795EAC8096E"]
+			id: "6E790ECA33B23E93"
+			tasks: [{
+				id: "2D741257B7F54522"
+				type: "item"
+				item: {
+					id: "farmersdelight:netherite_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5B501DD4E3E74E8D"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 14.0d
+			dependencies: ["1E2F74C7110CFEB3"]
+			id: "269F584D763A19F2"
+			tasks: [{
+				id: "30AC1D443725C929"
+				type: "item"
+				item: "farmersdelight:cutting_board"
+			}]
+			rewards: [{
+				id: "7BAAB462E73F4BC3"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 15.0d
+			dependencies: ["7C18AFB68A0F10FA"]
+			id: "57CA25719B4FEDA0"
+			tasks: [{
+				id: "119C7B0894DF4F23"
+				type: "item"
+				item: "farmersdelight:safety_net"
+			}]
+			rewards: [{
+				id: "6E07B615B080D390"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 14.0d
+			dependencies: ["1E2F74C7110CFEB3"]
+			id: "7C18AFB68A0F10FA"
+			tasks: [{
+				id: "58841906C1672226"
+				type: "item"
+				item: "farmersdelight:rope"
+			}]
+			rewards: [{
+				id: "602029FEC447D5E7"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 12.0d
+			dependencies: [
+				"6EC94755C311050D"
+				"6EBC0ABD9C874BA6"
+				"71F994F2EE1FC296"
+				"5D33A043CA96DBF6"
+				"14ACA6BB3BA124F6"
+				"2ABE5C79A9FE92DE"
+			]
+			id: "3CEB2302C39CD6FE"
+			tasks: [{
+				id: "622FFD90716D2A45"
+				type: "checkmark"
+				title: "Grains"
+			}]
+			rewards: [{
+				id: "4A50DBB4679EA2FB"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 8.5d
+			id: "210C7B26E2D85627"
+			tasks: [{
+				id: "3D9F9D499E5CE19B"
+				type: "item"
+				item: "farmersdelight:beef_stew"
+			}]
+			rewards: [{
+				id: "6B82A89AB4FB2CA7"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 8.5d
+			id: "55C29372761230D3"
+			tasks: [{
+				id: "713E63D9B89E8134"
+				type: "item"
+				item: "farmersdelight:chicken_soup"
+			}]
+			rewards: [{
+				id: "6B88D4DA27D1A028"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 11.0d
+			id: "2ABE5C79A9FE92DE"
+			tasks: [{
+				id: "0791A7F3A31813FD"
+				type: "item"
+				item: "farmersdelight:raw_pasta"
+			}]
+			rewards: [{
+				id: "717F1E685218E7B1"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 11.0d
+			id: "14ACA6BB3BA124F6"
+			tasks: [{
+				id: "519F5355E13C0482"
+				type: "item"
+				item: "farmersdelight:pasta_with_meatballs"
+			}]
+			rewards: [{
+				id: "39CE16CA5528E8F6"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 10.5d
+			id: "5D33A043CA96DBF6"
+			tasks: [{
+				id: "1B107852452FB3FE"
+				type: "item"
+				item: "farmersdelight:pasta_with_mutton_chop"
+			}]
+			rewards: [{
+				id: "322B9353D56BB031"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 13.5d
+			id: "6EC94755C311050D"
+			tasks: [{
+				id: "5B7C7FC520F2C25A"
+				type: "item"
+				item: "farmersdelight:rice_bag"
+			}]
+			rewards: [{
+				id: "1C44FF5B2DB1E5F1"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 13.0d
+			id: "6EBC0ABD9C874BA6"
+			tasks: [{
+				id: "34F12C7D645E0DB3"
+				type: "item"
+				item: "farmersdelight:cooked_rice"
+			}]
+			rewards: [{
+				id: "7FE21CC40DA909A3"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 13.0d
+			id: "71F994F2EE1FC296"
+			tasks: [{
+				id: "0513DA54B544E113"
+				type: "item"
+				item: "farmersdelight:fried_rice"
+			}]
+			rewards: [{
+				id: "5BC29EE1788EEBC1"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 9.5d
+			subtitle: "Good for when it's cold.. or anytime."
+			dependencies: [
+				"55C29372761230D3"
+				"37AA8C2B0C3AA1F2"
+				"449410724E7BEEBE"
+				"2101F61C1D473438"
+				"210C7B26E2D85627"
+				"1AD31F8DCDD75836"
+				"5AD4991F7FFA6CA2"
+			]
+			id: "5F9620B9B3C0CCC2"
+			tasks: [{
+				id: "447C4FDE941FC01C"
+				type: "checkmark"
+				title: "Soups"
+			}]
+			rewards: [{
+				id: "13011E945B7CC86D"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 10.0d
+			id: "1AD31F8DCDD75836"
+			tasks: [{
+				id: "63FC5B92886A99C4"
+				type: "item"
+				item: "farmersdelight:vegetable_soup"
+			}]
+			rewards: [{
+				id: "6083270B7BC8D220"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 11.0d
+			id: "5AD4991F7FFA6CA2"
+			tasks: [{
+				id: "2D404FDB11C7C55E"
+				type: "item"
+				item: "farmersdelight:pumpkin_soup"
+			}]
+			rewards: [{
+				id: "4A2097C3B30CB8FF"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 11.0d
+			id: "37AA8C2B0C3AA1F2"
+			tasks: [{
+				id: "220C287EA8EA4D01"
+				type: "item"
+				item: "farmersdelight:noodle_soup"
+			}]
+			rewards: [{
+				id: "19719393DA92EC43"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 8.0d
+			id: "2101F61C1D473438"
+			tasks: [{
+				id: "51A2D639CA7DAC1E"
+				type: "item"
+				item: "farmersdelight:fish_stew"
+			}]
+			rewards: [{
+				id: "68DA3F74C974DCBF"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 10.0d
+			id: "449410724E7BEEBE"
+			tasks: [{
+				id: "3B7C4E95E20B48B4"
+				type: "item"
+				item: "farmersdelight:baked_cod_stew"
+			}]
+			rewards: [{
+				id: "12A05B56768D1A39"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 16.0d
+			description: ["Well.. does this make you a blockhead?"]
+			dependencies: [
+				"2607DEA382FF044E"
+				"16FED75C44853ECA"
+				"529FA5C3502DBF4D"
+				"4AE1EA3349567401"
+				"6AA43062AC98B59B"
+				"14D42EDBFFCED86E"
+			]
+			id: "251028DFC955D65F"
+			tasks: [{
+				id: "76E7E15CC252A02B"
+				type: "checkmark"
+				title: "Blockhead"
+			}]
+			rewards: [{
+				id: "245DD3FD135394C2"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "UNCOMMON"
+						Color: 5889627
+						Name: "Agriculturist Lootbag"
+						Loot: "aof:loot_bags/misc/agriculturist"
+					}
+				}
+			}]
+		}
+	]
+}
