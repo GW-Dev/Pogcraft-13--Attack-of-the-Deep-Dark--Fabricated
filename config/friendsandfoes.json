@@ -31,9 +31,14 @@
   "enableIceologer": true,
   "enableIceologerSpawn": true,
   "enableIceologerInRaids": true,
+  "generateIceologerCabinStructure": true,
   "enableIllusioner": true,
   "enableIllusionerSpawn": true,
   "enableIllusionerInRaids": true,
+  "generateIllusionerShackStructure": true,
+  "generateIllusionerTrainingGroundsStructure": true,
+  "enableWildfire": true,
+  "generateCitadelStructure": true,
   "enableBeekeeperVillagerProfession": true,
   "generateBeekeeperAreaStructure": true
 }

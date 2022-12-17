@@ -1,6 +1,65 @@
-[14:36:41] [INFO ] Loaded script server_scripts:replicator_blacklist.js in 0.001 s
-[14:36:41] [INFO ] server_scripts:script.js:3: Hello, World! (You will see this line every time server resources reload)
-[14:36:41] [INFO ] Loaded script server_scripts:script.js in 0.004 s
-[14:36:41] [INFO ] Loaded 2/2 KubeJS server scripts in 0.008 s
-[14:36:41] [INFO ] Scripts loaded
-[14:36:41] [INFO ] Scanning recipes...
+[10:08:05] [INFO ] server_scripts:general_compat.js:3: Hello, World! (You will see this line every time server resources reload)
+[10:08:05] [INFO ] Loaded script server_scripts:general_compat.js in 0.001 s
+[10:08:05] [INFO ] server_scripts:magic.js:3: Hello, World! (You will see this line every time server resources reload)
+[10:08:05] [INFO ] Loaded script server_scripts:magic.js in 0.001 s
+[10:08:05] [INFO ] server_scripts:MI_Ad_Astra_progression.js:3: Hello, World! (You will see this line every time server resources reload)
+[10:08:05] [INFO ] Loaded script server_scripts:MI_Ad_Astra_progression.js in 0.001 s
+[10:08:05] [INFO ] Loaded script server_scripts:replicator_blacklist.js in 0.001 s
+[10:08:05] [INFO ] server_scripts:tag_events.js:3: Hello, World! (You will see this line every time server resources reload)
+[10:08:05] [INFO ] Loaded script server_scripts:tag_events.js in 0.001 s
+[10:08:05] [INFO ] Loaded 5/5 KubeJS server scripts in 0.008 s
+[10:08:05] [INFO ] Scripts loaded
+[10:08:05] [INFO ] Scanning recipes...
+[10:08:05] [INFO ] [minecraft:item] Found 1343 tags, added 69 objects, removed 7 objects
+[10:08:05] [WARN ] Failed to parse recipe 'supplementaries:sconce_nether_brass[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'architects_palette:nether_brass_torch'
+[10:08:05] [WARN ] Failed to parse recipe supplementaries:sconce_nether_brass[minecraft:crafting_shaped]: java.lang.IllegalArgumentException: Skipping supplementaries:sconce_nether_brass as its conditions were not met
+[10:08:05] [WARN ] Failed to parse recipe 'twilightforest:jeed/hunger[jeed:effect_provider]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: jeed:effect_provider
+[10:08:05] [WARN ] Failed to parse recipe twilightforest:jeed/hunger[jeed:effect_provider]: com.google.gson.JsonSyntaxException: Missing fabric:load_conditions, expected to find a JsonArray
+[10:08:05] [WARN ] Failed to parse recipe 'supplementaries:planter_rich_soul[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'nethers_delight:rich_soul_soil'
+[10:08:05] [WARN ] Failed to parse recipe supplementaries:planter_rich_soul[minecraft:crafting_shaped]: java.lang.IllegalArgumentException: Skipping supplementaries:planter_rich_soul as its conditions were not met
+[10:08:05] [WARN ] Failed to parse recipe 'supplementaries:soap/dirty_shard[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'quark:dirty_shard'
+[10:08:05] [WARN ] Failed to parse recipe supplementaries:soap/dirty_shard[minecraft:crafting_shapeless]: java.lang.IllegalArgumentException: Skipping supplementaries:soap/dirty_shard as its conditions were not met
+[10:08:05] [WARN ] Failed to parse recipe 'supplementaries:candle_holders/candle_holder_soul[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'buzzier_bees:soul_candle'
+[10:08:05] [WARN ] Failed to parse recipe supplementaries:candle_holders/candle_holder_soul[minecraft:crafting_shaped]: java.lang.IllegalArgumentException: Skipping supplementaries:candle_holders/candle_holder_soul as its conditions were not met
+[10:08:05] [WARN ] Failed to parse recipe 'miskatonicmysteries:stonecutting/elderian_yog_mural_stonecutting[minecraft:stonecutting]': "miskatonicmysteries:elderian_yogw_mural" is not a valid result!
+[10:08:05] [WARN ] Failed to parse recipe 'twilightforest:jeed/poison[jeed:effect_provider]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: jeed:effect_provider
+[10:08:05] [WARN ] Failed to parse recipe twilightforest:jeed/poison[jeed:effect_provider]: com.google.gson.JsonSyntaxException: Missing fabric:load_conditions, expected to find a JsonArray
+[10:08:05] [WARN ] Failed to parse recipe 'supplementaries:soap/dirty_glass_pane[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'quark:dirty_glass_pane'
+[10:08:05] [WARN ] Failed to parse recipe supplementaries:soap/dirty_glass_pane[minecraft:crafting_shapeless]: java.lang.IllegalArgumentException: Skipping supplementaries:soap/dirty_glass_pane as its conditions were not met
+[10:08:05] [WARN ] Failed to parse recipe 'supplementaries:soap/dirty_glass[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'quark:dirty_glass'
+[10:08:05] [WARN ] Failed to parse recipe supplementaries:soap/dirty_glass[minecraft:crafting_shapeless]: java.lang.IllegalArgumentException: Skipping supplementaries:soap/dirty_glass as its conditions were not met
+[10:08:05] [WARN ] Failed to parse recipe 'spectrum:mod_integration/ae2/cinderhearth/pure_fluix[spectrum:cinderhearth]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ae2:fluix_crystal_seed'
+[10:08:05] [WARN ] Failed to parse recipe spectrum:mod_integration/ae2/cinderhearth/pure_fluix[spectrum:cinderhearth]: com.google.gson.JsonSyntaxException: Unknown item 'ae2:fluix_crystal_seed'
+[10:08:05] [WARN ] Failed to parse recipe 'supplementaries:sconce_ender[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'endergetic:ender_torch'
+[10:08:05] [WARN ] Failed to parse recipe supplementaries:sconce_ender[minecraft:crafting_shaped]: java.lang.IllegalArgumentException: Skipping supplementaries:sconce_ender as its conditions were not met
+[10:08:05] [WARN ] Failed to parse recipe 'supplementaries:sconce_glow[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'infernalexp:glow_torch'
+[10:08:05] [WARN ] Failed to parse recipe supplementaries:sconce_glow[minecraft:crafting_shaped]: java.lang.IllegalArgumentException: Skipping supplementaries:sconce_glow as its conditions were not met
+[10:08:05] [WARN ] Failed to parse recipe 'twilightforest:equipment/fortification_scepter[minecraft:crafting_shapeless]'! Falling back to vanilla: java.lang.StackOverflowError
+[10:08:05] [WARN ] Failed to parse recipe 'twilightforest:jeed/regeneration[jeed:effect_provider]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: jeed:effect_provider
+[10:08:05] [WARN ] Failed to parse recipe twilightforest:jeed/regeneration[jeed:effect_provider]: com.google.gson.JsonSyntaxException: Missing fabric:load_conditions, expected to find a JsonArray
+[10:08:05] [WARN ] Failed to parse recipe 'twilightforest:jeed/fire_resistance[jeed:effect_provider]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: jeed:effect_provider
+[10:08:05] [WARN ] Failed to parse recipe twilightforest:jeed/fire_resistance[jeed:effect_provider]: com.google.gson.JsonSyntaxException: Missing fabric:load_conditions, expected to find a JsonArray
+[10:08:05] [WARN ] Failed to parse recipe 'twilightforest:jeed/frosted[jeed:effect_provider]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: jeed:effect_provider
+[10:08:05] [WARN ] Failed to parse recipe twilightforest:jeed/frosted[jeed:effect_provider]: com.google.gson.JsonSyntaxException: Missing fabric:load_conditions, expected to find a JsonArray
+[10:08:05] [WARN ] Failed to parse recipe 'supplementaries:copper_lantern_2[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'alexsmobs:fish_oil'
+[10:08:05] [WARN ] Failed to parse recipe supplementaries:copper_lantern_2[minecraft:crafting_shaped]: java.lang.IllegalArgumentException: Skipping supplementaries:copper_lantern_2 as its conditions were not met
+[10:08:05] [WARN ] Failed to parse recipe 'spectrum:mod_integration/ae2/cinderhearth/pure_certus_quartz[spectrum:cinderhearth]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ae2:certus_crystal_seed'
+[10:08:05] [WARN ] Failed to parse recipe spectrum:mod_integration/ae2/cinderhearth/pure_certus_quartz[spectrum:cinderhearth]: com.google.gson.JsonSyntaxException: Unknown item 'ae2:certus_crystal_seed'
+[10:08:05] [WARN ] Failed to parse recipe 'twilightforest:equipment/zombie_scepter[minecraft:crafting_shapeless]'! Falling back to vanilla: java.lang.StackOverflowError
+[10:08:05] [WARN ] Failed to parse recipe 'twilightforest:jeed/blindness[jeed:effect_provider]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: jeed:effect_provider
+[10:08:05] [WARN ] Failed to parse recipe twilightforest:jeed/blindness[jeed:effect_provider]: com.google.gson.JsonSyntaxException: Missing fabric:load_conditions, expected to find a JsonArray
+[10:08:05] [WARN ] Failed to parse recipe 'yigd:death_scroll[minecraft:crafting_shaped]': {"item":"yigd:death_scroll","count":1} is not a valid result!
+[10:08:05] [WARN ] Failed to parse recipe 'spectrum:stonecutting/smooth_basalt_slab_from_smooth_basalt_stonecutting[minecraft:stonecutting]': "spectrum:basalt_slab" is not a valid result!
+[10:08:05] [WARN ] Failed to parse recipe 'supplementaries:ash_soot[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'immersive_weathering:soot'
+[10:08:05] [WARN ] Failed to parse recipe supplementaries:ash_soot[minecraft:crafting_shapeless]: java.lang.IllegalArgumentException: Skipping supplementaries:ash_soot as its conditions were not met
+[10:08:05] [WARN ] Failed to parse recipe 'twilightforest:jeed/resistance[jeed:effect_provider]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: jeed:effect_provider
+[10:08:05] [WARN ] Failed to parse recipe twilightforest:jeed/resistance[jeed:effect_provider]: com.google.gson.JsonSyntaxException: Missing fabric:load_conditions, expected to find a JsonArray
+[10:08:05] [WARN ] Failed to parse recipe 'twilightforest:equipment/twilight_scepter[minecraft:crafting_shapeless]'! Falling back to vanilla: java.lang.StackOverflowError
+[10:08:06] [WARN ] Failed to parse recipe 'twilightforest:jeed/slowness[jeed:effect_provider]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: jeed:effect_provider
+[10:08:06] [WARN ] Failed to parse recipe twilightforest:jeed/slowness[jeed:effect_provider]: com.google.gson.JsonSyntaxException: Missing fabric:load_conditions, expected to find a JsonArray
+[10:08:06] [WARN ] Failed to parse recipe 'twilightforest:equipment/lifedrain_scepter[minecraft:crafting_shapeless]'! Falling back to vanilla: java.lang.StackOverflowError
+[10:08:06] [INFO ] Found 11479 recipes and 4 failed recipes in 124.8 ms
+[10:08:06] [INFO ] Posted recipe events in 153.1 ms
+[10:08:06] [INFO ] Modified & removed recipes in 68.07 ms
+[10:08:06] [INFO ] Added recipes in 1.311 ms
+[10:08:06] [INFO ] Added 80 recipes, removed 101 recipes, modified 46 recipes, with 0 failed recipes and 0 fall-backed recipes

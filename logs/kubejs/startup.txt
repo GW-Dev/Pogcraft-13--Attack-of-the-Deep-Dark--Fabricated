@@ -1,4 +1,6 @@
-[14:35:05] [INFO ] Loaded script startup_scripts:items.js in 0.066 s
-[14:35:05] [INFO ] startup_scripts:script.js:3: Hello, World! (You will only see this line once in console, during startup)
-[14:35:05] [INFO ] Loaded script startup_scripts:script.js in 0.002 s
-[14:35:05] [INFO ] Loaded 2/2 KubeJS startup scripts in 0.71 s
+[15:41:03] [INFO ] Loaded script startup_scripts:items.js in 0.071 s
+[15:41:03] [INFO ] Loaded script startup_scripts:MI Machines.js in 0.009 s
+[15:41:03] [INFO ] Loaded script startup_scripts:MIMaterialEvents.js in 0.002 s
+[15:41:03] [INFO ] startup_scripts:script.js:3: Hello, World! (You will only see this line once in console, during startup)
+[15:41:03] [INFO ] Loaded script startup_scripts:script.js in 0.001 s
+[15:41:03] [INFO ] Loaded 4/4 KubeJS startup scripts in 0.588 s

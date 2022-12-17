@@ -430,7 +430,6 @@
 				"18035D9544EC01DA"
 				"0A87F01B58718A44"
 				"1F0EE1298663FE88"
-				"13CA9C170D0623D8"
 			]
 			size: 2.0d
 			id: "477ECBF67056BF45"
@@ -453,51 +452,6 @@
 					}
 				}
 			}]
-		}
-		{
-			x: 1.0d
-			y: 3.0d
-			subtitle: "Heisenbark"
-			description: ["We did it, Jesse!"]
-			dependencies: [
-				"4BF269EBE370CE78"
-				"512CAEB25CD9B4E2"
-			]
-			id: "13CA9C170D0623D8"
-			tasks: [{
-				id: "0BB4598A99E9B596"
-				type: "item"
-				item: "alchemicaldrugs:methamphetamine"
-			}]
-			rewards: [
-				{
-					id: "44C88BF2BB4676F0"
-					type: "item"
-					item: {
-						id: "lootbags:loot_bag"
-						Count: 1b
-						tag: {
-							Type: "LEGENDARY"
-							Color: 16425539
-							Loot: "aof:loot_bags/mi/legendary"
-							Name: "Modern Industrialization Legendary Lootbag"
-						}
-					}
-				}
-				{
-					id: "1FC4652C9B370602"
-					type: "item"
-					item: {
-						id: "trofers:medium_pillar"
-						Count: 1b
-						tag: {
-							BlockEntityTag: {
-								Trophy: "trofers:methamphetamine"
-							}
-						}
-					}
-				}
-			]
 		}
 	]
 }

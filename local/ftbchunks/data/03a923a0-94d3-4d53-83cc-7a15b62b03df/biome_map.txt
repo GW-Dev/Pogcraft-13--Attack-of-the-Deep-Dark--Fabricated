@@ -1,0 +1,4 @@
+#010 minecraft:forest
+#3DC minecraft:plains
+#5FF minecraft:river
+#67B minecraft:savanna

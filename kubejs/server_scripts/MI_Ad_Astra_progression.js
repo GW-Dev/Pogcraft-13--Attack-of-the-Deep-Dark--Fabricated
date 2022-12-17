@@ -4,8 +4,22 @@ console.info('Hello, World! (You will see this line every time server resources 
 
 ServerEvents.recipes(event => {
 
-
 	//Ad Astra! overhaul
+	
+	event.remove({id: 'modern_industrialization:materials/desh/smelting/dust_to_ingot_smelting'})
+	event.remove({id: 'modern_industrialization:materials/desh/smelting/dust_to_ingot_blasting'})
+	event.remove({id: 'modern_industrialization:materials/ostrum/smelting/dust_to_ingot_smelting'})
+	event.remove({id: 'modern_industrialization:materials/ostrum/smelting/dust_to_ingot_blasting'})
+	event.remove({id: 'modern_industrialization:materials/calorite/smelting/dust_to_ingot_smelting'})
+	event.remove({id: 'modern_industrialization:materials/calorite/smelting/dust_to_ingot_blasting'})
+
+	event.replaceInput({}, 'ad_astra:desh_ingot', '#c:desh_ingots')
+	event.replaceInput({}, 'ad_astra:ostrum_ingot', '#c:ostrum_ingots')
+	event.replaceInput({}, 'ad_astra:calorite_ingot', '#c:calorite_ingots')
+
+	event.replaceInput({}, 'ad_astra:desh_block', '#c:desh_blocks')
+	event.replaceInput({}, 'ad_astra:ostrum_block', '#c:ostrum_blocks')
+	event.replaceInput({}, 'ad_astra:calorite_block', '#c:calorite_blocks')
 
 	event.replaceInput({id: 'ad_astra:recipes/wheel'}, 'minecraft:black_dye', 'modern_industrialization:rubber_sheet')
 	event.replaceInput({id: 'ad_astra:recipes/solar_panel'}, '#c:steel_plates', 'modern_industrialization:silicon_wafer')
@@ -34,22 +48,7 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'ad_astra:ostrum_fluid_pipe'}),
 	event.remove({output: 'ad_astra:hammer'}),
 
-
-	// AE2 tweaks for progression
-
-	event.remove({output: 'ae2:silicon'}),
-	event.remove({id: 'ae2:inscriber/silicon_print'}),
-	event.remove({id: 'ae2:inscriber/logic_processor_print'}),
-	event.remove({id: 'ae2:inscriber/engineering_processor_print'}),
-	event.remove({id: 'ae2:inscriber/calculation_processor_print'}),
-	event.remove({id: 'modern_industrialization:compat/ae2/printed_silicon'}),
-
-
 	//Ad Astra! changes for progression
-
-	event.shapeless('9x ad_astra:desh_ingot', 'ad_astra:desh_block')
-	event.shapeless('9x ad_astra:ostrum_ingot', 'ad_astra:ostrum_block')
-	event.shapeless('9x ad_astra:calorite_ingot', 'ad_astra:calorite_block')
 		
 	event.custom({
 		"type": "ad_astra:fuel_conversion",
@@ -69,61 +68,19 @@ ServerEvents.recipes(event => {
 	}).id('p8:6')
 
 	event.custom({
-		"type": "modern_industrialization:compressor",
-		"item_outputs": {
-		"item":"ad_astra:desh_plate",
-		"amount": 1
-		},
-		"duration": 10,
-		"eu": 16,
-		"item_inputs": {
-			"item" : ("ad_astra:desh_ingot"),
-			"amount": 1
-		}
-	}).id('p8:7')
-
-	event.custom({
-		"type": "modern_industrialization:compressor",
-		"item_outputs": {
-		"item":"ad_astra:ostrum_plate",
-		"amount": 1
-		},
-		"duration": 20,
-		"eu": 16,
-		"item_inputs": {
-			"item" : ("ad_astra:ostrum_ingot"),
-			"amount": 1
-		}
-	}).id('p8:8')
-
-	event.custom({
-		"type": "modern_industrialization:compressor",
-		"item_outputs": {
-		"item":"ad_astra:calorite_plate",
-		"amount": 1
-		},
-		"duration": 40,
-		"eu": 16,
-		"item_inputs": {
-			"item" : ("ad_astra:calorite_ingot"),
-			"amount": 1
-		}
-	}).id('p8:9')
-
-	event.custom({
 		"type": "modern_industrialization:blast_furnace",
 		"fluid_inputs": {
 			"fluid": 'modern_industrialization:oxygen',
 			"amount": 250
 		},
 		"item_outputs": {
-		"item":"ad_astra:desh_ingot",
+		"item":"modern_industrialization:desh_hot_ingot",
 		"amount": 1
 		},
 		"duration": 100,
-		"eu": 16,
+		"eu": 32,
 		"item_inputs": {
-			"item" : ("ad_astra:raw_desh"),
+			"tag" : ("c:desh_dusts"),
 			"amount": 1
 		}
 	}).id('p8:10')
@@ -135,13 +92,13 @@ ServerEvents.recipes(event => {
 			"amount": 250
 		},
 		"item_outputs": {
-		"item":"ad_astra:ostrum_ingot",
+		"item":"modern_industrialization:ostrum_hot_ingot",
 		"amount": 1
 		},
 		"duration": 100,
-		"eu": 32,
+		"eu": 64,
 		"item_inputs": {
-			"item" : ("ad_astra:raw_ostrum"),
+			"tag" : ("c:ostrum_dusts"),
 			"amount": 1
 		}
 	}).id('p8:11')
@@ -149,9 +106,9 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"type": "modern_industrialization:blast_furnace",
 		"duration": 100,
-		"eu": 64,
+		"eu": 128,
 		"item_inputs": {
-			"item" : ("ad_astra:raw_calorite"),
+			"tag" : ("c:calorite_dusts"),
 			"amount": 1
 		},
 		"fluid_inputs": {
@@ -159,7 +116,7 @@ ServerEvents.recipes(event => {
 			"amount": 250
 		},
 		"item_outputs": {
-			"item":"ad_astra:calorite_ingot",
+			"item":"modern_industrialization:calorite_hot_ingot",
 			"amount": 1
 			}
 	}).id('p8:12')

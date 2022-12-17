@@ -1,0 +1,179 @@
+{
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2022-12-16 15:43:00 -0600"
+    },
+    "done": true
+  },
+  "charm:core/root": {
+    "criteria": {
+      "player_joined": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "explorerscompass:explorers_compass_cracked_stone_bricks": {
+    "criteria": {
+      "has_recipe": "2022-12-16 15:42:55 -0600",
+      "has_cracked_stone_bricks": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2022-12-16 15:43:00 -0600"
+    },
+    "done": true
+  },
+  "spectrum:progression/unlock_totem_pendant": {
+    "criteria": {
+      "collected_totem_of_undying": "2022-12-16 15:42:55 -0600"
+    },
+    "done": false
+  },
+  "naturescompass:natures_compass": {
+    "criteria": {
+      "has_compass": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "charm:core/world": {
+    "criteria": {
+      "player_joined": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "the_bumblezone:the_bumblezone/root": {
+    "criteria": {
+      "instant_granted": "2022-12-16 15:43:00 -0600"
+    },
+    "done": true
+  },
+  "bwplus:hidden_unlocks/ectoplasm": {
+    "criteria": {
+      "has_item": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "ratsmischief:recipes/tools/leather_rat_pouch": {
+    "criteria": {
+      "has_material": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "bwplus:root": {
+    "criteria": {
+      "trigger": "2022-12-16 15:43:00 -0600"
+    },
+    "done": true
+  },
+  "ratsmischief:recipes/tools/purpur_rat_pouch": {
+    "criteria": {
+      "has_material": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "charm:core/automation": {
+    "criteria": {
+      "player_joined": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "ratsmischief:recipes/tools/twisted_rat_pouch": {
+    "criteria": {
+      "has_material": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "charm:core/decoration": {
+    "criteria": {
+      "player_joined": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sparse_jungle": "2022-12-16 15:43:01 -0600"
+    },
+    "done": false
+  },
+  "charm:core/smithing": {
+    "criteria": {
+      "player_joined": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "miskatonicmysteries:root": {
+    "criteria": {
+      "get_book": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "charm:core/tweaks": {
+    "criteria": {
+      "player_joined": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "betterdeserttemples:root": {
+    "criteria": {
+      "always": "2022-12-16 15:43:00 -0600"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_log": {
+    "criteria": {
+      "has_recipe": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_sapling": {
+    "criteria": {
+      "has_recipe": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "charm:core/mobs": {
+    "criteria": {
+      "player_joined": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "explorerscompass:explorers_compass_cobweb": {
+    "criteria": {
+      "has_cobweb": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "explorerscompass:explorers_compass": {
+    "criteria": {
+      "has_recipe": "2022-12-16 15:42:55 -0600",
+      "has_compass": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "modern_industrialization:guidebook": {
+    "criteria": {
+      "checkInv": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "charm:core/tools": {
+    "criteria": {
+      "player_joined": "2022-12-16 15:42:55 -0600"
+    },
+    "done": true
+  },
+  "spectrum:progression/unlock_take_off_belt": {
+    "criteria": {
+      "collected_rabbits_foot": "2022-12-16 15:42:55 -0600"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}
