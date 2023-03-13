@@ -1,14 +1,14 @@
-name = "Ad Astra!"
-filename = "ad-astra-1.0.3-1.19.2.jar"
+name = "Ad Astra"
+filename = "ad_astra-fabric-1.19.2-1.12.4.jar"
 side = "both"
 
 [download]
-mode = "metadata:curseforge"
-url = ""
-hash-format = "sha1"
-hash = "cdce5a6445f98435d2537618f2c26b96504a35a1"
+mode = "url"
+url = "https://cdn.modrinth.com/data/3ufwT9JF/versions/ivXGCoYc/ad_astra-fabric-1.19.2-1.12.4.jar"
+hash-format = "sha512"
+hash = "3ea12ea5da51a2c53fcc3e3587c63e1b0d90a1cd9f21783abc17ba80f124ea3ce9a52ef3909b55341d8bd528f1cc66f2046e65d73d1d495eb883d68a6e08c9e0"
 
 [update]
-[update.curseforge]
-file-id = 4021216
-project-id = 635042
+[update.modrinth]
+mod-id = "3ufwT9JF"
+version = "ivXGCoYc"

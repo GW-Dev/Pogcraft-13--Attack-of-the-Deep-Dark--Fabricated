@@ -1,0 +1,14 @@
+name = "Wired Redstone"
+filename = "wired-redstone-0.4.17+1.19.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "419d4cd4da63f71414eeac3a3b09812a9eca5131"
+
+[update]
+[update.curseforge]
+file-id = 4414946
+project-id = 639871

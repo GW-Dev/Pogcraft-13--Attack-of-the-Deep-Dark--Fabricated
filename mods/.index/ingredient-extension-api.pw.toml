@@ -1,14 +1,14 @@
 name = "Ingredient Extension API"
-filename = "IngredientExtensionAPI-fabric-1.19.2-3.0.5.jar"
+filename = "IngredientExtensionAPI-fabric-1.19.2-3.0.6.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "2590e53b0b47b2e4d4151658bdd40b08457a9402"
+hash = "c62ab4331a27b92a1db7398cd4f2a56e40e7aaf4"
 
 [update]
 [update.curseforge]
-file-id = 4023288
+file-id = 4134668
 project-id = 557735

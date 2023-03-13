@@ -1,14 +1,14 @@
 name = "Kibe"
-filename = "kibe-1.9.10-BETA+1.19.jar"
+filename = "kibe-1.9.11-BETA+1.19.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "f1d9009f790a3f606b59dd5e65b775e754182070"
+hash = "9200e804366d561822c46041ec17ef62c48cec49"
 
 [update]
 [update.curseforge]
-file-id = 4023631
+file-id = 4352610
 project-id = 388832

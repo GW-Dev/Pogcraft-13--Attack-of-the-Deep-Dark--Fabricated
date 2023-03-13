@@ -3,12 +3,12 @@ filename = "BeaconOverhaul-1.7.3+1.19.2.jar"
 side = "both"
 
 [download]
-mode = "metadata:curseforge"
-url = ""
-hash-format = "sha1"
-hash = "a563a48ff60468827be97a493f449c1c4226b906"
+mode = "url"
+url = "https://cdn.modrinth.com/data/v0cwu8bJ/versions/1IQ8kOV2/BeaconOverhaul-1.7.3%2B1.19.2.jar"
+hash-format = "sha512"
+hash = "9a61f884a6549ac9540a30d0c7609d6a6c718b3d9f2b8ccfedf9670e22c5c0a695af0f93337860074d20ca42ddca062556a9e90b883cebffca53bff5d99b37e0"
 
 [update]
-[update.curseforge]
-file-id = 3983948
-project-id = 430382
+[update.modrinth]
+mod-id = "v0cwu8bJ"
+version = "1IQ8kOV2"

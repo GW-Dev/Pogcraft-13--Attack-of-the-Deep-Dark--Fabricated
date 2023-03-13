@@ -1,0 +1,14 @@
+name = "YUNG's Better Strongholds"
+filename = "YungsBetterStrongholds-1.19.2-Fabric-3.2.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/kidLKymU/versions/KZDwDgOz/YungsBetterStrongholds-1.19.2-Fabric-3.2.0.jar"
+hash-format = "sha512"
+hash = "a974ced35995e894c2592a7ca7f5ff54d21b0f18e5e709961c1748f3a91a086927d5bdacd6cc4ce884952505f506086d1b54507869e343fb857fdd96069e1503"
+
+[update]
+[update.modrinth]
+mod-id = "kidLKymU"
+version = "KZDwDgOz"

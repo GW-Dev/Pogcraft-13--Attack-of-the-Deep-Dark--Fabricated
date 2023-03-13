@@ -1,4 +1,0 @@
-minecraft:overworld
-twilightforest:twilight_forest
-the_bumblezone:the_bumblezone
-ad_astra:venus

@@ -1,14 +1,14 @@
 name = "Better Statistics Screen"
-filename = "betterstats-1.4.3.jar"
+filename = "betterstats-2.4+1.19.2.jar"
 side = "both"
 
 [download]
-mode = "metadata:curseforge"
-url = ""
-hash-format = "sha1"
-hash = "5f153bf07665886c822a36ddd824d0f6007e6100"
+mode = "url"
+url = "https://cdn.modrinth.com/data/n6PXGAoM/versions/oCC1YLFI/betterstats-2.4%2B1.19.2.jar"
+hash-format = "sha512"
+hash = "d1fe2456814131534c03abeec3c288941fe82d4a7d9d2dc60d6a0d0fbbbe67bd839ff2da7f7ea7b8637268a87538405f5f30d458fa192cd3464dc6799f81f3b9"
 
 [update]
-[update.curseforge]
-file-id = 4008826
-project-id = 667464
+[update.modrinth]
+mod-id = "n6PXGAoM"
+version = "oCC1YLFI"

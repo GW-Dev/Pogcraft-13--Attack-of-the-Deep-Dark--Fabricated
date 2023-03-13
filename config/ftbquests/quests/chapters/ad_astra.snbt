@@ -352,7 +352,7 @@
 			tasks: [{
 				id: "5FC0EB271676835B"
 				type: "item"
-				item: "ad_astra:desh_ingot"
+				item: "modern_industrialization:desh_ingot"
 				count: 20L
 			}]
 			rewards: [{
@@ -518,7 +518,7 @@
 			tasks: [{
 				id: "275AD0703F620408"
 				type: "item"
-				item: "ad_astra:ostrum_ingot"
+				item: "modern_industrialization:ostrum_ingot"
 			}]
 			rewards: [{
 				id: "250B49FA04316495"
@@ -835,7 +835,7 @@
 			tasks: [{
 				id: "2E8BDD166863C9C2"
 				type: "item"
-				item: "ad_astra:calorite_ingot"
+				item: "modern_industrialization:calorite_ingot"
 				count: 20L
 			}]
 			rewards: [{
@@ -1119,4 +1119,5 @@
 			]
 		}
 	]
+	quest_links: [ ]
 }

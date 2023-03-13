@@ -1,7 +1,13 @@
 {
   "modules": {
+    "megane-deep-mob-learning-simulacrum": {
+      "lol.bai.megane.module.dmlsimulacrum.MeganeDmlSimulacrum": true
+    },
     "megane-kibe": {
       "lol.bai.megane.module.kibe.MeganeKibe": true
+    },
+    "megane-modern-dynamics": {
+      "lol.bai.megane.module.moderndynamics.MeganeModernDynamics": true
     },
     "megane-industrial-revolution": {
       "lol.bai.megane.module.indrev.MeganeIndustrialRevolution": true

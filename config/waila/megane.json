@@ -21,11 +21,13 @@
     "expandWhenSneak": false,
     "colors": {
       "megane": 7408640,
-      "modern_industrialization": 11993088
+      "modern_industrialization": 11993088,
+      "ae2": 6556063
     },
     "units": {
       "megane": "E",
-      "modern_industrialization": "EU"
+      "modern_industrialization": "EU",
+      "ae2": "AE"
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"

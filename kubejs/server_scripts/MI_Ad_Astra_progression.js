@@ -22,7 +22,7 @@ ServerEvents.recipes(event => {
 	event.replaceInput({}, 'ad_astra:calorite_block', '#c:calorite_blocks')
 
 	event.replaceInput({id: 'ad_astra:recipes/wheel'}, 'minecraft:black_dye', 'modern_industrialization:rubber_sheet')
-	event.replaceInput({id: 'ad_astra:recipes/solar_panel'}, '#c:steel_plates', 'modern_industrialization:silicon_wafer')
+	event.replaceInput({id: 'ad_astra:recipes/solar_panel'}, '#ad_astra_platform:steel_plates', 'modern_industrialization:silicon_wafer')
 	event.replaceInput({mod: 'ad_astra'}, 'ad_astra:steel_ingot', '#c:steel_ingots')
 	event.remove({id: 'ad_astra:conversion/fuel_from_oil'})
 	event.remove({output: 'ad_astra:compressor'})

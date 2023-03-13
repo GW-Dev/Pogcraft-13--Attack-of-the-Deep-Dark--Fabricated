@@ -31,19 +31,22 @@
 			tasks: [{
 				id: "25B2DFAFD351900E"
 				type: "checkmark"
-				title: "Welcome to All of Fabric 5"
+				title: "Welcome to Poggercraft 2"
 				icon: "kubejs:aof5_logo"
 				disable_toast: true
 			}]
-			rewards: [{
-				id: "300CDF28987696BC"
-				type: "item"
-				item: {
-					id: "inmis:baby_backpack"
-					Count: 1b
-					tag: { }
+			rewards: [
+				{
+					id: "61062C07079C912A"
+					type: "item"
+					item: "inmis:frayed_backpack"
 				}
-			}]
+				{
+					id: "0B1D84F227C9331D"
+					type: "item"
+					item: "akashictomeoftools:akashic_tome"
+				}
+			]
 		}
 		{
 			title: "&bExcavate"
@@ -154,4 +157,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

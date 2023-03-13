@@ -1,14 +1,14 @@
 name = "Chisel Refabricated"
-filename = "chisel-1.4.6+1.19.jar"
+filename = "chisel-1.4.7+1.19.2.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "f224170456b2cf16c4d409a7ca58165d6aa79f6b"
+hash = "727ec624ee6a3ec7629525f12e516dc69fd53412"
 
 [update]
 [update.curseforge]
-file-id = 3825308
+file-id = 4047203
 project-id = 551763

@@ -1,3 +1,0 @@
-#3A0 minecraft:frozen_river
-#4E5 minecraft:snowy_plains
-#340 minecraft:snowy_taiga

@@ -1392,7 +1392,7 @@
 		}
 		{
 			x: 7.5d
-			y: -1.0d
+			y: 1.0d
 			subtitle: "Can make items and fluids react with eachother."
 			dependencies: ["6BEB4461CA08633F"]
 			id: "6B11B8A209763B36"
@@ -1557,7 +1557,7 @@
 		}
 		{
 			x: 7.5d
-			y: 0.0d
+			y: -1.0d
 			subtitle: "Splits items by spinning them very fast."
 			description: ["You can use it to make carbon dust and unlock better recipes for steel and silicon."]
 			dependencies: ["6BEB4461CA08633F"]
@@ -1868,7 +1868,7 @@
 		}
 		{
 			x: 7.5d
-			y: 1.0d
+			y: 0.0d
 			subtitle: "Can split materials into their different parts using strong electric currents."
 			dependencies: ["6BEB4461CA08633F"]
 			id: "68BD457258EC8CBF"
@@ -2910,10 +2910,11 @@
 		}
 		{
 			x: 9.5d
-			y: 3.0d
+			y: 5.0d
 			subtitle: "Now we're cooking with fire"
 			description: ["This machine will allow you to automatically farm trees and crops"]
 			dependencies: ["6CFEA35D3949123F"]
+			optional: true
 			id: "3E11E4D4ED0E75CC"
 			tasks: [
 				{
@@ -2973,9 +2974,10 @@
 		}
 		{
 			x: 9.5d
-			y: -1.0d
+			y: 1.0d
 			subtitle: "Faster crop growth"
 			dependencies: ["6B11B8A209763B36"]
+			optional: true
 			id: "10B53A0F86553347"
 			tasks: [{
 				id: "43420DDF9F0D68BB"
@@ -2986,9 +2988,10 @@
 		}
 		{
 			x: 9.5d
-			y: 1.0d
+			y: 3.0d
 			subtitle: "Automated crop growth"
 			dependencies: ["10B53A0F86553347"]
+			optional: true
 			id: "6CFEA35D3949123F"
 			tasks: [{
 				id: "5D3C85B90B1B143B"
@@ -2999,13 +3002,14 @@
 		}
 		{
 			x: 11.5d
-			y: 3.0d
+			y: 5.0d
 			subtitle: "Better coke production"
 			description: [
 				"Using pyrolyze ovens, you can now produce coke at a much higher rate in much hiher quantities."
 				"{image:#FFFFFF width:100 height:100 align:1}"
 			]
 			dependencies: ["3E11E4D4ED0E75CC"]
+			optional: true
 			id: "5BF0915E740E0070"
 			tasks: [
 				{
@@ -3049,5 +3053,82 @@
 				}
 			]
 		}
+		{
+			title: "Cookin' Crystals"
+			x: 7.5d
+			y: 3.0d
+			subtitle: "Cook the crystals, leave behind the clusters."
+			dependencies: ["6B11B8A209763B36"]
+			optional: true
+			id: "7287AB01E5BAE7B9"
+			tasks: [
+				{
+					id: "6D8F7CF84B1314DA"
+					type: "item"
+					item: "minecraft:prismarine_shard"
+				}
+				{
+					id: "15EB82B684C26115"
+					type: "item"
+					item: "minecraft:prismarine_crystals"
+				}
+				{
+					id: "3B836CCF63611F67"
+					type: "item"
+					item: "spectrum:topaz_shard"
+				}
+				{
+					id: "697368CA64760942"
+					type: "item"
+					item: "spectrum:citrine_shard"
+				}
+				{
+					id: "7923B6E5455C6AB8"
+					type: "item"
+					item: "spectrum:onyx_shard"
+				}
+				{
+					id: "513D8428B1560FD8"
+					type: "item"
+					item: "minecraft:amethyst_shard"
+				}
+				{
+					id: "53E7ED8816AA6BAD"
+					type: "item"
+					item: "ae2:certus_quartz_crystal"
+				}
+			]
+			rewards: [
+				{
+					id: "72FA5DDB7CE1B67D"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "COMMON"
+							Color: 16747259
+							Name: "Magic Common Lootbag"
+							Loot: "aof:loot_bags/magic/common"
+						}
+					}
+				}
+				{
+					id: "42E2A3A5089A09A9"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "RARE"
+							Color: 16425539
+							Name: "Modern Industrialization Rare Lootbag"
+							Loot: "aof:loot_bags/mi/rare"
+						}
+					}
+				}
+			]
+		}
 	]
+	quest_links: [ ]
 }

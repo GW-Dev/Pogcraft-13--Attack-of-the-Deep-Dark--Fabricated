@@ -1,0 +1,14 @@
+name = "Bad Wither No Cookie - Reloaded"
+filename = "bwncr-fabric-1.19.2-3.14.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/lL2MtE37/versions/WbwEWFxo/bwncr-fabric-1.19.2-3.14.1.jar"
+hash-format = "sha512"
+hash = "5a34b51dd005cc9443d265d2aa643e0dec1199b54f05b112cf9466ea781abec6666db38aca4366f7f25dd68405e8d53985faf104683c9d782979454830d8c1f7"
+
+[update]
+[update.modrinth]
+mod-id = "lL2MtE37"
+version = "WbwEWFxo"

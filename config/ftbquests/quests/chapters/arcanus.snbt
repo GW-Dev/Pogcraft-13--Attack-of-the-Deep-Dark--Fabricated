@@ -435,11 +435,6 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "044FB7EDC89183A8"
-				type: "item"
-				item: "blockus:rainbow_brick_wall"
-			}]
 		}
 		{
 			icon: "minecraft:amethyst_cluster"
@@ -460,4 +455,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

@@ -1,14 +1,14 @@
 name = "Adorn"
-filename = "Adorn-3.6.1+1.19-fabric.jar"
+filename = "Adorn-3.8.1+1.19.2-fabric.jar"
 side = "both"
 
 [download]
-mode = "metadata:curseforge"
-url = ""
-hash-format = "sha1"
-hash = "1dcdb74b96ac88585619da15e620d3da71436f2a"
+mode = "url"
+url = "https://cdn.modrinth.com/data/E6FUtRJh/versions/E0HCy6sV/Adorn-3.8.1%2B1.19.2-fabric.jar"
+hash-format = "sha512"
+hash = "344793519691abc511ca5ea88a00c95cae67727bf00b5f34adcb07b97b24f19e034c9a12c6cfcaa2c7f43eab193e8abe28cd437aeb9148eeb1258f7c78473099"
 
 [update]
-[update.curseforge]
-file-id = 3886299
-project-id = 320215
+[update.modrinth]
+mod-id = "E6FUtRJh"
+version = "E0HCy6sV"

@@ -1,14 +1,14 @@
 name = "Expanded Storage"
-filename = "expandedstorage-8.1.0-alpha.2+1.19-fabric.jar"
+filename = "expandedstorage-8.2.0-beta.3+1.19.2-fabric.jar"
 side = "both"
 
 [download]
-mode = "metadata:curseforge"
-url = ""
-hash-format = "sha1"
-hash = "1bceb4d09b38bbda2aa1693af5fc16ddba67705d"
+mode = "url"
+url = "https://cdn.modrinth.com/data/F56tBubk/versions/dGpbVBSA/expandedstorage-8.2.0-beta.3%2B1.19.2-fabric.jar"
+hash-format = "sha512"
+hash = "e7b672f75439b45f42d17839b25007cc2432854edc06d562e5cc652c446f75aff5ac30602332eafc900ff86154401eeb3f9d2d77224b3f235f9d04360c5ec09f"
 
 [update]
-[update.curseforge]
-file-id = 3941126
-project-id = 317856
+[update.modrinth]
+mod-id = "F56tBubk"
+version = "dGpbVBSA"

@@ -1,0 +1,14 @@
+name = "ProbeJS"
+filename = "probejs-4.4.0-fabric.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "22e798e3386eb9bcd3f615e944939d6180fb0f78"
+
+[update]
+[update.curseforge]
+file-id = 4415080
+project-id = 585406

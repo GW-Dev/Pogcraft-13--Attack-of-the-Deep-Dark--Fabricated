@@ -1,0 +1,14 @@
+name = "Traveler's Titles"
+filename = "TravelersTitles-1.19.2-Fabric-3.1.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/JtifUr64/versions/yLYslqqw/TravelersTitles-1.19.2-Fabric-3.1.0.jar"
+hash-format = "sha512"
+hash = "1183ccdc61bef209d45272bad14e0b568898f5a9f88ffbbd4b3433c7dd5c8f80db0c515f182efdeb848bf124f1403e86c11ce692fe7725a37aa69d3522122442"
+
+[update]
+[update.modrinth]
+mod-id = "JtifUr64"
+version = "yLYslqqw"

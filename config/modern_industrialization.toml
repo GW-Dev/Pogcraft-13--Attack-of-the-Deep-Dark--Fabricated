@@ -1,11 +1,12 @@
 blacklistedOres = []
-enableNoJeiMessage = true
+enableNoEmiMessage = true
 spawnWithGuideBook = true
 respawnWithGuideBook = false
 disableFuelTooltips = false
 disableItemTagTooltips = false
 newVersionMessage = false
 enableHatchPlacementOverlay = true
+enableBarrelContentRendering = true
 colorWaterLava = true
 enableDebugCommands = false
 enableBidirectionalEnergyCompat = true

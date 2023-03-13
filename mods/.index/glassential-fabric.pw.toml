@@ -1,0 +1,14 @@
+name = "Glassential (Fabric)"
+filename = "glassential-fabric-1.4.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/Hhaag1wJ/versions/AIFQo46l/glassential-fabric-1.4.0.jar"
+hash-format = "sha512"
+hash = "b5a423faa609c3e13d4e37223027a0e7301c4bbdae52ec63f50c843e64c731365d158657bbc7c724ee0f02f880527e181abd1a3b80f2bf5d8fd22239addf444b"
+
+[update]
+[update.modrinth]
+mod-id = "Hhaag1wJ"
+version = "AIFQo46l"

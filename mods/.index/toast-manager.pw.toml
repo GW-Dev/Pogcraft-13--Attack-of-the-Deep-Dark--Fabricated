@@ -1,0 +1,14 @@
+name = "Toast Manager"
+filename = "ToastManager-1.19.2-1.0.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "13e2bff12b97ce8197f71737ee8da90a85966bc7"
+
+[update]
+[update.curseforge]
+file-id = 3953164
+project-id = 662724

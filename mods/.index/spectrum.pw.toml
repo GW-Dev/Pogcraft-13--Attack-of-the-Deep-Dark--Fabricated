@@ -1,14 +1,14 @@
 name = "Spectrum"
-filename = "spectrum-1.5.7-1.19.2-magic.jar"
+filename = "spectrum-1.6.8-1.19.2-leisure_time.jar"
 side = "both"
 
 [download]
-mode = "metadata:curseforge"
-url = ""
-hash-format = "sha1"
-hash = "11bc4bd3052b6f0c84efefa9e3ccac6a947572ff"
+mode = "url"
+url = "https://cdn.modrinth.com/data/3rc31Hgo/versions/YLaZv5Fa/spectrum-1.6.8-1.19.2-leisure_time.jar"
+hash-format = "sha512"
+hash = "0114ef81c6cae8a17f6693d56c282a973cc14f09a1915569350f19c2271692fc51f2dd8cf2fa1d9ce243324e8283718c01aa947ed2f9ed112d57b3aac06371b3"
 
 [update]
-[update.curseforge]
-file-id = 4020832
-project-id = 556967
+[update.modrinth]
+mod-id = "3rc31Hgo"
+version = "YLaZv5Fa"

@@ -21,36 +21,6 @@ REIEvents.hide('item', e => {
 		'ad_astra:nasa_workbench',
 		'ae2:silicon',
 		'ae2:vibration_chamber',
-		'chemlib:platinum_dust',
-		'chemlib:platinum_nugget',
-		'chemlib:platinum_ingot',
-		'chemlib:platinum_plate',
-		'chemlib:platinum_metal_block',
-		'chemlib:tungsten_dust',
-		'chemlib:tungsten_nugget',
-		'chemlib:tungsten_ingot',
-		'chemlib:tungsten_plate',
-		'chemlib:tungsten_metal_block',
-		'chemlib:aluminum_dust',
-		'chemlib:aluminum_nugget',
-		'chemlib:aluminum_ingot',
-		'chemlib:aluminum_plate',
-		'chemlib:aluminum_metal_block',
-		'chemlib:chromium_dust',
-		'chemlib:chromium_nugget',
-		'chemlib:chromium_ingot',
-		'chemlib:chromium_plate',
-		'chemlib:chromium_metal_block',
-		'chemlib:manganese_dust',
-		'chemlib:manganese_nugget',
-		'chemlib:manganese_ingot',
-		'chemlib:manganese_plate',
-		'chemlib:manganese_metal_block',
-		'chemlib:titanium_dust',
-		'chemlib:titanium_nugget',
-		'chemlib:titanium_ingot',
-		'chemlib:titanium_plate',
-		'chemlib:titanium_metal_block',
 		'ecologics:azalea_chest_boat',
 		'ecologics:flowering_azalea_chest_boat',
 		'ecologics:azalea_flower',
@@ -111,6 +81,7 @@ REIEvents.hide('item', e => {
 		console.log(e.getCategoryIds())
 		e.yeet('twilightforest:uncrafting')
 		e.yeet('ad_astra:nasa_workbench')
+		e.yeet('dml-refabricated:crushing')
 
 	})
 	REIEvents.groupEntries(e => {

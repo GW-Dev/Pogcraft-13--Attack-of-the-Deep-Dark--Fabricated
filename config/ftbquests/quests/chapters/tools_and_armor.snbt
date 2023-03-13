@@ -1,0 +1,1210 @@
+{
+	id: "101875ABBA9AC7E6"
+	group: "76C22988F9A7C9CE"
+	order_index: 1
+	filename: "tools_and_armor"
+	title: "Tools and Armory"
+	icon: "minecraft:smithing_table"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "xps:block_xp_obelisk"
+			x: -5.0d
+			y: -5.5d
+			subtitle: "Enchanting Efficiency"
+			description: ["If you did not know by now that as you level up you waste more and more experince points when enchanting. So instead of wasting experince why not store it in this handy container!"]
+			dependencies: ["25B6D9950B1CF03C"]
+			id: "73C866780EE5AD4F"
+			tasks: [
+				{
+					id: "61327AB9EC4286FA"
+					type: "item"
+					item: "xps:block_xp_obelisk"
+				}
+				{
+					id: "0F4E345BBC47ADB4"
+					type: "item"
+					item: "xps:xp_remover"
+				}
+			]
+			rewards: [{
+				id: "13B854E24202DC9B"
+				type: "item"
+				item: "minecraft:experience_bottle"
+				count: 2
+				random_bonus: 8
+			}]
+		}
+		{
+			x: -9.0d
+			y: -5.5d
+			subtitle: "Everlasting Longevity!"
+			description: ["The Dragon anvil works exactly like a normal anvil, but it never breaks, has no level cap, and won't ask you for more than 30 levels of experience."]
+			dependencies: ["25B6D9950B1CF03C"]
+			id: "1C8C22D89ACF248F"
+			tasks: [{
+				id: "4B884C1DFE863714"
+				type: "item"
+				item: "dragonloot:dragon_anvil"
+			}]
+			rewards: [
+				{
+					id: "790DDF0E2E764859"
+					type: "item"
+					item: "minecraft:name_tag"
+				}
+				{
+					id: "580BF7D56A027A23"
+					type: "item"
+					item: {
+						id: "lootbags:loot_bag"
+						Count: 1b
+						tag: {
+							Type: "UNCOMMON"
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -5.5d
+			id: "25B6D9950B1CF03C"
+			tasks: [{
+				id: "00364115C1D01F31"
+				type: "checkmark"
+				title: "Mysterious Enchanting"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "35F0E2CEEE9D9AD0"
+			tasks: [{
+				id: "3FC3E8AFB7E9B57D"
+				type: "checkmark"
+				title: "Armory"
+			}]
+		}
+		{
+			title: "&5Armory of Dragon"
+			x: -2.0d
+			y: 2.5d
+			subtitle: "Harness the true strength of a dragon."
+			description: ["Scales are dropped by killing the Ender Dragon."]
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "4E2C7A0B42F4588F"
+			tasks: [
+				{
+					id: "1F47057584B43E88"
+					type: "item"
+					item: {
+						id: "dragonloot:dragon_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "095A18B52CE967B4"
+					type: "item"
+					item: {
+						id: "dragonloot:dragon_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "54DBAF532E7DDDA6"
+					type: "item"
+					item: {
+						id: "dragonloot:dragon_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "40E07B86F8DDDF7A"
+					type: "item"
+					item: {
+						id: "dragonloot:dragon_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4665984CDB2D374F"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			id: "300FAC6161C1BCDB"
+			tasks: [{
+				id: "56BB7CEC9FE309C4"
+				type: "checkmark"
+				title: "Tools"
+			}]
+		}
+		{
+			title: "&5Dragon's Tools"
+			x: 2.0d
+			y: -2.5d
+			subtitle: "Harness the true strength of a dragon."
+			description: ["Scales are dropped by killing the Ender Dragon."]
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "19CD33E3BCCBC283"
+			tasks: [
+				{
+					id: "48BEF1026E46FEFC"
+					type: "item"
+					item: {
+						id: "dragonloot:dragon_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C23570FAFDAC0DD"
+					type: "item"
+					item: {
+						id: "dragonloot:dragon_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "699EEDB4F5A5483A"
+					type: "item"
+					item: {
+						id: "dragonloot:dragon_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6E11908E8414D5C5"
+					type: "item"
+					item: {
+						id: "dragonloot:dragon_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7DF089A2D0779224"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "5EA2D6174BCFEC05"
+			tasks: [{
+				id: "3D7700A29760BE66"
+				type: "checkmark"
+				title: "Weaponry"
+			}]
+		}
+		{
+			title: "&5Dragon's Sword"
+			x: 6.0d
+			y: 2.5d
+			subtitle: "Harness the true strength of a dragon."
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "43393B11001E56DC"
+			tasks: [{
+				id: "79B14536D0076591"
+				type: "item"
+				item: {
+					id: "dragonloot:dragon_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1ADD5FEFADEDEA80"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Charms"
+			x: -3.0d
+			y: -2.5d
+			subtitle: "A practice or expression believed to have magic powers."
+			description: [
+				"The portal charm will allow the wearer to walk through portals instantly."
+				""
+				"The sleep charm allows the wearer to instantly fall asleep in beds. It will also slowly reduce the insomnia counter which will prevent phantoms from spawning and attacking you."
+				""
+				"The experience charm will decrease the pickup delay of experience orbs. It will also slightly increase the amount of experience dropped when killing mobs or mining blocks that drop EXP."
+				""
+				"The gluttony charm will allow the wearer to eat food without delay."
+				""
+				"All charms can be worn as trinkets."
+			]
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "5FCACC423BE1EB68"
+			tasks: [{
+				id: "06063381E1AB7D20"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "darkutils:charms"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D4924DED53FF093"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "&bArmory of the Warden"
+			x: -3.0d
+			y: 2.5d
+			subtitle: "You feel the true power of the Warden!"
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "6EC36423E7AFFC6A"
+			tasks: [
+				{
+					id: "6520C11D866E605C"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4BBF2201EF7ACCFF"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0BA808F0CBF8121C"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2501119BAFEF8F97"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "204186ABAF820E5A"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "&bWeaponry of the Warden"
+			x: 5.0d
+			y: 2.5d
+			subtitle: "You feel the true power of the Warden!"
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "4EBE275982E447AC"
+			tasks: [{
+				id: "6562E0D76672FC86"
+				type: "item"
+				item: {
+					id: "deeperdarker:warden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0AA9547EA4F721C1"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "&bTools of the Warden"
+			x: 1.0d
+			y: -2.5d
+			subtitle: "Gardener? Nah, more like... Wardener!"
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "1B3B5304E3BA3A75"
+			tasks: [
+				{
+					id: "5C8CB0C4DCA62663"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "319ADC4407E7BDA4"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7C36CCC608658408"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "792B29B8C0FC8DC5"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0FEDA1050C7144B1"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			subtitle: "The curse be upon you!"
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "237580846E5B0C1C"
+			tasks: [{
+				id: "6D4FBC238D9972F4"
+				type: "item"
+				item: {
+					id: "minecells:cursed_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "752C833AF3F183F0"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "&dElementium Armory"
+			x: -5.0d
+			y: 2.5d
+			subtitle: "Made in the Portal to Alfheim."
+			description: [
+				"If the player is wearing a complete set of Elementium armor, they will gain the Great Fairy's Blessing set bonus:"
+				""
+				"> 10% decrease of the Mana cost on all Mana-using tools and rods,"
+				""
+				"> Pixies spawned by the wearer will inflict a random potion effect for 2 seconds: either Blindness, Wither, Slowness or Weakness."
+			]
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "0A0EE0B8F2CF1840"
+			tasks: [
+				{
+					id: "6443CB4EA4556356"
+					type: "item"
+					item: {
+						id: "botania:elementium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F3830E0938CBB40"
+					type: "item"
+					item: {
+						id: "botania:elementium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3547154495AA785B"
+					type: "item"
+					item: {
+						id: "botania:elementium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6ED55F2B0C34748D"
+					type: "item"
+					item: {
+						id: "botania:elementium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "754CE8CB0336E6D3"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "&9Manasteel Armory"
+			x: -6.0d
+			y: 2.5d
+			subtitle: "Made out of Iron and Mana."
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "69EF6FE796539675"
+			tasks: [
+				{
+					id: "384F8EE2142E565A"
+					type: "item"
+					item: {
+						id: "botania:manasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "752FEB2ABDA70713"
+					type: "item"
+					item: {
+						id: "botania:manasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "16D9A0AFCF03C01C"
+					type: "item"
+					item: {
+						id: "botania:manasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33420EB93311F590"
+					type: "item"
+					item: {
+						id: "botania:manasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5A01FBD100578278"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "&aTerrasteel Armory"
+			x: -4.0d
+			y: 2.5d
+			subtitle: "Made via an infusion ritual."
+			description: [
+				"If the player is wearing a complete set of Terrasteel armor, they will gain the Will of the Ancients set bonus:"
+				""
+				"> Passive generation of 1 Mana per tick."
+				""
+				"> 20% decrease of Mana cost on all Mana-using tools and rods."
+				""
+				"> Passive regeneration of 2 health every 4 seconds if their hunger bar isn't full."
+				""
+				"> Effects of all Wills applied to the worn Terrasteel Helmet."
+			]
+			dependencies: ["35F0E2CEEE9D9AD0"]
+			id: "7E9CEA24C62A5EB5"
+			tasks: [
+				{
+					id: "5AC1B88EE4805986"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3EF0ABC0224C1C77"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "249C7B704AB2BFF6"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "73DE3154063549DE"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5E5F8A23E330AF66"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "&aTools of Terra"
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "6B2A5C9F8F92975B"
+			tasks: [
+				{
+					id: "0EBC1A262BACB90E"
+					type: "item"
+					item: {
+						id: "botania:terra_pick"
+						Count: 1b
+						tag: {
+							Damage: 0
+							mana: 9999
+						}
+					}
+				}
+				{
+					id: "1B21CF9911521FE4"
+					type: "item"
+					item: {
+						id: "botania:terra_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1F58E0896CECAB48"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "&dElementium Tools"
+			x: -1.0d
+			y: -2.5d
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "491D1CA466F8BEE7"
+			tasks: [
+				{
+					id: "1B7C87583404D823"
+					type: "item"
+					item: {
+						id: "botania:elementium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "12761B3B1151BB90"
+					type: "item"
+					item: {
+						id: "botania:elementium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35251431AE99A877"
+					type: "item"
+					item: {
+						id: "botania:elementium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E9208183F259F87"
+					type: "item"
+					item: {
+						id: "botania:elementium_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "37D446E2E6929333"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "&9Manasteel Tools"
+			x: -2.0d
+			y: -2.5d
+			dependencies: ["300FAC6161C1BCDB"]
+			id: "1812006D3BD67F42"
+			tasks: [
+				{
+					id: "78AE4A2866D42033"
+					type: "item"
+					item: {
+						id: "botania:manasteel_pick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "513C28B868CC07B7"
+					type: "item"
+					item: {
+						id: "botania:manasteel_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0BEDB0B6192BABAB"
+					type: "item"
+					item: {
+						id: "botania:manasteel_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4868DD63695C6A9C"
+					type: "item"
+					item: {
+						id: "botania:manasteel_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2795C286B3F01E19"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "7CE1E91CE65BEEB1"
+			tasks: [{
+				id: "5C2A939D465B1339"
+				type: "item"
+				item: {
+					id: "botania:manasteel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "64788C0E06411E05"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "RARE"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "7C5DBA5626CE7D7D"
+			tasks: [{
+				id: "3AFC4119E51084AA"
+				type: "item"
+				item: {
+					id: "botania:elementium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D75E74B635299E0"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["5EA2D6174BCFEC05"]
+			id: "05F39EED60B5032B"
+			tasks: [{
+				id: "0B6D9A28B4A9B38C"
+				type: "item"
+				item: {
+					id: "botania:terra_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "494D1269BAC85011"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			subtitle: "Dirty Stick MK II"
+			description: ["This tool performs much the same function as the rod of the lands, but also allows you to place blocks in midair for an additional cost."]
+			dependencies: ["0ECC48E2B41D4078"]
+			id: "6CFB83CA3C41D891"
+			tasks: [{
+				id: "07E070E14442B2D5"
+				type: "item"
+				item: "botania:skydirt_rod"
+			}]
+			rewards: [{
+				id: "0AA26F8BD37878A9"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.5d
+			subtitle: "Keep the ocean clean!"
+			description: ["Just like the Rod of the Land, the Rod of the Seas will allow you to use mana to place water source blocks."]
+			dependencies: ["0ECC48E2B41D4078"]
+			id: "72D41352FD2B752C"
+			tasks: [{
+				id: "69CE55AF68F39797"
+				type: "item"
+				item: "botania:water_rod"
+			}]
+			rewards: [{
+				id: "3F12A313ED7D6735"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.0d
+			subtitle: "Smoothing Brush in Survival"
+			description: ["The Rod of the Terra Firm is a useful tool for terraforming that allows you to flatten the ground and bring the elevation of the ground closer to your level"]
+			dependencies: ["0ECC48E2B41D4078"]
+			id: "503DD3CEEFE78FFF"
+			tasks: [{
+				id: "6E7765039271CC78"
+				type: "item"
+				item: "botania:terraform_rod"
+			}]
+			rewards: [{
+				id: "1ADBB875BD98C512"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -7.0d
+			subtitle: "Shift your block of choice."
+			description: [
+				"The Rod of the Shifting Crust is an incredibly useful tool that allows you to swap blocks on a surface with other blocks from your inventory."
+				""
+				"Other staffs listed in this chapter allow you to use mana to replace blocks with blocks generated with mana."
+			]
+			dependencies: ["0ECC48E2B41D4078"]
+			id: "57A128EE5135A494"
+			tasks: [{
+				id: "5F10EB7947E7C1CB"
+				type: "item"
+				item: "botania:exchange_rod"
+			}]
+			rewards: [{
+				id: "2184A7B7B6E41891"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -8.0d
+			subtitle: "It's cobbling time!"
+			description: [
+				"Much like the Rod of the Lands, this rod allows you to place Cobblestone by consuming mana."
+				""
+				"Like its dirty cousin, it also provides the Rod of the Shifting Crust with Cobblestone for swapping."
+			]
+			dependencies: ["0ECC48E2B41D4078"]
+			id: "009320766602EAAF"
+			tasks: [{
+				id: "5B3866A5E0AD8DCF"
+				type: "item"
+				item: "botania:cobble_rod"
+			}]
+			rewards: [{
+				id: "2BEE4BFA695BF6E9"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -7.5d
+			subtitle: "Dirty Stick"
+			description: [
+				"A simple tool that allows you to place dirt blocks using mana."
+				""
+				"This isn't useful in and of itself, but when paired with the wand of the shifting crust, it provides dirt to swap blocks with."
+			]
+			dependencies: ["0ECC48E2B41D4078"]
+			id: "1A7AF56567D80ECB"
+			tasks: [{
+				id: "3AA7A6C9CA235353"
+				type: "item"
+				item: "botania:dirt_rod"
+			}]
+			rewards: [{
+				id: "458366310AF3B9AE"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "EPIC"
+						Color: 16747259
+						Name: "Magic Epic Lootbag"
+						Loot: "aof:loot_bags/magic/epic"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.476190476190482d
+			y: -6.214285714285715d
+			id: "0ECC48E2B41D4078"
+			tasks: [{
+				id: "7A35F0C8B2C0B1D1"
+				type: "checkmark"
+				title: "Botania Utils"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

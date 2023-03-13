@@ -165,8 +165,8 @@
 					tag: {
 						Type: "UNCOMMON"
 						Color: 5889627
-						Name: "Agriculturist Lootbag"
 						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
 					}
 				}
 			}]
@@ -178,17 +178,14 @@
 			y: 1.5d
 			subtitle: "Step into the Twilight Realm!"
 			description: [
-				"&6To make a portal &rto the &bTwilight Forest&r, &6make a 2x2 shallow pool &r(4 squares) of &bWater &rin a grassy area, and surround it entirely with natural stuff (&bflowers, mushrooms, saplings, leaves, grass, &ranything considered a \"plant\" or \"leaves\")."
+				"&6To make a portal &rto the &bTwilight Forest&r, &6make a 2x2 shallow pool &r(4 squares) of &bWater &rin a grassy area, and surround it entirely with natural stuff (&bflowers, mushrooms, saplings, leaves, grass, &ranything considered a \"plant\" or \"leaves\"). You'll need an eldritch note to open the gate."
 				""
 				"&bTwilight Forest &ris a dimension exploration mod focused on adventure that will &6take you on a journey &rto meet strange &bcreatures&r, &bexploring dungeons&r, &band much more&r."
-				""
-				"The Incantation of the Gate-and-Key will open the portal."
 			]
 			dependencies: [
-				"4977C5F5DD9F9A59"
 				"6EC4700B21DB617B"
+				"4977C5F5DD9F9A59"
 			]
-			hide: true
 			id: "36D37A1AFFC1B369"
 			tasks: [{
 				id: "64630338E7F2207F"
@@ -350,9 +347,46 @@
 			}]
 		}
 		{
-			title: "&eThe Bumblezone"
+			title: "&6Mine Cells"
 			x: -1.5d
 			y: 1.5d
+			subtitle: "Dive into the story of Dead Cells!"
+			description: [
+				"To start your adventure &rwith &bMine Cells&r, &6find a portal structure&r. The &bportal&r will &6activate&r for you automatically if you've already acquired diamonds in the world."
+				""
+				"&bMine Cells &rfeatures new &bMonsters &rwhich attempt to faithfully recreate the look and feel of the original game."
+				""
+				"&bMine Cells &6introduces one new boss&r - &bThe Conjunctivius&r."
+				""
+				"You can find her lair in the &bPrison structure &r/ &bdimension&r."
+			]
+			dependencies: ["6EC4700B21DB617B"]
+			id: "6AA8C1349BCC891D"
+			tasks: [{
+				id: "09B4372F749D9625"
+				type: "dimension"
+				icon: "minecells:charged_interdimensional_rune"
+				dimension: "minecells:prison"
+			}]
+			rewards: [{
+				id: "75521584B37DD8A1"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "&eThe Bumblezone"
+			x: -0.5d
+			y: 2.0d
 			subtitle: "Throw an Enderpearl at a Bee Nest? I now see yellow."
 			description: ["&6You can also make yourself &r(riding a mob or vehicle) or have any mob &6enter the dimension &rby using a &bPiston &rto push the player or mob into a &bBeehive &ror &bBee Nest &rblock!"]
 			dependencies: ["6EC4700B21DB617B"]
@@ -372,6 +406,33 @@
 					tag: {
 						Type: "LEGENDARY"
 						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Visit the Nether"
+			x: -0.5d
+			y: -3.0d
+			dependencies: ["6EC4700B21DB617B"]
+			id: "5BB4B869266BCCF3"
+			tasks: [{
+				id: "75C9D44654154EBB"
+				type: "dimension"
+				icon: "minecraft:nether_wart_block"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "543C60F0F1011C63"
+				type: "item"
+				item: {
+					id: "lootbags:loot_bag"
+					Count: 1b
+					tag: {
+						Type: "LEGENDARY"
+						Color: 16103753
 						Name: "Artifact Lootbag"
 						Loot: "aof:loot_bags/misc/artifacts"
 					}
@@ -379,4 +440,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

@@ -1,9 +1,0 @@
-#556 minecraft:beach
-#47F minecraft:birch_forest
-#34D minecraft:deep_lukewarm_ocean
-#3DE minecraft:deep_ocean
-#010 minecraft:forest
-#4B0 minecraft:jungle
-#79A minecraft:lukewarm_ocean
-#2D6 minecraft:meadow
-#4F1 minecraft:ocean

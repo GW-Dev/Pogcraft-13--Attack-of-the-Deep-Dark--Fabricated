@@ -2,7 +2,7 @@
   "timedoorPlacementOffsetInBlocks": 3,
   "timedoorCloseWaitingTimeInTicks": 60,
   "onEntityThroughDoorAdditionalTimeInTicks": 40,
-  "timedoorUsageType": "TIMER",
+  "timedoorUsageType": "ENERGY",
   "kangTimedoorUsageType": "UNLIMITED",
   "configurationOptionsForTempad": {
     "timedoor_cooldown_if_usage_type_is_set_to_TIMER": 180,

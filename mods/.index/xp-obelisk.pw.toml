@@ -1,0 +1,14 @@
+name = "XP Obelisk"
+filename = "xp_obelisk-0.4.7-r+1.19.2-Fabric.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "464aae8211646e92034e64600fbefd780006e3c9"
+
+[update]
+[update.curseforge]
+file-id = 4131817
+project-id = 510262

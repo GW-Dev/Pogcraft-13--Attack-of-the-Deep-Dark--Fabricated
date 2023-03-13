@@ -1,14 +1,14 @@
 name = "Spirit"
-filename = "spirit-fabric-1.19.2-2.1.12.jar"
+filename = "spirit-fabric-1.19.2-2.2.4.jar"
 side = "both"
 
 [download]
-mode = "metadata:curseforge"
-url = ""
-hash-format = "sha1"
-hash = "45872029d79fd77b42781e9b8712cfdf29ef473b"
+mode = "url"
+url = "https://cdn.modrinth.com/data/b1LdOZlE/versions/17lKW7bl/spirit-fabric-1.19.2-2.2.4.jar"
+hash-format = "sha512"
+hash = "f14016cbcd1f33b0a3e9830fa3d5e58d05ce87e20eab360b756d01b1b94f57b5fc56be035981ead13400a08395d6825d7d50b1d044af4a8f76071757a1b99096"
 
 [update]
-[update.curseforge]
-file-id = 3945324
-project-id = 495509
+[update.modrinth]
+mod-id = "b1LdOZlE"
+version = "17lKW7bl"

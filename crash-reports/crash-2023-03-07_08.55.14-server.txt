@@ -1,0 +1,1461 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 2023-03-07 08:55:14
+Description: Exception in server tick loop
+
+java.lang.StackOverflowError: Exception in server tick loop
+	at java.base/java.util.HashMap.hash(HashMap.java:338)
+	at java.base/java.util.HashMap.getNode(HashMap.java:568)
+	at java.base/java.util.HashMap.containsKey(HashMap.java:594)
+	at java.base/java.util.HashSet.contains(HashSet.java:205)
+	at net.minecraft.class_2985.method_12885(class_2985.java:327)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+	at net.minecraft.class_2985.method_12885(class_2985.java:346)
+	at net.minecraft.class_2985.method_12885(class_2985.java:342)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.3, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 1708464552 bytes (1629 MiB) / 4227858432 bytes (4032 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 24
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 9 7900X 12-Core Processor            
+	Identifier: AuthenticAMD Family 25 Model 97 Stepping 2
+	Microarchitecture: Zen 3
+	Frequency (GHz): 4.70
+	Number of physical packages: 1
+	Number of physical CPUs: 12
+	Number of logical CPUs: 24
+	Graphics card #0 name: AMD Radeon(TM) Graphics
+	Graphics card #0 vendor: Advanced Micro Devices, Inc. (0x1002)
+	Graphics card #0 VRAM (MB): 512.00
+	Graphics card #0 deviceId: 0x164e
+	Graphics card #0 versionInfo: DriverVersion=31.0.12024.0
+	Graphics card #1 name: NVIDIA GeForce RTX 3080
+	Graphics card #1 vendor: NVIDIA (0x10de)
+	Graphics card #1 VRAM (MB): 4095.00
+	Graphics card #1 deviceId: 0x220a
+	Graphics card #1 versionInfo: DriverVersion=31.0.15.3118
+	Memory slot #0 capacity (MB): 32768.00
+	Memory slot #0 clockSpeed (GHz): 4.80
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MB): 32768.00
+	Memory slot #1 clockSpeed (GHz): 4.80
+	Memory slot #1 type: Unknown
+	Virtual memory max (MB): 73883.30
+	Virtual memory used (MB): 23918.23
+	Swap memory total (MB): 9216.00
+	Swap memory used (MB): 1.20
+	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx4096m
+	Fabric Mods: 
+		accelerateddecay: Accelerated Decay 1.0.0+mc1.19.2
+		ad_astra: Ad Astra 1.12.4
+		additionaladditions: Additional Additions 5.1.0
+		adorn: Adorn 3.8.1+1.19.2
+		advancementplaques: Advancement Plaques 1.4.6
+		ae2: Applied Energistics 2 12.9.2
+			noindium: No Indium? 1.1.0+1.19
+		akashictomeoftools: Akashic Tome Of Tools Fabric 1.3.8
+		appbot: Applied Botanics 1.4.2
+		appleskin: AppleSkin 2.4.1+mc1.19
+		arcanus: Arcanus 1.30
+		archeology: CapsLock Archeology Mod 0.2.5
+		architectury: Architectury 6.5.69
+		artifacts: Artifacts 7.1.1+fabric
+			step-height-entity-attribute: Step Height Entity Attribute 1.0.0
+		attributefix: AttributeFix 17.1.3
+		authme: Auth Me 4.2.0
+		axolotlitemfix: Axolotl Item Fix 1.1.4
+		badpackets: Bad Packets 0.2.1
+		balm-fabric: Balm 4.5.6
+		beaconoverhaul: Beacon Overhaul 1.7.3+1.19.2
+			reach-entity-attributes: Reach Entity Attributes 2.3.0
+		betteradvancements: Better Advancements 0.3.0.148
+		bettercombat: Better Combat 1.6.1+1.19
+		betterdeserttemples: YUNG's Better Desert Temples 1.19.2-Fabric-2.2.2
+			org_reflections_reflections: reflections 0.10.2
+		betterdungeons: YUNG's Better Dungeons 1.19.2-Fabric-3.2.1
+		betterf3: BetterF3 4.0.0
+		betterfortresses: YUNG's Better Nether Fortresses 1.19.2-Fabric-1.0.5
+		bettermineshafts: YUNG's Better Mineshafts 1.19.2-Fabric-3.2.0
+		betteroceanmonuments: YUNG's Better Ocean Monuments 1.19.2-Fabric-2.1.0
+		betterpingdisplay: Better Ping Display 1.1.1
+		betterstats: Better Statistics Screen 2.3+1.19.2
+			tcdcommons: TCD Commons API 2.3+1.19.2
+		betterstrongholds: YUNG's Better Strongholds 1.19.2-Fabric-3.2.0
+		betterwitchhuts: YUNG's Better Witch Huts 1.19.2-Fabric-2.1.0
+		bewitchment: Bewitchment 1.19-6
+			fabric-permissions-api-v0: fabric-permissions-api 0.1-SNAPSHOT
+			impersonate: Impersonate 2.8.0
+			playerabilitylib: Pal 1.6.0
+			terraform-wood-api-v1: Terraform Wood API (v1) 4.2.0
+		bookshelf: Bookshelf 16.2.18
+		botania: Botania 1.19.2-438-FABRIC
+			fiber: fiber 0.23.0-2
+		botarium: Botarium 1.8.2
+		bowinfinityfix: Bow Infinity Fix 2.5.0
+		bwncr: Bad Wither No Cookie Reloaded 3.14.1
+		bwplus: Bewitchment Plus 1.19-9
+		cardinal-components: Cardinal Components API 5.0.2
+			cardinal-components-base: Cardinal Components API (base) 5.0.2
+			cardinal-components-block: Cardinal Components API (blocks) 5.0.2
+			cardinal-components-chunk: Cardinal Components API (chunks) 5.0.2
+			cardinal-components-entity: Cardinal Components API (entities) 5.0.2
+			cardinal-components-item: Cardinal Components API (items) 5.0.2
+			cardinal-components-level: Cardinal Components API (world saves) 5.0.2
+			cardinal-components-scoreboard: Cardinal Components API (scoreboard) 5.0.2
+			cardinal-components-world: Cardinal Components API (worlds) 5.0.2
+		catwalksinc: Catwalks Inc. 1.3.1
+		charm: Charm 4.4.4
+			com_moandjiezana_toml_toml4j: toml4j 0.7.2
+		charmofundying: Charm of Undying 6.1.1+1.19.2
+		charmonium: Charmonium 4.2.1
+		chefsdelight: Chef's Delight 1.0.2-fabric-1.19.2
+			structurized-reborn: Structurized Reborn 1.19-01
+		cherishedworlds: Cherished Worlds 6.0.1+1.19.2
+		chimes: Chimes 1.1.4
+		chisel: Chisel Refabricated 1.4.5
+		cleancut: CleanCut 1.19.2-5.1-fabric
+		clickadv: Clickable Advancements Mod 3.0
+		clickmachine: Kenza's Click Machine 1.3.0
+			kirin: Kirin UI 1.11.0
+		cloth-config: Cloth Config v8 8.2.88
+			cloth-basic-math: cloth-basic-math 0.6.1
+		clumps: Clumps 9.0.0+14
+		comforts: Comforts 6.0.3+1.19.2
+			spectrelib: SpectreLib 0.10.0+1.19
+		configured: Configured 2.0.0
+		connectivity: Connectivity Mod 1.19.2-3.8
+		continuity: Continuity 2.0.1+1.19
+		controlling: Controlling For Fabric 10.0+7
+		craftpresence: CraftPresence 2.0.0-beta.2
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.8.3+251d254a90
+		crawl: Crawl 0.11.1
+			mm: Manningham Mills 2.3
+		dankstorage: Dank Storage 1.19.2-4.3
+		darkpaintings: DarkPaintings 13.1.5
+		darkutils: DarkUtilities 13.1.7
+		debugify: Debugify 2.8.0
+		deeperdarker: Deeper and Darker 1.1.6
+			customportalapi: Custom Portal Api 0.0.1-beta54-1.19
+			paragon: Paragon 3.0.2
+				org_yaml_snakeyaml: snakeyaml 1.27
+		dml-refabricated: Deep Mob Learning: Refabricated 0.5.11-BETA+1.19.2
+			dml-refabricated-base: DML: Refabricated - Base 0.5.11-BETA+1.19.2
+			dml-refabricated-modular-armor: DML: Refabricated - Glitch Armor 0.5.11-BETA+1.19.2
+				libgui: LibGui 6.3.0+1.19
+					jankson: Jankson 4.1.1+j1.2.1
+					libninepatch: LibNinePatch 1.1.0
+			dmlsimulacrum: Deep Mob Learning: Simulacrum 0.5.11-BETA+1.19.2
+				team_reborn_energy: Energy 2.3.0
+			ktdatataglib: KtDataTagLib 1.6.6
+		dragonfight: Dragonfight Mod 1.19.2-2.7
+		dragonloot: DragonLoot 1.1.2
+		ecologics: Ecologics 2.1.11
+		eldritch_mobs: EldritchMobs 1.12.10
+			polymer: Polymer (Core) 0.2.18+1.19.2
+				packet_tweaker: Packet Tweaker 0.3.0+1.18.2
+				polymer-registry-sync-manipulator: Polymer Registry Sync Manipulator 0.0.3+1.19.2
+			polymer-blocks-ext: Polymer Blocks 0.1.0-alpha.9+1.19.2
+			server_translations_api: Server Translations API 1.4.18+1.19.2
+		elytraslot: Elytra Slot 6.1.0+1.19.2
+		emojiful: Emojiful 4.0.4
+			com_esotericsoftware_yamlbeans_yamlbeans: yamlbeans 1.15
+		enchantinginfuser: Enchanting Infuser 4.2.2
+		enchdesc: EnchantmentDescriptions 13.0.14
+		entity_texture_features: Entity Texture Features 4.3.3
+			org_apache_httpcomponents_httpmime: httpmime 4.5.10
+		entityculling: EntityCulling-Fabric 1.6.1-mc1.19.2
+		equipmentcompare: Equipment Compare 1.3.1
+		expandability: ExpandAbility 7.0.0
+		expandedstorage: Expanded Storage 8.2.0-beta.3
+		experiencebugfix: Experience Bug Fix 19
+		explorerscompass: Explorer's Compass 1.19.2-2.2.0-fabric
+		extended_armor_bars: Extended Armor Bars 1.2.1
+		extremesoundmuffler: Extreme sound muffler 3.35-fabric-1.19.2
+		fabric-api: Fabric API 0.75.1+1.19.2
+			fabric-api-base: Fabric API Base 0.4.15+8f4e8eb390
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.14+93d8cb8290
+			fabric-biome-api-v1: Fabric Biome API (v1) 9.1.0+82db024a90
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.2+e415d50e90
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.25+cafc6e8e90
+			fabric-client-tags-api-v1: Fabric Client Tags 1.0.5+b35fea8390
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.16+f71b366f90
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.1+413cbbc790
+			fabric-commands-v0: Fabric Commands (v0) 0.2.33+df3654b390
+			fabric-containers-v0: Fabric Containers (v0) 0.1.41+df3654b390
+			fabric-content-registries-v0: Fabric Content Registries (v0) 3.5.1+7c6cd14d90
+			fabric-convention-tags-v1: Fabric Convention Tags 1.2.2+27265b3490
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.8+aeb40ebe90
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 5.3.7+413cbbc790
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.35+0d0f210290
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.5.4+9244241690
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.4.34+562bff6e90
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.35+df3654b390
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.24+b6b6abb490
+			fabric-item-api-v1: Fabric Item API (v1) 1.6.5+dce4603e90
+			fabric-item-groups-v0: Fabric Item Groups (v0) 0.3.38+9244241690
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.25+5c4fce2890
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.23+df3654b390
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.4+1b46dc7890
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.1.12+83a8659290
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.15+9e7660c690
+			fabric-message-api-v1: Fabric Message API (v1) 5.0.7+93d8cb8290
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.23+33fbc73890
+			fabric-models-v0: Fabric Models (v0) 0.3.21+c6af733c90
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.2.11+10eb22f490
+			fabric-networking-v0: Fabric Networking (v0) 0.3.28+df3654b390
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 4.2.1+d8ef690890
+			fabric-particles-v1: Fabric Particles (v1) 1.0.14+4d0d570390
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.1+413cbbc790
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 0.9.32+9244241690
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 1.2.1+1adbf27790
+			fabric-renderer-indigo: Fabric Renderer - Indigo 0.8.0+1adbf27790
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.24+df3654b390
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.19+6e0787e690
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.11+4d0d570390
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.27+df3654b390
+			fabric-rendering-v1: Fabric Rendering (v1) 1.12.1+d8ef690890
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.1.2+aae9039d90
+			fabric-screen-api-v1: Fabric Screen API (v1) 1.0.32+4d0d570390
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.7+1cc24b1b90
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.2+c4f28df590
+			fabric-textures-v0: Fabric Textures (v0) 1.0.24+aeb40ebe90
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 2.1.6+413cbbc790
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 1.3.3+08b73de490
+		fabric-language-kotlin: Fabric Language Kotlin 1.9.1+kotlin.1.8.10
+			org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 1.8.10
+			org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 1.8.10
+			org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 1.8.10
+			org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 1.8.10
+			org_jetbrains_kotlinx_atomicfu-jvm: atomicfu-jvm 0.19.0
+			org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.6.4
+			org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.6.4
+			org_jetbrains_kotlinx_kotlinx-datetime-jvm: kotlinx-datetime-jvm 0.4.0
+			org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: kotlinx-serialization-cbor-jvm 1.4.1
+			org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.4.1
+			org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.4.1
+		fabricloader: Fabric Loader 0.14.17
+		fallingtree: FallingTree 3.10.0
+		farmersdelight: Farmer's Delight 1.19.2-1.3.9
+		farmingforblockheads: Farming for Blockheads 11.2.0
+		faux-custom-entity-data: Faux-Custom-Entity-Data 2.0.2
+		ferritecore: FerriteCore 5.0.3
+		forgeconfigapiport: Forge Config API Port 4.2.11
+			com_electronwill_night-config_core: core 3.6.5
+			com_electronwill_night-config_toml: toml 3.6.5
+		fpsreducer: FPS Reducer 1.19.2-2.1
+		friendsandfoes: Friends&Foes 1.6.8
+			com_github_llamalad7_mixinextras: MixinExtras 0.1.1
+		ftbchunks: FTB Chunks 1902.3.16-build.240
+		ftblibrary: FTB Library 1902.3.14-build.184
+		ftbquests: FTB Quests 1902.4.9-build.195
+		ftbteams: FTB Teams 1902.2.12-build.95
+		ftbultimine: FTB Ultimine 1902.3.5-build.65
+		fwaystones: Fabric Waystones 3.0.7+mc1.19.2
+		geckolib3: Geckolib 3.1.40
+			com_eliotlash_mclib_mclib: mclib 20
+		glassential: Glassential 1.4.0
+		go-fish: Go Fish 1.6.0-1.19.1
+		goblintraders: Goblin Traders 1.8.1
+		healthoverlay: Health Overlay 7.2.4
+		highlight: Highlight 1.0.0
+		iceberg: Iceberg 1.0.46
+		indium: Indium 1.0.9+mc1.19.2
+		ingredient-extension-api: Ingredient Extension API 3.0.6
+		inmis: Inmis 2.7.1-1.19
+			omega-config: OmegaConfig 1.2.3-1.18.1
+		inventoryessentials: Inventory Essentials 5.0.2
+		iris: Iris 1.5.2
+			io_github_douira_glsl-transformer: glsl-transformer 2.0.0-pre9
+			org_anarres_jcpp: jcpp 1.4.14
+			org_antlr_antlr4-runtime: antlr4-runtime 4.11.1
+		itemfilters: Item Filters 1902.2.9-build.46
+		java: OpenJDK 64-Bit Server VM 17
+		jmi: JourneyMapIntegration 0.13-30
+		journeymap: Journeymap 5.9.3
+			journeymap-api-fabric: JourneyMap API 1.19.1-1.9-fabric-SNAPSHOT
+		kibe: Kibe 1.9.11-BETA+1.19
+		krypton: Krypton 0.2.1
+			com_velocitypowered_velocity-native: velocity-native 3.1.2-SNAPSHOT
+		kubejs: KubeJS 1902.6.0-build.142
+		lazydfu: LazyDFU 0.1.3
+		legendarytooltips: Legendary Tooltips 1.3.3
+		lightoverlay: Light Overlay 7.0.0
+		litematica: Litematica 0.12.6
+		litematica_printer: Litematica Printer 2.5
+		lithium: Lithium 0.10.4
+		logbegone: Log Begone 1.0.4
+		lootbags: Resourceful Lootbags 1.1.2
+		lootr: Lootr 0.4.25.64
+		malilib: MaLiLib 0.13.0
+		maxhealthfix: MaxHealthFix 8.0.1
+		mcf-reap: MaxVar reap for fabric 1.7.1
+		megacells: MEGA Cells 2.0.0-beta.6-1.19.2
+		megane: megane 8.4.0
+			megane-api: megane-api 8.4.0
+			megane-applied-energistics-2: megane-applied-energistics-2 8.4.0
+			megane-deep-mob-learning-simulacrum: megane-deep-mob-learning-simulacrum 8.4.0
+			megane-fabric-transfer: megane-fabric-transfer 8.4.0
+			megane-kibe: megane-kibe 8.4.0
+			megane-modern-dynamics: megane-modern-dynamics 8.4.0
+			megane-reborn-energy: megane-reborn-energy 8.4.0
+			megane-runtime: megane-runtime 8.4.0
+			megane-vanilla: megane-vanilla 8.4.0
+		merequester: ME Requester 1.19.2-1.0.3
+		midnightlib: MidnightLib 1.0.0
+		minecells: Mine Cells 1.4.0
+		minecraft: Minecraft 1.19.2
+		miskatonicmysteries: Miskatonic Mysteries 0.1.6
+			satin: Satin 1.9.0
+		modern_industrialization: Modern Industrialization 1.6.3
+			magna: Magna 1.8.0-1.19
+		moderndynamics: Modern Dynamics 0.4.0-alpha
+		modmenu: Mod Menu 4.2.0-beta.2
+		moonlight: Moonlight 1.19.2-2.2.13
+		morechathistory: MoreChatHistory 1.1.1
+		mousetweaks: Mouse Tweaks 2.22
+		moyai: moyai 1.19.2-2.0.0
+		naturescompass: Nature's Compass 1.19.2-2.1.0-fabric
+		netherdepthsupgrade: Nether Depths Upgrade fabric-2.0.4-1.19.2
+		netherportalfix: NetherPortalFix 10.0.1
+		nethersdelight: Nether's Delight 1.0.1
+			disable_custom_worlds_advice: Disable Custom Worlds Advice 3.0
+		nochatreports: No Chat Reports 1.19.2-v1.13.12
+		owo: oωo 0.9.3+1.19
+			blue_endless_jankson: jankson 1.2.1
+		paintings: Paintings++ 10.2.4.0
+		patchouli: Patchouli 1.19.2-77-FABRIC
+		paxi: Paxi 1.19.2-Fabric-3.0.1
+		pehkui: Pehkui 3.7.0+1.14.4-1.19.3
+			kanos_config: Kanos Config 0.3.1+1.14.4-1.19
+		phosphor: Phosphor 0.8.1
+		pigpen: PigPen 11.1.2
+		player-animator: Player Animator 1.0.2
+		prism: Prism 1.0.3
+		probejs: ProbeJS 4.4.0
+		puzzleslib: Puzzles Lib 4.3.12
+		ratsmischief: Rat's Mischief 1.4.0
+		reaper: Reaper 1.0.4
+			fake-player-api: Fake Player API 0.5.0
+		recursiveresources: Recursive Resources 2.2.2+1.19
+			shared-resources-api: Shared Resources API 1.2.1
+		reeses-sodium-options: Reese's Sodium Options 1.4.9+mc1.19.2-build.67
+		resourcefulconfig: Resourcefulconfig 1.0.19
+		resourcefullib: Resourceful Lib 1.1.22
+		respawnablepets: Respawnable Pets 1.19-2
+		revelationary: Revelationary 1.3.0
+		rhino: Rhino 1902.2.2-build.264
+		roughlyenoughitems: Roughly Enough Items 9.1.591
+			error_notifier: Error Notifier 1.0.9
+		roughlyenoughprofessions: Roughly Enough Professions 1.1.3
+		runelic: Runelic 14.1.4
+		skinlayers: 3d Skin Layers 1.5.2-mc1.19.1
+		sodium: Sodium 0.4.4+build.18
+			org_joml_joml: joml 1.10.4
+		sodium-extra: Sodium Extra 0.4.16+mc1.19.2-build.90
+			caffeineconfig: CaffeineConfig 1.0.0+1.17
+		spark: spark 1.10.29
+		spectrum: Spectrum 1.6.7-1.19.2-leisure_time
+			additionalentityattributes: Additionalentityattributes 1.2.0+1.19.2
+			arrowhead: Arrowhead 1.2.0-1.19.2
+			incubus_core: Incubus Core 1.9.4
+		spirit: Spirit 2.2.3
+		supplementaries: Supplementaries 1.19.2-2.2.56
+		taxfreelevels: Tax Free Levels 1.3.3
+		terrablender: TerraBlender 2.0.1.136
+		the_bumblezone: The Bumblezone - Fabric 6.6.17+1.19.2
+		thonkutil: ThonkUtil 2.15.4+1.19
+			thonkutil-base: ThonkUtil Base 1.13.2+4a8c408a57
+			thonkutil-capes-v1: ThonkUtil Capes (v1) 1.4.2+3eb2749857
+			thonkutil-coords-v1: ThonkUtil Coords (v1) 1.1.2+8ff533c957
+			thonkutil-customization-v1: ThonkUtil Customization (v1) 1.1.2+8ff533c957
+			thonkutil-legacy: ThonkUtil Legacy 1.1.2+5d4263f557
+			thonkutil-modchecker-v1: ThonkUtil ModChecker (v1) 1.1.3+bd4b387957
+			thonkutil-potions-v0: ThonkUtil Potions (v0) 1.5.2+8ff533c957
+			thonkutil-titlescreen-v1: ThonkUtil TitleScreen (v1) 1.2.2+8ff533c957
+			thonkutil-trades-v1: ThonkUtil Trades (v1) 1.2.2+8ff533c957
+		toastmanager: Toast Manager 1.0.1
+		totw_additions: Towers of the Wild: Additions 1.2.4
+		transparent: Transparent 5.1.2
+		travelerstitles: Traveler's Titles 1.19.2-Fabric-3.1.0
+		trinkets: Trinkets 3.4.2
+		trofers: Trofers 1.19.2-3.1.1
+			porting_lib: Porting Lib 2.1.766+1.19.2
+				forge_tags: Porting Lib Tags 3.0
+				porting_lib_accessors: Porting Lib Accessors 2.1.766+1.19.2
+				porting_lib_attributes: Porting Lib Attributes 2.1.766+1.19.2
+				porting_lib_base: Porting Lib Base 2.1.766+1.19.2
+				porting_lib_common: Porting Lib Common 2.1.766+1.19.2
+				porting_lib_constants: Porting Lib Constants 2.1.766+1.19.2
+				porting_lib_entity: Porting Lib Entity 2.1.766+1.19.2
+				porting_lib_extensions: Porting Lib Extensions 2.1.766+1.19.2
+				porting_lib_fake_players: Porting Lib Fake Players 2.1.766+1.19.2
+				porting_lib_lazy_registration: Porting Lib Lazy Register 2.1.766+1.19.2
+				porting_lib_model_generators: Porting Lib Model Generators 2.1.766+1.19.2
+				porting_lib_model_loader: Porting Lib Model Loader 2.1.766+1.19.2
+				porting_lib_models: Porting Lib Models 2.1.766+1.19.2
+				porting_lib_networking: Porting Lib Networking 2.1.766+1.19.2
+				porting_lib_obj_loader: Porting Lib Obj Loader 2.1.766+1.19.2
+				porting_lib_transfer: Porting Lib Transfer 2.1.766+1.19.2
+				serialization_hooks: Serialization Hooks 0.3.26
+		twilightforest: The Twilight Forest 4.2.335
+			com_google_code_findbugs_jsr305: jsr305 3.0.2
+			here-be-no-dragons: Here be no Dragons! 1.0.0
+			javax_annotation_javax_annotation-api: javax.annotation-api 1.3.2
+		untitledduckmod: Untitled Duck Mod 0.6.1
+		visuality: Visuality 0.5.6
+		visualworkbench: Visual Workbench 4.2.3
+		vitalize: Vitalize 1.1.1
+		wiredredstone: Wired Redstone 0.4.17+1.19.2
+			graphlib: Graph Lib 0.3.6+1.19.2
+			libmultipart_deps_container: LibMultiPart (Dependency Container) 0.8.2
+				libblockattributes_core: LibBlockAttributes (Core) 0.11.1
+				libmultipart: LibMultiPart 0.8.2
+				libmultipart_compat: LibMultiPart (Mod Compatibility) 0.8.2
+				libnetworkstack: Lib Network Stack 0.7.1
+			lmp-compat: LMP Compat 0.2.2+1.19
+		wthit: wthit 5.14.0
+		xlpackets: XLPackets 1.19.2-4
+		xps: Xp Obelisk 0.4.7-r+1.19.2-Fabric
+		yet-another-config-lib: YetAnotherConfigLib 2.2.0-for-1.19.2
+		yigd: You're in Grave Danger 1.4.8
+		yungsapi: YUNG's API 1.19.2-Fabric-3.8.8
+			org_javassist_javassist: javassist 3.28.0-GA
+		yungsbridges: YUNG's Bridges 1.19.2-Fabric-3.1.0
+		yungsextras: YUNG's Extras 1.19.2-Fabric-3.1.0
+	Loaded Shaderpack: ComplementaryShaders_v4.3.3.zip
+		Profile: VANILLA (+8 options changed by user)
+	NEC status: No NEC detected
+	Server Running: true
+	Player Count: 0 / 8; []
+	Data Packs: vanilla, Fabric Mods, Supplementaries Generated Pack
+	World Generation: Stable
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fabric'; Server brand changed to 'fabric'
+	Launched Version: 1.19.2

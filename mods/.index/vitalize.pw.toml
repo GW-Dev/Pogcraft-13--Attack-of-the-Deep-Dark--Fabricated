@@ -1,0 +1,14 @@
+name = "Vitalize"
+filename = "vitalize-fabric-1.19.2-1.1.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/JOlyQnh1/versions/dDLXan9i/vitalize-fabric-1.19.2-1.1.1.jar"
+hash-format = "sha512"
+hash = "4b2ab3481246ba73b24e6a5dfcf7be2e647da1f29bdfa3e77c60bdf7e21c4833655775dfd806a272d772a7c890fe43ae24b450791510cef229f53d1ba5478e37"
+
+[update]
+[update.modrinth]
+mod-id = "JOlyQnh1"
+version = "dDLXan9i"

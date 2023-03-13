@@ -1,0 +1,14 @@
+name = "Akashic Tome of Tools Fabric"
+filename = "akashictomeoftools-1.3.8.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "b9e34d3df226fccb753dcbbdd1b74f507efe5115"
+
+[update]
+[update.curseforge]
+file-id = 4015297
+project-id = 544237

@@ -1,14 +1,14 @@
 name = "Transparent"
-filename = "transparent-5.1.0+1.19-fabric.jar"
+filename = "transparent-5.1.2+1.19-fabric.jar"
 side = "both"
 
 [download]
 mode = "metadata:curseforge"
 url = ""
 hash-format = "sha1"
-hash = "d05a64692bc025c77f6cec77ad251cd03e757491"
+hash = "7b866189679803172a87d8c293b8ff9c63c3bcff"
 
 [update]
 [update.curseforge]
-file-id = 3834255
+file-id = 4031059
 project-id = 377582

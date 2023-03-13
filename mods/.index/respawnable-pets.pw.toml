@@ -1,0 +1,14 @@
+name = "Respawnable Pets"
+filename = "respawnablepets-1.19-2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/gbFe1FWa/versions/hsUOaUFN/respawnablepets-1.19-2.jar"
+hash-format = "sha512"
+hash = "895ba47182992d681ae502d4706cc793c29b13f49b2662242e697ea7329ab53e639dc43e7213f229c34a8120314d945844c5228834c65b2661b3efbbf36e3555"
+
+[update]
+[update.modrinth]
+mod-id = "gbFe1FWa"
+version = "hsUOaUFN"

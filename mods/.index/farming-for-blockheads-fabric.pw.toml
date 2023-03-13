@@ -1,0 +1,14 @@
+name = "Farming for Blockheads"
+filename = "farmingforblockheads-fabric-1.19.2-11.2.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "6bde40b5a2e4479443edd97261c536733fd08b35"
+
+[update]
+[update.curseforge]
+file-id = 4414066
+project-id = 554586

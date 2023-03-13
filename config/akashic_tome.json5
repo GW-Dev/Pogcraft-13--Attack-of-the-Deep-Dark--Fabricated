@@ -1,0 +1,55 @@
+{
+	/* Filter priorities:
+	   !isTome > whiteID > unstackable > !blackMod > whiteName
+	*/
+	"hi": "Erase to reset config",
+	// Put a tome in a tome? Like folders?..
+	"allowAkashicTome": false,
+	// Whitelisted id's (regex)
+	"whitelistedItems": [
+		"item.minecraft.written_book",
+		"item.botania.lexicon",
+		"item.spectrum.guidebook",
+		"item.adorn.guide_book"
+	],
+	// Only allow unstackable
+	"requireUnstackable": false,
+	// Mods to exclude
+	"blacklistedMods": [],
+	// Whitelisted names (regex) (lowerCase)
+	"whitelistedNames": [
+		"book.*",
+		".*tome.*",
+		".*book.*",
+		".*guide_book.*",
+		".*lexicon.*",
+		"lexicon",
+		".*nomicon",
+		".*manual.*",
+		".*knowledge.*",
+		".*pedia",
+		".*compendium.*",
+		".*guide.*",
+		".*codex.*",
+		".*dux.*",
+		".*journal.*"
+	],
+	// Enable all items
+	"bypassWhitelist": false,
+	// Use bundle-style tooltip instead
+	"bundleTooltip": true,
+	// Use bundle-style tooltip for shulkers inside tome
+	"bundleTooltipShulkers": true,
+	// Add new items to front
+	"addToFront": true,
+	// Blacklisted id's (Use method) (regex)
+	"blacklistedUseItems": [
+		"item.minecraft.I fixed them for you"
+	],
+	// Blacklisted id's (Unmorph) (regex)
+	"blacklistedUnmorphItems": [
+		"item.minecraft.*_sword"
+	],
+	// Blacklisted id's (Unmorph) (regex)
+	"unmorphBlacklistMessage": true
+}

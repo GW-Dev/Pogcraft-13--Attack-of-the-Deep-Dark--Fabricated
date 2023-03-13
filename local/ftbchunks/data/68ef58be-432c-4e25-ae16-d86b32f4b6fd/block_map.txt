@@ -1,2 +1,0 @@
-#80497A minecraft:dirt
-#3F84B7 minecraft:grass_block

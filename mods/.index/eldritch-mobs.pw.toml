@@ -1,0 +1,14 @@
+name = "EldritchMobs"
+filename = "eldritch-mobs-1.12.11.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/emXFPmJd/versions/hwXLbrTC/eldritch-mobs-1.12.11.jar"
+hash-format = "sha512"
+hash = "9f0a4a00d0f979bbb6de24aa17ef10269bbe6d5401877381df986845de999072f909fcc08d657ce48169c993dccc305ca44ef971d173d2370523364d59596819"
+
+[update]
+[update.modrinth]
+mod-id = "emXFPmJd"
+version = "hwXLbrTC"

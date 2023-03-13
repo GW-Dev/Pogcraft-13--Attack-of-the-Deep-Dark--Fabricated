@@ -1,0 +1,14 @@
+name = "Click Machine (Fabric)"
+filename = "click_machine_1.19-fabric-1.3.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "f516c72a0eebf455f8ab19655f20cea181493d7b"
+
+[update]
+[update.curseforge]
+file-id = 3942180
+project-id = 565529

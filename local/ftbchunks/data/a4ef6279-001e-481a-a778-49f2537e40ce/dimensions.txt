@@ -1,3 +1,0 @@
-minecraft:overworld
-ad_astra:mars_orbit
-ad_astra:mars

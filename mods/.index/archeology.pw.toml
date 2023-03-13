@@ -1,0 +1,14 @@
+name = "CapsLock Archeology Mod"
+filename = "capsey-archeology-1.19.2-0.2.5.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/LWE2KdIY/versions/23JAJZ7L/capsey-archeology-1.19.2-0.2.5.jar"
+hash-format = "sha512"
+hash = "eb0237120fa779004e25581c4c2499e0d210318129fc7e3d3fcb53bb17d902180a2cefa5e8e97d929b8628061882869289994e6e54cc3d941a49afaad13621ef"
+
+[update]
+[update.modrinth]
+mod-id = "LWE2KdIY"
+version = "23JAJZ7L"
