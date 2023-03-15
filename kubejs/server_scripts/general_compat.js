@@ -247,11 +247,16 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'catwalksinc:iron_rod'}),
 	event.replaceInput({mod: 'additionaladditions'}, 'additionaladditions:gold_ring', 'modern_industrialization:gold_ring')
 	event.replaceInput({mod: 'ae2'}, 'minecraft:iron_ingot', 'modern_industrialization:steel_plate')
+	event.replaceInput({mod: 'merequester'}, 'minecraft:iron_ingot', 'modern_industrialization:steel_plate')
+	event.replaceInput({mod: 'megacells'}, 'minecraft:iron_ingot', 'modern_industrialization:aluminum_plate')
 	event.replaceInput({mod: 'dml-refabricated'}, 'minecraft:iron_ingot', 'modern_industrialization:steel_ingot')
 	event.replaceInput({mod: 'dml-refabricated'}, 'minecraft:gold_ingot', 'modern_industrialization:electrum_ingot')
 	event.replaceInput({id: 'dml-refabricated:soot_plate'}, 'minecraft:obsidian', 'modern_industrialization:carbon_large_plate')
 	event.replaceOutput({mod: 'farmersdelight'}, 'farmersdelight:tree_bark', '2x farmersdelight:tree_bark')
 	event.remove({output: 'twilightforest:uncrafting_table'})
+	event.remove({output: 'ae2:logic_processor'})
+	event.remove({output: 'ae2:engineering_processor'})
+	event.remove({output: 'ae2:calculation_processor'})
 	event.remove({id: 'farmingforblockheads:red_fertilizer'})
 	event.remove({id: 'farmingforblockheads:green_fertilizer'})
 	event.remove({id: 'dml_refabricated:soot_redstone'})
@@ -569,6 +574,31 @@ ServerEvents.recipes(event => {
 		}
 	]
 	}).id('pcompatgeneral:17')
+
+	event.recipes.modern_industrialization.assembler(8, 50)
+	.itemIn("ae2:printed_calculation_processor")
+	.itemIn("modern_industrialization:analog_circuit")
+	.itemIn("ae2:printed_silicon")
+	.fluidIn("modern_industrialization:molten_redstone", 100)
+	.itemOut("ae2:calculation_processor")
+	.id('pcompatgeneral:18')
+
+	event.recipes.modern_industrialization.assembler(8, 50)
+	.itemIn("ae2:printed_logic_processor")
+	.itemIn("modern_industrialization:analog_circuit")
+	.itemIn("ae2:printed_silicon")
+	.fluidIn("modern_industrialization:molten_redstone", 100)
+	.itemOut("ae2:logic_processor")
+	.id('pcompatgeneral:19')
+
+	event.recipes.modern_industrialization.assembler(8, 50)
+	.itemIn("ae2:printed_engineering_processor")
+	.itemIn("modern_industrialization:analog_circuit")
+	.itemIn("ae2:printed_silicon")
+	.fluidIn("modern_industrialization:molten_redstone", 100)
+	.itemOut("ae2:engineering_processor")
+	.id('pcompatgeneral:20')
+
 
 	event.recipes.modern_industrialization.greenhouse(64, 100)
 	.itemIn("2x farmingforblockheads:green_fertilizer")

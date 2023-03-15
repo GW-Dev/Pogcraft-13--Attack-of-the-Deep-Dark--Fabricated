@@ -12,5 +12,5 @@ enableDebugCommands = false
 enableBidirectionalEnergyCompat = true
 enableAe2Integration = true
 generateOres = true
-datagenOnStartup = true
+datagenOnStartup = false
 loadRuntimeGeneratedResources = true
