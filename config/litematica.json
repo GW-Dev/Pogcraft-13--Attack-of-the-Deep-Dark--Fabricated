@@ -64,13 +64,7 @@
     "customSchematicBaseDirectory": "C:\\Users\\grant\\AppData\\Roaming\\PrismLauncher\\instances\\Pogcraft 13- Attack of the Deep Dark (Fabricated) In Dev\\.minecraft\\schematics",
     "easyPlaceSwapInterval": 0,
     "pickBlockableSlots": "1,2,3,4,5",
-    "toolItem": "minecraft:stick",
-    "printingMode": false,
-    "printInterval": 4,
-    "printingRange": 2,
-    "printInAir": true,
-    "replaceFluids": false,
-    "stripLogs": false
+    "toolItem": "minecraft:stick"
   },
   "Hotkeys": {
     "addSelectionBox": {
@@ -291,12 +285,6 @@
     },
     "unloadCurrentSchematic": {
       "keys": ""
-    },
-    "print": {
-      "keys": "V"
-    },
-    "togglePrintingMode": {
-      "keys": "CAPS_LOCK"
     }
   },
   "InfoOverlays": {

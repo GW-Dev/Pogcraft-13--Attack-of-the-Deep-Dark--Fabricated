@@ -80,7 +80,8 @@
       "entitiesBurnUnderRocket": true,
       "tankSize": 243000,
       "fuelLaunchCost": 243000,
-      "efficientFuelLaunchCost": 81000
+      "efficientFuelLaunchCost": 81000,
+      "takeDamageInRocket": true
     }
   },
   "coalGenerator": {

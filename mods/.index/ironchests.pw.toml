@@ -1,0 +1,14 @@
+name = "Iron Chests: Restocked"
+filename = "ironchests-3.1.1-fabric.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/n2de3t2z/versions/twJAyKX2/ironchests-3.1.1-fabric.jar"
+hash-format = "sha512"
+hash = "24ec76d39701070baf6068a63abcc5b11bf4ff0d351870bddf266d3adcc704a39779a3714efa284bf84c2f2ea9f55633101f3146dff1c9b4d1afbf1b037e06f5"
+
+[update]
+[update.modrinth]
+mod-id = "n2de3t2z"
+version = "twJAyKX2"

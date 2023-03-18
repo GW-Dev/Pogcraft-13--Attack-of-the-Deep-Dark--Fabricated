@@ -259,7 +259,7 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'ae2:calculation_processor'})
 	event.remove({id: 'farmingforblockheads:red_fertilizer'})
 	event.remove({id: 'farmingforblockheads:green_fertilizer'})
-	event.remove({id: 'dml_refabricated:soot_redstone'})
+	event.remove({output: 'dml-refabricated:polymer_clay'})
 	event.remove({id: 'dmlsimulacrum:polymer_clay'})
 	event.remove({id: 'spirit:soul_engulfing/soul_steel'})
 	event.remove({id: 'spirit:soul_engulfing/soul_steel_block'})
@@ -270,11 +270,11 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'moderndynamics:fluid_pipe'})
 	event.replaceInput({mod: 'moderndynamics'}, 'minecraft:iron_ingot', 'modern_industrialization:steel_plate')
 	event.replaceInput({mod: 'moderndynamics'}, 'minecraft:iron_nugget', 'modern_industrialization:steel_nugget')	
-	event.replaceInput({mod: 'tis3d'}, 'minecraft:iron_ingot', 'modern_industrialization:steel_plate')
-	event.replaceInput({mod: 'tis3d'}, 'minecraft:redstone', 'wiredredstone:redstone_alloy_ingot')
 	event.remove({id: 'tis3d:prism'})
 	event.remove({id: 'tis3d:casing'})
 	event.remove({id: 'tis3d:controller'})
+	event.replaceInput({mod: 'tis3d'}, '#c:iron_ingots', 'modern_industrialization:steel_plate')
+	event.replaceInput({mod: 'tis3d'}, '#c:redstone_dusts', 'wiredredstone:redstone_alloy_ingot')
 
 	// Fried egg unification
 	event.replaceInput({mod: 'farmersdelight'}, 'farmersdelight:fried_egg', '#c:cooked_eggs')
