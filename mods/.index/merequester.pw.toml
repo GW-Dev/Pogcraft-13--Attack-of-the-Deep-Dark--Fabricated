@@ -1,14 +1,14 @@
 name = "ME Requester"
-filename = "merequester-1.19.2-1.0.3.jar"
+filename = "merequester-1.19.2-1.1.0.jar"
 side = "both"
 
 [download]
 mode = "url"
-url = "https://cdn.modrinth.com/data/E6BFl96N/versions/gkZRWAzf/merequester-1.19.2-1.0.3.jar"
+url = "https://cdn.modrinth.com/data/E6BFl96N/versions/g2VNuFdH/merequester-1.19.2-1.1.0.jar"
 hash-format = "sha512"
-hash = "e24cad32a58e2701d5767dc0a1ba9445267144f2f323ea0acf0b4f63143d65dd6e0fadbad904662fcffea87af2d39ef70803058b7e99ded7d3c48aeba87c98ac"
+hash = "973c2cb8affcf5baa711dc265bd7fd762bb96588638d36f6d216a9be0388523cd711b61da6a5b2846f243aa1cfa11442dae15f528a3e8f3b911c0040a287d4a7"
 
 [update]
 [update.modrinth]
 mod-id = "E6BFl96N"
-version = "gkZRWAzf"
+version = "g2VNuFdH"

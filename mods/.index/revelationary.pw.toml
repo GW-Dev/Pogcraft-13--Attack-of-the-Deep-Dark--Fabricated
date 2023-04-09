@@ -1,14 +1,14 @@
 name = "Revelationary"
-filename = "revelationary-1.3.2.jar"
+filename = "revelationary-1.3.3.jar"
 side = "both"
 
 [download]
-mode = "metadata:curseforge"
-url = ""
-hash-format = "sha1"
-hash = "81118e8a387e99479f7cdef7a3c62e1299d6c352"
+mode = "url"
+url = "https://cdn.modrinth.com/data/eXrl5E3G/versions/dDUzRB3j/revelationary-1.3.3.jar"
+hash-format = "sha512"
+hash = "408fb1669bc58fa2deaa8129eea55065ff5a6571ed751f93b37ef8255fa988deed21368e30093247585e062101c880fe810a493c47cbadd286e71a41c3468962"
 
 [update]
-[update.curseforge]
-file-id = 4436766
-project-id = 656526
+[update.modrinth]
+mod-id = "eXrl5E3G"
+version = "dDUzRB3j"

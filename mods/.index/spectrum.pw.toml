@@ -1,14 +1,14 @@
 name = "Spectrum"
-filename = "spectrum-1.6.8-1.19.2-leisure_time.jar"
+filename = "spectrum-1.6.9-1.19.2-leisure_time.jar"
 side = "both"
 
 [download]
 mode = "url"
-url = "https://cdn.modrinth.com/data/3rc31Hgo/versions/YLaZv5Fa/spectrum-1.6.8-1.19.2-leisure_time.jar"
+url = "https://cdn.modrinth.com/data/3rc31Hgo/versions/oPBO8nIY/spectrum-1.6.9-1.19.2-leisure_time.jar"
 hash-format = "sha512"
-hash = "0114ef81c6cae8a17f6693d56c282a973cc14f09a1915569350f19c2271692fc51f2dd8cf2fa1d9ce243324e8283718c01aa947ed2f9ed112d57b3aac06371b3"
+hash = "f34875e301795757fc512fb728489a9f51bcd221299f54d49721ad54f5cb065d18d0fea53dc1bfad82003427e28dc9aa225aa367b6ceec8d82609d6dd4550bf1"
 
 [update]
 [update.modrinth]
 mod-id = "3rc31Hgo"
-version = "YLaZv5Fa"
+version = "oPBO8nIY"

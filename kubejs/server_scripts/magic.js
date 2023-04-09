@@ -6,6 +6,10 @@ ServerEvents.recipes(event => {
 
 	event.shaped("2x bewitchment:salt", [["modern_industrialization:salt_dust"],["modern_industrialization:salt_dust"]]);
 
+	event.recipes.modern_industrialization.macerator(2, 200)
+	.itemIn("#c:silver_ores")
+	.itemOut("3x #c:raw_silver_ores")
+
 	event.shaped('miskatonicmysteries:rifle', [
 		'  S',
 		'PI ',

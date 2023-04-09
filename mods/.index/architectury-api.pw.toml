@@ -1,14 +1,14 @@
 name = "Architectury"
-filename = "architectury-6.5.69-fabric.jar"
+filename = "architectury-6.5.77-fabric.jar"
 side = "both"
 
 [download]
 mode = "url"
-url = "https://cdn.modrinth.com/data/lhGA9TYQ/versions/GEBcq08y/architectury-6.5.69-fabric.jar"
+url = "https://cdn.modrinth.com/data/lhGA9TYQ/versions/6hcOpiuA/architectury-6.5.77-fabric.jar"
 hash-format = "sha512"
-hash = "ea5d10eb7a77cabde68f279c64b5e69fa247d214a89c7a057b6028882a6e5b967c7814e699e56e95d1e88ec63dda9135fd05bd29059628338d9d6ada0fa3eafc"
+hash = "7e4adb4b7cad76c1dddb274352cb37cfafc1c9cafa5a4fb2bcc48e2b141229101ad82ef1f89c3b579e449e9a008bfdd0317d1b2279525f56c45587c98136d8aa"
 
 [update]
 [update.modrinth]
 mod-id = "lhGA9TYQ"
-version = "GEBcq08y"
+version = "6hcOpiuA"

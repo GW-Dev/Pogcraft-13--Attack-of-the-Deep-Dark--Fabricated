@@ -57,7 +57,32 @@ ServerEvents.recipes(event => {
 		"conversion_ratio": 0.1
 	}).id('p8:1')
 
-	
+	// Misc changes for progression
+	event.shaped('ad_astra:oxygen_tank', [
+		' I ',
+		'STS',
+		'SSS'
+	  ], {
+		S: '#c:steel_plates',
+		I: 'modern_industrialization:tin_rotor',
+		T: 'modern_industrialization:steel_tank'
+	})
+
+	event.recipes.modern_industrialization.macerator(2, 100)
+	.itemIn("#c:raw_desh_ores")
+	.itemOut("#c:desh_dusts")
+	.itemOut("#c:desh_dusts", .50)
+
+	event.recipes.modern_industrialization.macerator(2, 100)
+	.itemIn("#c:raw_ostrum_ores")
+	.itemOut("#c:ostrum_dusts")
+	.itemOut("#c:ostrum_dusts", .50)
+
+	event.recipes.modern_industrialization.macerator(2, 100)
+	.itemIn("#c:raw_calorite_ores")
+	.itemOut("#c:calorite_dusts")
+	.itemOut("#c:calorite_dusts", .50)
+
 	//Ad Astra! MI integration
 
 	event.custom({
@@ -134,7 +159,7 @@ ServerEvents.recipes(event => {
 			"amount": 1
 		},
 		{
-			"item" : ("modern_industrialization:steel_block"),
+			"item" : ("modern_industrialization:steel_machine_casing"),
 			"amount": 6
 		},
 		{
@@ -165,7 +190,7 @@ ServerEvents.recipes(event => {
 			"amount": 1
 		},
 		{
-			"item" : ("ad_astra:desh_block"),
+			"item" : ("modern_industrialization:desh_machine_casing"),
 			"amount": 6
 		},
 		{
@@ -196,7 +221,7 @@ ServerEvents.recipes(event => {
 			"amount": 1
 		},
 		{
-			"item" : ("ad_astra:ostrum_block"),
+			"item" : ("modern_industrialization:ostrum_machine_casing"),
 			"amount": 6
 		},
 		{
@@ -227,7 +252,7 @@ ServerEvents.recipes(event => {
 			"amount": 1
 		},
 		{
-			"item" : ("ad_astra:calorite_block"),
+			"item" : ("modern_industrialization:calorite_machine_casing"),
 			"amount": 6
 		},
 		{
@@ -424,5 +449,90 @@ ServerEvents.recipes(event => {
 		  }
 		]
 	}).id('p8:20')
+
+	event.custom({
+		"type": "modern_industrialization:assembler",
+		"item_outputs": {
+		"item":"modern_industrialization:desh_machine_casing",
+		"amount": 1
+		},
+		"duration": 200,
+		"eu": 8,
+		"item_inputs": [{
+			"tag" : ("c:desh_gears"),
+			"amount": 1
+		},
+		{
+			"tag" : ("c:desh_plates"),
+			"amount": 8
+		}
+	]
+	}).id('p8:200')
+
+	event.custom({
+		"type": "modern_industrialization:assembler",
+		"item_outputs": {
+		"item":"modern_industrialization:ostrum_machine_casing",
+		"amount": 1
+		},
+		"duration": 200,
+		"eu": 8,
+		"item_inputs": [{
+			"tag" : ("c:ostrum_gears"),
+			"amount": 1
+		},
+		{
+			"tag" : ("c:ostrum_plates"),
+			"amount": 8
+		}
+	]
+	}).id('p8:201')
+
+	event.custom({
+		"type": "modern_industrialization:assembler",
+		"item_outputs": {
+		"item":"modern_industrialization:calorite_machine_casing",
+		"amount": 1
+		},
+		"duration": 200,
+		"eu": 8,
+		"item_inputs": [{
+			"tag" : ("c:calorite_gears"),
+			"amount": 1
+		},
+		{
+			"tag" : ("c:calorite_plates"),
+			"amount": 8
+		}
+	]
+	}).id('p8:202')
+
+	event.shaped('modern_industrialization:desh_machine_casing', [
+		'III',
+		'IAI',
+		'III'
+	  ], {
+		A: '#c:desh_gears',
+		I: '#c:desh_plates'
+	})
+
+	event.shaped('modern_industrialization:ostrum_machine_casing', [
+		'III',
+		'IAI',
+		'III'
+	  ], {
+		A: '#c:ostrum_gears',
+		I: '#c:ostrum_plates'
+	})
+
+	event.shaped('modern_industrialization:calorite_machine_casing', [
+		'III',
+		'IAI',
+		'III'
+	  ], {
+		A: '#c:calorite_gears',
+		I: '#c:calorite_plates'
+	})
+
 
 })

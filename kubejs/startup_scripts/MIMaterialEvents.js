@@ -5,10 +5,8 @@ MIMaterialEvents.addMaterials(event => {
             // addParts adds the simple parts to the material ie, the one already defined in MI and that don't need more parameters 
             .block("copper") // add a simple block with the "copper" texture (found in "textures/materialsets/blocks")\
             .cable("lv")
-            .specialCasing("Space-Age Casing", "space_age_casing", 8.0) // add a special casing with custom english name and path (both required) 
             // and 8.0 blast resistance (also optional, default is 6.0)
             .machineCasing(8.0) // same as above but for machine casings but the custom name and path are optional
-            .pipeCasing(8.0) // add a pipe casing, only blast resistance can be specified
             
             // as for ore, a second boolean optional parameter can be passed to only add the raw ore block if true or the raw ore item if false
             // default is to add both, equivalent to .rawMetal("copper", true).rawMetal("copper", false)
@@ -21,10 +19,8 @@ MIMaterialEvents.addMaterials(event => {
             // addParts adds the simple parts to the material ie, the one already defined in MI and that don't need more parameters 
             .block("copper") // add a simple block with the "copper" texture (found in "textures/materialsets/blocks") 
             .cable("mv")
-            .specialCasing("Inter-Stellar Casing", "inter_stellar_casing", 8.0) // add a special casing with custom english name and path (both required) 
             // and 8.0 blast resistance (also optional, default is 6.0)
             .machineCasing(8.0) // same as above but for machine casings but the custom name and path are optional
-            .pipeCasing(8.0) // add a pipe casing, only blast resistance can be specified
             
             // as for ore, a second boolean optional parameter can be passed to only add the raw ore block if true or the raw ore item if false
             // default is to add both, equivalent to .rawMetal("copper", true).rawMetal("copper", false)
@@ -37,10 +33,8 @@ MIMaterialEvents.addMaterials(event => {
             // addParts adds the simple parts to the material ie, the one already defined in MI and that don't need more parameters 
             .block("copper") // add a simple block with the "copper" texture (found in "textures/materialsets/blocks") 
             .cable("hv")
-            .specialCasing("Inter-Galactic Casing", "inter_galactic_casing", 8.0) // add a special casing with custom english name and path (both required) 
             // and 8.0 blast resistance (also optional, default is 6.0)
             .machineCasing(8.0) // same as above but for machine casings but the custom name and path are optional
-            .pipeCasing(8.0) // add a pipe casing, only blast resistance can be specified
             
             // as for ore, a second boolean optional parameter can be passed to only add the raw ore block if true or the raw ore item if false
             // default is to add both, equivalent to .rawMetal("copper", true).rawMetal("copper", false)
