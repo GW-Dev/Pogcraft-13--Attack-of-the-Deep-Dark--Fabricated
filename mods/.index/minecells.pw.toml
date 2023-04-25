@@ -1,14 +1,14 @@
 name = "Mine Cells"
-filename = "minecells-1.4.0.jar"
+filename = "minecells-1.4.3.jar"
 side = "both"
 
 [download]
 mode = "url"
-url = "https://cdn.modrinth.com/data/9Qdvz1OV/versions/fyMoxQQ4/minecells-1.4.0.jar"
+url = "https://cdn.modrinth.com/data/9Qdvz1OV/versions/GgKAj06i/minecells-1.4.3.jar"
 hash-format = "sha512"
-hash = "27b61cb396c55b7e49b2803137b6cb5abe88af8e25166f284587667987c18b4afb811b10ce9907aa4a92ef953bf1ba55a81214f7bee2ff8ca0ed05137ec54083"
+hash = "7ddc8bc171cb920e1f696d65de4935131407d616cc57f5212f054d99136b0163b5862554120ee6e2d46bcd5fa80801b391a0d2cd960d2e4228c3460eb269063e"
 
 [update]
 [update.modrinth]
 mod-id = "9Qdvz1OV"
-version = "fyMoxQQ4"
+version = "GgKAj06i"

@@ -1,14 +1,14 @@
 name = "Moonlight"
-filename = "moonlight-1.19.2-2.2.29-fabric.jar"
+filename = "moonlight-1.19.2-2.2.31-fabric.jar"
 side = "both"
 
 [download]
 mode = "url"
-url = "https://cdn.modrinth.com/data/twkfQtEc/versions/ANPz3UX0/moonlight-1.19.2-2.2.29-fabric.jar"
+url = "https://cdn.modrinth.com/data/twkfQtEc/versions/mzGChtna/moonlight-1.19.2-2.2.31-fabric.jar"
 hash-format = "sha512"
-hash = "b5ac734cc5aa3d182ec757159de3f39270a272aa99bec3e196c3b61f15ff4036b39f0d739a052b365a14233b90ece6d5fb6cf03967a0b1c557a2f7505770b04c"
+hash = "eec2db90a195e23761ff78c77f7a215d9e48f0037289b3a9a4baf883620e9ca7ebaa235268046efaa437ed49fd58765dedf2b8b9aeb59a3232daf30aea243039"
 
 [update]
 [update.modrinth]
 mod-id = "twkfQtEc"
-version = "ANPz3UX0"
+version = "mzGChtna"
